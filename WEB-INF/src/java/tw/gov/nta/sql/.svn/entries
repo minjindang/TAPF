@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="UnitInfoMain.java"
+   text-time="2006-05-16T06:34:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c10fe039466e34968e093e313fb376c1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="LawPercentRef.java"
+   text-time="2006-04-25T03:45:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6a01b08d7625f180a8b7d50d333e59f9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="NationalDebtDueDateMain.java"
+   text-time="2011-10-05T01:45:40.961811Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ccb490217f0770a3e05d78f3b29c3f10"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="NationDebitMain.java"
+   text-time="2006-06-15T11:07:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3da74dcbfbb7599e6148979b841c45db"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CodeDet.java"
+   text-time="2006-04-25T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11ebf1d65157eb44976bc3d03b197718"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BudgetRef.java"
+   text-time="2006-04-25T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bf8011816ca1fad5f80e168339a4998c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="YearPlanRef.java"
+   text-time="2006-04-25T03:45:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cf9fd200e519d8492dd3c3cdceeef12e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CentralStatisticsMain.java"
+   text-time="2006-04-25T03:45:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="005a3548aec48f132eaa5740a8fa941e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TaxactionDet101.java"
+   text-time="2011-09-27T07:04:25.650667Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1ef8471f0c2e9817e5949046fd1998f0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="MailContentRef.java"
+   text-time="2006-04-25T03:45:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7a0b303c857d3e554d588b42613b90e3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="account"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="ExstockRef.java"
+   text-time="2006-04-25T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5795301554b10e49192c044b014e07b8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitPercentDet101.java"
+   text-time="2011-09-15T03:21:42.869576Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="df7f00fa8cbd79262427a1a38b455331"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CodeMain.java"
+   text-time="2006-04-25T03:45:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7aac9e992dfe35ab9945bb8716d4b818"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="YearAmountRef.java"
+   text-time="2006-06-08T07:31:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c17cbed593542aa93483bf9943b68fd6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="LawPercentRef101.java"
+   text-time="2011-11-18T06:29:52.078984Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c8d29399132a239a893206b2410b97f6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="DebitRef.java"
+   text-time="2006-04-25T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6550b47aeccfcbdf8f7611aa4af0e61f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="NationRef.java"
+   text-time="2006-04-25T03:45:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="343e1ada5f216128327c8393acf86579"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UserStatisticsDet.java"
+   text-time="2006-07-13T03:03:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f87d8e9348ec984ee39bdbaa106d986f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TaxactionDet.java"
+   text-time="2006-04-25T03:45:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1682758973cb13b9bb18dbd0e3fb3e2d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitAllocateMain.java"
+   text-time="2006-05-16T06:34:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a9d71096369aac39ea2a19e51832aa9c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="UnitPercentDet.java"
+   text-time="2006-04-25T03:45:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6abef94db697013962c4446e0043a97c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="debt"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="UserStatisticsMain.java"
+   text-time="2006-06-23T04:08:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="34ee384bcc87bc50890d60ff305736a4"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

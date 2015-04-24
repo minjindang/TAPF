@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/scripts"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="ua.js"
+   text-time="2006-04-25T03:37:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10fedde732954af543d9d15801a40a5a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="characterValidate.js"
+   text-time="2006-04-25T03:37:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="675588f94b17a68ebc8d306e30f0081d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="login.js"
+   text-time="2006-04-25T03:37:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="28b1a051793a779bd3fb077019089846"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="getData.js"
+   text-time="2006-06-23T13:15:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5e5865bd3404ded2a0b36fd172ea22fb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="addContextMask.js"
+   text-time="2006-06-09T13:01:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9e94e965cda70d683ffd42d8ab88b7e3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="159"
+   name="DateUtil.js"
+   text-time="2013-10-24T03:27:59.698974Z"
+   committed-date="2013-10-24T05:28:39.249836Z"
+   checksum="c4e6a914cbc5b85e757677865642dd00"
+   last-author="abner.chiu"
+   kind="file"
+   revision="159"/>
+<entry
+   committed-rev="16"
+   name="button.js"
+   text-time="2006-04-25T03:37:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8d2af597d3f285b9f3f02712c92a6612"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="xtree"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="ftiens4.js"
+   text-time="2006-04-25T03:37:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="31ae3d8ff7757b0d393eaf10622f13a7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="validations.js"
+   text-time="2006-04-25T03:37:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b5d6ba010432b40b8dc7decce8f878b1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="masks.js"
+   text-time="2006-05-26T09:13:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="64c991f07da87bfe142be3f47fb7e650"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="disableFKey.js"
+   text-time="2006-06-28T10:36:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d3750a267c4b16451681ec7ed3fd184"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="dynCalendar.js"
+   text-time="2006-06-27T09:24:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f462587a7ee631417acddfaecd802c9d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BlockManager.js"
+   text-time="2006-04-25T03:37:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e31bd8f5a1b246d9808b6fd4fa769650"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CollapsibleCheckboxMenu.js"
+   text-time="2006-04-25T03:37:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3edd8bc07382fe6421dc428e51570107"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="s6.js"
+   text-time="2006-04-25T03:37:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eebea2bd355271e074ccfaec7363a6d9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="x"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="CommonFunction.js"
+   text-time="2006-06-12T06:03:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cbb33d6113dcc943608a619dd01fce36"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="autotab.js"
+   text-time="2006-04-25T03:37:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fe3886c94e61b329d53afc69d15c17cd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="tree.js"
+   text-time="2006-04-25T03:37:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5cf9d7c43c4fd1e55c4a9ce0d5ab453e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="browserSniffer.js"
+   text-time="2006-04-25T03:37:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5823447f4f84544953ffe4cfc90df5e5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="autocomplete.js"
+   text-time="2006-04-25T03:37:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a2edf6a7842bf42e20f4d555631275c2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="OptionManager.js"
+   text-time="2006-04-25T03:37:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fcb4497a5fccba299a674f821710d5f4"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

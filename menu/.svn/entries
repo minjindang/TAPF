@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/menu"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="menu.jsp"
+   text-time="2006-04-25T03:41:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4f7bbcb46a197eef8daa4ed542ac3ffa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="index.jsp"
+   text-time="2013-10-23T09:28:20.824686Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="747d0114d78aaded31576f3a91cb9297"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="header.jsp"
+   text-time="2006-04-25T03:41:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5e6cc1f51203ea3b397aa5168ef719a9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="menuForm.jsp"
+   text-time="2006-05-16T06:40:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cf3e4a99157a809a23c6ff4e240c0a7f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="frame.jsp"
+   text-time="2006-04-25T03:41:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="71d4438fdbe138cd7cd70e3377a20d05"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

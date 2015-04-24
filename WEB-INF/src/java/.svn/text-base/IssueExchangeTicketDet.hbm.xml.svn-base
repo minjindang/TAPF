@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="IssueExchangeTicketDet"
+		table="issue_exchange_ticket_det"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="debtId"
+			column="debt_id"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="capitalSerial"
+			column="capital_serial"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="interestSerial"
+			column="interest_serial"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="bankId"
+			column="bank_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="exchangeDate"
+			column="exchange_date"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="ticketName"
+			column="ticket_name"
+			type="string"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="ticketAmount"
+			column="ticket_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="ticketCount"
+			column="ticket_count"
+			type="java.lang.Long"
+			not-null="true"
+			length="19"
+		/>
+		<property
+			name="totalAmount"
+			column="total_amount"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="accumCount"
+			column="accum_count"
+			type="java.lang.Long"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="accumAmount"
+			column="accum_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

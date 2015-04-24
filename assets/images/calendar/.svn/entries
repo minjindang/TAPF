@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/images/calendar"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="prev.gif"
+   text-time="2006-04-25T03:37:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5bec18eb0a0ce7fec0feef8fadcb5df3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:51.861888Z"/>
+<entry
+   committed-rev="16"
+   name="next.gif"
+   text-time="2006-04-25T03:37:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f7732cdeaac4148263af8b40155620b1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:29.021390Z"/>
+<entry
+   committed-rev="16"
+   name="Thumbs.db"
+   text-time="2006-04-25T03:37:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d477659721501ba5a3b836da4742efe"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:58.153486Z"/>
+<entry
+   committed-rev="16"
+   name="dynCalendar.gif"
+   text-time="2006-04-25T03:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7a0550dfefb7e8dad8d8efd98e272e9f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:40.842318Z"/>
+</wc-entries>

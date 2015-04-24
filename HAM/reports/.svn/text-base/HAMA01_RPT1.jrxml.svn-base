@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="HAMA01" language="java" pageWidth="842" pageHeight="595" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="782" leftMargin="0" rightMargin="60" topMargin="0" bottomMargin="90">
+	<property name="com.jasperassistant.designer.Rulers" value="true"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="tapf"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Margins" value="true"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<property name="com.jasperassistant.designer.SnapToGuides" value="true"/>
+	<parameter name="createDate" class="java.lang.String">
+		<defaultValueExpression><![CDATA["new Date()"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sqlstatment" class="java.lang.String">
+		<defaultValueExpression><![CDATA["select * from Unit_info_main"]]></defaultValueExpression>
+	</parameter>
+	<queryString><![CDATA[$P!{sqlstatment}]]></queryString>
+	<field name="CREATE_DATE" class="java.sql.Timestamp">
+	</field>
+	<field name="GROUPID" class="java.lang.String">
+	</field>
+	<field name="ID" class="java.lang.Integer">
+	</field>
+	<field name="MAIL" class="java.lang.String">
+	</field>
+	<field name="MOD_DATE" class="java.sql.Timestamp">
+	</field>
+	<field name="NOTEA" class="java.lang.String">
+	</field>
+	<field name="NOTEB" class="java.lang.String">
+	</field>
+	<field name="REMARK" class="java.lang.String">
+	</field>
+	<field name="SBANK1" class="java.lang.String">
+	</field>
+	<field name="SBANK2" class="java.lang.String">
+	</field>
+	<field name="SBRANCH1" class="java.lang.String">
+	</field>
+	<field name="SBRANCH2" class="java.lang.String">
+	</field>
+	<field name="SNO1" class="java.lang.String">
+	</field>
+	<field name="SNO2" class="java.lang.String">
+	</field>
+	<field name="TACCT1" class="java.lang.String">
+	</field>
+	<field name="TACCT2" class="java.lang.String">
+	</field>
+	<field name="TBANK1" class="java.lang.String">
+	</field>
+	<field name="TBANK2" class="java.lang.String">
+	</field>
+	<field name="TEMAIL" class="java.lang.String">
+	</field>
+	<field name="TFAX" class="java.lang.String">
+	</field>
+	<field name="TNAME" class="java.lang.String">
+	</field>
+	<field name="TTEL" class="java.lang.String">
+	</field>
+	<field name="UNIT_ID" class="java.lang.String">
+	</field>
+	<field name="UNIT_NAME" class="java.lang.String">
+	</field>
+	<field name="USRID" class="java.lang.String">
+	</field>
+	<pageHeader>
+		<band height="91">
+			<staticText>
+				<reportElement positionType="Float" x="-1" y="0" width="783" height="29"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="18"/>
+				</textElement>
+				<text><![CDATA[中央統籌分配稅款解款資料]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="567" y="40" width="67" height="28"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[頁次:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="634" y="40" width="148" height="28"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["第" + $V{PAGE_NUMBER} + "頁"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="yyyy/M/d">
+				<reportElement positionType="Float" x="567" y="68" width="215" height="23"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["製表日期:"+ $P{createDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="31">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="92" height="31"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[項目]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="92" y="0" width="173" height="31"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[解款行]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="265" y="0" width="197" height="31"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[收款單位(辦理集中支付帳號)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="462" y="0" width="152" height="31"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[收款單位電子郵件信箱]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="614" y="0" width="169" height="31"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[聯絡資料]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="96">
+			<elementGroup>
+			</elementGroup>
+			<elementGroup>
+			</elementGroup>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="92" height="96"/>
+				<box border="1Point"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{UNIT_NAME}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="92" y="0" width="173" height="96"/>
+				<box border="1Point"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["行名:" + $F{SBANK1}+"\n" + "分支單位" + $F{SBRANCH1} + "\n" + "行號(七碼):"+$F{SNO1}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="265" y="0" width="197" height="96"/>
+				<box border="1Point"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["戶名:" + $F{TBANK1} + "\n" + "帳號:"+$F{TACCT1}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="462" y="0" width="152" height="96"/>
+				<box border="1Point"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{TEMAIL}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="614" y="0" width="169" height="96"/>
+				<box border="1Point"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["承辦人姓名:" + $F{TNAME} + "\n" + "聯絡人電話:" + $F{TTEL} + "\n" + "傳真:"+ $F{TFAX}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

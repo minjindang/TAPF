@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/central/common"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="Service.java"
+   text-time="2010-12-31T09:32:53.333854Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="384c5d672c7e10febb289752fc0e1734"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitPercent.java"
+   text-time="2010-11-13T01:47:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a06d5dff06687ac367842f8c5dab6fc5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitPercent101.java"
+   text-time="2011-11-18T07:01:18.682418Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="39bc188a989594724cb3f1c5e2f8f567"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitAllocate.java"
+   text-time="2013-07-09T07:45:45.893395Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c59b77aa2cfa7f591d8a127baea8282c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="LawPercent.java"
+   text-time="2006-04-25T03:45:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4d7519c41bf596a5766adf38df996f84"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="LawPercent101.java"
+   text-time="2011-11-18T06:28:10.242550Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c65e90194939e9bdd8634b6c33b036f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="NationalDebtDueDateMainController.java"
+   text-time="2012-02-20T10:23:44.543281Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="75c1fe6b234d61e4bf98b2102c986ec3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Taxaction.java"
+   text-time="2010-11-22T06:30:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="64be52adeb56c0d6d475af906e75f007"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitInfo.java"
+   text-time="2011-01-10T04:02:04.725000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cb7c98d3b284a11bf0b3f4f85c3168bf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Taxaction101.java"
+   text-time="2011-11-10T02:15:32.200900Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ba17f0c5ee242785590a60a55b59cb4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PasswordAuthenticator.java"
+   text-time="2008-05-01T02:46:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="MailContent.java"
+   text-time="2013-10-01T03:37:04.117279Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5c64825e03e58d9d044cb3958bb92ded"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

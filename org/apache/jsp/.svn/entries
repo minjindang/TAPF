@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="error_jsp.java"
+   text-time="2007-03-21T07:54:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="38d42d8c4737dafa5ae884be97e2bb5b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="index_jsp.class"
+   text-time="2007-03-20T07:56:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4cc4d0a2cecaffcb29f344b77e6ad135"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:40.478070Z"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="EBR"
+   kind="dir"/>
+<entry
+   name="EDQ"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="error_jsp.class"
+   text-time="2007-03-21T07:54:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fb8a62e4b9551aa8fba31bcccaf5bdbf"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:36.051706Z"/>
+<entry
+   name="EDR"
+   kind="dir"/>
+<entry
+   name="PM"
+   kind="dir"/>
+<entry
+   name="CPM"
+   kind="dir"/>
+<entry
+   name="DPM"
+   kind="dir"/>
+<entry
+   name="APR"
+   kind="dir"/>
+<entry
+   name="BPR"
+   kind="dir"/>
+<entry
+   name="CPR"
+   kind="dir"/>
+<entry
+   name="DPR"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="EAM"
+   kind="dir"/>
+<entry
+   name="FAM"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="index_jsp.java"
+   text-time="2007-03-20T07:56:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c07566e8f27dde6cb1e9a0c3b89092dd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="GAM"
+   kind="dir"/>
+<entry
+   name="HAM"
+   kind="dir"/>
+<entry
+   name="AIM"
+   kind="dir"/>
+<entry
+   name="EAQ"
+   kind="dir"/>
+<entry
+   name="BIM"
+   kind="dir"/>
+<entry
+   name="EAR"
+   kind="dir"/>
+<entry
+   name="CIM"
+   kind="dir"/>
+<entry
+   name="getdata"
+   kind="dir"/>
+<entry
+   name="GAR"
+   kind="dir"/>
+<entry
+   name="DIM"
+   kind="dir"/>
+<entry
+   name="ECR"
+   kind="dir"/>
+<entry
+   name="HAR"
+   kind="dir"/>
+<entry
+   name="AIR"
+   kind="dir"/>
+<entry
+   name="BIR"
+   kind="dir"/>
+<entry
+   name="CIR"
+   kind="dir"/>
+<entry
+   name="DIR"
+   kind="dir"/>
+</wc-entries>

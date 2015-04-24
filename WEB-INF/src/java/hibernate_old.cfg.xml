@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration
+    PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+    
+<hibernate-configuration>
+	<session-factory>
+		<!-- local connection properties -->
+		<property name="hibernate.connection.url">
+			jdbc:microsoft:sqlserver://172.20.110.2:1433;DatabaseName=DEBT;SelectMethod=cursor;autoReconnect=true
+		</property>
+		<property name="hibernate.connection.driver_class">
+			com.microsoft.jdbc.sqlserver.SQLServerDriver
+		</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password">1qaz2wsx</property>
+		<!-- property name="hibernate.connection.pool_size"></property -->
+		<!-- dialect for Microsoft SQL Server -->
+		<property name="dialect">
+			org.hibernate.dialect.SQLServerDialect
+		</property>
+		<property name="hibernate.show_sql">false</property>
+		<property name="hibernate.transaction.factory_class">
+			org.hibernate.transaction.JDBCTransactionFactory
+		</property>
+		<mapping resource="NationalDebtDueDateMain.hbm.xml" />
+		<mapping resource="LawPercentRef101.hbm.xml" />
+		<mapping resource="UnitPercentDet101.hbm.xml" />
+		<mapping resource="TaxactionDet101.hbm.xml" />		
+		<mapping resource="NationDebitMain.hbm.xml" />
+		<mapping resource="AccountPhaseDet.hbm.xml" />
+		<mapping resource="AccountPhaseMain.hbm.xml" />
+		<mapping resource="AccountRef.hbm.xml" />
+		<mapping resource="BankRef.hbm.xml" />
+		<mapping resource="BudgetRef.hbm.xml" />
+		<mapping resource="CentralStatisticsMain.hbm.xml" />
+		<mapping resource="CodeDet.hbm.xml" />
+		<mapping resource="CodeMain.hbm.xml" />
+		<mapping resource="ContractBankMain.hbm.xml" />
+		<mapping resource="DebitRef.hbm.xml" />
+		<mapping resource="DebtMain.hbm.xml" />
+		<mapping resource="DebtPlanDet.hbm.xml" />
+		<mapping resource="DebtRateDet.hbm.xml" />
+		<mapping resource="ExstockRef.hbm.xml" />
+		<mapping resource="InterestAdjustMain.hbm.xml" />
+		<mapping resource="IssueExchangeDet.hbm.xml" />
+		<mapping resource="IssueMain.hbm.xml" />
+		<mapping resource="IssueTicketDet.hbm.xml" />
+		<mapping resource="NationRef.hbm.xml" />
+		<mapping resource="LawPercentRef.hbm.xml" />
+		<mapping resource="MailContentRef.hbm.xml" />
+		<mapping resource="PaymentMain.hbm.xml" />
+		<mapping resource="PaymentTicketDet.hbm.xml" />
+		<mapping resource="TaxactionDet.hbm.xml" />
+		<mapping resource="UnitAllocateMain.hbm.xml" />
+		<mapping resource="UnitInfoMain.hbm.xml" />
+		<mapping resource="UnitPercentDet.hbm.xml" />
+		<mapping resource="VoucherDet.hbm.xml" />
+		<mapping resource="VoucherMain.hbm.xml" />
+		<mapping resource="YearPlanRef.hbm.xml" />
+		<mapping resource="DebtTypeRef.hbm.xml" />
+		<mapping resource="VoucherNoRef.hbm.xml" />
+		<mapping resource="AccountReportBuild.hbm.xml" />
+		<mapping resource="IssueDet.hbm.xml" />
+		<mapping resource="UserStatisticsMain.hbm.xml" />
+		<mapping resource="UserStatisticsDet.hbm.xml" />
+		<mapping resource="YearAmountRef.hbm.xml" />
+		<mapping resource="VoucherSourceDet.hbm.xml" />
+		<mapping resource="DebtPlanTicketDet.hbm.xml"/>
+		<mapping resource="IssueExchangeTicketMain.hbm.xml"/>
+		<mapping resource="IssueExgpriceDet.hbm.xml"/>
+		<mapping resource="Bankf.hbm.xml"/>
+		<mapping resource="Eaqc01Rpt.hbm.xml"/>
+		<mapping resource="Gara04Temp.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>

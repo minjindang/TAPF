@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/.settings"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="org.eclipse.jdt.core.prefs"
+   text-time="2009-10-30T02:54:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f114f4248d2b8788c3b856d6aea2af9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="org.eclipse.jdt.ui.prefs"
+   text-time="2008-11-13T08:23:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dfb5eb72c730cc8467c0c3a8d79a9567"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

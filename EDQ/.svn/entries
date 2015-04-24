@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/EDQ"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QForm.jsp"
+   text-time="2006-06-07T02:35:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="787afcd70a49df1b200fb9d4d33ff2c2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QScript.jsp"
+   text-time="2006-06-04T12:38:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d784e40146056ae9d10499f60dc0b636"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QBar.jsp"
+   text-time="2006-06-07T02:35:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d419de63927e8c60f1b21129ec6e85c0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301Q.jsp"
+   text-time="2006-06-07T02:35:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c55ce73a1d0c44d29d4a8ccf49143742"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

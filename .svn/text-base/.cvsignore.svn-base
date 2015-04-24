@@ -1,0 +1,7 @@
+.settings
+dist
+work
+*-build.xml
+.#webclasspath
+Thumbs.db
+delbak.bat

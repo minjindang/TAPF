@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/surplusage/form"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="Gama0502Form.java"
+   text-time="2006-09-19T10:24:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="14b358c1d92829062ea508d3a346dbca"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1001Form.java"
+   text-time="2006-05-22T03:37:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6493f7b956b31a5ffd802752d7555503"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gama0601Form.java"
+   text-time="2006-07-02T11:04:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2b9da11032f132e636d0183164ed700c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2001Form.java"
+   text-time="2007-02-08T02:32:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="876d94be7c23aadee87239f37b3adaa2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara3001Form.java"
+   text-time="2007-02-08T02:32:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aca5f55bfc3e4b98ab26c66f618c2686"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1201Form.java"
+   text-time="2007-04-11T07:31:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f69a1ac8537cdfeb155aa7a4fb191130"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gama0801Form.java"
+   text-time="2006-10-18T09:59:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2b07f5d99a1a387c9fb780d085ad2464"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara4001Form.java"
+   text-time="2007-02-08T02:32:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8f1061ce206747f1a7c7d56d315aa2b2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara0401Form.java"
+   text-time="2007-03-26T02:21:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7dc428474a06ff0b9de5b4620d1c165"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2201Form.java"
+   text-time="2007-02-08T02:32:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="57a448f7bc530f11fcf69f0829ccedcc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1401Form.java"
+   text-time="2006-07-14T07:02:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7644d5fbaeef632d88f9aec3f180a1fa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara3201Form.java"
+   text-time="2007-02-08T02:32:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c973f6d937c443b5193bc349ab993ae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2401Form.java"
+   text-time="2007-02-08T02:32:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="62c72124e08b0865ced965f79321564d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara4201Form.java"
+   text-time="2009-10-23T03:48:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="add0ccd0566ec195d9fea65f7a0e0408"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara0601Form.java"
+   text-time="2007-02-08T02:32:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="88c2b9a9109a63a4cbe3c1b74220e72c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1601Form.java"
+   text-time="2006-06-08T07:30:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3b8b18650d35cfd2c14a3eb07749584a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara3401Form.java"
+   text-time="2007-02-08T02:32:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="97607517dc95f271715d41de5f5c5cc4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2601Form.java"
+   text-time="2007-02-08T02:32:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="79e77922310c3cdc5e95eb3e2049d958"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara0801Form.java"
+   text-time="2007-02-08T02:32:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5b1ad7cbcdd8b37d52059b97a148717d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1801Form.java"
+   text-time="2008-05-22T09:54:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3c3dab32d633194a0d96b767efe3611d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2801Form.java"
+   text-time="2007-02-08T02:32:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="07ea6c62044eac5edf9a847f807ab259"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GaraBaseForm.java"
+   text-time="2007-02-08T02:32:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="581beb1cad934874c375823f3970b164"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gama0501Form.java"
+   text-time="2006-09-29T03:13:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b24887cf51e4f34e7c4b40af61d096c3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gama0701Form.java"
+   text-time="2006-07-27T08:51:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b47bd362d66b9e1e1c7e293518a4c12b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1101Form.java"
+   text-time="2007-04-11T07:31:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e13295eb46c860094db3cb335e088e33"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gama0503Form.java"
+   text-time="2006-09-29T03:52:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2b1f248b1a49479eb1bcba7e70d2a716"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2101Form.java"
+   text-time="2007-02-08T02:32:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b7be0691b2aa75a9154ed6d7dbb3b8f9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara3101Form.java"
+   text-time="2007-02-08T02:32:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9e9254f01297b6017ac83fc4332d0bdc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1301Form.java"
+   text-time="2007-04-11T07:31:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bb37a87dbae9ef180c45382028c954d3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2301Form.java"
+   text-time="2006-12-06T08:05:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="143e11906637937104a12202acba9483"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara4101Form.java"
+   text-time="2007-02-08T02:32:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="07c250563b339114acccb998ffaae062"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara3301Form.java"
+   text-time="2007-02-08T02:32:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="59420467b05b2e9fc7a64ae8e65f482b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1501Form.java"
+   text-time="2007-04-11T07:31:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2bd2495649fec2c71f49bcd068d8d2d0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2501Form.java"
+   text-time="2007-02-08T02:32:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f94acb0c5f3176e731fa39f214562059"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara0701Form.java"
+   text-time="2007-02-08T02:32:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bcec956a78d8854cf12b16e2a2f279e1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara3501Form.java"
+   text-time="2006-06-25T08:39:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e2b7ffff2a7fd1dd58c0529442177d86"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1701Form.java"
+   text-time="2007-02-08T02:32:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="423db6c987b294662b9df7e38f711014"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara0901Form.java"
+   text-time="2006-06-25T08:39:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ba4ae89707e941c6606ce59d181fd51f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2701Form.java"
+   text-time="2007-02-08T02:32:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f51e8ae0a0f15544fceb362f74484259"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara1901Form.java"
+   text-time="2007-02-08T02:32:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="88b8544d56a04ada37688fbc06f6f0ee"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara2901Form.java"
+   text-time="2007-02-08T02:32:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e72d3ab06cdd367998904bb0d8101401"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara3901Form.java"
+   text-time="2006-12-08T04:28:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c8fc66711dffc885d1e4f46f0660941f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gama0401Form.java"
+   text-time="2006-09-08T09:38:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1724446df10d73f430ae9b37a00a3d01"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

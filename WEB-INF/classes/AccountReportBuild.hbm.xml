@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.account">
+	<class
+		name="AccountReportBuild"
+		table="account_report_build"
+	>
+
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+		<property
+			name="debtType"
+			column="DEBT_TYPE"
+			type="string"
+			not-null="true"
+			length="5"
+		/>
+		<property
+			name="reportCode"
+			column="REPORT_CODE"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="sequence"
+			column="SEQUENCE"
+			type="java.lang.Long"
+			not-null="true"
+			length="19"
+		/>
+		<property
+			name="conditional"
+			column="CONDITIONAL"
+			type="string"
+			not-null="false"
+			length="5"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

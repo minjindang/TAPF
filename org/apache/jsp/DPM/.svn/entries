@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/DPM"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ALForm_jsp.java"
+   text-time="2012-01-30T10:10:38.944350Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="808bdeebd2e417942e8de1b74af9c16a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ALBar_jsp.java"
+   text-time="2007-03-21T07:58:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c079053a537f1e442499b497f24f1ccc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101QForm_jsp.java"
+   text-time="2007-03-21T07:58:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e22761933bf3b45156392bb3d0b1683f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102AForm_jsp.class"
+   text-time="2012-01-30T10:10:36.901412Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b48042ae5df71db3df90b531627d6b21"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:33.939842Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102AScript_jsp.class"
+   text-time="2010-06-04T07:56:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c29f5d826749d214055d8a5c6044f7e1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:13.118730Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101A_jsp.class"
+   text-time="2007-03-21T07:57:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="53bf965ea4e77244275cbd08c4a3c087"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:19.037240Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101LBar_jsp.class"
+   text-time="2007-05-29T02:41:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="142f4b878d5306a2909d30b7a3a3ac0c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:10.474722Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ALForm_jsp.class"
+   text-time="2012-01-30T10:10:40.556668Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0cdc5129df37ba5edbca5a38729fd211"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:47.487944Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101AScript_jsp.java"
+   text-time="2011-10-07T05:49:11.209222Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cb1f9e00ff1c0080d10f31377b539639"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101ABar_jsp.java"
+   text-time="2009-08-30T06:25:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea5eb3b776443837872584356cf724e4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102AScript_jsp.java"
+   text-time="2010-06-04T07:56:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b271390e37822c75043c056f7d61b9a8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101LForm_jsp.java"
+   text-time="2007-05-29T02:41:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a54003e5e63592d54512584504fe4b1a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101A_jsp.java"
+   text-time="2007-03-21T07:57:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9c8dd42ea911ca2c18bec7eca5066f2c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101M_jsp.class"
+   text-time="2007-05-29T02:41:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="afba7c2b9c6399e23485032e0d42b7c0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:44.797800Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101LBar_jsp.java"
+   text-time="2007-05-29T02:41:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e3736859da372cc567cc23e1a174cf66"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101MLForm_jsp.class"
+   text-time="2007-05-29T02:41:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5a6ab7c732327d166dfb63174d76b9cb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:16.203165Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102A_jsp.java"
+   text-time="2007-03-21T07:58:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cf2ef9246c0a6ef0e435f9c5a08c7e06"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101MBar_jsp.java"
+   text-time="2007-05-29T02:41:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b78afa9a3bd2f04f0638fb2a4e891d95"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101Q_jsp.class"
+   text-time="2007-03-21T07:58:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fb6ae19a8b80625cec2ec27a819a9a24"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:33.581878Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101QBar_jsp.java"
+   text-time="2007-03-21T07:58:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5603499ffe5c7bdf0b888788f6910545"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101AForm_jsp.class"
+   text-time="2011-10-07T05:49:13.382347Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ffd80d6a01a7635fbf321f87783c017c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:26.107200Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101AScript_jsp.class"
+   text-time="2011-10-07T05:49:12.000360Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3b8df0e4f266bb2d253be599b05cd3a4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:56.485986Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101ABar_jsp.class"
+   text-time="2009-08-30T06:25:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="afefa91e049f218b7a0c35f0f5203567"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:36.748778Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ABar_jsp.class"
+   text-time="2012-01-30T10:10:38.433616Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6764dda7fb3af82c373e1c9d2237de46"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:46.065899Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101MLForm_jsp.java"
+   text-time="2007-05-29T02:41:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="51876d4bdf7e96a646bfbe1dce1df88f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101M_jsp.java"
+   text-time="2007-05-29T02:41:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="038b9871a83520d1db4ce2d77f639f9d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101Q_jsp.java"
+   text-time="2007-03-21T07:58:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4b8a743ea4b09f7a3b58d765e6a34689"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101LForm_jsp.class"
+   text-time="2007-05-29T02:41:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7111087c971478fc0778d6021f946ae9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:19.994686Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101AForm_jsp.java"
+   text-time="2011-10-07T05:49:12.210662Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3220e0fecbe97d9cb126fff3092812ab"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102A_jsp.class"
+   text-time="2007-03-21T07:58:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0561105bd598e8bcb8493b5284f73193"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:36.351931Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101MBar_jsp.class"
+   text-time="2007-05-29T02:41:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="784e4b7d02e177e691763f343868815c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:49.901621Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102AForm_jsp.java"
+   text-time="2012-01-30T10:10:30.822672Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="355f5d7dab0ca2b4a26ca648d0ac9f67"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ALBar_jsp.class"
+   text-time="2007-03-21T07:58:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9efc2d4821a8c127bf3f88b93058a096"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:02.006475Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ABar_jsp.java"
+   text-time="2012-01-30T10:10:37.191830Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5c4a16cbaa76528f3c57725ddfab8498"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101QForm_jsp.class"
+   text-time="2007-03-21T07:58:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="62187bc58525154e711ec4efff8bf3ef"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:23.146874Z"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101QBar_jsp.class"
+   text-time="2007-03-21T07:58:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="57f309e6786c0ba8d39c9efde765c6bc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:21.280259Z"/>
+</wc-entries>

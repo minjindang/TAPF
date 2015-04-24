@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/exchequer/form"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="Bima0102Form.java"
+   text-time="2006-04-25T03:44:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="04cc2a550a2236f244c792088b1f7d27"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bima0201Form.java"
+   text-time="2006-10-16T09:30:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="863d432f029d7018ed1c9b1ccbdeef60"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bima0202Form.java"
+   text-time="2006-04-25T03:44:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e230d33b3c45504a43f4ae6be9394ee4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bima0401Form.java"
+   text-time="2006-12-05T13:06:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bb86a3bd60e26fcdfbfaa8ea7b8d223f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bima0501Form.java"
+   text-time="2006-12-05T13:06:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30f2eb2b18149b62fdcbf8a40489b003"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1001Form.java"
+   text-time="2007-05-21T08:05:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fdcda7558b67462378e9900fd0bb9edc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1101Form.java"
+   text-time="2007-05-23T13:47:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d41d511259830a0f02f0dd2958335865"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1201Form.java"
+   text-time="2006-06-11T12:41:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9f181582171d2fcd398abd0192f40db9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1301Form.java"
+   text-time="2006-04-25T03:44:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eec15f33b6f99eb20cfdc37bb633ace4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira0501Form.java"
+   text-time="2006-06-10T12:57:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ca703d8ecaa63f8afdb6cca9d47c02b4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1401Form.java"
+   text-time="2007-05-14T12:05:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7e8ba4a66f9a3d21027cacaef9f9db0b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1501Form.java"
+   text-time="2007-05-14T12:05:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="13ba8d195352c9b52ef281d3a4d05d38"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira0601Form.java"
+   text-time="2006-06-13T11:16:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e5faf1cadfac796f1cc67f60305280c5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira0701Form.java"
+   text-time="2006-06-13T06:18:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eaa4a4c2d173e7ddfd46b09a25356956"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1601Form.java"
+   text-time="2006-06-11T12:41:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8e9c14d19cd1e34476d3b6baff0d9cae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira1701Form.java"
+   text-time="2007-08-24T06:55:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fc73d337a9f5068f2076605cc0e3a4ef"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bpra0101Form.java"
+   text-time="2006-06-08T07:46:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="076be03104c8b2cecf5557061e790d69"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira0801Form.java"
+   text-time="2006-06-11T12:41:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e94fc122482dce4f523ddf7bb4c950da"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bira0901Form.java"
+   text-time="2007-03-27T09:09:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5d15c7c77a6e40bfd30c6158c44fe24a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bpra0201Form.java"
+   text-time="2006-06-08T07:46:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="658b136adeed7ea23102d1fd790b2d8b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bpra0301Form.java"
+   text-time="2006-06-08T07:46:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dfe46291e802ee393a407cccb3782a24"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Bima0101Form.java"
+   text-time="2006-07-05T06:16:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="486a608b6c585105914029d8d5eed13a"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

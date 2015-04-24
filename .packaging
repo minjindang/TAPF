@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+<archive destination="" exploded="false" name="tapf.war" used="true">
+<folder excludes="" includes="" location="../com.kangdainfo.ast.action" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.common" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.dao" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.filters" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.schedule" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.security" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.sql" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.webmenu" prefix="WEB-INF" used="true"/>
+<folder excludes="" includes="" location="../com.kangdainfo.ast.naming" prefix="WEB-INF" used="true"/>
+<folder excludes="tapf.war,work/**,dist/**,WEB-INF/classes/org/apache/**" includes="" location="" prefix="" used="true"/>
+<file location="../libraries/commons-beanutils-1.7.0/commons-beanutils.jar" name="commons-beanutils.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-beanutils-1.7.0/commons-beanutils.jar" used="true"/>
+<file location="../libraries/commons-collections-3.1/commons-collections-3.1.jar" name="commons-collections-3.1.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-collections-3.1/commons-collections-3.1.jar" used="true"/>
+<file location="../libraries/commons-dbutils-1.0/commons-dbutils-1.0.jar" name="commons-dbutils-1.0.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-dbutils-1.0/commons-dbutils-1.0.jar" used="true"/>
+<file location="../libraries/commons-digester-1.7/commons-digester-1.7.jar" name="commons-digester-1.7.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-digester-1.7/commons-digester-1.7.jar" used="true"/>
+<file location="../libraries/commons-email-1.0/commons-email-1.0.jar" name="commons-email-1.0.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-email-1.0/commons-email-1.0.jar" used="true"/>
+<file location="../libraries/commons-fileupload-1.0/commons-fileupload-1.0.jar" name="commons-fileupload-1.0.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-fileupload-1.0/commons-fileupload-1.0.jar" used="true"/>
+<file location="../libraries/commons-httpclient-3.0/commons-httpclient-3.0.jar" name="commons-httpclient-3.0.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-httpclient-3.0/commons-httpclient-3.0.jar" used="true"/>
+<file location="../libraries/commons-lang-2.1/commons-lang-2.1.jar" name="commons-lang-2.1.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-lang-2.1/commons-lang-2.1.jar" used="true"/>
+<file location="../libraries/commons-logging-1.0.4/commons-logging.jar" name="commons-logging.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-logging-1.0.4/commons-logging.jar" used="true"/>
+<file location="../libraries/ecs-1.4.2/ecs-1.4.2.jar" name="ecs-1.4.2.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="ecs-1.4.2/ecs-1.4.2.jar" used="true"/>
+<file location="../libraries/activation.jar" name="activation.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="activation.jar" used="true"/>
+<file location="../libraries/filters.jar" name="filters.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="filters.jar" used="true"/>
+<file location="../libraries/hibernate3.jar" name="hibernate3.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="hibernate3.jar" used="true"/>
+<file location="../libraries/jasperreports-1.0.3.jar" name="jasperreports-1.0.3.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jasperreports-1.0.3.jar" used="true"/>
+<file location="../libraries/jsp-api.jar" name="jsp-api.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jsp-api.jar" used="true"/>
+<file location="../libraries/log4j-1.2.11.jar" name="log4j-1.2.11.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="log4j-1.2.11.jar" used="true"/>
+<file location="../libraries/mail.jar" name="mail.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="mail.jar" used="true"/>
+<file location="../libraries/msbase.jar" name="msbase.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="msbase.jar" used="true"/>
+<file location="../libraries/mssqlserver.jar" name="mssqlserver.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="mssqlserver.jar" used="true"/>
+<file location="../libraries/msutil.jar" name="msutil.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="msutil.jar" used="true"/>
+<file location="../libraries/poi-2.5-final-20040302.jar" name="poi-2.5-final-20040302.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="poi-2.5-final-20040302.jar" used="true"/>
+<file location="../libraries/servlet-api.jar" name="servlet-api.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="servlet-api.jar" used="true"/>
+<file location="../libraries/uuid-2.1.0.jar" name="uuid-2.1.0.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="uuid-2.1.0.jar" used="true"/>
+<file location="../libraries/struts-scaffold-1.0/struts-scaffold-1.0.jar" name="struts-scaffold-1.0.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="struts-scaffold-1.0/struts-scaffold-1.0.jar" used="true"/>
+<file location="../libraries/jakarta-taglibs-standard-1.0.6/lib/xalan.jar" name="xalan.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jakarta-taglibs-standard-1.0.6/lib/xalan.jar" used="true"/>
+<file location="../libraries/jakarta-struts-1.1/lib/struts.jar" name="struts.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jakarta-struts-1.1/lib/struts.jar" used="true"/>
+<file location="../libraries/jakarta-taglibs-standard-1.0.6/lib/standard.jar" name="standard.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jakarta-taglibs-standard-1.0.6/lib/standard.jar" used="true"/>
+<file location="../libraries/dom4j-1.6.1.jar" name="dom4j-1.6.1.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="dom4j-1.6.1.jar" used="true"/>
+<file location="../libraries/asm.jar" name="asm.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="asm.jar" used="true"/>
+<file location="../libraries/antlr-2.7.6rc1.jar" name="antlr-2.7.6rc1.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="antlr-2.7.6rc1.jar" used="true"/>
+<file location="../libraries/cglib-2.1.3.jar" name="cglib-2.1.3.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="cglib-2.1.3.jar" used="true"/>
+<file location="../libraries/asm-attrs.jar" name="asm-attrs.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="asm-attrs.jar" used="true"/>
+<file location="../libraries/jaxen-1.1-beta-7.jar" name="jaxen-1.1-beta-7.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jaxen-1.1-beta-7.jar" used="true"/>
+<file location="../libraries/jta.jar" name="jta.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jta.jar" used="true"/>
+<file location="../libraries/ehcache-1.1.jar" name="ehcache-1.1.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="ehcache-1.1.jar" used="true"/>
+<file location="../libraries/commons-validator-1.1.4/commons-validator-1.1.4.jar" name="commons-validator-1.1.4.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-validator-1.1.4/commons-validator-1.1.4.jar" used="true"/>
+<file location="../libraries/displaytag-1.1.jar" name="displaytag-1.1.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="displaytag-1.1.jar" used="true"/>
+<file location="../libraries/junit-4.0.jar" name="junit-4.0.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="junit-4.0.jar" used="true"/>
+<file location="../libraries/commons-io-1.2/commons-io-1.2.jar" name="commons-io-1.2.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="commons-io-1.2/commons-io-1.2.jar" used="true"/>
+<file location="../libraries/jacob.jar" name="jacob.jar" prefix="WEB-INF/lib" project="libraries" projectLocation="jacob.jar" used="true"/>
+</archive>
+</configurations>

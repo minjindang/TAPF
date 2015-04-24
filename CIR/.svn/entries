@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/CIR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="CIRA0201QForm.jsp"
+   text-time="2006-06-04T05:53:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2fe9c1f682f3befb14f99995244ae657"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0201QScript.jsp"
+   text-time="2006-06-14T03:33:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8821428f4eff47f86fed3781adb58e5b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0201QBar.jsp"
+   text-time="2006-04-25T03:40:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a6152e07bfc70f5c0338df417069fa6a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0301QForm.jsp"
+   text-time="2006-07-11T02:03:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="122799bc6faf1dd2a07226ab5a0d7e2b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0301QScript.jsp"
+   text-time="2006-07-11T02:03:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="be03733b71ccadcf484c6242d06c6fa6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0301QBar.jsp"
+   text-time="2006-04-25T03:40:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e485cb61b924133160aac6dfb6a8efc6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0401QForm.jsp"
+   text-time="2006-06-12T06:21:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7dd4b073a71284039140548e52da33ca"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0501QForm.jsp"
+   text-time="2006-06-12T06:21:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4be5e591573cf309e91a5e4c863c1d59"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0401QBar.jsp"
+   text-time="2006-04-25T03:40:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d03cd6e0215be12d3c99ad50b9d77dc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0401QScript.jsp"
+   text-time="2006-06-14T03:33:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="acdadefa1c426ed2f2c9a15ebf59efa7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0601QForm.jsp"
+   text-time="2006-07-14T02:45:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9c3eadde535f87900b45b3a7d39072b2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0501QBar.jsp"
+   text-time="2006-04-25T03:40:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8593900c2ed563aa5b2fe8c886119416"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0501QScript.jsp"
+   text-time="2006-06-14T03:33:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="48a0424addbff91a32239a9cb430b4fc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0601QBar.jsp"
+   text-time="2006-04-25T03:40:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="32b4ccf9c8e471236c92c6eaaf0c8ed9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0601QScript.jsp"
+   text-time="2006-06-14T03:33:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="591ac1c46494fe8cd6d7cc17c327b19b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0701QForm.jsp"
+   text-time="2006-06-04T05:53:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9ea344587c2e28589b5c32cff74d54a5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0701QScript.jsp"
+   text-time="2006-06-14T03:33:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9f55aaf809065ad873363a188b6cd3a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0701QBar.jsp"
+   text-time="2006-04-25T03:40:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="00664d128c0fcd574f9d9aeb9f8d6dde"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0201Q.jsp"
+   text-time="2006-04-25T03:40:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0a6083a113022fa06e6182696ac96b0c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="reports"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="CIRA0301Q.jsp"
+   text-time="2006-04-25T03:40:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99ebd6b293bfc39c24805d7a0e847401"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0401Q.jsp"
+   text-time="2006-04-25T03:40:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8c387b03655d5cf89feec8cbb6ce278e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0501Q.jsp"
+   text-time="2006-04-25T03:40:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e752d603db7032ef632d87a78c249b5e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0601Q.jsp"
+   text-time="2006-04-25T03:40:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8eb2d88927ec74d6e40dfeff671de5f8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0701Q.jsp"
+   text-time="2006-04-25T03:40:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="433e22528a47e93bdc8b631aa45efec3"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

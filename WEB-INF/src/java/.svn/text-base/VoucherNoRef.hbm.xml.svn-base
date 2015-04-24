@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt.account">
+	<class
+		name="VoucherNoRef"
+		table="voucher_no_ref"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="accountYear"
+			column="account_year"
+			type="string"
+			not-null="true"
+			length="3"
+		/>
+		<property
+			name="debtCode"
+			column="debt_code"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="issueSerial"
+			column="issue_serial"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="serialNo"
+			column="serial_no"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="voucherType"
+			column="voucher_type"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="paymentSerialNo"
+			column="payment_serial_no"
+			type="string"
+			not-null="false"
+			length="2"
+		/>
+		<property
+			name="debtType"
+			column="debt_type"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+	</class>	
+</hibernate-mapping>

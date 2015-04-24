@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/debt/account/common"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="DebtVoucherFactory.java"
+   text-time="2013-07-30T03:02:07.427053Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d9d200d7b04dc307a4eb2ed4323e525d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebtAccountManager.java"
+   text-time="2006-12-27T05:25:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f9ab39757229bf57b4c0060ba08f7e3"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

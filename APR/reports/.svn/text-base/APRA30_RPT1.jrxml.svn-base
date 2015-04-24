@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="APRA29_RPT1" language="java" pageWidth="1102" pageHeight="842" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="1072" leftMargin="30" rightMargin="0" topMargin="0" bottomMargin="130" isFloatColumnFooter="true" whenResourceMissingType="Empty">
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="TAPF"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<import value="gov.dnt.tame.util.DateUtil"/>
+	<parameter name="title" class="java.lang.String">
+		<defaultValueExpression><![CDATA["000年0月至0月份國內借款還本付息季報概況表"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="createDate" class="java.lang.String">
+	</parameter>
+	<parameter name="usrId" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[SELECT REPAY_DATE,
+ISNULL(FLIGHT_CAPITAL_AMOUNT,0) AS FLIGHT_CAPITAL_AMOUNT,
+ISNULL(FLIGHT_INTEREST_AMOUNT,0) AS FLIGHT_INTEREST_AMOUNT,
+ISNULL(LONG_CAPITAL_AMOUNT,0) AS LONG_CAPITAL_AMOUNT,
+ISNULL(LONG_INTEREST_AMOUNT,0) AS LONG_INTEREST_AMOUNT,
+ISNULL(SHORT_CAPITAL_AMOUNT,0) AS SHORT_CAPITAL_AMOUNT, 
+ISNULL(SHORT_INTEREST_AMOUNT,0) AS SHORT_INTEREST_AMOUNT,
+ISNULL(SHORTFUND_CAPITAL_AMOUNT,0) AS SHORTFUND_CAPITAL_AMOUNT,
+ISNULL(SHORTFUND_INTEREST_AMOUNT,0) AS SHORTFUND_INTEREST_AMOUNT,
+ISNULL(BOND_CAPITAL_AMOUNT,0) AS BOND_CAPITAL_AMOUNT,
+ISNULL(BOND_INTEREST_AMOUNT,0) AS BOND_INTEREST_AMOUNT ,
+ISNULL(NATION_CAPITAL_AMOUNT,0) AS NATION_CAPITAL_AMOUNT,
+ISNULL(NATION_INTEREST_AMOUNT,0) AS NATION_INTEREST_AMOUNT,
+ISNULL(TOTAL_AMOUNT,0) AS TOTAL_AMOUNT 
+FROM APRA30_RPT order by repay_date]]></queryString>
+	<field name="BOND_CAPITAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="BOND_INTEREST_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="FLIGHT_CAPITAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="FLIGHT_INTEREST_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="LONG_CAPITAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="LONG_INTEREST_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="NATION_CAPITAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="NATION_INTEREST_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="REPAY_DATE" class="java.sql.Timestamp">
+	</field>
+	<field name="SHORTFUND_CAPITAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="SHORTFUND_INTEREST_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="SHORT_CAPITAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="SHORT_INTEREST_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="TOTAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<variable name="Sum1" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{FLIGHT_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum2" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{FLIGHT_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum3" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{LONG_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum4" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{LONG_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum5" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORT_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum6" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORT_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum7" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORTFUND_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum8" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORTFUND_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum9" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{BOND_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum10" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{BOND_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum11" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{NATION_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum12" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{NATION_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum13" class="java.math.BigDecimal" resetType="Group" resetGroup="G1" calculation="Sum">
+		<variableExpression><![CDATA[$F{TOTAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum14" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{FLIGHT_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum15" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{FLIGHT_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum16" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{LONG_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum17" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{LONG_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum18" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORT_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum19" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORT_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum20" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORTFUND_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum21" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{SHORTFUND_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum22" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{BOND_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum23" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{BOND_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum24" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{NATION_CAPITAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum25" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{NATION_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<variable name="Sum26" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{TOTAL_AMOUNT}]]></variableExpression>
+	</variable>
+	<group name="G1">
+		<groupExpression><![CDATA[new Integer($F{REPAY_DATE}.getYear()*100 + $F{REPAY_DATE}.getMonth())]]></groupExpression>
+		<groupFooter>
+		<band height="25">
+			<textField evaluationTime="Group" evaluationGroup="G1" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="95" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["小計"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="95" y="0" width="73" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum1}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="168" y="0" width="72" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum2}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="240" y="0" width="73" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum3}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="313" y="0" width="72" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum4}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="385" y="0" width="73" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum5}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="458" y="0" width="72" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum6}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="530" y="0" width="73" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum7}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="603" y="0" width="71" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum8}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="674" y="0" width="74" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum9}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="748" y="0" width="71" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum10}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="819" y="0" width="62" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum11}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="881" y="0" width="61" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum12}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Group" evaluationGroup="G1" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="942" y="0" width="129" height="25" printWhenGroupChanges="G1"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum13}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+		</band>
+		</groupFooter>
+	</group>
+	<title>
+		<band height="170">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="1070" height="30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="20"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{title}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="818" y="52" width="252" height="22"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["製表日期："+$P{createDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="818" y="30" width="252" height="22"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["頁    次：第"+ $V{PAGE_NUMBER} +"頁"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="818" y="74" width="252" height="23"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[單    位：新台幣元]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="818" y="97" width="252" height="22"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["製表單位：國庫署第三組"]]></textFieldExpression>
+			</textField>
+			<elementGroup>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="120" width="95" height="25"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="None" rightBorder="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[項目 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="145" width="95" height="25"/>
+				<box topBorder="None" leftBorder="Thin" bottomBorder="Thin" rightBorder="Thin"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[ 月]]></text>
+			</staticText>
+			</elementGroup>
+			<staticText>
+				<reportElement positionType="Float" x="95" y="145" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[還本]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="168" y="145" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="95" y="120" width="145" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[戰 機 借 款]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="240" y="145" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[還本]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="240" y="120" width="145" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[中 長 期 借 款]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="313" y="145" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="385" y="145" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[還本]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="385" y="120" width="145" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[短 期 借 款]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="458" y="145" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="530" y="145" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[還本]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="530" y="120" width="144" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<text><![CDATA[短期借款(民營化基金)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="603" y="145" width="71" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="674" y="145" width="74" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[還本]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="674" y="120" width="145" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[公 債]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="748" y="145" width="71" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="819" y="145" width="62" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[還本]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="881" y="145" width="61" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="819" y="120" width="123" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[國 庫 券]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="942" y="120" width="129" height="50"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[本息合計]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="25">
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="95" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{FLIGHT_CAPITAL_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="95" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[DateUtil.date2ROCStr($F{REPAY_DATE},"yyy/MM/dd")]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="168" y="0" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{FLIGHT_INTEREST_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="240" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{LONG_CAPITAL_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="313" y="0" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{LONG_INTEREST_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="385" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{SHORT_CAPITAL_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="458" y="0" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{SHORT_INTEREST_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="530" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{SHORTFUND_CAPITAL_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="603" y="0" width="71" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{SHORTFUND_INTEREST_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="674" y="0" width="74" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{BOND_CAPITAL_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="748" y="0" width="71" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{BOND_INTEREST_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="819" y="0" width="62" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{NATION_CAPITAL_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="881" y="0" width="61" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{NATION_INTEREST_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="942" y="0" width="129" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{TOTAL_AMOUNT}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="25">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="95" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["合計"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="95" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum14}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="168" y="0" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum15}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="240" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum16}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="313" y="0" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum17}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="385" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum18}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="458" y="0" width="72" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum19}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="530" y="0" width="73" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum20}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="603" y="0" width="71" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum21}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="674" y="0" width="74" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum22}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="748" y="0" width="71" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum23}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="819" y="0" width="62" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum24}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="881" y="0" width="61" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum25}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###">
+				<reportElement positionType="Float" x="942" y="0" width="129" height="25"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum26}.setScale(0,BigDecimal.ROUND_HALF_UP)]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

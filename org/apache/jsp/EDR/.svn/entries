@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/EDR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901QBar_jsp.class"
+   text-time="2007-07-04T02:58:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1aaba0de3b5a883e629a89dc6d533882"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:20.605565Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901QScript_jsp.class"
+   text-time="2007-07-04T02:58:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c662914e55b724df08f32fa01cc17875"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:56.982976Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001Q_jsp.class"
+   text-time="2008-01-25T07:39:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="74f19410b133a31b81a8b425cdc51990"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:27.675938Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001QScript_jsp.java"
+   text-time="2008-01-25T07:39:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4be63e06411f54c96e41249538834671"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001QBar_jsp.java"
+   text-time="2008-01-25T07:39:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bb32203aa30365a5141ddd864d3e32c3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301QForm_jsp.java"
+   text-time="2007-04-03T06:35:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5086793fdb6d44f040f1001b1f262584"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401Q_jsp.class"
+   text-time="2007-04-03T06:38:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d0d5786b46db0c6d9f7fddcb6616bca5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:10.260690Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401QForm_jsp.java"
+   text-time="2007-04-03T06:38:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="40d6ecab556a746cdc7dde65f41dbb1c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401QBar_jsp.java"
+   text-time="2007-04-03T06:38:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="640c8c02a13de0b152f94c3263bf529c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601Q_jsp.class"
+   text-time="2007-08-01T08:26:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="af13364e813e281958c4032a1baed5bb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:42.812600Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601QForm_jsp.java"
+   text-time="2007-08-01T08:26:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f01f8603909200f49132816cb142bcc0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601QBar_jsp.java"
+   text-time="2007-08-01T08:26:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="da2e76befb3302f92e93dad2767113d8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0701QForm_jsp.java"
+   text-time="2007-07-04T02:26:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6983a400c28a738cdacc588a26d0bed7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0801QForm_jsp.java"
+   text-time="2007-07-04T02:31:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4b34e6dd90cb89845d962709ca878c6a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0801Q_jsp.class"
+   text-time="2007-07-04T02:31:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0ca7044cfeb1c359bb0c50b8216da616"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:15.062698Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901QForm_jsp.java"
+   text-time="2007-07-04T02:58:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="21de4e8b7a11587cd738cbf9c7a0e81c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001Q_jsp.java"
+   text-time="2008-01-25T07:39:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b2fd4d009e997fb78b529d1fa423a1f5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001QForm_jsp.class"
+   text-time="2008-01-25T07:39:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0a72d9551cd10750c852b6ec94b574c5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:11.125658Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001QBar_jsp.class"
+   text-time="2008-01-25T07:40:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9f0a985824b48ca97e7bd87b8fcb784e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:57.606218Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001QScript_jsp.class"
+   text-time="2008-01-25T07:39:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="228bc15f0bec06eb4fdafcbb1977422f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:31.054520Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401QForm_jsp.class"
+   text-time="2007-04-03T06:38:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="720109a1a6f3131968fcccff70fb3d4a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:19.697984Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401QScript_jsp.class"
+   text-time="2007-04-03T06:38:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4e49f9d3d354306bfb0fbe104d2edfd1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:09.343094Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601QForm_jsp.class"
+   text-time="2007-08-01T08:26:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="16f9f0d8106a72f3f77720d4715d2e8e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:58.481406Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601QScript_jsp.class"
+   text-time="2007-08-01T08:26:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d0db9af47f8e5b7100469a304b41709c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:51.797866Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0801QForm_jsp.class"
+   text-time="2007-07-04T02:31:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="df8b7afc7181ad3ed206bbc85f61b084"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:46.534227Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0801QScript_jsp.class"
+   text-time="2007-07-04T02:31:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7374bf3e534d144fccfda3c08ead2f86"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:04.213373Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE1001QForm_jsp.java"
+   text-time="2008-01-25T07:39:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a318074ba05527c94d9429aac98def55"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301Q_jsp.class"
+   text-time="2007-04-03T06:34:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4a55acc493f27d6f1de838532730bce8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:07.401682Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301QBar_jsp.java"
+   text-time="2007-04-03T06:35:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="32c5afda5c9efaf2482b1396ea8478a0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301QScript_jsp.java"
+   text-time="2007-04-03T06:34:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8c655332bc226324571e1e2423459c56"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401QScript_jsp.java"
+   text-time="2007-04-03T06:38:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6bc2a9acec3b176621bf93f82e1f2567"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601QScript_jsp.java"
+   text-time="2007-08-01T08:26:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3257b912d560c37d1eb6d96a05ba5937"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0701Q_jsp.class"
+   text-time="2007-07-04T02:26:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="05c9f8a61c0bd54da31907e35c5b00b4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:28.401878Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0801QScript_jsp.java"
+   text-time="2007-07-04T02:31:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c647d0dc909f23392e7a9bb32cead60"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901Q_jsp.class"
+   text-time="2007-07-04T02:58:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5d21c38041326636441a9d3b48ae33f6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:30.110611Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901QScript_jsp.java"
+   text-time="2007-07-04T02:58:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d459074d17eaa612ce2e2aab55b4ce55"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901QBar_jsp.java"
+   text-time="2007-07-04T02:58:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="67c692952f9fd88652973b12c858e6b7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301Q_jsp.java"
+   text-time="2007-04-03T06:34:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6df515e94ba9e83f36bd0774acf68712"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401Q_jsp.java"
+   text-time="2007-04-03T06:38:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5576c2a6756ec369be467f690d402fa4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601Q_jsp.java"
+   text-time="2007-08-01T08:26:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="302a80bc11e2c7c6637d4808341172a7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0701Q_jsp.java"
+   text-time="2007-07-04T02:26:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ddc2e3027c64126f1b418df06526ac8a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0801Q_jsp.java"
+   text-time="2007-07-04T02:31:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b0280bca1b6b7dfdb2a2f36365ca19bc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901Q_jsp.java"
+   text-time="2007-07-04T02:58:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7c39d47e532ae3053de9d599c66b4835"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301QForm_jsp.class"
+   text-time="2007-04-03T06:35:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="46cc7cb60ba56986bf567274d021c5ee"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:15.878974Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301QBar_jsp.class"
+   text-time="2007-04-03T06:35:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0e2c95df4c8742ba91f9bddf034abf3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:27.405342Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0301QScript_jsp.class"
+   text-time="2007-04-03T06:35:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6e6c8379808e40bd8ea562c70c59711a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:21.514526Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0401QBar_jsp.class"
+   text-time="2007-04-03T06:38:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0ebada7ca9c8ebddde5589219f4f9488"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:15.826347Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0601QBar_jsp.class"
+   text-time="2007-08-01T08:26:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b1018fd761786dcb200b7f84e1d5f8fb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:58.639082Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0701QForm_jsp.class"
+   text-time="2007-07-04T02:26:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="531c9158578a1d2e35fcda9f2306db3b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:09.547318Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE0901QForm_jsp.class"
+   text-time="2007-07-04T02:58:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eacef7b60c589ba5248a0b057ddb1c01"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:50.856718Z"/>
+</wc-entries>

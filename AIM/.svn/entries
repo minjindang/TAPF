@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/AIM"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101M.jsp"
+   text-time="2006-07-25T06:31:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9e3ecea73edfbe2565a12eb200af6d4f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202L.jsp"
+   text-time="2006-07-25T09:39:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e3d35529718891b22d01e78663a0605f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101Q.jsp"
+   text-time="2006-07-21T03:07:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11fcb82fc6ece365a8787ad2e08eb37b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301AForm.jsp"
+   text-time="2006-06-29T11:59:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f1aa12a5bd3593c8bb45989c3c3c277"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0105AScript.jsp"
+   text-time="2011-01-10T04:01:08.386000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="18dd11a74cfb9ca4f149440dfe29c535"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301LForm.jsp"
+   text-time="2006-06-29T12:49:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10d20742c96d79bdc272827426c815c5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201MBar.jsp"
+   text-time="2010-11-13T01:26:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8c313984c74a777c30e78fc5d3d6b684"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301MForm.jsp"
+   text-time="2006-06-29T11:59:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fd3fe3851de0160cbb61f9e434702cc4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203A.jsp"
+   text-time="2006-07-25T09:39:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c600bac949da295e4b9c24af5919d849"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202MBar.jsp"
+   text-time="2010-11-13T01:26:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="56af4aa24766d54f9e0fcdb062d5e5fc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204LForm.jsp"
+   text-time="2006-07-25T09:39:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3d3682a2ae30bad1f7fe260ae5360b51"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203MBar.jsp"
+   text-time="2006-07-25T09:39:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a920e86b9492b553b2ad912d40664fac"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204MForm.jsp"
+   text-time="2006-07-25T09:39:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f7e74db2e47f457e7613c1cc087f3241"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501MScript.jsp"
+   text-time="2006-06-23T15:57:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f5429a7aed8c5e0c5925e293cb64e26"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204MBar.jsp"
+   text-time="2006-07-25T09:39:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="014e0a237d85f82a26839a221d5691de"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301QForm.jsp"
+   text-time="2006-06-29T12:02:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fbb9bcee3cad1b43cf8fb633a5f68d4c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401QBar.jsp"
+   text-time="2006-04-25T03:23:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9ae8bc36dddb0eaddaa4c0659ccb4ac4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102L.jsp"
+   text-time="2006-07-21T03:07:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f9460177bb5567477eea7f5fca688b4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401L.jsp"
+   text-time="2006-04-25T03:23:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="09c364e2a4b963ed155b18c413a6011b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203M.jsp"
+   text-time="2006-07-25T09:39:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d71200f27b29a51af5eb5037a34f77c8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201AScript.jsp"
+   text-time="2006-07-25T09:39:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a41c9347fe08aabe545890687b5f810a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302AScript.jsp"
+   text-time="2006-04-25T03:23:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f29c17b132f7cf17141a6e8d4ffde50f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0205AForm.jsp"
+   text-time="2011-01-10T04:01:08.576000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b1ac4caf2126156e74594b402f063100"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201MForm_old.jsp"
+   text-time="2006-07-25T09:39:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d60b1bb0fcff6e5f930de480d8deda0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201LBar.jsp"
+   text-time="2006-05-30T11:18:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8392518a809a3d56164b75aeee256f6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201MScript.jsp"
+   text-time="2006-07-25T09:39:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bb741a99a7ac187496dee273b5877a15"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302LForm.jsp"
+   text-time="2006-06-28T13:49:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c18b961c3e486f1af3571a47bb91570"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202LBar.jsp"
+   text-time="2010-11-13T01:26:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b934f124cf00ea1d3c2cbc690ef32c1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103A.jsp"
+   text-time="2006-07-21T03:07:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4e19f2caf7dcca62c4da05655f872bed"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203LBar.jsp"
+   text-time="2006-07-25T09:39:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="19ff26a800f845c0980aa4f449f5fe2d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302MForm.jsp"
+   text-time="2006-06-28T13:49:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e6ad531cc7ce2c563bd16b26b7c9f637"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302MScript.jsp"
+   text-time="2006-04-25T03:23:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="be8e3893629138a9ee8ad1a5a4dff152"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204LBar.jsp"
+   text-time="2006-07-25T09:39:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="abe4170ac9f21bd304fbc8d0c24d25dc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0205LForm.jsp"
+   text-time="2010-11-13T01:26:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="56bd04acfbb680335a0e3a0216acdf2c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0205LBar.jsp"
+   text-time="2010-11-13T01:26:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8392518a809a3d56164b75aeee256f6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301L.jsp"
+   text-time="2006-04-25T03:23:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="224a530cc4acbc150ed4467ea94f8731"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103M.jsp"
+   text-time="2006-07-21T03:07:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f6ec58300249834594c867182b1ecf6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204L.jsp"
+   text-time="2006-07-25T09:39:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f01f7b8818b225a9cc008f733b1d19ef"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="154"
+   name="AIMA0101AForm.jsp"
+   text-time="2013-10-17T06:34:42.427146Z"
+   committed-date="2013-10-21T02:59:05.960757Z"
+   checksum="9548fededff84b25c45ac23bb1fc231b"
+   last-author="abner.chiu"
+   kind="file"
+   revision="154"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101ABar.jsp"
+   text-time="2010-11-13T01:23:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="456c03990a73801e2c79cf63eb24f77d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102ABar.jsp"
+   text-time="2006-07-21T03:07:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2973fa59a93ba6d6efcc51299433599e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103ABar.jsp"
+   text-time="2006-07-21T03:07:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e28779b13a273174a27b0a0f20d72100"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103AScript.jsp"
+   text-time="2006-07-27T07:38:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2471c71c8a6a4d65297b5f6d3b4e1e81"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104ABar.jsp"
+   text-time="2006-07-21T03:07:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="457161fd9a3f0e6c02e5c31f0175832a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501ABar.jsp"
+   text-time="2006-06-23T15:57:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed5721b782e371efa6b66a1e7a5aefc4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0105ABar.jsp"
+   text-time="2010-11-13T01:25:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0352c49f2ffb4fc7fc3a05338827add"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101LForm.jsp"
+   text-time="2006-06-29T08:25:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="535134b774c62117efe935bd97ed6697"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101MForm.jsp"
+   text-time="2006-12-15T07:06:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c272425321f8808e7e8765ca91d4a55"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0303LForm.jsp"
+   text-time="2006-06-22T13:21:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30289b22d58682b1db2a480cd940716b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301MBar.jsp"
+   text-time="2006-06-22T13:21:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d07c8ca52967dc5dc7a81bde3a7ece6a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103MScript.jsp"
+   text-time="2006-07-21T03:07:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aa345ff89abf7cbc39b25108bafd90ec"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302A.jsp"
+   text-time="2006-04-25T03:23:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="98cc5113f2b59af155efb9391f7c7984"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302MBar.jsp"
+   text-time="2006-04-25T03:23:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7be4fbd83843b8ef7c797b3269412d1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101QForm.jsp"
+   text-time="2006-07-21T03:07:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="03b0956ddb6d256f0489cc9f524343d8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0205A.jsp"
+   text-time="2010-11-13T01:26:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f7d117a3b287be43193c6e5125a941d3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101QBar.jsp"
+   text-time="2006-07-21T03:07:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="debd6ab67a805fdd501ce4aecec0b4be"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501QBar.jsp"
+   text-time="2006-06-23T15:57:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="89b5e2167bd0997425fd9d41a3da670d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104L.jsp"
+   text-time="2006-07-21T03:07:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fbb8d361b719b0c69aa23e09ecaa0dc6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302M.jsp"
+   text-time="2006-04-25T03:23:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5bdff27d004023ecb8e2f061c211e1fc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102LForm.jsp"
+   text-time="2006-08-02T08:12:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a92d05f8ca5a23ffea6be4d8af63daa7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102MForm.jsp"
+   text-time="2009-01-15T07:44:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c86f2ae8694090539fe04153585508e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301LBar.jsp"
+   text-time="2006-04-25T03:23:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e45fae3ae3b143ce8b5087bf3656919b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401LForm.jsp"
+   text-time="2006-04-25T03:23:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e0f008e6e2d15d6d4e5b88147b4cff0d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202A.jsp"
+   text-time="2006-07-25T09:39:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="def864a9f8be21d6525f3132b97511e0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302LBar.jsp"
+   text-time="2006-04-25T03:23:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84c07f794b9e27b807da4ecc6d6efcde"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401MForm.jsp"
+   text-time="2006-04-25T03:23:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e4fe5daf32a8001d1426b3f928d1878f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0105A.jsp"
+   text-time="2010-11-13T01:25:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c21624430fb46e7255333a23625d7ef4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0303LBar.jsp"
+   text-time="2006-06-22T13:21:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84c07f794b9e27b807da4ecc6d6efcde"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401MScript.jsp"
+   text-time="2006-04-25T03:23:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f5429a7aed8c5e0c5925e293cb64e26"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501A.jsp"
+   text-time="2006-06-23T15:57:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b2f2aea784b7ba67ea17ba97488f5228"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401QForm.jsp"
+   text-time="2006-04-25T03:23:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f2c6113751ccd64585e75f6ca0e60e28"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401QScript.jsp"
+   text-time="2006-04-25T03:23:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2994d346791f0e287e5eb0fbc11c174d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202M.jsp"
+   text-time="2010-11-13T01:26:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4fb19b9596e9597c44683d2624294627"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0303L.jsp"
+   text-time="2006-06-22T13:21:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="044575ea96fbcd0e3971320c0491ac9e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501M.jsp"
+   text-time="2006-06-23T15:57:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d9765cd5b8e9eb3eaec30b0e7e54a286"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501Q.jsp"
+   text-time="2006-06-23T15:57:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4050b7dad2ff415ea238f0071c8598cf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101AScript.jsp"
+   text-time="2010-11-13T01:24:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="518cfabde2f94871380d5c135eb8452c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103AForm.jsp"
+   text-time="2006-07-27T07:38:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="61b4cb9b9c15ed8e58666a49cc1a2212"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201ABar.jsp"
+   text-time="2010-11-13T01:26:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea8c295419230ee260d2dcd5c4689fd7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202AScript.jsp"
+   text-time="2006-07-25T09:39:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dc72b154cd83ce9ae120d1da71e2d303"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202ABar.jsp"
+   text-time="2006-07-25T09:39:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="60625c45f94a1343b5b30052286a1ca5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203ABar.jsp"
+   text-time="2006-07-25T09:39:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="befb4be55e5b9ac2e8a759328bec1afa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204ABar.jsp"
+   text-time="2006-07-25T09:39:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="457161fd9a3f0e6c02e5c31f0175832a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103LForm.jsp"
+   text-time="2006-08-02T08:12:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc67aa7d4c924809d964f2a51a6a2320"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102A.jsp"
+   text-time="2006-07-21T03:07:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d74b4204575b7a712d337710c3a1f179"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101MScript.jsp"
+   text-time="2006-06-16T05:51:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="547259e0fff6970a9b072b6b993726dd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103MForm.jsp"
+   text-time="2006-07-21T03:07:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3782f8626c4e5976a18db4964eef9642"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202MScript.jsp"
+   text-time="2010-11-13T01:26:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ffd1072ad8e9c5a8b7f7905bff34cb1b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401MBar.jsp"
+   text-time="2006-04-25T03:23:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0a4197c5b126d30d91db3a254b446340"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201QBar.jsp"
+   text-time="2006-07-25T09:39:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cffa44c7f418ebf9211937e6df983770"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102M.jsp"
+   text-time="2010-11-13T01:25:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1fba416d151e62515a592333de521be0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203L.jsp"
+   text-time="2006-07-25T09:39:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ae7ff9ed05fbc9b32850a882865b4b71"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401M.jsp"
+   text-time="2006-04-25T03:23:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9328500cdc15625e789153466c0a5bc1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401Q.jsp"
+   text-time="2006-04-25T03:23:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="472a18fd77e18a02e6357904e3a3dbe1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201AForm.jsp"
+   text-time="2006-07-25T09:39:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea2e3479d9edd24b8bfe9ca0cee47582"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201LForm.jsp"
+   text-time="2006-07-25T09:39:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e6d6fd11607787b373e482b55c10acdc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201MForm.jsp"
+   text-time="2013-05-15T08:36:12.940752Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="095b722c50a3dea3abf9cb025f685997"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301A.jsp"
+   text-time="2006-06-28T13:49:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fe543a42fead76fe8585d0fdc1c21587"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104LForm.jsp"
+   text-time="2006-07-21T03:07:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f3c3764f90689c7a429f06d738899719"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0401LBar.jsp"
+   text-time="2006-04-25T03:23:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="345ade70de44fde9c34b96a3bf4830db"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104MForm.jsp"
+   text-time="2006-07-21T03:07:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3df645658cd76fa10349300e3327d860"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204A.jsp"
+   text-time="2006-07-25T09:39:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f5f57059b3443f9eb7f83f8862ab1f86"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201QForm.jsp"
+   text-time="2006-07-25T09:39:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7914ed268d91bc1a7040d51f1c6f9c33"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103L.jsp"
+   text-time="2006-07-21T03:07:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c6404285c228a137034bb1468ef9a7e2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301M.jsp"
+   text-time="2006-04-25T03:23:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fd339c4a83ad896ba052cb3f44c9ce1d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0204M.jsp"
+   text-time="2006-07-25T09:39:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="02f7ec3455d556fb55783be35aa124df"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301Q.jsp"
+   text-time="2006-04-25T03:23:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ecd6982f1d5b427250581ae6eeb79a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301AScript.jsp"
+   text-time="2006-06-29T11:56:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7d7cc90642791f97d87edbe078829815"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301ABar.jsp"
+   text-time="2006-04-25T03:23:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fa298f3e38e4ab2cdbec25aed8294d5a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302ABar.jsp"
+   text-time="2006-04-25T03:23:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8ac26ef979050e312512e6bd4cdd94ec"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0105AForm.jsp"
+   text-time="2011-01-10T04:01:08.486000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8feac643b9ee98243767af844d9f983e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101MBar.jsp"
+   text-time="2010-11-13T01:24:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1cee6e6cdea86a7cba94c4e7e715a190"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202LForm.jsp"
+   text-time="2006-07-26T10:52:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0e14023227b8eef20222b69d0e0b4b51"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201A.jsp"
+   text-time="2006-07-25T09:39:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="63970128c03d0621ce116196ed26a6a6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0202MForm.jsp"
+   text-time="2009-01-15T07:43:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="af67e28a5e1f5de41b5be8cc3af72520"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102MBar.jsp"
+   text-time="2010-11-13T01:26:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="56af4aa24766d54f9e0fcdb062d5e5fc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0105LForm.jsp"
+   text-time="2010-11-13T01:26:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="28f0572fbd8c746ac38c00ec3417ee8f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103MBar.jsp"
+   text-time="2006-07-21T03:07:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a920e86b9492b553b2ad912d40664fac"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104A.jsp"
+   text-time="2006-07-21T03:07:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f338af6bf4920c1769e9e9d1c87ba55b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501LForm.jsp"
+   text-time="2006-07-06T03:25:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a4a6ff857964fff88db6d75e28d2d86e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301MScript.jsp"
+   text-time="2006-06-29T11:56:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6e6a15cfb08c6b86a03ea325ba782cbb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104MBar.jsp"
+   text-time="2006-07-21T03:07:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="014e0a237d85f82a26839a221d5691de"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501MForm.jsp"
+   text-time="2006-06-23T15:57:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="75deadf2af5033e615298df497d36585"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501MBar.jsp"
+   text-time="2006-06-23T15:57:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fe825d71a968d743443c8adf248654f2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0301QBar.jsp"
+   text-time="2006-04-25T03:23:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eaa342c2ed35bcbdf5d2a05e9e0f5bb4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0501QForm.jsp"
+   text-time="2006-06-23T15:57:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="67c9511b0213569797ce1b8077284852"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201M.jsp"
+   text-time="2006-07-25T09:39:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e634410411bb7bbeb6ac87142f6650a1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0302L.jsp"
+   text-time="2006-04-25T03:23:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0e79547179aaa4ffd6cf13b8ee9be280"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104M.jsp"
+   text-time="2006-07-21T03:07:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e7fafc94a420b1ab89a9bfa00573fb0e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0201Q.jsp"
+   text-time="2006-07-25T09:39:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0bbc4b073133906197ffe24cd0cd2097"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102AScript.jsp"
+   text-time="2006-07-25T09:39:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7400c239eed508513acce6dd1c286478"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203AScript.jsp"
+   text-time="2006-07-27T07:38:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="04ff16cb9121adb8879ceb4af22ec46b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101A.jsp"
+   text-time="2006-07-21T03:07:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4ba14034a56e25a321b2b98a0c88a0c9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0101LBar.jsp"
+   text-time="2006-06-01T10:50:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8392518a809a3d56164b75aeee256f6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102LBar.jsp"
+   text-time="2010-11-13T01:24:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b934f124cf00ea1d3c2cbc690ef32c1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0102MScript.jsp"
+   text-time="2006-07-26T10:52:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2972ed6f8c7805b5764b395185098e44"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203LForm.jsp"
+   text-time="2006-08-02T08:12:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bdcf1651ac65ecbf8212b822c5e8dd4d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0103LBar.jsp"
+   text-time="2006-07-21T03:07:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="19ff26a800f845c0980aa4f449f5fe2d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203MForm.jsp"
+   text-time="2006-07-25T09:39:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="17775170ff19f5cac1902fd9a32da3a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0104LBar.jsp"
+   text-time="2006-07-21T03:07:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="abe4170ac9f21bd304fbc8d0c24d25dc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0203MScript.jsp"
+   text-time="2006-07-25T09:39:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1caf1bc50b3dc5a3d71dcbf5ec1040cc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AIMA0105LBar.jsp"
+   text-time="2010-11-13T01:26:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a28c5fb9cfc248fd4b71dc29dad93a55"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

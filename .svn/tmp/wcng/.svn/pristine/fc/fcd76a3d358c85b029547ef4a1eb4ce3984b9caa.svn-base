@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html;charset=Big5" %>
+<%@ taglib uri="/tags/struts-html" prefix="html" %>
+<%@ taglib uri="/tags/struts-bean" prefix="bean" %>
+<%@ taglib uri="/tags/struts-logic" prefix="logic" %>
+<%@ taglib uri="/tags/displaytag" prefix="display" %>
+
+<script language="javascript"
+	src="<html:rewrite page="/assets/scripts/OptionManager.js"/>">
+</script>
+<table class="table_1" width="100%">
+	<tr>
+		<td class="table_item" width="30%">單位</td>
+		<td class="table_td" width="70%">
+			<html:select property="dept" onchange="manager.populate();"></html:select>
+		</td>
+	</tr>
+	<tr>
+		<td class="table_item">使用者</td>
+		<td class="table_td">
+			<html:select property="usrId"></html:select>
+		</td>
+	</tr>
+	<tr>
+		<td class="table_function" align="right" colspan="2">
+			<html:submit styleClass="formcss_rbutton" property="doQry" value="查詢"/>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<logic:present name="queryList">		
+				<display:table class="table_list" name="queryList" id="row">
+					<display:column title="群組名稱">
+						<bean:define id="ID" name="row" property="ID" type="java.lang.Object"/>
+						<html:multibox property="GID" value="<%=ID.toString()%>"/>
+						<bean:write name='row' property='GroupName'/>
+					</display:column>
+				</display:table>
+			</logic:present>
+		</td>
+	</tr>
+	<tr>
+		<td class="table_function" align="right" colspan="2">
+			<html:submit styleClass="formcss_rbutton" property="doUpd" value="更新"/>
+		</td>
+	</tr>
+</table>

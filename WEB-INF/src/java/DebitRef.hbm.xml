@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="DebitRef"
+		table="Debit_ref"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="debitType"
+			column="DEBIT_TYPE"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="debitName"
+			column="DEBIT_NAME"
+			type="string"
+			not-null="true"
+			length="50"
+		/>
+		<property
+			name="usrid"
+			column="USRID"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="REMARK"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="createDate"
+			column="CREATE_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<many-to-one
+			name="budgetCode"
+			column="BUDGET_CODE"
+			class="BudgetRef"
+			not-null="true"
+			fetch="select"
+			lazy="false"
+		>
+		</many-to-one>
+
+
+	</class>	
+</hibernate-mapping>

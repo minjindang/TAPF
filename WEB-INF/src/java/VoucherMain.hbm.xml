@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.account">
+	<class
+		name="VoucherMain"
+		table="voucher_main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="sourceType"
+			column="SOURCE_TYPE"
+			type="string"
+			not-null="true"
+			length="1"
+		/>
+		<property
+			name="voucherNo"
+			column="VOUCHER_NO"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="voucherType"
+			column="voucher_type"
+			type="integer"
+			not-null="true"
+			length="1"
+		/>
+		<property
+			name="voucherDate"
+			column="VOUCHER_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="delete"
+			column="IS_DELETE"
+			type="yes_no"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="usrid"
+			column="usr_id"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<many-to-one
+			name="phase"
+			column="phase_id"
+			class="tw.gov.nta.sql.debt.account.AccountPhaseMain"
+			not-null="false"
+			outer-join="true"
+		>
+		</many-to-one>
+
+		<many-to-one
+			name="debtType"
+			column="debt_type_id"
+			class="tw.gov.nta.sql.debt.DebtTypeRef"
+			not-null="false"
+		>
+		
+		</many-to-one>
+
+		<set
+			inverse="true"
+			lazy="false"
+			name="voucherDets"
+			cascade="all" 
+		>
+			<key column="voucher_id" />
+			<one-to-many class="VoucherDet" />
+		</set>
+
+		<set
+			inverse="true"
+			lazy="false"
+			name="voucherSourceDets"
+			cascade="all" 
+		>
+			<key column="voucher_id" not-null="false" />
+			<one-to-many class="VoucherSourceDet" />
+		</set>
+
+		<property
+			name="issueId"
+			column="issue_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="voucherSer"
+			column="voucher_ser"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		
+		<property
+			name="postDate"
+			column="post_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		
+		<property
+			name="postUsr"
+			column="post_usr"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="remark"
+			column="remark"
+			type="string"
+			not-null="false"
+			length="200"
+		/>
+
+		<property
+			name="budgetCode"
+			column="budget_code"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+
+		<property
+			name="debtCode"
+			column="debt_code"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>		
+
+		<property
+			name="issueKind"
+			column="issue_kind"
+			type="string"
+			not-null="false"
+			length="1"
+		/>			
+	</class>	
+</hibernate-mapping>

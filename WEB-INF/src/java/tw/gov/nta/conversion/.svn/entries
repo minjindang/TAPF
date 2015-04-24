@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/conversion"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="ConvertTRBTLNOForPAIDF.java"
+   text-time="2008-08-11T04:14:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="964d5d3681235c68faad27a5a4838781"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertInterface.java"
+   text-time="2007-01-31T05:33:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="af56ba68959b3771c056e6c752dc7d34"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="157"
+   name="ConvertTRBST04.java"
+   text-time="2013-10-23T03:03:08.035195Z"
+   committed-date="2013-10-23T03:14:16.933917Z"
+   checksum="b577bba10809b4e98c2ab5a5c84a0d98"
+   last-author="abner.chiu"
+   kind="file"
+   revision="157"/>
+<entry
+   committed-rev="16"
+   name="TPSBF7.java"
+   text-time="2007-01-31T05:33:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f5770d10aa5fd8bb0738c39cc82bec3a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTPSBF7.java"
+   text-time="2011-02-23T09:05:51.607648Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e9361985d01d411b379acd46d13b7758"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TPSBF8.java"
+   text-time="2007-01-31T05:33:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="031e95b24126dd672df6fc36eef33a2a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTPSBF8.java"
+   text-time="2010-11-13T01:49:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eb7abb1aff50931dbd561a37ecaf9088"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TrbtTLNO.java"
+   text-time="2007-01-31T05:33:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a6ec5943dc7330ffbcf22b0cd1a98a01"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertBase.java"
+   text-time="2008-05-01T02:46:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="011d780dd6ccf628b5643c61999d97e9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="157"
+   name="ConvertFile.java"
+   text-time="2013-10-23T03:12:48.464649Z"
+   committed-date="2013-10-23T03:14:16.933917Z"
+   checksum="28bae483172fe4f5833c636b1d34960b"
+   last-author="abner.chiu"
+   kind="file"
+   revision="157"/>
+<entry
+   committed-rev="16"
+   name="ConvertTRBPAYP.java"
+   text-time="2010-11-13T01:49:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="741453ed2c511a129fdbf98a49ae11a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTBBCF01.java"
+   text-time="2007-04-11T11:14:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="db51deeb69483cbc713df4d34e92364b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TBBCF02.java"
+   text-time="2007-01-31T05:33:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="04cdbffac0fa0c3069c353c28cffb9fe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTBBCF02.java"
+   text-time="2011-05-03T01:50:48.308753Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6e74fe885759747a1f8628da7b94f8b3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TBBCF03.java"
+   text-time="2007-01-31T05:33:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="55efb5c7534de9eb46ce043e3e6ffd92"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TBBCF04.java"
+   text-time="2007-01-31T05:33:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cd5563f764b438eb54416248a44f31c2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTBBCF03.java"
+   text-time="2007-03-27T09:09:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="008e482840f54aa3bdb674ca242cd20a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTBBCF04.java"
+   text-time="2011-06-16T06:33:39.360288Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="85b5a92a69f3d2dfb12dc4179b865d4d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTRBTLNO.java"
+   text-time="2007-11-01T01:32:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d90d6e44b94183c0a9417d20e184b1b5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TBBCF05.java"
+   text-time="2007-01-31T05:33:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7256f9afb1297facefc98e166ad69aa9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Conversion.java"
+   text-time="2007-01-31T05:33:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="42d980d424ac1c66e647e3a8ec2c4afb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertFunction.java"
+   text-time="2007-04-24T02:05:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9a6ee0ca17155604a2f36210ae93fa77"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTBBCF05.java"
+   text-time="2007-03-27T09:09:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4645342f5e8087c60025d2bff7498209"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

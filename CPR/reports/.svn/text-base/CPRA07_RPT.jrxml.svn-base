@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="CPRA07" language="java" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="tapf"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<parameter name="usrId" class="java.lang.String">
+		<defaultValueExpression><![CDATA["1"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="year" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[Select * from CPRA07_RPT]]></queryString>
+	<field name="Issue_amount" class="java.math.BigDecimal">
+	</field>
+	<field name="Issue_name" class="java.lang.String">
+	</field>
+	<field name="Repay_date" class="java.sql.Timestamp">
+	</field>
+	<field name="remark" class="java.lang.String">
+	</field>
+	<pageHeader>
+		<band height="82">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="555" height="50"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="20"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["戰機借款" + $P{year} + "年度還本明細表"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="50" width="555" height="32"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[單位:新台幣元]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="33">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="151" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[還款日期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="150" y="0" width="225" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[還款期次及金額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="375" y="0" width="180" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[備註]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="33">
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="151" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="16"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{Repay_date}.getYear()-11) + "/" + ($F{Repay_date}.getMonth()+1) + "/"   + ($F{Repay_date}.getDay())   
++ " " + (new java.text.SimpleDateFormat("EE")).format($F{Repay_date})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.00#">
+				<reportElement positionType="Float" x="262" y="0" width="113" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{Issue_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="375" y="0" width="180" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{remark}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="151" y="0" width="111" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Issue_name}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement positionType="Float" x="0" y="-1" width="151" height="1"/>
+				<graphicElement/>
+			</line>
+			<line>
+				<reportElement positionType="Float" x="0" y="0" width="1" height="33"/>
+				<graphicElement/>
+			</line>
+			<line>
+				<reportElement positionType="Float" x="150" y="0" width="1" height="32"/>
+				<graphicElement/>
+			</line>
+			<line>
+				<reportElement positionType="Float" x="0" y="32" width="151" height="1"/>
+				<graphicElement/>
+			</line>
+		</band>
+	</detail>
+</jasperReport>

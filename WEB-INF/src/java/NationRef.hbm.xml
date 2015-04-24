@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="NationRef"
+		table="Nation_ref"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="nationNo"
+			column="NATION_NO"
+			type="string"
+			not-null="true"
+			length="5"
+		/>
+		<property
+			name="continentNo"
+			column="CONTINENT_NO"
+			type="string"
+			not-null="true"
+			length="1"
+		/>
+		<property
+			name="nationCname"
+			column="NATION_CNAME"
+			type="string"
+			not-null="true"
+			length="50"
+		/>
+		<property
+			name="nationEname"
+			column="NATION_ENAME"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="usrid"
+			column="USRID"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="REMARK"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="createDate"
+			column="CREATE_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+	
+
+		<set name="nationDebitMains" inverse="true" lazy="true">
+			<key column="ID"/>
+			<one-to-many class="NationDebitMain"/>
+		</set>
+
+
+	</class>	
+</hibernate-mapping>

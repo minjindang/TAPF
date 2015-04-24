@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/EAR/reports"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="EARE11_RPTjrxml"
+   text-time="2007-12-16T02:12:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="da94b4afd5c7724e86254d343d934228"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARE12_RPTjrxml"
+   text-time="2007-12-16T02:13:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9a36ed668e16a65822687da6bee5bddb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARE13_RPTjrxml"
+   text-time="2007-12-16T02:13:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4c1825afe72eb546046a9f6b39bf38ba"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARC06_RPT-Group.jrxml"
+   text-time="2006-05-30T01:56:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ac13eb168d4073803593680ddfc505a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARD01_RPT.jrxml"
+   text-time="2006-05-05T09:25:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="59fe61e62e4f06a15ef5df8c38e56328"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARD02_RPT.jrxml"
+   text-time="2006-05-05T09:25:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="13d263c9cdf14b02e20c2eac1f3f630a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARC03_RPT.jrxml"
+   text-time="2006-05-30T01:56:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e08f40b7bd34c7af804b260a50753a1c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARC04_RPT.jrxml"
+   text-time="2006-05-30T01:56:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="61561fde16ddde34b4dab4939bfbda4c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARD03_RPT.jrxml"
+   text-time="2006-05-30T01:56:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a86d559521f20f993172a1bb53281db4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARE03_RPT.jrxml"
+   text-time="2006-07-15T12:36:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2baf4c62e84014655f910aaa2a7e9c9b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARD04_RPT.jrxml"
+   text-time="2006-05-30T01:56:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bdff469eacaccf8a0ed17092bac41acd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARC05_RPT.jrxml"
+   text-time="2006-05-05T09:25:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="37f80161be0676b20c230e334d6fe590"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARE04_RPT.jrxml"
+   text-time="2006-05-03T10:34:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d5da0dd006e878c7cb53a4e3866a7dd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARC06_RPT.jrxml"
+   text-time="2006-05-30T01:56:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bbd4ce4c6c76222936ae7084ccd42648"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARE05_RPT.jrxml"
+   text-time="2006-05-03T10:34:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f985a8b3eeebdaa2826c4f89a87f2159"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARC07_RPT.jrxml"
+   text-time="2006-05-03T10:34:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="169f87fc6136052127e647f68df04f35"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EARE06_RPT.jrxml"
+   text-time="2006-05-03T10:34:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="743e28c2046281773b01e540a9fbf578"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

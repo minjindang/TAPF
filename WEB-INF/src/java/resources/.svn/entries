@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/resources"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="build.properties"
+   text-time="2007-03-22T07:27:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1904f0ec63bf56953dcf7d9b585219cc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="138"
+   name="mail.properties"
+   text-time="2013-10-01T02:58:36.281234Z"
+   committed-date="2013-10-01T03:37:34.282653Z"
+   checksum="0014e95671ed095aa2f06f438b86bd93"
+   last-author="abner.chiu"
+   kind="file"
+   revision="138"/>
+</wc-entries>

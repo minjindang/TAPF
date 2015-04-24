@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/GAR/reports"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="GARA14_RPT.jrxml"
+   text-time="2006-04-25T03:40:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5af515d295b1140907d7968cc500d24a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GARA15_RPT.jrxml"
+   text-time="2006-04-25T03:40:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="05f1e5566fe728a31cd7052bc9f902c5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GARA35_RPT.jrxml"
+   text-time="2006-12-06T03:45:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a249eeec869f4c59ee10bd71e10d39c6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GARA20_RPT.jrxml"
+   text-time="2006-04-25T03:40:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b833574baabb9f7fd627ff4a93782b43"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GARA21_RPT.jrxml"
+   text-time="2006-05-30T01:56:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="995b46f3b89e5d89422ef76416a9bf39"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GARA12_RPT.jrxml"
+   text-time="2006-12-13T05:35:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7e5961d3cfcdd58f9b89e54b67b195c0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GARA22_RPT.jrxml"
+   text-time="2006-05-30T01:56:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4ba46ff2db404b0876aaacd0f234a5f3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GARA13_RPT.jrxml"
+   text-time="2006-04-25T03:40:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b9b87281a2e3423c4db5f26851d8ece7"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

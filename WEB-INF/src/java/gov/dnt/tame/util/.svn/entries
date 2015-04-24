@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/gov/dnt/tame/util"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="XLSExporter.java"
+   text-time="2006-04-25T03:45:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2f0d96233deb80ad3cc88379ed785eee"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ROCDateStringConverter.java"
+   text-time="2006-04-25T03:45:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="df21626c4fd6d9344cf9cb4cba8e83e0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CommonFun.java"
+   text-time="2007-09-07T07:22:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9afea11f75a839ad9ddfdd1041a39183"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ListToolManager.java"
+   text-time="2006-06-06T08:36:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="06a94570c32205ef1cccbcc7e6982aae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AnalyzerException.java"
+   text-time="2006-04-25T03:45:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea173aa94b2f08e560789538430b33e6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="StringUtil.java"
+   text-time="2006-12-05T13:32:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c1339e3732af03e29e69cbd4fa72f52e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DataBeanAnalyzer.java"
+   text-time="2006-04-25T03:45:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0730c13c7806ddb43f76ea878078a92c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ReportManager.java"
+   text-time="2011-05-02T03:47:43.122464Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cf3de3465cca63b2c2a07799838559e9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PagedProcesser.java"
+   text-time="2006-04-25T03:45:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8137d0527c2375e61a9bb8e43cd8b774"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Converter.java"
+   text-time="2006-04-25T03:45:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e19b567c6f4fdb0cdcd6da827a31d579"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Messages.java"
+   text-time="2006-04-25T03:45:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e664920d40e6aad280a75b77b52076fa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="JacobReportAction.java"
+   text-time="2013-05-03T09:26:55.906869Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="37da416089c54abdb36b96f8f5502f0e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ROCDateConverter.java"
+   text-time="2006-04-25T03:45:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="66a79e906815bafce0fa047e2a554701"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ReportAction.java"
+   text-time="2006-04-25T03:45:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="14c0c3e382f367460c464873cc98e91a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PagedListHandler.java"
+   text-time="2006-04-25T03:45:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8ebb7c0ba01b28698d0da1eb1a219cfa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ReportManagerForPage.java"
+   text-time="2006-05-22T09:37:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="13f4d0f680a59b07cefadf5dcd745aaf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="SendMailException.java"
+   text-time="2006-04-25T03:45:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6e284709319a70076a32a6a6b5ab1cfa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="106"
+   name="DateUtil.java"
+   text-time="2013-09-18T07:20:34.677141Z"
+   committed-date="2013-09-18T07:25:41.230781Z"
+   checksum="93e8d9fe0115dba3c437afed1ba4d8c6"
+   last-author="abner.chiu"
+   kind="file"
+   revision="106"/>
+<entry
+   committed-rev="16"
+   name="CombinText.java"
+   text-time="2006-04-25T03:45:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9f221d4cc8a316c2102010a0b826159d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="IfxRowProcessor.java"
+   text-time="2006-04-25T03:45:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eabe394832edd9d97d7cfcfceb51ccfb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="SMTPAuthenticator.java"
+   text-time="2008-05-09T01:48:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f2b7a1dd488712485e6ae416d7b17c0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Test.java"
+   text-time="2008-05-09T01:48:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ec5990468c9566a6e4680e34394ce34"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ErrorDisplay.java"
+   text-time="2006-04-25T03:45:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dd9d3a5b28cdb70b8ef3bef9e98bfdc4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="MailUtil.java"
+   text-time="2013-10-01T03:37:12.529711Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="adfa238d82da11fe8e133d89e9839112"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Numeral2Chinese.java"
+   text-time="2006-10-31T08:57:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f4689dbc896a7d5171a64de09679f0ed"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Debug.java"
+   text-time="2006-04-25T03:45:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84bb16a64816c7c47bad205e483feb5b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CommonMailUtil.java"
+   text-time="2006-04-25T03:45:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="845a5b2a4637980fe199afdfec43fe05"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ExcelReportAction.java"
+   text-time="2006-06-07T06:55:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="86b6270d59b1f8dadfcb1806bbe430f1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ExcelReportActionOfAccount.java"
+   text-time="2006-05-03T10:32:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="93d4bd64e7d4a08eb911888438893426"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BeanHandlerDAOImp.java"
+   text-time="2006-04-25T03:45:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="032829cd1ce164cdf4b785710aab4734"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

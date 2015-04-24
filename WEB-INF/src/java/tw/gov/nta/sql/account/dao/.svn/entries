@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/account/dao"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="VoucherMainDAO.java"
+   text-time="2006-04-25T03:45:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3d68267a3cff955af703803c7f4720be"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="_RootDAO.java"
+   text-time="2006-04-25T03:45:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f67344a88691d99603ea2a179d85fa8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountReportBuildDAO.java"
+   text-time="2006-04-25T10:50:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="55f28fdda5610bcf8425bba3e3fc28d3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="VoucherDetDAO.java"
+   text-time="2006-04-25T03:45:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f3c983f17d718a2015576f938d5ac5dc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="VoucherSourceDetDAO.java"
+   text-time="2006-06-13T09:02:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5b3b4a9ab45d92fd8bd9202cc4ea5fa5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountRefDAO.java"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="701bac909aa297e2bd097e437a505302"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

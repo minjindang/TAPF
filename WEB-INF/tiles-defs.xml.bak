@@ -1,0 +1,43 @@
+index.html:
+
+<body>
+<script language="javascript" src="js/prototype.js">
+</script>
+<script language="javascript">
+	function doajax()
+	{
+		var ajax = new Ajax.Updater('my',"ajax.thtml",{onComplete:function(){},evalScripts:true});
+	}
+</script>
+<div id="my">
+</div>
+<input type="button" value="click" >
+
+ajax.html
+<body>
+<script language="javascript">
+	test = function (){alert ("ok");}
+</script>
+<div style="border:1px silver solid;">
+using ajax!
+<input type="button" value="gettest" >
+</div>
+</body>
+
+new Ajax.Request('AjaxRemoteAssCaseDetail.action?',
+			{
+				method:'post',
+				parameters: params,
+				onComplete: function(request) {
+					if( '' == request.responseText ) AjaxGetAudPlantDataByAuditTypeNotExist();
+					else
+					{						
+						var jsonExpression = '(' + request.responseText + ')';
+						var mapResults = eval( jsonExpression );
+						if( null==mapResults )
+							AjaxGetAudPlantDataByAuditTypeNotExist();
+						else
+							AjaxShowAudPlantDataByAuditReq( mapResults );
+					}
+				}
+			});

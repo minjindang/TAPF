@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="ContractBankMain"
+		table="contract_bank_main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="contractYear"
+			column="CONTRACT_YEAR"
+			type="string"
+			not-null="true"
+			length="4"
+		/>
+		<property
+			name="contractAmount"
+			column="CONTRACT_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="borrowAmount"
+			column="BORROW_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="userid"
+			column="USERID"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="contractDate"
+			column="contract_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="sourceId"
+			column="source_id"
+			type="integer"
+			not-null="false"
+			length="4"
+		/>
+		<many-to-one
+			name="bank"
+			column="BANK_ID"
+			class="BankRef"
+			not-null="true"
+			fetch="select"
+			lazy="false"
+		>
+		</many-to-one>
+
+
+	</class>	
+</hibernate-mapping>

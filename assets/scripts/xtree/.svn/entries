@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/scripts/xtree"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="xtree.js"
+   text-time="2006-06-12T09:56:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="232fe533e8dac078e151b463d8265f95"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="webfxcheckboxtreeitem.js"
+   text-time="2006-06-12T09:56:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="95220f1497d9cfbbaa12fd596bd848e8"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

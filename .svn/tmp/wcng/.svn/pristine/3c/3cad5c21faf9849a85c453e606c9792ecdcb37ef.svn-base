@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="AIRB09" language="java" pageWidth="1191" pageHeight="842" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="1171" leftMargin="0" rightMargin="20" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="tapf"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<import value="gov.dnt.tame.util.DateUtil"/>
+	<parameter name="P1" class="java.lang.String">
+		<defaultValueExpression><![CDATA["中華民國 095"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="P2" class="java.lang.String">
+		<defaultValueExpression><![CDATA["095 年 03 月 13 日"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="P3" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[SELECT * FROM AIRB09_RPT order by due_date]]></queryString>
+	<field name="ACCOUNT_YEAR" class="java.lang.String">
+	</field>
+	<field name="BUDGET_CODE" class="java.lang.String">
+	</field>
+	<field name="DEBT_NAME" class="java.lang.String">
+	</field>
+	<field name="DUE_DATE" class="java.sql.Timestamp">
+	</field>
+	<field name="ID" class="java.lang.Integer">
+	</field>
+	<field name="INTEREST_SERIAL" class="java.lang.String">
+	</field>
+	<field name="MOD_DATE" class="java.sql.Timestamp">
+	</field>
+	<field name="PAY_INTEREST_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="REMARK" class="java.lang.String">
+	</field>
+	<field name="USRID" class="java.lang.String">
+	</field>
+	<variable name="SUM1" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{PAY_INTEREST_AMOUNT}]]></variableExpression>
+	</variable>
+	<pageHeader>
+		<band height="190">
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="-14" y="5" width="1166" height="39"/>
+				<textElement textAlignment="Center">
+					<font fontName="新細明體" size="22"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["年度付息明細表"+$P{P3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="51" width="1152" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="898" y="75" width="79" height="20"/>
+				<textElement>
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[頁       次:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="898" y="97" width="79" height="20"/>
+				<textElement>
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[製表日期:]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="977" y="97" width="175" height="20"/>
+				<textElement>
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{P2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="898" y="118" width="254" height="20"/>
+				<textElement>
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[金額單位: 新台幣 元]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="898" y="140" width="254" height="20"/>
+				<textElement>
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[製表單位:  財政部國庫署(三)]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="977" y="75" width="175" height="20"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="33">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="582" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[公債名稱]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="582" y="0" width="157" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息期次]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="739" y="0" width="173" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[到期日]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="912" y="0" width="240" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[付息金額]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="33">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="582" height="33"/>
+				<box border="Thin"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{DEBT_NAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="582" y="0" width="157" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{INTEREST_SERIAL}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0">
+				<reportElement positionType="Float" x="912" y="0" width="240" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{PAY_INTEREST_AMOUNT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="739" y="0" width="173" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[gov.dnt.tame.util.DateUtil.date2ROCStr($F{DUE_DATE},"yyy/mm/dd")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="33">
+			<textField pattern="#,##0" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="912" y="0" width="240" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{SUM1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="912" height="33"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="新細明體" size="12"/>
+				</textElement>
+				<text><![CDATA[總計]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

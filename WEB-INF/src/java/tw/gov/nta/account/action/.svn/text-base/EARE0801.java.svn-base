@@ -1,0 +1,283 @@
+package tw.gov.nta.account.action;
+
+import gov.dnt.tame.common.DefaultAction;
+
+import java.math.BigDecimal;
+import java.sql.Connection;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.dbutils.handlers.MapHandler;
+import org.apache.commons.dbutils.handlers.MapListHandler;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+import tw.gov.nta.account.form.AccountQueryForm;
+
+import com.kangdainfo.ast.sql.ConnectionSQLRunner;
+import com.kangdainfo.ast.sql.SQLJob;
+import com.kangdainfo.ast.sql.SQLRunner;
+
+public class EARE0801 extends DefaultAction {
+	
+	protected SQLJob delTemp(ActionForm form,String usrId,String tableName){
+		SQLJob sqljob = new SQLJob();
+		sqljob.appendSQL("DELETE FROM ");
+		sqljob.appendSQL(tableName);
+		System.out.println(sqljob);
+		return sqljob;
+	}
+	
+	protected SQLJob EARE0801_RPT(ActionForm form,String usrId){
+		AccountQueryForm myform = (AccountQueryForm)form;
+		String queryDate = myform.getSQLLastDate();
+		String queryStartDate = queryDate.substring(0,queryDate.length() - 2) + "01";
+		String issueId = String.valueOf(myform.getIssueId());
+		SQLJob sqljob = new SQLJob();
+		sqljob.appendSQL("insert into EARE0801_RPT ( ");
+		sqljob.appendSQL("USRID,MOD_DATE,REMARK,interest_serial,manage_interest_amount,interest_amount,total_interest,unpayed_capital,repay_date ) ");    
+		sqljob.appendSQL("(select '"+usrId +"',CURRENT_TIMESTAMP,null,");    
+		sqljob.appendSQL("right('0'+convert(varchar,c.interest_serial),2), sum(d.interest_amount), ");  
+		sqljob.appendSQL("sum (case when d.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then d.interest_amount else 0 end) as pay_amount, ");  
+		sqljob.appendSQL("sum ( isnull(d.interest_amount,0)) , ");  
+		sqljob.appendSQL("0 as remain_amount, ");  
+		sqljob.appendSQL("dateadd(DD,-1,c.repay_date) as repay_date ");  
+		sqljob.appendSQL("from  debt_plan_det c, payment_main d ,issue_main i, debt_main b");  
+		sqljob.appendSQL("where c.issue_id = i.id and c.id = d.plan_id and c.debt_id = b.id");  
+
+		sqljob.appendSQL("and d.debt_id in (select id from debt_main where issue_id in (select id from issue_main where source_issue_id=(select source_issue_id from issue_main where id = "+issueId+"))) ");  
+		sqljob.appendSQL("and c.debt_id in (select id from debt_main where issue_id in (select id from issue_main where source_issue_id=(select source_issue_id from issue_main where id = "+issueId+"))) ");
+		
+		sqljob.appendSQL("and c.interest_serial = d.interest_serial ");  
+		sqljob.appendSQL("and c.capital_serial = d.capital_serial ");  
+		sqljob.appendSQL("and c.interest_serial <> 0 ");  
+		
+		sqljob.appendSQL("and c.delete_mark <> 'Y' ");
+		
+		sqljob.appendSQL("and i.source_issue_id = (select source_issue_id from issue_main where id = "+issueId+") ");
+		sqljob.appendSQL("and b.budget_code = (select d1.budget_code from debt_main d1 where d1.id = "+myform.getDebtId()+")");
+		sqljob.appendSQL("and b.debt_code = (select d2.debt_code from debt_main d2 where d2.id = "+myform.getDebtId()+")");
+		
+		sqljob.appendSQL("and c.repay_date <= '"+queryDate+"' ");  
+		sqljob.appendSQL("and d.repay_type = '0' ");  
+		sqljob.appendSQL("group by  c.interest_serial, c.repay_date ");  
+//		sqljob.appendSQL("order by  c.interest_serial, c.repay_date   ");  
+		//20101228chris wu加入公債提前買回    
+//		sqljob.appendSQL("union ");
+//		sqljob.appendSQL("select '"+usrId +"',CURRENT_TIMESTAMP,null,");    
+//		sqljob.appendSQL("right('0'+convert(varchar,c.interest_serial),2), sum(d.interest_amount), ");  
+//		sqljob.appendSQL("sum (case when d.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then d.interest_amount else 0 end) as pay_amount, ");  
+//		sqljob.appendSQL("sum ( isnull(d.interest_amount,0)) , ");  
+//		sqljob.appendSQL("0 as remain_amount, ");  
+//		sqljob.appendSQL("dateadd(DD,-1,d.repay_date) as repay_date ");  
+//		sqljob.appendSQL("from  debt_plan_det c, payment_main d ,issue_main i, debt_main b");  
+//		sqljob.appendSQL("where c.issue_id = i.id and c.id = d.plan_id and c.debt_id = b.id");  
+//
+//		sqljob.appendSQL("and d.debt_id in (select id from debt_main where issue_id in (select id from issue_main where source_issue_id=(select source_issue_id from issue_main where id = "+issueId+"))) ");  
+//		sqljob.appendSQL("and c.debt_id in (select id from debt_main where issue_id in (select id from issue_main where source_issue_id=(select source_issue_id from issue_main where id = "+issueId+"))) ");
+//		
+//		sqljob.appendSQL("and d.interest_serial <> 0 ");  
+//		sqljob.appendSQL("and i.debt_type = 'A' ");
+//		sqljob.appendSQL("and d.repay_date <> d.plan_repay_date ");
+//		sqljob.appendSQL("and c.delete_mark <> 'Y' ");
+//		
+//		sqljob.appendSQL("and i.source_issue_id = (select source_issue_id from issue_main where id = "+issueId+") ");
+//		sqljob.appendSQL("and b.budget_code = (select d1.budget_code from debt_main d1 where d1.id = "+myform.getDebtId()+")");
+//		sqljob.appendSQL("and b.debt_code = (select d2.debt_code from debt_main d2 where d2.id = "+myform.getDebtId()+")");
+//		
+//		sqljob.appendSQL("and d.repay_date <= '"+queryDate+"' ");  
+//		sqljob.appendSQL("and d.repay_date >='2010/01/01'");
+//		sqljob.appendSQL("and d.repay_type = '0' ");  
+//		sqljob.appendSQL("group by  c.interest_serial, d.repay_date ");  
+		sqljob.appendSQL(")order by 4,9 ");
+//		sqljob.appendSQL("order by  c.interest_serial, c.repay_date   ");  
+
+		System.out.println(sqljob);
+		return sqljob;
+		
+	}
+	
+	protected SQLJob EARE0802_RPT(ActionForm form,String usrId,Map map){
+		SQLJob sqljob = new SQLJob();
+		AccountQueryForm myform = (AccountQueryForm)form;
+		String queryDate = myform.getSQLLastDate();
+		String queryStartDate = queryDate.substring(0,queryDate.length() - 2) + "01";
+		sqljob.appendSQL("insert into EARE0802_RPT ( ");
+		sqljob.appendSQL("USRID,MOD_DATE,interest_serial,repay_date, "); 
+		sqljob.appendSQL("plan_of_100k,plan_of_500k,plan_of_1000k,plan_of_5000k,plan_amount,");
+		sqljob.appendSQL("amount_of_100k,amount_of_500k,amount_of_1000k,amount_of_5000k,total_amount,");
+		sqljob.appendSQL("payment_of_100k,payment_of_500k,payment_of_1000k,payment_of_5000k,mon_total_payment )");
+		sqljob.appendSQL("select ?,?,?,?,?,?,?,?,?,");
+		
+		sqljob.addParameter(usrId);
+		sqljob.addParameter(new Date());
+		sqljob.addParameter(((Integer)map.get("interest_serial")));
+		sqljob.addParameter((Date)map.get("repay_date"));
+		sqljob.addParameter((Long)map.get("A1"));
+		sqljob.addParameter((Long)map.get("A2"));
+		sqljob.addParameter((Long)map.get("A3"));
+		sqljob.addParameter((Long)map.get("A4"));
+		sqljob.addParameter((BigDecimal)map.get("Sum"));
+
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 100000 ");
+		sqljob.appendSQL("and  a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) , ");
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 500000 ");
+		sqljob.appendSQL("and  a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) , ");
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 1000000 ");
+		sqljob.appendSQL("and  a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) , ");
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 5000000  ");
+		sqljob.appendSQL("and  a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) , ");
+		
+		sqljob.appendSQL("((sum(case when b.ticket_amount = 100000 and a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) * 100000) +");
+		sqljob.appendSQL("(sum(case when  b.ticket_amount = 500000 and  a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) * 500000) +");
+		sqljob.appendSQL("(sum(case when  b.ticket_amount = 1000000 and  a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) * 1000000) +");
+		sqljob.appendSQL("(sum(case when  b.ticket_amount = 5000000 and  a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then b.ticket_count else 0 end) * 5000000) )");
+		sqljob.appendSQL(" * (select average_rate from issue_main where id = '"+myform.getIssueId()+"') / (select (interest_alternate/issue_interval) from issue_main where id='"+myform.getIssueId()+"'),");
+			
+//		sqljob.appendSQL("sum( case when a.repay_date between '"+queryStartDate+"' and '"+queryDate+"' then  a.interest_amount /4 else 0 end ) , ");
+
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 100000 then b.ticket_count else 0 end) , ");
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 500000 then b.ticket_count else 0 end) , ");
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 1000000  then b.ticket_count else 0 end) , ");
+		sqljob.appendSQL("sum(case when  b.ticket_amount = 5000000  then b.ticket_count else 0 end) , ");
+		sqljob.appendSQL(" (select distinct sum(interest_amount) from payment_main where plan_id = ? and repay_type = '1' and repay_date <= '"+queryDate+"')");
+		sqljob.addParameter(((Integer)map.get("plan_id")));
+		sqljob.appendSQL("from payment_main a, payment_ticket_det b ");
+		sqljob.appendSQL("where a.id = b.payment_id ");
+		sqljob.appendSQL("and a.plan_id = ? and a.repay_type = '1'");
+		sqljob.addParameter(((Integer)map.get("plan_id")));
+		sqljob.appendSQL("and a.repay_date <= '"+queryDate+"' ");
+		sqljob.appendSQL("and a.plan_id in (select id from debt_plan_det d where d.id = a.plan_id and d.delete_mark <> 'Y') ");
+		
+		System.out.println(sqljob);
+		return sqljob;
+	}
+	public SQLJob getDebtTicket(ActionForm form)
+	{
+		AccountQueryForm myform = (AccountQueryForm)form;
+
+		SQLJob sqljob = new SQLJob();
+		String queryDate = myform.getSQLLastDate();
+		sqljob.appendSQL("select a.id as plan_id,a.interest_serial,dateadd(DD,-1,a.repay_date) as repay_date,");
+		sqljob.appendSQL("          sum(case when  b.ticket_amount = 100000  then b.ticket_count else 0 end) ");
+		sqljob.appendSQL("          - (select isnull(sum(c.ticket_count),0) from issue_exchange_ticket_det c  ");
+		sqljob.appendSQL("             where   a.debt_id *= c.debt_id  ");
+		sqljob.appendSQL("                and a.interest_serial *= c.interest_serial ");
+		sqljob.appendSQL("                and a.capital_serial *= c.capital_serial  ");
+		sqljob.appendSQL("                and  c.ticket_amount = 100000  ");
+		sqljob.appendSQL("               and c. exchange_date <= '"+queryDate+"' )  as A1 ,  ");
+		sqljob.appendSQL("          sum(case when  b.ticket_amount = 500000  then b.ticket_count else 0 end) ");
+		sqljob.appendSQL("          - (select isnull(sum(c.ticket_count),0) from issue_exchange_ticket_det c  ");
+		sqljob.appendSQL("             where   a.debt_id *= c.debt_id  ");
+		sqljob.appendSQL("               and a.interest_serial *= c.interest_serial ");
+		sqljob.appendSQL("                and a.capital_serial *= c.capital_serial  ");
+		sqljob.appendSQL("               and  c.ticket_amount = 500000  ");
+		sqljob.appendSQL("                and c. exchange_date <= '"+queryDate+"' )  as A2 ,  ");
+		sqljob.appendSQL("          sum(case when  b.ticket_amount = 1000000  then b.ticket_count else 0 end) ");
+		sqljob.appendSQL("          - (select isnull(sum(c.ticket_count),0) from issue_exchange_ticket_det c  ");
+		sqljob.appendSQL("             where   a.debt_id *= c.debt_id  ");
+		sqljob.appendSQL("                and a.interest_serial *= c.interest_serial ");
+		sqljob.appendSQL("                and a.capital_serial *= c.capital_serial  ");
+		sqljob.appendSQL("                and  c.ticket_amount = 1000000  ");
+		sqljob.appendSQL("                and c. exchange_date <= '"+queryDate+"' )  as A3 ,  ");
+		sqljob.appendSQL("          sum(case when  b.ticket_amount = 5000000  then b.ticket_count else 0 end) ");
+		sqljob.appendSQL("          - (select isnull(sum(c.ticket_count),0) from issue_exchange_ticket_det c  ");
+		sqljob.appendSQL("             where   a.debt_id *= c.debt_id  ");
+		sqljob.appendSQL("                and a.interest_serial *= c.interest_serial ");
+		sqljob.appendSQL("                and a.capital_serial *= c.capital_serial  ");
+		sqljob.appendSQL("                and  c.ticket_amount = 5000000  ");
+		sqljob.appendSQL("                and c. exchange_date <= '"+queryDate+"' )  as A4 , ");
+		sqljob.appendSQL("           a.interest_amount -  (select isnull(sum(c.total_amount) / 4,0) from issue_exchange_ticket_det c  ");
+		sqljob.appendSQL("		             where   a.debt_id *= c.debt_id  ");
+		sqljob.appendSQL("		                and a.interest_serial *= c.interest_serial ");
+		sqljob.appendSQL("		                and a.capital_serial *= c.capital_serial  ");
+		sqljob.appendSQL("		                and c. exchange_date <= '"+queryDate+"' ) as Sum");
+		sqljob.appendSQL("from debt_plan_det a,issue_ticket_det b ");
+		sqljob.appendSQL("where a.debt_id = b.debt_id  ");
+		sqljob.appendSQL("    and a.repay_date <= '"+queryDate+"'  ");
+		sqljob.appendSQL("    and a.debt_id = ?  ");
+		sqljob.appendSQL("    and a.interest_serial <>0  ");
+		sqljob.appendSQL("    and a.delete_mark <> 'Y' ");
+		sqljob.appendSQL("group by a.debt_id, a.id,  a.interest_serial, a.repay_date,a.capital_serial,a.interest_amount ");
+		sqljob.addParameter(myform.getDebtId());
+		System.out.println(sqljob);
+		return sqljob;
+	}
+	
+	@Override
+	public void executeQuery(ActionForm form, HttpServletRequest request,
+			Connection connection) throws Exception 
+	{	
+	}
+	
+	public ActionForward executeQuery(ActionMapping mapping, ActionForm form,HttpServletRequest request, HttpServletResponse response, Connection connection) throws Exception
+	{
+		AccountQueryForm myform = (AccountQueryForm)form;
+		String findforward = new String();
+		String tableName = new String();
+		if("0".equals(myform.getIssueKind()))	//登錄
+		{
+			tableName = "EARE0801_RPT";
+			findforward = "file1";
+		}
+		else									//債票
+		{
+			tableName = "EARE0802_RPT";
+			findforward = "file2";
+		}
+		//取得使用者帳號
+		String usrId = request.getSession().getAttribute("ACCOUNT").toString();
+		//取得SQLRunner
+		SQLRunner run = new ConnectionSQLRunner(connection);
+		//執行 delete 
+		run.update(connection,delTemp(form,usrId,tableName));
+		//執行 insert
+		SQLJob sqljob = new SQLJob();
+		if("EARE0801_RPT".equals(tableName))
+		{
+			sqljob = EARE0801_RPT(form,usrId);
+			run.update(connection,sqljob);
+		}
+		else
+		{	
+				List list = (List)run.query(getDebtTicket(form), new MapListHandler());
+				if(null != list && 0 != list.size())
+				{
+					for(Iterator it=list.iterator();it.hasNext();)
+					{
+						Map map = (Map)it.next();
+						sqljob =  EARE0802_RPT(form,usrId,map);
+						run.update(connection,sqljob);
+					}	
+				}	
+
+		}		
+		String debtName = selIssueName(myform,connection);
+		request.setAttribute("debtName",debtName);
+		return mapping.findForward(findforward);
+	}	
+	
+	public String selIssueName(AccountQueryForm form,Connection connection)throws Exception
+	{
+		SQLRunner run = new ConnectionSQLRunner(connection);
+		SQLJob job = new SQLJob();
+		String querySql = "select debt_name+'('+isnull(debit_name,'')+')' as debt_name" +
+				" from issue_main,debt_main,debit_ref " +
+				" where issue_main.id = debt_main.issue_id " +
+				" and debit_ref.id =* debt_main.debt_code "+
+				" and debt_main.issue_id = ? and debt_main.id = ?";
+		job.appendSQL(querySql);
+		job.addParameter(form.getIssueId());
+		int debtId = form.getDebtId();
+		job.addParameter(debtId);
+		Map map = (Map)run.query(job,new MapHandler());
+		return (String)map.get("DEBT_NAME");
+	}
+
+}

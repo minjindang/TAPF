@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/EAM/reports"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="EAMB01_RPT1.jrxml"
+   text-time="2006-07-17T06:02:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8df6bba6794a1de5109ef7462ae660df"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

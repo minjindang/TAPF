@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/ECR/reports"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="ECRF01_RPT.jrxml"
+   text-time="2006-07-13T03:09:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e9819ad4c91d72f1062a10841bc27617"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF01_RPT1.jrxml"
+   text-time="2006-07-16T08:27:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a86ab6b884be1c0e66e3c19fb05c3056"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF01_RPT2.jrxml"
+   text-time="2006-07-13T03:09:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a1db049a164aadf72bc1891844af6086"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF03_RPT.jrxml"
+   text-time="2008-03-24T10:56:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d8fadcb098e9ef2cb78cdcf9028460c0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF02_RPT1.jrxml"
+   text-time="2006-06-07T06:55:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d718e2d8f7b13f17a7edcf9406444de7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF02_RPT2.jrxml"
+   text-time="2006-06-07T06:55:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="47e72d5cf80d48a42fbc8f4e2f547dcd"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

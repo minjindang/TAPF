@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/exchequer/action"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BIMA0201.java"
+   text-time="2006-10-16T09:30:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d3bf9e5e0e04015c1e68d44bc7f3520f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0112.java"
+   text-time="2006-04-25T03:44:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="622b7d1dc0b806ae1e78ed1c30d6b110"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0104.java"
+   text-time="2006-06-01T03:51:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e2de28c58c85642d1b87755b4d1a031f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0213.java"
+   text-time="2006-04-25T03:44:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2131590dddf256a6b7610ce877f5ce10"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1001.java"
+   text-time="2007-08-09T04:10:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6592d20243457008591ecccc89f34982"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0205.java"
+   text-time="2006-10-17T10:01:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5bc4de4db36a10c24f55846c558dfcf4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0403.java"
+   text-time="2006-12-05T13:06:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ae0e2be0d36dd939689ad6a9b146780"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1102.java"
+   text-time="2009-07-15T09:18:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="febd20590921d4050f1ebee52fe91931"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0108.java"
+   text-time="2006-06-19T07:14:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8f4948c00078eafea89acbf0526ee23b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0504.java"
+   text-time="2006-12-05T13:06:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8c7b38725ac167a0b64487bf9a588069"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1401.java"
+   text-time="2007-05-14T12:05:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7afa1e57de7618c78445fc4bb6a22c76"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0209.java"
+   text-time="2006-04-25T03:44:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="141c587db432bc8eea2af5c7555cf509"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0407.java"
+   text-time="2006-12-05T13:06:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="987660889cf7cceb43af926db02a0ac3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0502.java"
+   text-time="2006-06-13T03:20:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="21e4ad757754228a016e986150b71b26"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1502.java"
+   text-time="2006-06-26T14:12:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e28070dbfa9d6fccd682cb6e56ed44de"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101.java"
+   text-time="2010-11-13T01:52:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ebecd836d4d2af6d170ef3a3eb3f11de"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0801.java"
+   text-time="2008-07-10T08:58:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="579b3e8a9c64ab096f54f6f8008c2c0e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0902.java"
+   text-time="2007-03-27T09:09:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4c42098396308ff928c5111b1f018af5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0202.java"
+   text-time="2006-07-12T07:26:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6aa79a5e8b76a9236b6464a2c01fc684"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0101.java"
+   text-time="2006-10-17T10:01:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f8666948678f55c281a30823c546dd2a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0210.java"
+   text-time="2006-04-25T03:44:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7aa0c0fb315d1bf3c8c117a093b88d5c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0113.java"
+   text-time="2006-04-25T03:44:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d472467de0a8c7205452d8066eeefff4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0105.java"
+   text-time="2006-07-05T05:53:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7dbc688bb4873a93576e078b4fc15b70"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0501.java"
+   text-time="2013-04-29T07:42:41.406049Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="15c8ecf3cb6cae802febed18b147c65a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0404.java"
+   text-time="2006-12-05T13:06:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="327eb1f669121fd8106035a6d545c19a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1002.java"
+   text-time="2009-07-15T09:18:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ce170cba09ee7a4e5b4c3dfc00836ba1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0601LIST.java"
+   text-time="2006-06-03T09:58:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8132b60ff88ec9025f92f42943021006"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0206.java"
+   text-time="2006-04-25T03:44:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="00922556bc888b62e01ef047e0500485"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0505.java"
+   text-time="2007-05-23T16:41:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f33d05d22ff518f9187ddeb8d0f5faf6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1301.java"
+   text-time="2007-07-25T12:23:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5aa66540a10a08f2d6cbc1673ec8337a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0109.java"
+   text-time="2006-04-25T03:44:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fff1d8f85c242a7ded27f588c22b1eda"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1402.java"
+   text-time="2006-06-13T06:18:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f8aaaa879519cbe0b2e4b0ec72414804"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0701.java"
+   text-time="2006-07-17T04:07:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9cce4afcfe406754ca637186cac477a9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1701.java"
+   text-time="2008-10-29T08:09:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4918c0716646340213a160a882c651a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0102.java"
+   text-time="2006-07-13T09:40:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f00eeb8a18c5b5a7ec81fd5e4812e0b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0802.java"
+   text-time="2006-07-11T12:41:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9951984f9358c4797ea6048bb1bef4ba"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0110.java"
+   text-time="2006-04-25T03:44:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eeaacd1879af92a46449ad6153185e62"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0211.java"
+   text-time="2006-04-25T03:44:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d2a32637094971f2d3d4aacd9dca344b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0203.java"
+   text-time="2006-04-25T03:44:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="658d3882593c301a90e401ab6735c260"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0401.java"
+   text-time="2006-12-05T13:06:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6bb11e0fd17bc2ef063bad017223a0d3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0502.java"
+   text-time="2007-05-14T08:07:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="05101d6b1a66a100b721e80f2e43f033"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0106.java"
+   text-time="2006-04-25T03:44:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bf76ad8ea5749b4decd02efbee91a923"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0405.java"
+   text-time="2006-12-05T13:06:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f0a4665e951dc135412adfd1a9e6df81"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1201.java"
+   text-time="2007-08-09T04:10:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7d6e0c41b0a8c0983eb6b1d32bf093c9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0207.java"
+   text-time="2006-10-16T09:30:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="82252d40ffd2ab8e52c6cc594e71a8db"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0506.java"
+   text-time="2006-12-05T13:06:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ecea6a7a0dd86027b6e381ad5f4d0c8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1302.java"
+   text-time="2006-06-13T11:15:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="23d5f6ba87a1c3d4882a78f6d38cbd24"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0601.java"
+   text-time="2006-07-17T03:11:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e8ec5e9ad45570029c1c5cb1ac7f19ff"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1601.java"
+   text-time="2007-07-25T01:51:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a986c4c6be0f649197995186929b469e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0702.java"
+   text-time="2006-07-04T09:54:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fe18ff1c87b5ca41677458f97bb2caf3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1702.java"
+   text-time="2006-06-13T06:18:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="017feb17a4f41cb698457213aeed7737"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301.java"
+   text-time="2006-07-17T04:07:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="434b3bd65d585da8ef8986ca575b3b0b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0200.java"
+   text-time="2006-07-17T03:17:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="099e2633cacbae789700826187e34a27"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0111.java"
+   text-time="2006-07-03T02:49:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e758c959774392d7d6e1b0836b3763df"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0103.java"
+   text-time="2006-07-03T02:15:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7e2fe9709e1765d0e82b45d0fafa19cd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0212.java"
+   text-time="2006-04-25T03:44:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="741310cbe788152ce017d2f4278d22e5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0402.java"
+   text-time="2006-12-05T13:06:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11f72b1a6d23d5a7c2423cc85bce1267"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1101.java"
+   text-time="2007-08-09T04:10:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dccb3042f012cb08618ee5754a79a6a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0107.java"
+   text-time="2006-10-18T10:00:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4d606f8fab0642700aacc1ee22d2d7f7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0503.java"
+   text-time="2007-05-23T16:41:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="549da5da9070c6b9feb51262870079a3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0208.java"
+   text-time="2006-04-25T03:44:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="69d510258493ccb3c6de8e39580b683b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0406.java"
+   text-time="2006-12-05T13:06:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e09e3136a6aaad24af8415e3f49ee482"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1202.java"
+   text-time="2009-07-15T09:18:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5f06e91f992018fc91d126e5ca3a855b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0501.java"
+   text-time="2006-06-28T11:52:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5349f4f819b102b91028ceb299c3b5c6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1501.java"
+   text-time="2007-07-25T09:31:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c7d2f1c6204001be794d50fa82095cdf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIMA0507.java"
+   text-time="2006-12-05T13:06:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="68dc037e531e8c5aba809e18689bb38b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0602.java"
+   text-time="2006-07-04T09:54:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e2e4612ff4ddc47de734bb594037fdc0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1602.java"
+   text-time="2006-06-13T06:18:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c09821239e199c7e08b87bd6dfbd56d2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201.java"
+   text-time="2010-11-13T02:24:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="62273c11e82546bf43adf83aca456a9f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0901.java"
+   text-time="2008-12-31T08:07:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="873b01f01fd6f75d099fef09071d5a4d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0302.java"
+   text-time="2006-07-01T09:49:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a4987ae3d3f202c815e14e85b9563bbe"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

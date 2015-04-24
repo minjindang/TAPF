@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/BPR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101QForm_jsp.java"
+   text-time="2007-03-23T03:31:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="18ff7f09513191ebb8dafbf1cf76a888"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101Q_jsp.class"
+   text-time="2007-03-23T03:31:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3062c9fa4a3b7628299a743e357ee76e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:37.521267Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101QScript_jsp.java"
+   text-time="2007-03-23T03:31:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0db078bb835f04fc1d8027fb1a180e81"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201Q_jsp.class"
+   text-time="2007-05-07T08:10:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="51871eb096fd1b34454845539b208def"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:45.989514Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101QBar_jsp.java"
+   text-time="2007-03-23T03:31:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ef5f44b3ebf6f620bc2d48d3e8fc6d46"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201QForm_jsp.java"
+   text-time="2007-05-07T08:10:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f68db822fdf5aa804e2845b33113837f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201QBar_jsp.java"
+   text-time="2007-05-07T08:10:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="392a83d78eb7f18c4751f22851937ee4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301Q_jsp.class"
+   text-time="2009-03-09T02:28:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aac1bd19ac918717c8348635ee20e69e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:18.890754Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201QScript_jsp.java"
+   text-time="2007-05-07T08:10:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="76f10d6d665c1a63f2063d25a8a8bb03"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301QForm_jsp.java"
+   text-time="2009-03-09T02:31:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fb10d7affad762c438c213f79a98525a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301QScript_jsp.java"
+   text-time="2009-03-09T02:31:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="95cf3df60d5ca4c004392fd20ae0221d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0401Q_jsp.class"
+   text-time="2012-08-09T05:33:49.442985Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e48cd2764148b85eda78cae9efb45355"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:29.567278Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301QBar_jsp.java"
+   text-time="2009-03-09T02:31:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f0ec3bc40bf75657d0b47afa5d6f04a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101Q_jsp.java"
+   text-time="2007-03-23T03:31:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e56803990a47ce3bae7da18beaedaf93"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201Q_jsp.java"
+   text-time="2007-05-07T08:10:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="61dbeee13d934c30dfc0ea6c133d4787"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301Q_jsp.java"
+   text-time="2009-03-09T02:28:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3cf40e74928fc8b2f5c86e9b2a8074c2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0401Q_jsp.java"
+   text-time="2012-08-09T05:33:48.050984Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3a542221e6bdc9a4b79404f6dd4a3d69"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101QForm_jsp.class"
+   text-time="2007-03-23T03:31:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3568ada269b7ebcb8185687cd760e2e5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:56.635027Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201QForm_jsp.class"
+   text-time="2007-05-07T08:10:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8f0ae602d9c739197108ce806a69995c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:57.726390Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101QScript_jsp.class"
+   text-time="2007-03-23T03:31:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="485acf37db4a027c03db2aba1ef5bbfb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:01.849974Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0101QBar_jsp.class"
+   text-time="2007-03-23T03:31:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d0b4f2305ddd11bdfe6e091fa350d5d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:22.162907Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301QForm_jsp.class"
+   text-time="2009-03-09T02:31:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e75d4114736c662828832f2613a49c75"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:58.303496Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201QBar_jsp.class"
+   text-time="2007-05-07T08:10:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f3bbaa0540b2b24936a556ebcb6a005"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:50.536051Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0201QScript_jsp.class"
+   text-time="2007-05-07T08:10:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b578222cddd1cae877e549c9511c7712"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:03.468578Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301QScript_jsp.class"
+   text-time="2009-03-09T02:31:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="038ea8485ba4db2408acc522ddbbf3df"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:52.269923Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0301QBar_jsp.class"
+   text-time="2009-03-09T02:31:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1719fa96e4a00794f21ff593d28ee8d7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:37.991944Z"/>
+</wc-entries>

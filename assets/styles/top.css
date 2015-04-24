@@ -1,0 +1,150 @@
+.lk01 {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.lk01:hover {
+	COLOR: #ff3366; TEXT-DECORATION: none
+}
+.lk02 {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #990000; TEXT-DECORATION: none
+}
+A.lk02:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.color01 {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #000000; BACKGROUND-COLOR: #fff0f5; TEXT-DECORATION: none
+}
+.color02 {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #990000; BACKGROUND-COLOR: #ffe4e1; TEXT-DECORATION: none
+}
+.font10 {
+	FONT-SIZE: 10pt; COLOR: #000000; LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+A.font10:hover {
+	FONT-SIZE: 10pt; COLOR: #ff0000; LINE-HEIGHT: 150%; TEXT-DECORATION: underline
+}
+.lk9l {
+	FONT-SIZE: 9pt; COLOR: #006699; TEXT-DECORATION: none;
+}
+A.lk9l:hover {
+	FONT-SIZE: 9pt; COLOR: #ff3399; TEXT-DECORATION: none;
+}
+.lk9r {
+	FONT-SIZE: 10pt; COLOR: #006699; TEXT-DECORATION: none;
+}
+A.lk9r:hover {
+	FONT-SIZE: 10pt; COLOR: #ff3399; TEXT-DECORATION: none;
+}
+.lk9k {
+	FONT-SIZE: 9pt; COLOR: #330000; TEXT-DECORATION: none;
+}
+A.lk9k:hover {
+	FONT-SIZE: 9pt; COLOR: #ff3366; TEXT-DECORATION: none;
+}
+.fontd {
+	FONT-SIZE: 10pt; COLOR: #cc0000; TEXT-DECORATION: none;
+}
+.9white {
+	FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 130%
+}
+.lk9w {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+A.lk9w:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff3366; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+table.table_list
+{
+	font-family: Verdana, "²Ó©úÅé";
+	font-size: 13px;
+
+    border-width:0px;
+    width:80%;
+    border:0px;
+}
+
+table.table_list th
+{
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+table.table_list td
+{
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+}
+
+table.table_list thead tr
+{
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 5px;
+    COLOR: #FFFFFF;
+    LINE-HEIGHT: 180%;
+    PADDING-TOP: 5px;
+    FONT-FAMILY: "Verdana";
+    BACKGROUND-COLOR: #00357A;
+    TEXT-DECORATION: none;
+    TEXT-ALIGN: center;
+}
+
+table.table_list tbody tr.odd td
+{
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+	background-color: #ffffff;
+	border-color: #FFFFFF #FFEED3 #6699CC;
+    clip: rect();
+    border-style:none;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+table.table_list tbody tr.even td
+{
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+	background-color:#eeeeee;
+	border-color: #FFFFFF #FFEED3 #6699CC;
+    clip: rect();
+    border-style:none;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+table.table_list tbody tr.append td
+{
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+	background-color:#ffffff;
+	border-color: #FFFFFF #FFEED3 #6699CC;
+    clip: rect();
+    border-style:none;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+table.table_list tr.odd
+{
+	background-color: #ECF6FD;
+}
+
+table.table_list tbody tr.odd td a:link, table.table_list tbody tr.even td a:link
+{
+	color:#0000ff;
+	background:#ffffff
+}

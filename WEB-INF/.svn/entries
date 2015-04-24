@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   name="taglibs"
+   kind="dir"/>
+<entry
+   committed-rev="162"
+   name="struts-config.xml"
+   text-time="2013-10-24T02:10:33.608684Z"
+   committed-date="2013-10-31T03:27:51.035568Z"
+   checksum="2bfee23bbb59f536d255de496d36cc9c"
+   last-author="abner.chiu"
+   kind="file"
+   revision="162"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="validation.xml"
+   text-time="2006-04-25T03:41:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7dc1c5a75bd2dc81187fe22ea704a55e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="jboss-web.xml"
+   text-time="2006-04-25T03:41:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f28a29832df102033e51ef2e53ac5c63"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="validator-rules.xml"
+   text-time="2006-04-25T03:41:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6167609539e86a359004b695d36f8060"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="web.xml"
+   text-time="2007-03-22T07:28:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f0b47fc401706335afe1cbd73f44b10"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="classes"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name=".cvsignore"
+   text-time="2006-04-25T03:41:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e0bda8197e58839fe38b56adbfec55ff"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="tiles-defs.xml"
+   text-time="2008-12-10T01:37:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11fecb976d16407309153fb678d77413"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

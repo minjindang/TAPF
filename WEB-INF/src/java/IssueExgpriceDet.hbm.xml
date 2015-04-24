@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="IssueExgpriceDet"
+		table="issue_exgprice_det"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="changePrice"
+			column="change_price"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="changeDate"
+			column="change_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="sumStock"
+			column="sum_stock"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="stockAmount"
+			column="stock_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="notAmount"
+			column="not_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="changeAmount"
+			column="change_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="changeReason"
+			column="change_reason"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+		<many-to-one
+			name="issue"
+			column="issue_id"
+			class="IssueMain"
+			not-null="false"
+		>
+		</many-to-one>
+
+
+	</class>	
+</hibernate-mapping>

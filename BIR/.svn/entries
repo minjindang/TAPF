@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/BIR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BIRA1001QForm.jsp"
+   text-time="2007-05-23T14:21:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a708d9ef17eaed468962584f4cf728c9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1001QScript.jsp"
+   text-time="2006-06-27T10:27:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="77473683cbda685288531af325aa528d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1001QBar.jsp"
+   text-time="2006-05-30T03:45:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5689e011cfebc42450b32152f438d342"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1101QBar.jsp"
+   text-time="2006-05-30T03:45:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e19bedfe86a2c1e141549e0421a6e55c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1201QForm.jsp"
+   text-time="2007-05-29T02:50:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c6af2f77dd4bc22b1edd9466a445e536"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1201QScript.jsp"
+   text-time="2006-06-14T03:33:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ef403ba2707bdae521a185519b91eb7f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1201QBar.jsp"
+   text-time="2006-05-30T03:45:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eb4c9a7314a210a190fa874d1791f248"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1401QForm.jsp"
+   text-time="2007-05-14T12:06:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="35cb5c4ab46bf7c33c60772d7647d659"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1301QBar.jsp"
+   text-time="2006-04-25T03:39:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="47552dad1b06db6c2d4be5bbdd5bd983"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0601QForm.jsp"
+   text-time="2006-06-13T11:14:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="02aab4d435e6b3d32928cbe96ede0fa4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1401QBar.jsp"
+   text-time="2006-06-11T12:40:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="37ffa8078cfbb5c4437b336c1851ba88"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1401QScript.jsp"
+   text-time="2006-06-14T03:33:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eccf7a2b2f260bff689279de8f753603"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1601QForm.jsp"
+   text-time="2006-07-02T15:24:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="92324cb809193e9e3170469180d55710"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0601QScript.jsp"
+   text-time="2006-06-13T11:14:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="521272941797651972522beefe78fed4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1501QBar.jsp"
+   text-time="2006-05-26T07:22:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2e83cb7ca118bbb7dc0bec28723b51d7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1601QScript.jsp"
+   text-time="2006-06-14T03:33:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fee59656e95e604d1bc1c31691616557"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0801QForm.jsp"
+   text-time="2006-07-02T15:24:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="49e4942e556169cadb611c0eab150fd5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1601QBar.jsp"
+   text-time="2006-06-03T09:57:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e53859c52c7da97642b0a458414a123a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1701QBar.jsp"
+   text-time="2006-06-03T09:57:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="887200f4e6089b1bf9147515cdb9db06"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0801QScript.jsp"
+   text-time="2006-06-11T12:40:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ced2e214c8372ff731c896e1d68f475f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1101Q.jsp"
+   text-time="2006-05-30T03:45:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d749b8bcfb6461047778e3397e9c5d3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1301Q.jsp"
+   text-time="2006-04-25T03:38:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c7782a88906fce492949b6a8b0535a61"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="reports"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="BIRA0501Q.jsp"
+   text-time="2006-06-10T12:56:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ab9774f85f5f12788727ff2b362ceee"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1501Q.jsp"
+   text-time="2006-05-26T07:22:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5fdad7c5dae07b5ba000bbc2324723f6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0701Q.jsp"
+   text-time="2006-06-10T12:56:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="85467cc14af084c4e57e51b6968817cc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1701Q.jsp"
+   text-time="2007-08-24T06:54:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5dbacd7381d73b6964874fa21f689101"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0901Q.jsp"
+   text-time="2006-06-02T10:38:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f4262efb5bca10f3650fdd99b241021"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1101QForm.jsp"
+   text-time="2007-05-23T14:21:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="68a46f1b514d9804e993a75f44c9f88c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1101QScript.jsp"
+   text-time="2009-07-15T09:19:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="471f217fd4aac552a63dfe8efe53ca03"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1301QForm.jsp"
+   text-time="2007-07-25T02:02:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99cbd612f3bd947272879279c8548d29"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0501QForm.jsp"
+   text-time="2006-07-02T15:24:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d727aee8119b37c7b54bb240ee313f3a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0501QScript.jsp"
+   text-time="2006-06-13T03:20:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6281cbbc0818178e3019b033c156ef9e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1501QForm.jsp"
+   text-time="2007-05-14T12:06:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="34f5ecaed4fc01d95ae0a8121b7831c8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0501QBar.jsp"
+   text-time="2006-06-10T12:56:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2d9e7f5605e30d9182f7a75ad896075f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0701QForm.jsp"
+   text-time="2006-07-02T15:24:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed4f34d6a5f74a092d38a0b4d293209b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0601QBar.jsp"
+   text-time="2006-06-03T09:57:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="33aa1375754155be06e9fcf819be517c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1501QScript.jsp"
+   text-time="2006-06-14T03:33:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f6c930ecfb32976ef2dd31d1385084d9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1701QForm.jsp"
+   text-time="2007-08-24T06:54:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7e34ebd1b29fcabd57d484d3b56025ab"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0701QBar.jsp"
+   text-time="2006-06-10T12:56:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d3d39a48a343711e0e065185fe2da948"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0701QScript.jsp"
+   text-time="2006-06-13T06:18:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="279a252b232b4f5e34d4a5ee238d99d2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0801QBar.jsp"
+   text-time="2006-06-11T12:40:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1453218e6d5a5adc942d8d558d66f853"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1701QScript.jsp"
+   text-time="2007-08-24T06:54:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d9da56803174513a0271b4162847df56"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0901QForm.jsp"
+   text-time="2007-03-27T09:10:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0864fed0588fed74b7dee6e3bf995928"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0901QBar.jsp"
+   text-time="2006-06-02T10:38:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7854c1de8b031d6534070db9c1a06f5e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0901QScript.jsp"
+   text-time="2006-06-14T03:32:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b9bf7bd2c59407a2fcbb4616d3ab4572"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1001Q.jsp"
+   text-time="2006-05-30T03:45:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b5a52396221f440be6dbfd6633c16e7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1201Q.jsp"
+   text-time="2006-05-30T03:45:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8631ad28e3a591556933adc2a2593847"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1401Q.jsp"
+   text-time="2006-06-11T12:40:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cdce7d98085a16ee5def258bbd2f44ea"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0601Q.jsp"
+   text-time="2006-04-25T03:38:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f3abf46e6bfee1b1a283233ed487926"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA1601Q.jsp"
+   text-time="2006-06-03T09:57:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b2bb1f36bce910567aae40db48077898"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BIRA0801Q.jsp"
+   text-time="2006-06-11T12:40:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2ce4d1cd99980509831487331a971d52"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

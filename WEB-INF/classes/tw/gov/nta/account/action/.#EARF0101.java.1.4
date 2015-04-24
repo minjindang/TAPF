@@ -1,0 +1,341 @@
+
+package tw.gov.nta.account.action;
+
+import gov.dnt.tame.common.DefaultAction;
+import gov.dnt.tame.util.DateUtil;
+
+import java.math.BigDecimal;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.commons.dbutils.handlers.MapHandler;
+import org.apache.commons.dbutils.handlers.MapListHandler;
+import org.apache.struts.action.ActionForm;
+
+import tw.gov.nta.account.form.AccountQueryForm;
+
+import com.kangdainfo.ast.sql.ConnectionSQLRunner;
+import com.kangdainfo.ast.sql.SQLJob;
+import com.kangdainfo.ast.sql.SQLRunner;
+
+
+public class EARF0101 extends DefaultAction{
+	
+	protected final static String TEMP_TABLE_NAME = "EARF01_RPT";
+	
+	protected SQLJob delTemp(ActionForm form){
+		SQLJob sqljob = new SQLJob();
+		sqljob.appendSQL("DELETE FROM "+TEMP_TABLE_NAME);
+
+		return sqljob;
+	}
+
+
+	protected SQLJob getSql(ActionForm form){
+		AccountQueryForm myForm = (AccountQueryForm) form;
+		SQLJob sqljob = new SQLJob();
+		//若FLAG為0，則查發行的SQL，若為1，則查還本付息
+		Date qrySDate = DateUtil.str2Date( myForm.getAccountYear()+myForm.getMonth()+"01" );
+		Date qryEDate = DateUtil.str2Date( DateUtil.getLastDateOfMonth(myForm.getAccountYear(),myForm.getMonth()) );
+		String flag = myForm.getIp();
+		
+		sqljob.appendSQL(" select  i.id as issueId,");
+		sqljob.appendSQL(" 		d.debt_code as debtCode, ");
+		sqljob.appendSQL(" 		d.budget_code as budget_code, ");
+		sqljob.appendSQL(" 		1 as Special_Budget, ");
+		sqljob.appendSQL(" 		1 as Data_Type, ");
+        sqljob.appendSQL(" 		i.account_year as Fiscal_Year, ");
+        sqljob.appendSQL("      i.account_year as Issue_Year, ");
+		sqljob.appendSQL("		i.serial_no as Serial_No, ");
+		sqljob.appendSQL("		i.debt_type as Debt_Type, ");
+		sqljob.appendSQL("		case i.id when i.source_issue_id then 0 else 1 end as Incre_Debt, ");
+		sqljob.appendSQL("		D.DEBT_SERIAL AS Debt_No, ");
+		sqljob.appendSQL("		i.debt_name as Debt_Name, ");
+		sqljob.appendSQL("		right('0000000'+convert(varchar,(convert(varchar,i.issue_date, 112)-19110000)),7) as Issue_Date, ");
+		sqljob.appendSQL("		right('0000000'+convert(varchar,(convert(varchar,i.due_date, 112)-19110000)),7) as Due_Date, ");
+		sqljob.appendSQL("		right('0000000'+convert(varchar,(convert(varchar,p.repay_date, 112)-19110000)),7) as Interest_Date, ");
+		sqljob.appendSQL("		p.interest_serial as Interest_No, ");
+		sqljob.appendSQL("		d.issue_amount as Issue_Amount, ");
+		sqljob.appendSQL("		d.real_amount as Real_Amount, ");
+		sqljob.appendSQL("		d.diversity_amount as Diversity_Amount, "); 
+		sqljob.appendSQL("		d.issue_cost_amount as Cost_Amount, ");
+		sqljob.appendSQL("		p.capital_amount as Pay_Amount, ");
+		sqljob.appendSQL("		0 as Share_Diversity_Amount, ");
+		sqljob.appendSQL("		0 as Share_Cost_Amount ");
+		sqljob.appendSQL(" from issue_main i, debt_main d, payment_main p ");
+		sqljob.appendSQL(" where d.issue_id = i.id ");
+		sqljob.appendSQL("		and i.debt_type = 'A' ");
+		sqljob.appendSQL("		and (i.issue_amount <> i.capital_amount or i.capital_amount = null) ");
+		if(flag.equals("0")){ //發行
+			sqljob.appendSQL("  and d.id *= p.debt_id ");
+			sqljob.appendSQL("  and (i.issue_date between '"+DateUtil.date2Str(qrySDate, "yyyy/MM/dd")+"' and '"+DateUtil.date2Str(qryEDate, "yyyy/MM/dd")+"' ) ") ;
+		}
+		
+		if(flag.equals("1")){//還本付息
+			sqljob.appendSQL("	 and d.id = p.debt_id  ");
+			sqljob.appendSQL("	 and (p.repay_date between '"+DateUtil.date2Str(qrySDate, "yyyy/MM/dd")+"' and '"+DateUtil.date2Str(qryEDate, "yyyy/MM/dd")+"')  ");
+		}
+		
+		return sqljob;
+	}
+
+	protected Map enCode(ActionForm form,Map tMap, Connection connection) throws SQLException{
+		AccountQueryForm myForm = (AccountQueryForm) form;
+
+		//取得SQLRunner		
+		SQLRunner run = new ConnectionSQLRunner(connection); 
+		
+		//將資料格式改為GBA所需的，並寫入temptable中
+
+		Map dMap = new HashMap();			//要寫入temptable的資料
+		
+		if (tMap.get("issueId").toString().equals("3903"))
+		{
+			System.out.println(tMap.get("issueId").toString());
+			System.out.println(tMap.get("debtCode").toString());
+		}
+		
+		/*
+		 * 1==基金別Fundtype== 
+		 * debt_main.budget_code=3(債務基金)，此值為2
+		 * debt_main.budget_code=1(總預算)，此值為1
+		 * debt_main.budget_code=2(特別預算)，此值為1
+		 */
+		if("3".equals(tMap.get("budget_code").toString())){
+			dMap.put("fundkind",2);
+		}else if("1".equals(tMap.get("budget_code").toString()) || "2".equals(tMap.get("budget_code").toString()) ){
+			dMap.put("fundkind",1);
+		}else {
+			dMap.put("fundkind",null);
+		}
+
+		/*
+		 * 2==預算別Budgettype==
+		 * 當基金別fundkind 為1時，此欄位才有值
+		 * debt_main.budget_code=1(總預算)，此值為1
+		 * debt_main.budget_code=2(特別預算)，此值為2
+		 */
+		if(null != dMap.get("fundkind") && "1".equals((String)dMap.get("fundkind").toString())){
+			if("1".equals(tMap.get("budget_code").toString())){
+				dMap.put("budgetkind","1");
+			}else if("2".equals(tMap.get("budget_code").toString())){
+				dMap.put("budgetkind","2");
+			}
+		}else{
+			dMap.put("budgetkind",null);
+		}
+		
+		//3==特別預算種類Special_Budget==
+		//當預算別Budgettype為2時，此欄位才有值
+		//使用GBA_MAPPING這個TABLE來查對應值
+		if("2".equals((String)dMap.get("budgetkind"))){
+			dMap.put("specialbudget",getGBAmapping(connection,tMap.get("debtCode").toString()));
+			
+		}else{
+			dMap.put("specialbudget",null);
+		}
+		
+		//4==資料別DataType==
+		//0:期初資料
+		//1:平時資料(目前都只有平時資料)
+		dMap.put("dataType","1");
+		
+		//5==會計年度Fiscalyear==
+		dMap.put("fiscalyear",tMap.get("Fiscal_Year"));
+		
+		//6==機關編號Agenno==
+		//固定為1710003
+		//dMap.put("Agenno",tMap.get("Agenno"));
+
+		//7==發行年度Issueyear==
+		dMap.put("issueyear",tMap.get("Issue_Year"));
+		
+		//8==期次serialno==
+		dMap.put("serialno",tMap.get("Serial_No"));
+		
+		//9==債種debttype==
+		//A:公債
+		//B:中長借
+		dMap.put("debttype",tMap.get("Debt_Type"));
+		
+		//10==增額發行IncreDebt==
+		//0:否
+		//1:是
+		dMap.put("incredebt",tMap.get("Incre_Debt"));
+		
+		
+		//11==債務編號Debtno==
+		dMap.put("debtno",tMap.get("Debt_No"));
+		
+		
+		//12==債務名稱Debtname==
+		dMap.put("debtname",tMap.get("Debt_Name"));
+		
+		
+		//13==發行日期Issuedate==
+		dMap.put("issuedate",tMap.get("Issue_Date"));
+		
+
+		//14==到期日Duedate==
+		dMap.put("duedate",tMap.get("Due_Date"));
+		
+		
+		//15==償還本息日Interestdate==
+		dMap.put("interestdate",tMap.get("Interest_Date"));
+		
+		
+		//16==利息次別Interestno==
+		dMap.put("interestno",tMap.get("Interest_No"));
+		
+		
+		//17==發行面額/舉借金額Issueamount==
+		dMap.put("issueamount",tMap.get("Issue_Amount"));
+		
+		
+		//18==實售金額Realamount==
+		//當Debt_Type為A(公債)時，此欄位才有值
+		if("A".equals((String)tMap.get("Debt_Type"))){
+			dMap.put("realamount",tMap.get("Real_Amount"));
+		}else{
+			dMap.put("realamount",null);
+		}
+		
+		
+		
+		//19==債券溢折價Diversityamount==
+		//當Debt_Type為A(公債)時，此欄位才有值
+		if("A".equals((String)tMap.get("Debt_Type"))){
+			dMap.put("diversityamount",tMap.get("Diversity_Amount"));
+		}else{
+			dMap.put("diversityamount",null);
+		}
+		
+		
+		//20==發行成本金額Costamount==
+		//當Debt_Type為A(公債)時，此欄位才有值
+		if("A".equals((String)tMap.get("Debt_Type"))){
+			dMap.put("costamount",tMap.get("Cost_Amount"));
+		}else{
+			dMap.put("costamount",null);
+		}
+		
+		//21==還本金額Payamount==
+		dMap.put("payamount",tMap.get("Pay_Amount"));
+		
+		//22==債券溢折價攤銷金額/累計債券溢折價攤銷金額ShareDiversityamount==
+		
+		if("A".equals((String)tMap.get("Debt_Type"))){
+			dMap.put("sharediversityamount",tMap.get("Share_Diversity_Amount"));
+		}else{
+			dMap.put("costamount",null);
+		}
+		
+		//23==發行成本攤銷金額ShareCostAmount==		
+		if("A".equals((String)tMap.get("Debt_Type"))){
+			dMap.put("sharecostamount",tMap.get("Share_Cost_Amount"));
+		}else{
+			dMap.put("costamount",null);
+		}
+		
+		//債務別
+		return dMap;
+	}
+	
+	protected String getGBAmapping(Connection connection,String debtCode) throws SQLException{
+		//用debtCode到GBA_MAPPING取得對應值
+		String Special_Budget = "";
+		SQLRunner run = new ConnectionSQLRunner(connection);
+		SQLJob sqljob = new SQLJob();
+		
+		sqljob.appendSQL(" SELECT GBA_Code  FROM  GBA_MAPPING ");
+		sqljob.appendSQL(" WHERE Debt_code = ?  ");
+		sqljob.addParameter(debtCode);
+		
+		Map map = (Map) run.query(sqljob, new MapHandler());
+		
+		if(null!=map && !map.isEmpty()){
+			Special_Budget = map.get("GBA_Code").toString();			
+		}else{
+			Special_Budget = "";
+		}
+		
+		return Special_Budget;
+		
+		
+	}
+	
+	protected SQLJob insTemp(String pTableName,Map pMap){
+		SQLJob sqljob = new SQLJob();
+		pMap.keySet().iterator();
+		sqljob.appendSQL("INSERT INTO " + pTableName);
+		sqljob.appendSQL(" ( ");
+		for(Iterator tIterator = pMap.keySet().iterator(); tIterator.hasNext(); ){
+			sqljob.appendSQL((String)tIterator.next());
+			if(tIterator.hasNext())
+				sqljob.appendSQL(", "); 
+		}
+			
+		sqljob.appendSQL(" ) VALUES(");
+		Object tValue = null;
+		for(Iterator tIterator = pMap.keySet().iterator(); tIterator.hasNext(); ){
+			tValue = pMap.get(tIterator.next());
+			if(tValue == null)
+				sqljob.appendSQL("NULL");
+			else if(tValue.getClass() == Timestamp.class)
+				sqljob.appendSQL("'" + ( (Timestamp) tValue ) + "'");
+			else if(tValue.getClass() == Date.class)
+				sqljob.appendSQL("'" + new Timestamp( ((Date) tValue).getTime() ) + "'");
+			else if (tValue.getClass() == BigDecimal.class)
+				sqljob.appendSQL(String.valueOf(((BigDecimal)tValue).doubleValue()));
+			else
+				sqljob.appendSQL("'" + tValue + "'");
+			if(tIterator.hasNext())
+				sqljob.appendSQL(", ");
+		}
+		sqljob.appendSQL(")");
+
+		return sqljob;
+	}
+	
+	
+	public void executeQuery(ActionForm form, HttpServletRequest request, Connection connection) throws Exception {
+		
+		//TEMPTABLE裡的欄位名稱必需與主計處要求的欄位名稱相同
+		
+		//取得使用者帳號
+		AccountQueryForm myForm = (AccountQueryForm) form;
+		//取得SQLRunner
+		SQLRunner run = new ConnectionSQLRunner(connection);
+		//刪除temptable
+		run.update(connection,delTemp(form));
+		//insert temptable
+		List tList = null;//從各大table中撈出來的資料，未經整理的資料
+		tList = (List) run.query(getSql(form), new MapListHandler());
+		for(Iterator tIterator = tList.iterator(); tIterator.hasNext(); )
+		{
+			Map tMap = (Map) tIterator.next(); 
+
+			Map dMap = enCode(form,tMap,connection);
+			run.update(connection,insTemp(TEMP_TABLE_NAME,dMap));	
+		}
+//		for (int i = 0 ;i <=1 ;i++){
+//			//若 i為0，則查發行的SQL，若為1，則查還本付息
+//			tList = (List) run.query(getSql(form,i), new MapListHandler());
+//			for(Iterator tIterator = tList.iterator(); tIterator.hasNext(); )
+//			{
+//				Map tMap = (Map) tIterator.next(); 
+//
+//				Map dMap = enCode(form,tMap,connection);
+//				run.update(connection,insTemp(TEMP_TABLE_NAME,dMap));	
+//			}
+//		}
+	}
+}

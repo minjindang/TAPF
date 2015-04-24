@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/CPM"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="CPMA0102ALForm.jsp"
+   text-time="2013-06-24T03:40:56.494291Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a877bfb7bb255bafb74a22c3800ffeea"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101MBar.jsp"
+   text-time="2006-04-25T03:40:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="59b8dc6961930a298eae2a40147ae68c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0102A.jsp"
+   text-time="2006-04-25T03:40:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1fbe957be3b7b122180bf466490e8464"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101QForm.jsp"
+   text-time="2006-05-26T07:22:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3564f237974a19704d51b299c802e318"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101QBar.jsp"
+   text-time="2006-04-25T03:40:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dec50c6c45d2c158ffc27a05039aad42"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101L.jsp"
+   text-time="2006-04-25T03:40:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="71da1e3910a180bb8ca5091acf0a9fb7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101M.jsp"
+   text-time="2006-04-25T03:40:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fc24d30ea2922b7dcc4adb8a699f11c5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101MLForm.jsp"
+   text-time="2013-06-24T06:18:17.394995Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="483b1b95301bd229bd0a38b6cb9706ab"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101Q.jsp"
+   text-time="2006-04-25T03:40:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="68987fbf0eb1b12070d16f174ba2ef5f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101AForm.jsp"
+   text-time="2006-06-01T08:58:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7632972aeae2b58cefc7d16a3d6ae389"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0102AForm.jsp"
+   text-time="2007-03-28T13:12:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ad026baf15964698f8386db41972bbac"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101AScript.jsp"
+   text-time="2006-06-14T03:33:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fdd886cc779e19018fccdfebcdae4c4e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101ABar.jsp"
+   text-time="2006-04-25T03:40:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2acfac0796cd5e26c2630f9cc59c75a0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0102AScript.jsp"
+   text-time="2007-03-28T13:12:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc2055b90cc59d35d472581211239826"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0102ABar.jsp"
+   text-time="2006-06-09T13:08:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eb64e05368166b8aad982a0a6a8698e0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101LForm.jsp"
+   text-time="2006-04-25T03:40:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e4e44e81f6f9fdd6b1c1aacff3070bd0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101MForm.jsp"
+   text-time="2006-06-23T12:25:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="16f27d86b2ffe7d690e7b170870e01a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101A.jsp"
+   text-time="2006-04-25T03:40:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f6f44142bcbcdc4ab60f8b96829d4a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPMA0101LBar.jsp"
+   text-time="2006-04-25T03:40:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8448e2ed082338bfe89c0f7b9c7aa18"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

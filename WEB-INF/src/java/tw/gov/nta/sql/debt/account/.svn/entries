@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/debt/account"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="Eaqc01Rpt.java"
+   text-time="2006-07-28T05:15:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="51b44e738016f9f5f56b9d77ecbe4df3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountPhaseMain.java"
+   text-time="2006-06-03T09:26:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6b2d87e05176ca29e0b4d9c7a8d54b10"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="VoucherNoRef.java"
+   text-time="2006-06-13T01:58:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="94751b6c4f0ba9d32a4d55fb718f4614"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="AccountPhaseDet.java"
+   text-time="2006-05-16T07:59:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7169c21cd6c3e6f75a8792c31c2b9864"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

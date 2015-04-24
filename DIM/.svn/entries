@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/DIM"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301QBar.jsp"
+   text-time="2006-04-25T03:40:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="32b41116c0684086111f3bd6a8bc94d7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101L.jsp"
+   text-time="2006-04-25T03:40:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="236dae99c15d6227a3c26337c45d2eb7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101M.jsp"
+   text-time="2006-06-27T08:02:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f80d1fd307cacc70357a4fd6511c450"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301L.jsp"
+   text-time="2006-04-25T03:40:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="326a5286f2fa189df22130c8ee31d93f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0202M.jsp"
+   text-time="2006-06-27T08:02:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0891328181df0f193d07a6331ccb2d11"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301M.jsp"
+   text-time="2006-06-27T08:02:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c945e4f2b03eaf47966c400327f70cb7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101Q.jsp"
+   text-time="2006-06-27T08:02:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="19a076e96b7928fda8d6fba2d3c5206d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301Q.jsp"
+   text-time="2006-06-27T08:02:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed1056e6cabedd0c8f20591884680b7c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101AForm.jsp"
+   text-time="2007-06-07T12:03:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0ec77df8cded313864bbca6ec3b140c5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101AScript.jsp"
+   text-time="2007-06-07T12:03:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="46ad796bbe2e6bcbf5236b2fb7e4b604"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0202AForm.jsp"
+   text-time="2007-08-06T11:12:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="08496191162ba73d374379b444b264d8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="109"
+   name="DIMA0202AScript.jsp"
+   text-time="2013-09-18T09:11:52.934203Z"
+   committed-date="2013-09-18T09:12:22.764425Z"
+   checksum="4d4407a0d8289dfaf8df1b67e778bad5"
+   last-author="abner.chiu"
+   kind="file"
+   revision="109"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101LForm.jsp"
+   text-time="2007-06-07T12:03:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1a59615fe7898e3103ecfb4845e9ff28"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101LBar.jsp"
+   text-time="2006-04-25T03:40:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1df7c14227371b9478ff58de81523819"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101MForm.jsp"
+   text-time="2007-06-28T06:27:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ec4794d77ee6fe009275c0133b4f8688"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201A.jsp"
+   text-time="2006-06-27T08:02:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="491689129b1b50f7a40440be9e6a16b3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201LBar.jsp"
+   text-time="2006-04-25T03:40:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c4957a4bea0b00f5be20661a82209df"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101MScript.jsp"
+   text-time="2006-06-14T03:33:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="580319fa07bf741fc4766eb9e48aa140"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301LForm.jsp"
+   text-time="2006-06-20T04:05:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f2bc5dd6a2bf61ee04de2555f66c0ab6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301LBar.jsp"
+   text-time="2006-06-20T04:05:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="deecf28d289a172f6cb9bf9f3392074a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0202MForm.jsp"
+   text-time="2006-11-23T08:07:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f5cd46d3f6d2c430febcc6fa9cd27b5f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301MForm.jsp"
+   text-time="2009-06-18T09:51:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eb32070a1503ea58c33af1b388f631b2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="109"
+   name="DIMA0202MScript.jsp"
+   text-time="2013-09-18T09:11:40.916443Z"
+   committed-date="2013-09-18T09:12:22.764425Z"
+   checksum="5a6ffe57efbf76c721761261d3ad8372"
+   last-author="abner.chiu"
+   kind="file"
+   revision="109"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101QForm.jsp"
+   text-time="2007-06-07T12:03:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="78619fac23e2229d363abec21f205519"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101QScript.jsp"
+   text-time="2006-06-14T03:33:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bd85431ab6f16fcfc40dae6d1c028c28"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301QForm.jsp"
+   text-time="2006-06-20T04:05:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c73b271a5cc901181e576128b4f46a12"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301QScript.jsp"
+   text-time="2006-06-14T03:33:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0890579f39afe4f666acdb99e727f5f9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201MLForm.jsp"
+   text-time="2007-01-04T09:52:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="054f4a2b3a1ab1e418fcffbd830ecf5b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201M.jsp"
+   text-time="2006-06-27T08:02:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f0505326aa5f0ba431b5cfafd5a6717c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201MLBar.jsp"
+   text-time="2006-04-25T03:40:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="21f5ebde24d3142e9f4e64e88c7a4716"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301MLForm.jsp"
+   text-time="2007-01-05T08:09:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d421edd97ebb5132d27031c096c1ce54"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201Q.jsp"
+   text-time="2006-06-27T08:02:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="29a63398fddcb8a298e5afa4a14dacc5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201AForm.jsp"
+   text-time="2006-07-02T11:00:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f19e6e2c06c1d18411908279971fe2c3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101ABar.jsp"
+   text-time="2006-05-16T06:41:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="37971d4f523dca36c6427ed49a9ed90e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201AScript.jsp"
+   text-time="2007-02-27T07:50:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="482a9f44b4b4b2003d73b497cde62827"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201ABar.jsp"
+   text-time="2006-06-22T05:58:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2c252ed0c84e5d6515432e8152c700e9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0202ABar.jsp"
+   text-time="2006-04-25T03:40:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7f2784e9d3c90c40e63b4fde30c2b6bb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101A.jsp"
+   text-time="2006-06-27T08:02:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3fa4bb66c64709b0249f7f811005ffcb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201LForm.jsp"
+   text-time="2006-06-13T10:40:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3d6ff201fe4082e90bc4143cb7904372"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201MForm.jsp"
+   text-time="2006-12-28T08:34:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eeecda4d61588675a4ec57ae142967f2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101MBar.jsp"
+   text-time="2006-04-25T03:40:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="489933d80ced50394ce03699b2308e42"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0202A.jsp"
+   text-time="2006-06-27T08:02:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f056166efa9a762e0c030275ab6142b2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201MBar.jsp"
+   text-time="2006-04-25T03:40:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7d4b6373987e95c0bcb19a580857ddd3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201MScript.jsp"
+   text-time="2006-06-13T10:40:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="73fdb5d334f080b9d513785aec411f76"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301MBar.jsp"
+   text-time="2006-04-25T03:40:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f75250086c6c2729aed1bf3b0aac8054"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0202MBar.jsp"
+   text-time="2006-04-25T03:40:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="027b0057733de23580b008bf70ad3511"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201QForm.jsp"
+   text-time="2006-06-07T11:09:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0bec5b2f87fbcbd9600f57d5cf91dfc2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101QBar.jsp"
+   text-time="2006-04-25T03:40:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="27eb5ed927d8296efd13235cd5aeb87e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201QBar.jsp"
+   text-time="2006-04-25T03:40:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c07e48d02014516c70af51c9da9a49a"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

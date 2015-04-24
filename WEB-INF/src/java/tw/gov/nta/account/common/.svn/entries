@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/account/common"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="AccountReportBuilder.java"
+   text-time="2006-05-03T10:35:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bdf48102c1d1cde26297966d4170c175"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountManager.java"
+   text-time="2007-06-14T09:44:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1a8b1af79fce1498bb228b45a05907e3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountException.java"
+   text-time="2006-06-08T07:46:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c1711fdf7d625ef6dcb05a4fa871476f"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

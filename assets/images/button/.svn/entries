@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/images/button"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="10a.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="500f49307900af3f008dec262073d6b8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:12.649227Z"/>
+<entry
+   committed-rev="16"
+   name="10b.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b166a060f3979bf89a3d64d2208fae0d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:38.999669Z"/>
+<entry
+   committed-rev="16"
+   name="12a.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e1851a72f888bbf0689b057bf634da36"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:13.084957Z"/>
+<entry
+   committed-rev="16"
+   name="12b.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8f5ed72939a5754d16ab8392a46ef612"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:13.785758Z"/>
+<entry
+   committed-rev="16"
+   name="14a.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="064df58d4c4f976a0a95c506a85c87e7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:58.174690Z"/>
+<entry
+   committed-rev="16"
+   name="14b.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0d207281eb9c9e548b8ff99a12d2ec0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:25.652822Z"/>
+<entry
+   committed-rev="16"
+   name="homea.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fc5822263ad9f07136b358bd2ac7b3d1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:06.195050Z"/>
+<entry
+   committed-rev="16"
+   name="homeb.gif"
+   text-time="2006-04-25T03:37:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9e2258ab32e870b9c3aeb63784a49a51"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:15.478398Z"/>
+<entry
+   committed-rev="16"
+   name="2a.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fda5a13b78841d1cd5ef6a8ef61154f4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:33.848331Z"/>
+<entry
+   committed-rev="16"
+   name="2b.gif"
+   text-time="2006-04-25T03:37:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="447c29696281541b443d9720eb133083"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:01.960133Z"/>
+<entry
+   committed-rev="16"
+   name="4a.gif"
+   text-time="2006-04-25T03:37:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2cd1f67d8276447dc9559c140386a4cb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:17.751461Z"/>
+<entry
+   committed-rev="16"
+   name="4b.gif"
+   text-time="2006-04-25T03:37:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9e36b7dcccd7d43c7d9626367cfcfd5a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:25.587832Z"/>
+<entry
+   committed-rev="16"
+   name="6a.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="832c64791aac42952b04969db381b58d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:55.332949Z"/>
+<entry
+   committed-rev="16"
+   name="6b.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99931481942a62affbbce6b4c9ad35bc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:56.985325Z"/>
+<entry
+   committed-rev="16"
+   name="8a.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fd5d18ca61af77ddebcbddec931ea673"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:25.522635Z"/>
+<entry
+   committed-rev="16"
+   name="8b.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0414b9d6b14ce1c51de3151318c59103"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:25.471389Z"/>
+<entry
+   committed-rev="16"
+   name="11a.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a7dbaea4f3e9fc287035975a5edd6346"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:40.342773Z"/>
+<entry
+   committed-rev="16"
+   name="11b.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fdfcfb6e159cd5a334a41991a8829d52"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:54.732085Z"/>
+<entry
+   committed-rev="16"
+   name="13a.gif"
+   text-time="2006-04-25T03:37:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="27bff34c4b1fee01f7a48831366e95a0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:48.160290Z"/>
+<entry
+   committed-rev="16"
+   name="13b.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="12bb4b78183de4bf9cd93d2ee5c00108"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:04.776528Z"/>
+<entry
+   committed-rev="16"
+   name="15a.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8749893e0b35e5554046cd11f0281011"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:57.035603Z"/>
+<entry
+   committed-rev="16"
+   name="15b.gif"
+   text-time="2006-04-25T03:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="54fb059cf52861b914b259766b855261"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:44.327123Z"/>
+<entry
+   committed-rev="16"
+   name="1a.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8d40e463f5365d7007b4a3232c2c805f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:26.193806Z"/>
+<entry
+   committed-rev="16"
+   name="1b.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="47d6a6ce9acc5efef7dc3379755903c6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:22.843886Z"/>
+<entry
+   committed-rev="16"
+   name="3a.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6d3a2f98d74b2cd0878c594f963992ef"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:00.440293Z"/>
+<entry
+   committed-rev="16"
+   name="3b.gif"
+   text-time="2006-04-25T03:37:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3a84d11d42e7d787b89d9adcaaedddeb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:21.396909Z"/>
+<entry
+   committed-rev="16"
+   name="5a.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5a1900ae51406c7fc408c2d6594b829e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:33.785896Z"/>
+<entry
+   committed-rev="16"
+   name="5b.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a7532c37f75b7639084cd3d80a135120"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:56.240530Z"/>
+<entry
+   committed-rev="16"
+   name="7a.gif"
+   text-time="2006-04-25T03:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f0ab9c6fff7eda2c238b6e9a9ea89433"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:48.220376Z"/>
+<entry
+   committed-rev="16"
+   name="7b.gif"
+   text-time="2006-04-25T03:37:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0860655999cf5f21e76dddcb3ee9deef"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:30.358416Z"/>
+<entry
+   committed-rev="16"
+   name="9a.gif"
+   text-time="2006-04-25T03:37:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1691b9bf1df075c2ade4c9d0a4955386"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:03.561056Z"/>
+<entry
+   committed-rev="16"
+   name="9b.gif"
+   text-time="2006-04-25T03:37:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fb3c24a005db9f09818d28eebba0b559"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:10.511256Z"/>
+</wc-entries>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="CodeMain"
+		table="Code_main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="kindNo"
+			column="KIND_NO"
+			type="string"
+			not-null="true"
+			length="5"
+		/>
+		<property
+			name="kindName"
+			column="KIND_NAME"
+			type="string"
+			not-null="true"
+			length="30"
+		/>
+		<property
+			name="usrid"
+			column="USRID"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="REMARK"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="createDate"
+			column="CREATE_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+	
+
+		<set name="codeDets" inverse="true" lazy="true">
+			<key column="CodeMain_ID"/>
+			<one-to-many class="CodeDet"/>
+		</set>
+
+
+	</class>	
+</hibernate-mapping>

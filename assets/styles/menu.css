@@ -1,0 +1,32 @@
+BODY 
+{
+	background-color:#ffFFFF;
+}
+
+table
+{
+	width=100%;
+	border=0;
+}
+
+td
+{
+	font-size: 10pt; 
+	font-family: verdana,helvetica; 
+	text-decoration: none;
+	white-space:nowrap;
+}
+
+A  
+{
+	text-decoration: none;
+    color: black;
+}
+
+div.general_text table td
+{ 
+	font-family: "Verdana"; 
+	font-size: 12px; 
+	color: #333333; 
+	text-decoration: none
+}

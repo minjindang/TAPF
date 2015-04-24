@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="EARD01" language="java" pageWidth="842" pageHeight="595" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="TAPF"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<parameter name="debtType" class="java.lang.String">
+	</parameter>
+	<parameter name="serialName" class="java.lang.String">
+	</parameter>
+	<parameter name="totalDebit" class="java.lang.String">
+	</parameter>
+	<parameter name="totalCredit" class="java.lang.String">
+	</parameter>
+	<parameter name="totalLending" class="java.lang.String">
+	</parameter>
+	<parameter name="totalBalance" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[select * from eard02_rpt]]></queryString>
+	<field name="BALANCE" class="java.math.BigDecimal">
+	</field>
+	<field name="CREDIT" class="java.math.BigDecimal">
+	</field>
+	<field name="DAY" class="java.lang.Long">
+	</field>
+	<field name="DEBIT" class="java.math.BigDecimal">
+	</field>
+	<field name="EXCERPT" class="java.lang.String">
+	</field>
+	<field name="LENDING" class="java.math.BigDecimal">
+	</field>
+	<field name="MONTH" class="java.lang.Long">
+	</field>
+	<field name="TITLE" class="java.lang.String">
+	</field>
+	<field name="YEAR" class="java.lang.Long">
+	</field>
+	<variable name="Sum1" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{DEBIT}]]></variableExpression>
+	</variable>
+	<variable name="Sum2" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{CREDIT}]]></variableExpression>
+	</variable>
+	<variable name="Sum3" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{LENDING}]]></variableExpression>
+	</variable>
+	<variable name="Sum4" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{BALANCE}]]></variableExpression>
+	</variable>
+	<pageHeader>
+		<band height="139">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="802" height="33"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="20"/>
+				</textElement>
+				<text><![CDATA[財  政  部]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="0" y="33" width="802" height="35"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="18"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{debtType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="68" width="802" height="35"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="18"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["明細分類帳"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="470" y="103" width="332" height="18"/>
+				<textElement textAlignment="Right">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["第 "+$V{PAGE_NUMBER}+" 頁"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="121" width="470" height="18"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{serialName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="470" y="121" width="332" height="18"/>
+				<textElement textAlignment="Right">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["科目名稱："]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="46">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="183" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[日期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="470" y="0" width="332" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[金額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="470" y="23" width="94" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[借方]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="564" y="23" width="94" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[貸方]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="658" y="23" width="62" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[借／貸]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="720" y="23" width="82" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[餘額]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="273" y="0" width="197" height="46"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["摘要"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="183" y="23" width="90" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["字號"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="122" y="23" width="61" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["日"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="61" y="23" width="61" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="23" width="61" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["年"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="183" y="0" width="90" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[傳票]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="23">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="61" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Long"><![CDATA[$F{YEAR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="61" y="0" width="61" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Long"><![CDATA[$F{MONTH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="122" y="0" width="61" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Long"><![CDATA[$F{DAY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="183" y="0" width="90" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{TITLE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="273" y="0" width="197" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{EXCERPT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="470" y="0" width="94" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{DEBIT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="564" y="0" width="94" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{CREDIT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="658" y="0" width="62" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{LENDING}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="720" y="0" width="82" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{BALANCE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50">
+			<textField>
+				<reportElement positionType="Float" x="470" y="0" width="94" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="564" y="0" width="94" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="658" y="0" width="62" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="720" y="0" width="82" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{Sum4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="470" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["本月合計"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="720" y="25" width="82" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{totalBalance}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="658" y="25" width="62" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{totalLending}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="564" y="25" width="94" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{totalCredit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="470" y="25" width="94" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{totalDebit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="25" width="470" height="25"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["截至本月底累計"]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+</jasperReport>

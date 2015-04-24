@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt.account">
+	<class
+		name="AccountPhaseMain"
+		table="account_phase_main" lazy="false"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="phaseCode"
+			column="phase_code"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="phaseName"
+			column="phase_name"
+			type="string"
+			not-null="true"
+			length="100"
+		/>
+		
+		<property
+			name="phaseShortName"
+			column="phase_short_name"
+			type="string"
+			not-null="true"
+			length="100"
+		/>
+		<property
+			name="phaseType"
+			column="phase_type"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="issueKind"
+			column="issue_kind"
+			type="string"
+			not-null="true" insert="false"
+			length="1"
+		/>
+		<many-to-one
+			name="debtType"
+			column="debt_type"
+			class="tw.gov.nta.sql.debt.DebtTypeRef"
+			not-null="true"
+		>
+		</many-to-one>
+	
+
+		<set name="accountPhaseDets" inverse="true" lazy="false" cascade="all">
+			<key column="account_phase_id"/>
+			<one-to-many class="AccountPhaseDet"/>
+		</set>
+
+		<set name="vouchers" inverse="true" lazy="true" cascade="none" >
+			<key column="phase_id"/>
+			<one-to-many class="tw.gov.nta.sql.account.VoucherMain"/>
+		</set>
+		
+		<property
+			name="getTable"
+			column="get_table"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+
+		<property
+			name="execWhen"
+			column="exec_when"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		
+		<property
+			name="voucherDateRule"
+			column="voucher_date_rule"
+			type="integer"
+			not-null="false"
+			length="1"
+		/>
+
+		<property
+			name="phaseSerial"
+			column="phase_serial"
+			type="integer"
+			not-null="false"
+			length="1"
+		/>
+	</class>	
+</hibernate-mapping>

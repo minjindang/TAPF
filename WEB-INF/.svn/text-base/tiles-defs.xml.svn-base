@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	   
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Fo.mi.check.chkDbldPlanundation//DTD Tiles Configuration 1.1//EN"
+	   "C:\Users\CQ45\workspace\TAPF\tiles\tiles-config_1_1.dtd"> 
+	   
+<tiles-definitions>
+	<!-- Config -->
+	<definition name=".title" path="/WEB-INF/templates/common/title.jsp"/>
+	<definition name=".global.emptyReport" path="/WEB-INF/templates/common/emptyReport.jsp"/>
+	<definition name=".global.addressSourceCode" path="/WEB-INF/templates/common/addressSourceCode.html"/>
+	<definition name=".condition.formBase" path="/do/main">
+ 		<put name="main_linkbar" value="$(main_linkbar)"/>
+   		<put name="main_statusbar" value="$(main_statusbar)"/>
+   		<put name="main_body" value="$(main_body)"/>
+  	</definition>
+
+	<definition name=".condition.body" path="/common/body.jsp">
+		<put name="scripts" value="$(scripts)"/>
+		<put name="body" value="$(body)"/>
+	</definition>
+
+	<definition name=".condition.formBaseBody" extends=".condition.body">
+		<put name="body" value="/common/form.jsp"/>
+	</definition>
+
+	<definition name=".condition.masterDetailBody" extends=".condition.body">
+		<put name="body" value="/common/mdform.jsp"/>
+	</definition>
+
+	<definition name=".condition.masterDetailBodyWithoutTitle" extends=".condition.body">
+		<put name="body" value="/common/mdform2.jsp"/>
+	</definition>
+
+	<definition name=".condition.mainListBody" extends=".condition.body">
+		<put name="body" value="/common/mlform.jsp"/>
+	</definition>
+
+	<definition name=".condition.mainDetailListBody" extends=".condition.body">
+		<put name="body" value="/common/mdlform.jsp"/>
+	</definition>
+
+	<definition name=".condition.uploadBody" extends=".condition.body">
+		<put name="body" value="/common/uploadForm.jsp"/>
+	</definition>
+	
+	<definition name=".condition.masterDetailLevel4" extends=".condition.body">
+		<put name="body" value="/common/md3form.jsp"/>
+	</definition>
+	
+</tiles-definitions>

@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/CIM"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102ABar_jsp.class"
+   text-time="2007-05-18T07:37:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0da4315a9d4dcca168f082d1984ad2b6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:11.493842Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103AForm_jsp.class"
+   text-time="2007-05-18T03:30:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a3efdcb036337b3efc4b9588c30107d2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:11.487557Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103AScript_jsp.class"
+   text-time="2007-05-18T03:30:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c4df53ca7fdc2a0d6ab842f4f3d349e9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:31.346112Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MLForm_jsp.java"
+   text-time="2007-03-21T08:38:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ac0f7dbadfd97585186e5e2cea7408b2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104ABar_jsp.class"
+   text-time="2009-06-23T03:00:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="71cb062fb2254fed6834c0de559a8f0d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:11.285888Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102M_jsp.java"
+   text-time="2007-03-21T08:39:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11122f20707e9b5a88010ac25169ed8c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106ABar_jsp.class"
+   text-time="2007-11-27T06:58:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e660dc8d4ee4021f477b931ec3f06d77"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:07.690718Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104M_jsp.java"
+   text-time="2007-03-28T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bde8bdf335beff14a4f058ee1350a5f1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101ML2Form_jsp.class"
+   text-time="2007-03-21T08:38:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1ed60790bfabf715be5b1b2fef49b0b1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:11.403712Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101LForm_jsp.class"
+   text-time="2007-03-21T08:38:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8fe7ab80a3239a6e17681533840fa272"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:57.904301Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101AForm_jsp.java"
+   text-time="2007-03-28T03:36:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="523bac1093161ddc22204b74253cf6d0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102ABar_jsp.java"
+   text-time="2007-05-18T07:37:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aa63eb7e620af7cb5fcee9e70f96a061"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103MForm_jsp.class"
+   text-time="2007-05-18T03:29:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1a293fc9659bad433f314a5984cf901e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:12.263570Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103AForm_jsp.java"
+   text-time="2007-05-18T03:30:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="820f89ac8e6ada84345adcb2857edd9c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MBar_jsp.class"
+   text-time="2007-03-21T08:39:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30bb83965b92da2bc237b41c795ad203"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:46.219845Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104A_jsp.class"
+   text-time="2009-06-23T02:59:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="805b209aa56b6d7f20b10f3fbc82ff07"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:36.802579Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103MScript_jsp.class"
+   text-time="2007-05-18T03:29:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7da43c0138c81e01934fb7e8be7c82cd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:48.867582Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104MBar_jsp.class"
+   text-time="2007-03-28T03:45:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="32b90dda05bc1c7a2c517fc61a70d15f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:03.280653Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105AForm_jsp.java"
+   text-time="2007-05-18T07:34:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30708b56ea953a7f9a0f8f9d812ef366"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106ABar_jsp.java"
+   text-time="2007-11-27T06:58:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b5b1caaed9ab7e036f7bd616ea9c3df2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101ML2Form_jsp.java"
+   text-time="2007-03-21T08:38:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d88ef3e47a72a6508942278bd217adc0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MForm_jsp.java"
+   text-time="2007-03-28T03:36:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f02603e7f3565fd08732878228f804f4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103MForm_jsp.java"
+   text-time="2007-05-18T03:29:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b98f04a27a64475ca1ba2c6e51813a80"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MBar_jsp.java"
+   text-time="2007-03-21T08:39:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="561f452f487be04be46558d6836a1dcf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLBar_jsp.class"
+   text-time="2007-03-21T08:39:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="97ed144e84bc772bd15635d4ccddd09b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:08.411962Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104M_jsp.class"
+   text-time="2007-03-28T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e285d1455ad861ff7dfb8b9c7068653c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:02.559822Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101QForm_jsp.java"
+   text-time="2007-03-28T03:36:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3e3a0d072883f088f3d9f71cca39dc0c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105MForm_jsp.java"
+   text-time="2007-05-18T03:49:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0f1d8eb3624212f38302a141b57fd2d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102AForm_jsp.class"
+   text-time="2010-02-22T05:44:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2d00b31cd8f3b7b9fcd84e6c4d24d718"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:35.932707Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104AScript_jsp.class"
+   text-time="2009-06-23T02:59:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="87ad096f31660dcabc7038b0ae317a75"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:16.494757Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106AForm_jsp.class"
+   text-time="2007-11-27T06:58:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="95a9c8306a49e6bfd8b156f6992c9be4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:59.949587Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLLBar_jsp.class"
+   text-time="2007-03-21T08:39:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3918b91a5372d6abc275b7f7647e1783"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:55.603338Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLBar_jsp.java"
+   text-time="2007-03-21T08:39:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6b67fa75b803f0c1a5083b98bf37edb8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102ML0Form_jsp.class"
+   text-time="2007-03-21T08:39:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="219677c20d12d652943828b0626ef116"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:17.701389Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101LBar_jsp.class"
+   text-time="2007-03-21T08:38:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ce021308d32979bb55855a73f4a09e0d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:04.826806Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MForm_jsp.class"
+   text-time="2007-03-21T08:39:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a11054040d38120fb737b7119406056a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:52.629061Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103A_jsp.class"
+   text-time="2007-05-18T03:30:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7cc8f43af1fb10a47a6614f58dd185f0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:45.204661Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103ABar_jsp.java"
+   text-time="2007-05-18T03:30:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="171098d876566a6eb1fdafaa8d9e740e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104MScript_jsp.class"
+   text-time="2007-03-28T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="992d7e59bcfbf6759ea19f45bd2d3fea"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:14.367974Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLLBar_jsp.java"
+   text-time="2007-03-21T08:39:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="737790c805da14146732a0d0dc8e85ed"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLSubDForm_jsp.java"
+   text-time="2007-03-21T08:39:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ee0c86ae8a8e721b28b826a7c3d92499"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MLForm_jsp.class"
+   text-time="2007-03-21T08:38:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="27bc077dd54281e39a859f38f0845dd6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:57.456002Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101A_jsp.java"
+   text-time="2007-03-21T08:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5279de1a2da727481c9ff9c2579473be"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLForm_jsp.class"
+   text-time="2007-03-21T08:39:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cd255d1532294040acedee4f6ea044f9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:08.973942Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103A_jsp.java"
+   text-time="2007-05-18T03:30:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="44cbd7d78d3d1b4509f6ec6ead040028"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103M_jsp.class"
+   text-time="2007-05-18T03:29:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0fe70d2abb872f47fb0c6412e9e4047"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:34.729805Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103MBar_jsp.java"
+   text-time="2007-05-18T03:29:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="04c7302693edd3467548895777219ef7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105A_jsp.java"
+   text-time="2007-05-18T07:34:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="baacc3706ce952e9ba2448627559641e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101AForm_jsp.class"
+   text-time="2007-03-28T03:36:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="872347b9e374ad301a9e11d88ab7c282"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:32.510338Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101AScript_jsp.class"
+   text-time="2007-03-21T08:37:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d4876bf123f6fed0e9c469836c5438d4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:17.240726Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101ABar_jsp.class"
+   text-time="2007-03-21T08:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="79a0d86393d1314f86aaa69e936f2ba0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:45.345069Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103ABar_jsp.class"
+   text-time="2007-05-18T03:30:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7d273c8d21e36806654af7590519327"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:19.148573Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105AForm_jsp.class"
+   text-time="2007-05-18T07:34:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="94e859f918490f589303c6e014d2c8fe"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:19.535405Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101M_jsp.java"
+   text-time="2007-03-21T08:38:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d0a860a913445d47d1a3a2facca93a62"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105ABar_jsp.class"
+   text-time="2007-05-18T07:34:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="21798147116b0b39ee0b56db76faca09"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:38.511312Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105AScript_jsp.class"
+   text-time="2007-05-18T07:34:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a57f99ed8951a2e3c7c235ede05cf9bd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:36.892709Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103M_jsp.java"
+   text-time="2007-05-18T03:29:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="554ed871561f89c9095c769aa18ee2c0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLSubDForm_jsp.class"
+   text-time="2007-03-21T08:39:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="95ebcb49055e06b2e18daafd6541de01"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:56.906590Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105M_jsp.java"
+   text-time="2007-05-18T03:49:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f6a8cb3a938ff8713f4afe2c593f4ff6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101Q_jsp.java"
+   text-time="2007-03-21T08:38:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="16bfb1f12602cc6fc4bab11125d10e8d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MForm_jsp.class"
+   text-time="2007-03-28T03:36:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="873d77cabe36db89770af833474c9070"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:19.435261Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102A_jsp.class"
+   text-time="2007-05-18T07:37:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e2a647c195f458bdbd78c4824efd31b7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:40.497893Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102AForm_jsp.java"
+   text-time="2010-02-22T05:44:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="190783f54e6fdebabf8f5cc2f351e201"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MScript_jsp.class"
+   text-time="2007-03-21T08:38:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d772bdf591c295898892013f047c82db"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:59.325171Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MBar_jsp.class"
+   text-time="2007-03-21T08:38:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fe4cb79dec2c87bfa354587214c66e03"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:49.100262Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103MBar_jsp.class"
+   text-time="2007-05-18T03:29:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4941ad684f127a79e90f16e9c95daacd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:00.121213Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104AForm_jsp.java"
+   text-time="2009-06-23T02:59:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="50cba77054520b04d33c645f6cda1d47"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101QForm_jsp.class"
+   text-time="2007-03-28T03:36:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b5c72ad5074e6dd162514162ee0c3a9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:08.923870Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105MForm_jsp.class"
+   text-time="2007-05-18T03:49:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10188425bf511dee5a5f4d2e9b49051c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:47.926229Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104ABar_jsp.java"
+   text-time="2009-06-23T03:00:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="39ddb3f6e28e6fb552786ccf6c610c3d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106A_jsp.class"
+   text-time="2007-11-27T06:58:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="83c197c20f6a5cf605bbd6bc3e95061f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:08.147651Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106AForm_jsp.java"
+   text-time="2007-11-27T06:58:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4e23adb5efe5542ac5e8b02da0434ecd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101QScript_jsp.class"
+   text-time="2007-03-21T08:38:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8c3a52dd14e4846c9990a1f40338cdfd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:10.842906Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105MBar_jsp.class"
+   text-time="2007-05-18T03:49:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bbdc7f105ea0258584b6a385db5dc780"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:58.884331Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101QBar_jsp.class"
+   text-time="2007-03-21T08:38:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc4765c6d3cee326d01bfc8e32c021ac"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:14.438075Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105MScript_jsp.class"
+   text-time="2007-05-18T03:49:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7be49d3644bc4bf955122e2bb03069c9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:43.231824Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102ML0Form_jsp.java"
+   text-time="2007-03-21T08:39:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1e9dec9e2ce8b440d7598d56511fc2d8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MForm_jsp.java"
+   text-time="2007-03-21T08:39:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b7d82b39ab8551d5627a17852350e30"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102M_jsp.class"
+   text-time="2007-03-21T08:39:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d2b0b224a4a5cfccd24f466d154bc7ad"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:39.751923Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104MForm_jsp.java"
+   text-time="2007-03-28T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6d2ae502aac9a9b65c61f0ddbbd7ad9d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104MBar_jsp.java"
+   text-time="2007-03-28T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="13cbc62663967305308ea09a027acc76"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102AScript_jsp.class"
+   text-time="2007-05-18T07:37:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4df7ac4ce737ac578c5e8083055b3453"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:49.942853Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104AForm_jsp.class"
+   text-time="2009-06-23T02:59:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="644aa5f308f98e534bd842fde7ad80ef"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:41.580829Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MLForm_jsp.java"
+   text-time="2007-03-21T08:39:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7e674bd18b215a892850091095d4e78"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106AScript_jsp.class"
+   text-time="2007-11-27T06:58:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3a663b258c4ba7f406f56803ffab8187"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:50.171803Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101A_jsp.class"
+   text-time="2007-03-21T08:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9456fca666a70eee32b0884b3d5e3a35"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:33.248848Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101AScript_jsp.java"
+   text-time="2007-03-21T08:37:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1335954f27c889feb06e9eb610139e03"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101ABar_jsp.java"
+   text-time="2007-03-21T08:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ab57f4ea168d0e2e6867f47c155ec4eb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102AScript_jsp.java"
+   text-time="2007-05-18T07:37:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3d0fdd21a755ff149c26071113255e05"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MScript_jsp.class"
+   text-time="2007-03-21T08:39:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a24eb3794264907c55f2453b5a7ce08d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:37.441152Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103AScript_jsp.java"
+   text-time="2007-05-18T03:30:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7705e8ed6150146f6779029a7c4ac08a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104MForm_jsp.class"
+   text-time="2007-03-28T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="917ace5935ab8f6f0f6fc581f94ecd39"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:39.073499Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105A_jsp.class"
+   text-time="2007-05-18T07:34:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9248d8902cffbd523d0eb0b4ecadf8c7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:59.358738Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104AScript_jsp.java"
+   text-time="2009-06-23T02:59:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f51dbe02b74035e82106bddc7fd873e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105AScript_jsp.java"
+   text-time="2007-05-18T07:34:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="53224727ad197b9dacbac11b619c5252"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105ABar_jsp.java"
+   text-time="2007-05-18T07:34:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="169b996ac1ba0a0df2cf83d06951fbb8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106AScript_jsp.java"
+   text-time="2007-11-27T06:58:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5c834af534887c7753a580ada274fe12"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101LForm_jsp.java"
+   text-time="2007-03-21T08:38:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4dcb47db0267e79eccbc700549abecdb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101LBar_jsp.java"
+   text-time="2007-03-21T08:38:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6d03cb4da2eb0c53435fbc9b5bd27598"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101M_jsp.class"
+   text-time="2007-03-21T08:38:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f504b2a50a8976aba9326459a1c7614"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:01.836230Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MBar_jsp.java"
+   text-time="2007-03-21T08:38:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0ea297e3b2a7200ff878a9747e943679"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101MScript_jsp.java"
+   text-time="2007-03-21T08:38:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9b87d639bf9488ad214d16ad923caa0b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102A_jsp.java"
+   text-time="2007-05-18T07:37:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="94bb33cea68439a5ff73813a15587926"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0102MScript_jsp.java"
+   text-time="2007-03-21T08:39:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc958b93209dce41e7cae9320a42d965"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0103MScript_jsp.java"
+   text-time="2007-05-18T03:29:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f8cc2d82a739e0cbe979ab0a2e8280d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104A_jsp.java"
+   text-time="2009-06-23T02:59:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2d16fcd376d1d56cc99e3fa80ad4df27"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101Q_jsp.class"
+   text-time="2007-03-21T08:38:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8e0513086f72048c80aebbaffaeecf36"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:47.098763Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0104MScript_jsp.java"
+   text-time="2007-03-28T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="07a08745053b2a5deb8eaa74e8db9950"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105M_jsp.class"
+   text-time="2007-05-18T03:49:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8a2fd6d297ac9252834aede916d90f2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:41.363067Z"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101QBar_jsp.java"
+   text-time="2007-03-21T08:38:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84b93e7fdc55e44ca10060254fed3133"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105MScript_jsp.java"
+   text-time="2007-05-18T03:49:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c9b3afb8525b7e8af3ffd9ef03210b4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0106A_jsp.java"
+   text-time="2007-11-27T06:58:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc186c1e68a6e511ab7076ee015dab87"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0105MBar_jsp.java"
+   text-time="2007-05-18T03:49:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7986d02623d0f3f3c36756ed90b78e6d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIMA0101QScript_jsp.java"
+   text-time="2007-03-21T08:38:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="74fd04345aa853e36a0485e637fa2f9c"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

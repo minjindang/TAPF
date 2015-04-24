@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   name="java"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="README.txt"
+   text-time="2006-04-25T03:41:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ef09a81421d4d01c4feb2dfb9185e7ef"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="build.xml"
+   text-time="2006-04-25T03:41:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="269d9716849e0da24eab8365f5eb4178"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

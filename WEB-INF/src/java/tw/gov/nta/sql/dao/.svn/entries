@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/dao"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="ExstockRefDAO.java"
+   text-time="2006-04-25T03:45:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ec3b7585762967596359b9c8feffe4ef"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CodeMainDAO.java"
+   text-time="2006-04-25T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2989b64776c10270f858400d3ffc5035"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitPercentDet101DAO.java"
+   text-time="2011-09-15T03:32:14.307539Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4c872d2381f3308560a47de525258190"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="YearAmountRefDAO.java"
+   text-time="2006-06-08T07:31:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d5a24bc76af9878cd27cde6e663f24b5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="_RootDAO.java"
+   text-time="2006-04-25T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="feb5db00744b155e98487578320c7bc8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="LawPercentRef101DAO.java"
+   text-time="2011-11-18T06:28:29.780644Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cac32ecd45f4cad02605222ea9b8694e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebitRefDAO.java"
+   text-time="2006-04-25T03:45:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="638a29a77db1d6c6b6efc2c228e65755"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="NationRefDAO.java"
+   text-time="2006-04-25T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cda270e5798f32b5024f44572f2deb21"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UserStatisticsDetDAO.java"
+   text-time="2006-07-13T03:03:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="00146d1cbafaa9a2807fa7cfafb04d05"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TaxactionDetDAO.java"
+   text-time="2006-04-25T03:45:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="466f00c81458fa9d9e8adfa297880666"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitAllocateMainDAO.java"
+   text-time="2006-04-25T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="85066dcb937da99a6161320e2d372816"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitPercentDetDAO.java"
+   text-time="2006-04-25T03:45:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6d09c9a600216409c1cbb1a3f69acc74"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UserStatisticsMainDAO.java"
+   text-time="2006-06-08T07:31:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="038182678c5f8aa8a0ae0cf6cd0c8fc8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UnitInfoMainDAO.java"
+   text-time="2006-04-25T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0b43aef181cf89c4bafafe229c2cfe05"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="LawPercentRefDAO.java"
+   text-time="2006-04-25T03:45:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7dc84eafb14f8797566ee30f080b30a3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="NationDebitMainDAO.java"
+   text-time="2006-04-25T03:45:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5744bae4c957f5dae46cbc0537426297"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="NationalDebtDueDateMainDAO.java"
+   text-time="2011-10-05T02:22:13.905108Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f5890009042e0a694ad9fa85bb3e4b07"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CodeDetDAO.java"
+   text-time="2006-04-25T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="602396cf1e0a37af6ce85c0d8df8b6d3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BudgetRefDAO.java"
+   text-time="2006-04-25T03:45:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="03d5c22ef48ca163582b8b160ac624bf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="YearPlanRefDAO.java"
+   text-time="2006-04-25T03:45:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b4572dac8e8b150a436aca2e0913ca4c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CentralStatisticsMainDAO.java"
+   text-time="2006-04-25T03:45:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="83d4e9a8ee0c8fc7f16e4a3d4c8c2703"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TaxactionDet101DAO.java"
+   text-time="2011-09-21T03:25:31.863569Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c3d5f6a849c39bf266913064d1a36419"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="MailContentRefDAO.java"
+   text-time="2006-04-25T03:45:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="19c1b0d6015e0d87ec34054c886db229"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

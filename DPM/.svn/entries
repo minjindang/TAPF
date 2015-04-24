@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/DPM"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101LBar.jsp"
+   text-time="2006-04-25T03:39:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dfb6016586573bf79b348ff5688791a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101A.jsp"
+   text-time="2006-04-25T03:39:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="60fb703a5592768ec4d4325b8e1e8c1f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101MBar.jsp"
+   text-time="2006-05-26T01:45:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aa6d8c5fcb8380ca77b809cbe4782553"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ALForm.jsp"
+   text-time="2009-05-13T02:09:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="96724a721c923d34cb29fe20194d01cf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102A.jsp"
+   text-time="2006-04-25T03:39:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0bc7beb9a06c7cc042444790feda5ebc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102MBar.jsp"
+   text-time="2006-04-25T03:39:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a6e4e50b5d7371c97ae6dee418cf277b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ALBar.jsp"
+   text-time="2006-04-25T03:39:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="66865a616b1ed0d7fcd5f23ad624c99b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101QForm.jsp"
+   text-time="2006-07-31T09:37:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e4612b9d3af7d2d74317abb9319a1284"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101QBar.jsp"
+   text-time="2006-04-25T03:39:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="66eb07ab41a9932478f62e34ae01206b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101MLForm.jsp"
+   text-time="2006-06-28T04:00:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8b774eba1957c7ab253bc43022f5d884"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101M.jsp"
+   text-time="2006-05-26T01:45:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ac371329830560f1f410a0454534975d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102MLBar.jsp"
+   text-time="2006-04-25T03:39:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="66865a616b1ed0d7fcd5f23ad624c99b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101Q.jsp"
+   text-time="2006-04-25T03:39:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3342269f8aac9545998acb0d8feea7db"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101AForm.jsp"
+   text-time="2010-11-22T01:07:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1e7edebb22be325f9200891a1fa59177"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101AScript.jsp"
+   text-time="2010-11-22T01:07:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="44177e21ef594d42f7b513ce721f9470"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102AForm.jsp"
+   text-time="2010-11-22T01:07:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9ad6ecb4d7bb6c99a40cef491b2e5889"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101ABar.jsp"
+   text-time="2006-04-25T03:39:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="afbda58387d395ca4830878a2d447ca2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102AScript.jsp"
+   text-time="2009-05-13T02:09:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="638d6fc1b73ea923c9ee69f75a32b484"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0102ABar.jsp"
+   text-time="2009-05-13T02:09:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="265fa33b85474b9b5b47310aad1d6efd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101LForm.jsp"
+   text-time="2006-05-26T01:45:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d381978e7bd6b04fabe51eff3f7f27c5"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,45 @@
+table {
+	font-family: Verdana, "細明體";
+	background-image: url(/TAME/assets/images/drink/sampback.gif);
+	font-size: 13px;
+}
+td {
+	padding: 10px;
+}
+h4 {
+	text-align: center;
+	font-family: Verdana, "細明體";
+	color: #000000;
+	text-decoration: underline;
+	padding-top: 20px;
+}
+th {
+	line-height: 20px;
+	background-image:  url("/TAME/assets/images/drink/thback.jpg");
+}
+a:link {
+	color: #006699;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: #006699;
+}
+a:hover {
+	text-decoration: none;
+	color: #339999;
+}
+a:active {
+	text-decoration: underline;
+	color: #006699;
+}
+body {
+	background-image: url(/TAME/assets/images/drink/sampback.jpg);
+	background-attachment:fixed;
+}
+p {
+	font-family: Verdana, "細明體";
+	font-size: 13px;
+	line-height: 200%;
+	letter-spacing: 2px;
+}

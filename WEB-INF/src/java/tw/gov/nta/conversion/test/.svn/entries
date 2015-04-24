@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/conversion/test"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="ConvertTRBTLNOForPAIDFTest.java"
+   text-time="2007-10-29T10:46:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f9235e59f2c8467c398c068e74ad23e5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTRBTLNOTest.java"
+   text-time="2007-10-29T10:46:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ffb70989030bb7e82df8730c6657f742"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertFunctionTest.java"
+   text-time="2007-01-31T05:33:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8613ac2d7bcc226e14bb51c93ce185d6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTPSBF7Test.java"
+   text-time="2007-06-21T14:22:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8a6600f14844722b68dee85e33db10f4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ConvertTPSBF8Test.java"
+   text-time="2007-10-29T10:46:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="803dbeefe923838d471bcd2c89bb7afb"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

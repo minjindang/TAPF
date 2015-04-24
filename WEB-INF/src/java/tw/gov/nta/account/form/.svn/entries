@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/account/form"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="Earc0201Form.java"
+   text-time="2006-06-04T13:25:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e0ef3429aefd88f26f7c06b4765f540b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eard0101Form.java"
+   text-time="2006-06-03T09:33:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cb4774c707cba38801a85810539dea60"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ecrd0101Form.java"
+   text-time="2006-05-29T11:07:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="55fc5add222a063d9eff14b84d632993"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eard0301Form.java"
+   text-time="2006-04-25T03:45:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="be7d1c1c663227ceb2dfc9d1d846cdb8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ebrd0201Form.java"
+   text-time="2006-04-25T03:45:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3b853032c3df0a314e2161b17c0d1ed9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ebrc0301Form.java"
+   text-time="2006-06-08T07:46:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e7984ec683105607fe81546351f1d218"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Earc0401Form.java"
+   text-time="2006-06-08T07:46:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10b42f080f647957a4372efc8715334d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Edrd0201Form.java"
+   text-time="2006-06-01T01:48:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="254cfd01d7626053cd97a7e3c942a959"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eare1401Form.java"
+   text-time="2008-06-04T07:26:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c2b75aacfb6257d36434087078e376f6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AmountDecorator.java"
+   text-time="2006-04-25T03:45:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1952f75e056c425be4b8c1e49ecc7cd5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BudgetCodeNameDecorator.java"
+   text-time="2006-06-08T12:29:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fb532c87d2c8a52fd68bc4c18a05b631"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eard0901Form.java"
+   text-time="2006-04-25T03:45:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b3338d2d064016894fb9646e142162d0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Edre0501Form.java"
+   text-time="2006-06-04T11:42:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4fe908ce463dc1f367bf8508e27341e2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebtCodeNameDecorator.java"
+   text-time="2006-06-08T12:29:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b770c836f63e94c86ac865bc327f0782"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ROCDateDecorator.java"
+   text-time="2006-06-06T12:52:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1bead01d1fd523cce7776225c24f70cc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eama0101Form.java"
+   text-time="2006-04-25T03:45:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ca6132f0224dccc95f675fae1c99faf7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eama0301Form.java"
+   text-time="2006-06-23T13:33:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="669cdb1aa5cbef2fc312c14a1541369c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eama0202Form.java"
+   text-time="2006-06-08T07:46:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="21bffc730c7f9c943e7d09350262ae2b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0102Form.java"
+   text-time="2006-06-09T07:49:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2b7cd29d6def52085ac43f353eeaf9e4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="IssueDecorator.java"
+   text-time="2006-06-11T03:32:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="44ae1a48893abeac696210b9bed0e19a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0302Form.java"
+   text-time="2006-06-08T07:46:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c55d876bf21972acc6d069410a7e33e6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0104Form.java"
+   text-time="2006-06-08T07:46:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8a6df4d21e5b84a20a71b92ef8a84e2e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eaqc0101Form.java"
+   text-time="2006-06-04T10:11:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10de10cde0d10d7ce9ac52a990b83681"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="LongDateDecorator.java"
+   text-time="2006-06-03T09:35:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="85470b7fd777c9fe5f94f9d61c9bc59c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ebrd0101Form.java"
+   text-time="2006-04-25T03:45:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="262a2e0abe662c7bcf06a0ee4b5c9200"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eard0201Form.java"
+   text-time="2006-06-05T01:42:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b7e8cbeea4a2a6395587a34ab242e72f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ebrc0401Form.java"
+   text-time="2006-06-08T07:46:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6696104baf7c52383b6671443412edcd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ecrd0201Form.java"
+   text-time="2006-05-29T11:07:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8f5f3867c7fbf62fd2c71e879822feb8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eard0401Form.java"
+   text-time="2006-04-25T03:45:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="02434702accdfa76048fea44937de47d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Earc0501Form.java"
+   text-time="2006-06-08T07:46:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d5684d4745b53f2f9c82d8943d5f6f3f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Edrd0101Form.java"
+   text-time="2006-06-01T01:48:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="679544ef71c1e21106e8545d2d5f9355"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountQueryForm.java"
+   text-time="2010-11-13T01:43:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1aeb3338a0caae2c8d9baa90f31bb985"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ecrf0201Form.java"
+   text-time="2006-06-07T06:56:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a6debf42e41dd1f219bddb4aa06de3c7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Ecrf0401Form.java"
+   text-time="2006-06-08T07:46:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f30636d22a79981ed56b8fb5930596d5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0101Form.java"
+   text-time="2008-12-24T05:42:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d351f360ff0ba0d6cf06485cca8fd109"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eama0201Form.java"
+   text-time="2006-09-05T03:22:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0266e5be0315ba205e62d70b0302810"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0301Form.java"
+   text-time="2006-06-08T07:46:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea1b027b496933e7f2acb133cfbb4f80"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0103Form.java"
+   text-time="2006-09-05T03:22:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="22e7ed5f970d62e0d77f51664b364aa8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0105Form.java"
+   text-time="2006-06-08T07:46:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f240f66940457eb1abbf1b143006c153"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Eamb0501Form.java"
+   text-time="2006-09-19T06:51:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8870910d38595c6d1d6857cf9a26053"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

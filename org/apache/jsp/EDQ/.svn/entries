@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/EDQ"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QForm_jsp.java"
+   text-time="2007-05-24T03:22:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2c1e96f3b9b9a28603125eeae2bfb718"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301Q_jsp.class"
+   text-time="2007-05-24T03:22:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7c6cfdfe3b40621614bcf6064826fab1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:27.923742Z"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QScript_jsp.java"
+   text-time="2007-05-24T03:22:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="226d138733270ca0ba15f24e9d2bfa8a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QBar_jsp.java"
+   text-time="2007-05-24T03:22:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="152339f4b2130f711dd7fec1f249178f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QForm_jsp.class"
+   text-time="2007-05-24T03:22:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fe2dffffc1e8145731627381f2c9a8b6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:12.885843Z"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QBar_jsp.class"
+   text-time="2007-05-24T03:22:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="095a3dfa8d12f3596f8bed7e74e6f8e7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:33.597971Z"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301QScript_jsp.class"
+   text-time="2007-05-24T03:22:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ae7da25ee93f4245b2b9a1356afde69b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:09.567347Z"/>
+<entry
+   committed-rev="16"
+   name="EDQC0301Q_jsp.java"
+   text-time="2007-05-24T03:22:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e34d0922232bf6c851dd89f2190f668e"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="DebtMain"
+		table="debt_main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="debtCode"
+			column="DEBT_CODE"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="budgetCode"
+			column="BUDGET_CODE"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="realAmount"
+			column="REAL_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="issueAmount"
+			column="ISSUE_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="18"
+		/>
+		<property
+			name="originInterestAmount"
+			column="ORIGIN_INTEREST_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="compareAmount"
+			column="COMPARE_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="accrue"
+			column="ACCRUE"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="compareFlag"
+			column="compare_flag"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="accrueDate"
+			column="ACCRUE_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="compareRate"
+			column="COMPARE_RATE"
+			type="big_decimal"
+			not-null="false"
+			length="13"
+		/>
+		<property
+			name="userid"
+			column="USERID"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="interestDate"
+			column="interest_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="diversityAmount"
+			column="DIVERSITY_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="issueCostAmount"
+			column="ISSUE_COST_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="18"
+		/>
+		<property
+			name="fallAmount"
+			column="FALL_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="get"
+			column="GET"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="budgetYear"
+			column="budget_year"
+			type="string"
+			not-null="false"
+			length="3"
+		/>
+		<property
+			name="remark"
+			column="remark"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+		<many-to-one
+			name="issue"
+			column="ISSUE_ID"
+			class="IssueMain"
+			not-null="true"
+			lazy="false"
+		>
+		</many-to-one>
+		<many-to-one
+			name="bank"
+			column="BANK_ID"
+			class="BankRef"
+			not-null="false"
+			lazy="false"
+		>
+		</many-to-one>
+	
+
+		<set name="interestAdjustMains" inverse="true" lazy="true">
+			<key column="debt_id"/>
+			<one-to-many class="InterestAdjustMain"/>
+		</set>
+
+		<set name="debtRateDets" inverse="true" lazy="false">
+			<key column="debt_id"/>
+			<one-to-many class="DebtRateDet"/>
+		</set>
+
+		<set name="debtPlanDets" inverse="true" lazy="false">
+			<key column="debt_id"/>
+			<one-to-many class="DebtPlanDet"/>
+		</set>
+		
+		<property
+			name="payableInterestAmount"
+			column="payable_interest_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+
+		<property
+			name="debtSerial"
+			column="debt_serial"
+			type="string"
+			not-null="false"
+			length="15"
+		/>
+	</class>	
+</hibernate-mapping>

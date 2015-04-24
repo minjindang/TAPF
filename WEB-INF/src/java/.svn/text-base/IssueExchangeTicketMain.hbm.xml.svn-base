@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="IssueExchangeTicketMain"
+		table="issue_exchange_ticket_main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+		
+		<many-to-one
+			name="debt"
+			column="DEBT_ID"
+			class="DebtMain"
+			not-null="true"
+			fetch="select"
+			lazy="false"
+		>
+		</many-to-one>
+		
+		<property
+			name="capitalSerial"
+			column="capital_serial"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="interestSerial"
+			column="interest_serial"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="bankId"
+			column="bank_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="exchangeDate"
+			column="exchange_date"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="capitalAmount"
+			column="capital_amount"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="interestAmount"
+			column="interest_amount"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="accumCapitalAmount"
+			column="accum_capital_amount"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>				
+		<property
+			name="accumInterestAmount"
+			column="accum_interest_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

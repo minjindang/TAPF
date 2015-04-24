@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="EARE03" language="java" pageWidth="1003" pageHeight="709" orientation="Landscape" columnWidth="978" leftMargin="5" rightMargin="20" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="TAPF"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<import value="gov.dnt.tame.util.DateUtil"/>
+	<parameter name="createDate" class="java.lang.String">
+		<defaultValueExpression><![CDATA["ä¸­è¯æ°‘å??95å¹?04???28?—¥"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="usrId" class="java.lang.String">
+	</parameter>
+	<parameter name="debtType" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[select * from eare03_rpt]]></queryString>
+	<field name="ACTUAL_COST" class="java.math.BigDecimal">
+	</field>
+	<field name="BALANC_DUE" class="java.math.BigDecimal">
+	</field>
+	<field name="CAPITAL_RATE" class="java.math.BigDecimal">
+	</field>
+	<field name="DUE_DATE" class="java.sql.Timestamp">
+	</field>
+	<field name="INTEREST_RATE" class="java.math.BigDecimal">
+	</field>
+	<field name="ISSUE_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="ISSUE_DATE" class="java.sql.Timestamp">
+	</field>
+	<field name="ISSUE_SERIAL" class="java.lang.String">
+	</field>
+	<field name="PAYABLE_RATE" class="java.math.BigDecimal">
+	</field>
+	<field name="PAY_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="SPEND_RATE" class="java.math.BigDecimal">
+	</field>
+	<pageHeader>
+		<band height="153">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="963" height="40"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="20"/>
+				</textElement>
+				<text><![CDATA[è²?    ?”¿    ?ƒ¨EARE13TEST]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="0" y="40" width="963" height="53"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="18"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{debtType}+"\n??‰ä?˜å‚µæ¬¾æ?Žç´°??ˆå ±è¡?"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="93" width="963" height="26"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{createDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="775" y="136" width="87" height="17"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["?–®ä½ï??"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="862" y="136" width="101" height="17"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["?–°?°å¹????"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="862" y="119" width="101" height="17"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["ç¬? "+$V{PAGE_NUMBER}.toString()+" ???"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="775" y="119" width="87" height="17"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["??æ¬¡ï¼?"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="34">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="79" height="34"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{debtType}+"??ç¨±\n???       ?ˆ¥"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="79" y="0" width="174" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="None" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<text><![CDATA[???              ??]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="79" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["?™¼è¡Œæ—¥???"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="166" y="17" width="87" height="17"/>
+				<box padding="1" topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["??Ÿé?„æ—¥???"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="253" y="0" width="435" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="None" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["?œ¬                     ???"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="253" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<text><![CDATA[ç¥¨é¢?ˆ©??‡]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="340" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<text><![CDATA[??è?ˆç™¼è¡Œç¸½é¡?(1)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="427" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<text><![CDATA[å¯¦å?—é¢é¡?(2)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="514" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<text><![CDATA[??Ÿé?„é??(3)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="601" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<text><![CDATA[çµæ? é??(4)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="688" y="0" width="174" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="None" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<text><![CDATA[çµæ? åˆ©?¯(5)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="688" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<text><![CDATA[?ˆ©?¯?”¯?‡º]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="775" y="17" width="87" height="17"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<text><![CDATA[??‰ä?˜åˆ©?¯]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="862" y="0" width="101" height="34"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<text><![CDATA[çµæ? æœ¬??‘åˆ©?¯
+??ˆè??(6)=(4)+(5)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="17">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="79" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{ISSUE_SERIAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="79" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[DateUtil.date2ROCStr($F{ISSUE_DATE})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="166" y="0" width="87" height="17"/>
+				<box padding="1" topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[DateUtil.date2ROCStr($F{DUE_DATE})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="253" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{INTEREST_RATE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="340" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{ISSUE_AMOUNT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="427" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{ACTUAL_COST}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="514" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{PAY_AMOUNT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="601" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{BALANC_DUE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="688" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{SPEND_RATE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="775" y="0" width="87" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="None"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{PAYABLE_RATE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="862" y="0" width="101" height="17"/>
+				<box topBorder="None" leftBorder="1Point" bottomBorder="1Point" rightBorder="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="æ¨™æ¥·é«?" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{CAPITAL_RATE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

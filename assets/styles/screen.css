@@ -1,0 +1,154 @@
+body
+{
+	background-color:"#FFFFFF";
+    margin:0px;
+    padding:0px;
+}
+
+body, input, select, td, textarea
+{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, div, form, acronym, label, table, td, th, span, a, hr, code, pre, hr
+{
+	margin:0;
+	padding:0;
+	font-size: 13px;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+
+table
+{
+    border-color:#ECF6FD;
+}
+
+img
+{
+	border:none;
+}
+
+hr
+{
+	height: 1px;
+	color: #000;
+	clear:both;
+}
+
+dt
+{
+	font-weight: bold;
+}
+
+.clear
+{
+	clear: both;
+}
+
+h2
+{
+	font-size: 1.2em;
+	margin: 10px 0 10px 0;
+}
+
+h2
+{
+	font-size: 1.1em;
+	margin: 10px 0 5px 0;
+}
+
+p
+{
+	margin: 0 0 10px 0;
+}
+
+acronym
+{
+	border-bottom: 1px dashed #000;
+	cursor: help;
+}
+
+div#body
+{
+    margin:0px;
+    padding:0px;
+	border: 0px;
+}
+
+div#footer span
+{
+	float: left;
+}
+
+table
+{
+    border-width:0px;
+    width:100%;
+    border:0;
+}
+
+th
+{
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+}
+
+td
+{
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+}
+
+thead tr
+{
+    font-family:"Verdana";
+    font-size:13px;
+    font-weight:bold;
+    color:#366195;
+    background-color:#ECF6FD;
+}
+
+tbody tr.odd td
+{
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+	background-color: #ffffff;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+tbody tr.even td
+{
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+	background-color:#ffffff;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+tr.odd
+{
+  background-color: #ECF6FD;
+}
+
+tbody tr.odd td a:link, tbody tr.even td a:link
+{
+	color:#0000ff;
+	background:#ffffff
+}

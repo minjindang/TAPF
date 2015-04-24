@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="DebtPlanDet"
+		table="debt_plan_det"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="issueId"
+			column="ISSUE_ID"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="repayDate"
+			column="REPAY_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="capitalAmount"
+			column="CAPITAL_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="interestAmount"
+			column="INTEREST_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="chargeAmount"
+			column="CHARGE_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="capitalSerial"
+			column="CAPITAL_SERIAL"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="interestSerial"
+			column="INTEREST_SERIAL"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="userid"
+			column="USERID"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="deleteMark"
+			column="delete_mark"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<many-to-one
+			name="debt"
+			column="DEBT_ID"
+			class="DebtMain"
+			not-null="true"
+			fetch="select"
+			lazy="false"
+		>
+		</many-to-one>
+	
+
+		<set name="paymentMains" inverse="true" lazy="true">
+			<key column="plan_id"/>
+			<one-to-many class="PaymentMain"/>
+		</set>
+
+		<set name="issueExchangeTicketMains" inverse="true" lazy="true">
+			<key column="plan_id"/>
+			<one-to-many class="IssueExchangeTicketMain"/>
+		</set>
+		
+		<property
+			name="originInterestAmount"
+			column="origin_interest_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		
+		<property
+			name="transferCapitalAmount"
+			column="transfer_capital_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		
+		<property
+			name="transferInterestAmount"
+			column="transfer_interest_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		
+		<property
+			name="rateGroupId"
+			column="rate_group_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>		
+		<property
+			name="reportFlag"
+			column="report_flag"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+	</class>	
+</hibernate-mapping>

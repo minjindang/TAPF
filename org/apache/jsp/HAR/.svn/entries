@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/HAR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="HARB1001PBar_jsp.java"
+   text-time="2010-10-18T06:01:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5c783df43f3361af202e7b87bc74e9cf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB1001PScript_jsp.java"
+   text-time="2010-10-18T06:01:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a206b7ab060d3faa91e361b5cba48400"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1001PScript_jsp.java"
+   text-time="2007-05-09T01:29:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="01dd06593e5fc58036ce3374a77e5ed6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0801P_jsp.class"
+   text-time="2007-07-25T05:52:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="346a68ec57c2f81f8ea65e8294aaab43"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:57.826534Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0801PForm_jsp.java"
+   text-time="2007-07-25T05:52:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="54c9b2726088dd4d36ae5ef884e40f5e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0801PBar_jsp.java"
+   text-time="2007-07-25T05:52:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eed9d77ef795d9f5e624bfc88bc5bd89"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0801PForm_jsp.java"
+   text-time="2007-04-18T09:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="07f3873ba1d93f1f60ee8ce55f873edf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0901QScript_jsp.java"
+   text-time="2007-05-25T07:52:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8070ff32a2ad5a7c2c7b0d78baf65c9f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0901Q_jsp.class"
+   text-time="2007-05-09T01:29:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3bd5aac9bc76e7e575ef714d41a5a9ab"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:18.580307Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0901QScript_jsp.java"
+   text-time="2007-05-09T01:29:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="415905c3b29c0e5887512575177b2aef"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0901QBar_jsp.java"
+   text-time="2007-05-09T01:29:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="792f2323ffe14e30fa855f02ab192b94"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB1001P_jsp.java"
+   text-time="2007-03-28T02:25:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="adb2a95f0a826940ba92a63810a386dc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1001P_jsp.java"
+   text-time="2007-05-09T01:29:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="155f1983ecc4af3964d25a444b342f11"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB1001PForm_jsp.class"
+   text-time="2010-10-18T06:01:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c9571d44c9d5caa48d96df3a8abfe34e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:45.082139Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1001PScript_jsp.class"
+   text-time="2010-10-18T06:01:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aa8fc62fab99e1831c3b5a2058332436"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:23.931726Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1001PBar_jsp.class"
+   text-time="2010-10-18T06:01:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="452a0253d91782987540d7ced4f94d0c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:26.544104Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0901Q_jsp.java"
+   text-time="2007-05-25T07:52:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9dfb86c09214fed11adf39b0ec67a885"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1001PBar_jsp.class"
+   text-time="2007-05-09T01:29:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="307dd366da8eff6da9d12006680b3624"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:43.954242Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0901Q_jsp.java"
+   text-time="2007-05-09T01:29:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="719f5231e7cb199007bc50254e190861"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0801PForm_jsp.class"
+   text-time="2007-07-25T05:52:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b96eb7a822579b1d74bfda343bd141fc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:53.720837Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0801PScript_jsp.class"
+   text-time="2007-07-25T05:52:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3710be84b005c075bf83afc90d8e1a52"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:06.983632Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0901QForm_jsp.class"
+   text-time="2009-08-14T08:57:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e58180681941c58a8dc933415e84a504"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:12.685555Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0901QBar_jsp.class"
+   text-time="2007-05-25T07:52:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e96145cdf16d29552b201d230862cc3f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:01.511834Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0901QBar_jsp.class"
+   text-time="2007-05-09T01:29:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aead6d5ad4d9732507c4455a16be2f34"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:41.068714Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0901QScript_jsp.class"
+   text-time="2007-05-09T01:29:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2282e68aa5d7c2ffe9c81fd1c503da9b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:44.917973Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1001PForm_jsp.java"
+   text-time="2010-10-18T06:01:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bd1e21611ed985511d20433b2c7ab272"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1001PForm_jsp.java"
+   text-time="2007-05-09T01:29:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8ee6b2ae24acffff1eb70b83e38cfe0a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1001P_jsp.class"
+   text-time="2007-05-09T01:29:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="564188824b6d0ceaa4b3f64de350a138"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:30.036781Z"/>
+<entry
+   committed-rev="16"
+   name="HARC1001PBar_jsp.java"
+   text-time="2007-05-09T01:29:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7233421b9c2b963f6eadc563f0f1310f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0801P_jsp.class"
+   text-time="2007-04-18T09:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30f96b14f3a1ede54b8732c0a759c704"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:17.145693Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0801PScript_jsp.java"
+   text-time="2007-07-25T05:52:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3309ca8a75044a5becf8ba57285a8252"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0801PScript_jsp.java"
+   text-time="2007-04-18T09:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="12fe312f9429824e475d8620e8033b76"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0901QForm_jsp.java"
+   text-time="2011-07-28T07:12:07.312851Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d393d4c3a9799fe32a4f1565b9f28e12"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0801PBar_jsp.java"
+   text-time="2007-04-18T09:36:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cc4aab6ca615f95c86dbdc11e52e8f37"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0901Q_jsp.class"
+   text-time="2007-05-25T07:52:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d486a658199fb57ba6245b0373595049"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:38.024542Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0901QBar_jsp.java"
+   text-time="2007-05-25T07:52:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f3fd0e8e735387249bbf0707b0c0c72"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0901QForm_jsp.java"
+   text-time="2009-08-14T08:57:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="05512696f07a389003cb41c73b7a6fad"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0801P_jsp.java"
+   text-time="2007-07-25T05:52:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="789b1be96b060f15dfa175fec9ae196b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0801P_jsp.java"
+   text-time="2007-04-18T09:36:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a832e7c0aa838120b3219e818e21db12"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1001PForm_jsp.class"
+   text-time="2007-05-09T01:29:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1e1442d9dd9fc7a429edf56a2550445b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:30.770181Z"/>
+<entry
+   committed-rev="16"
+   name="HARC1001PScript_jsp.class"
+   text-time="2007-05-09T01:29:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e262487f522d2199a7f5d9b4d3e0f424"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:10.966808Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0801PForm_jsp.class"
+   text-time="2007-04-18T09:36:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed4c4061e5311f6f777da0e5049b1fab"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:54.051106Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0801PBar_jsp.class"
+   text-time="2007-07-25T05:52:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="244ff81a44f96a634e57fb36346d1c54"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:47.838654Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0801PScript_jsp.class"
+   text-time="2007-04-18T09:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d946bc971d2f886bf0444cac2477fb18"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:58.477470Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0901QForm_jsp.class"
+   text-time="2011-07-28T07:12:14.362988Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e70caba5322372edd7a0a5dbaa742b51"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:32.763046Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0801PBar_jsp.class"
+   text-time="2007-04-18T09:36:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6e2d0ec597f7d9a2ab9c9752e01fded4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:27.933757Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0901QScript_jsp.class"
+   text-time="2007-05-25T07:52:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dc258e709a3db6362400901899d8b705"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:44.938002Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1001P_jsp.class"
+   text-time="2007-03-28T02:25:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="814767a55cf04d43df8151c5bf921466"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:48.416934Z"/>
+</wc-entries>

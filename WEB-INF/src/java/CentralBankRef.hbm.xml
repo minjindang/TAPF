@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="CentralBankRef"
+		table="Central_bank_ref"
+	>
+
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+		<property
+			name="BankNo"
+			column="bank_no"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="BankName"
+			column="bank_name"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="BankType"
+			column="bank_type"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+		<property
+			name="FreeUnit"
+			column="free_unit"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

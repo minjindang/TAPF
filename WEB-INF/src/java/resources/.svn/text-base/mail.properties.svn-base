@@ -1,0 +1,8 @@
+<!--smtp.host=ntamail-->
+<!--send.user=catr-->
+<!--send.passwd=dnt-2322-->
+smtp.host=mailsr.kangdainfo.com
+send.user=jerry.lin
+send.passwd=hello2u
+smtp.auth=true
+sender.mail=catr@mail.nta.gov.tw

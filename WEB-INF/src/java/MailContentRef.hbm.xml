@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="MailContentRef"
+		table="Mail_content_ref"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="usrid"
+			column="USRID"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="REMARK"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+		<property
+			name="createDate"
+			column="CREATE_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="monKind"
+			column="MON_KIND"
+			type="string"
+			not-null="true"
+			length="1"
+		/>
+		<property
+			name="titlea"
+			column="TITLEA"
+			type="string"
+			not-null="true"
+			length="200"
+		/>
+		<property
+			name="titleb"
+			column="TITLEB"
+			type="string"
+			not-null="true"
+			length="200"
+		/>
+		<property
+			name="contenta"
+			column="CONTENTA"
+			type="string"
+			not-null="true"
+			length="200"
+		/>
+		<property
+			name="contentb"
+			column="CONTENTB"
+			type="string"
+			not-null="true"
+			length="200"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

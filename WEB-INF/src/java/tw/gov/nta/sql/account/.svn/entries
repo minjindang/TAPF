@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/account"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="VoucherMain.java"
+   text-time="2006-07-05T06:15:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="65eb58edda2ded03054e0e9c432b7727"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="VoucherDet.java"
+   text-time="2006-05-31T06:41:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2f31a5038a696b7ada5b686263378c08"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountReportBuild.java"
+   text-time="2006-04-25T10:50:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="01847c5284e9c872918a7527211efbcc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="VoucherSourceDet.java"
+   text-time="2006-06-13T09:01:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0fad2f31fc6c84f2d6f812e89196d878"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountRef.java"
+   text-time="2006-04-25T03:45:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="58fdd65339e20782b60f4c5b2179eb16"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="base"
+   kind="dir"/>
+</wc-entries>

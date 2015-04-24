@@ -1,0 +1,151 @@
+package tw.gov.nta.surplusage.action;
+
+import gov.dnt.tame.util.DateUtil;
+import gov.dnt.tame.util.JacobReportAction;
+import gov.dnt.tame.util.StringUtil;
+
+import java.math.BigDecimal;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.struts.action.ActionForm;
+
+import tw.gov.nta.surplusage.form.Gara3901Form;
+
+public class GARA3904 extends JacobReportAction
+{
+	private final static String PROGRAM_ID = "GARA39_1";
+
+	protected String getProgramId(HttpServletRequest request) {
+		return PROGRAM_ID;
+	}
+
+	@SuppressWarnings("unchecked")
+	protected Map<String,Object> getReportParameter(ActionForm form, HttpServletRequest request) {
+		Map<String,Object> map = new LinkedHashMap<String,Object>();
+		
+		map.put("A3","製表日期:"+DateUtil.date2ChineseROC2(new Date()));
+		Map tempA = (Map) request.getAttribute("debtMapA");
+		Map tempC = (Map) request.getAttribute("debtMapC");
+		if(tempA!=null){
+			map.put("A1",DateUtil.date2ROCStr((Date)tempA.get("issue_date"),"yyy.mm.dd"));
+			map.put("B1",(String)tempA.get("debt_name"));
+		}
+		if(tempC!=null){
+			map.put("C1",DateUtil.date2ROCStr((Date)tempC.get("issue_date"),"yyy.mm.dd"));
+			map.put("D1",(String)tempC.get("debt_name"));
+		}
+		Gara3901Form myForm = (Gara3901Form) form;
+		String year = myForm.getYear();
+		String month = myForm.getMonth();
+		map.put("A2","未來十年中央政府債務還本落點分析(截至"+year+"年"+month+"月底)");
+		map.putAll( putYearCell(map,year) );
+
+		List sheet1List = (List) request.getAttribute("GARA39_RPT1");
+		if( sheet1List!=null && !sheet1List.isEmpty() )
+		{
+			for( Iterator it=sheet1List.iterator();it.hasNext();)
+			{
+				Map sheet1Map = (Map) it.next();
+				String type = (String) sheet1Map.get("debt_type");
+				int rownum = 0;
+				//公債			C6~M6,N6,O6,P6,Q6
+				if( "公債".equals( type ) ) 	rownum = 6;
+				//中長期借款	C7~M7,N7,O7,P7,Q7
+				if( "中長期借款".equals( type ) ) 	rownum = 7;
+				//債務基金(短借)   C8~M8,N6,O8,P8,Q8
+				if( "債務基金(短借)".equals( type ) ) 	rownum = 8;
+				map.putAll( putSheet1Cell(map,sheet1Map,rownum) );
+			}
+		}
+
+		List sheet3List = (List) request.getAttribute("GARA39_RPT3");
+		if( sheet3List!=null && !sheet3List.isEmpty() )
+		{
+			for( Iterator it=sheet3List.iterator();it.hasNext();)
+			{
+				Map sheet3Map = (Map) it.next();
+				map.putAll( putSheet3Cell(map,sheet3Map) );
+			}
+		}		
+		
+		Map remarkMapLine1 = (Map)request.getAttribute("remarkMapLine1");
+		Map remarkMapLine2 = (Map)request.getAttribute("remarkMapLine2");
+		Map remarkMapLine3 = (Map)request.getAttribute("remarkMapLine3");
+		Map remarkMapLine4 = (Map)request.getAttribute("remarkMapLine4");
+		Map remarkMapLine5 = (Map)request.getAttribute("remarkMapLine5");
+		
+		Date queryLastDate = DateUtil.getLastDateOfMonth(new Date(Integer.parseInt(year)+11 , Integer.parseInt(month)-1,1));
+		
+		map.put("A27",DateUtil.date2ROCStr((Date)remarkMapLine1.get("ISSUE_DATE"),"yyy.mm.dd"));
+		map.put("A28",DateUtil.date2ROCStr((Date)remarkMapLine2.get("ISSUE_DATE"),"yyy.mm.dd"));
+		map.put("D28",DateUtil.date2ROCStr((Date)remarkMapLine3.get("ISSUE_DATE"),"yyy.mm.dd"));
+		
+		map.put("B27",remarkMapLine1.get("DEBT_SHORT_NAME"));
+		map.put("C27",String.valueOf(remarkMapLine1.get("ISSUE_AMOUNT")));
+		
+		map.put("B28",remarkMapLine2.get("DEBT_SHORT_NAME"));
+		map.put("C28",String.valueOf(remarkMapLine2.get("ISSUE_AMOUNT")));
+		
+		map.put("E28",remarkMapLine3.get("DEBT_SHORT_NAME"));
+		map.put("F28",String.valueOf(remarkMapLine3.get("ISSUE_AMOUNT")));
+		
+		map.put("E29",request.getAttribute("reportYear"));
+		map.put("A29",request.getAttribute("reportMonth"));
+		StringUtil stringUtil = new StringUtil();
+		map.put("B29",stringUtil.addThousandMark((BigDecimal)remarkMapLine4.get("CAPITAL_AMOUNT")));
+		map.put("C29",stringUtil.addThousandMark((BigDecimal)remarkMapLine5.get("CAPITAL_AMOUNT")));
+		map.put("D29",stringUtil.addThousandMark(((BigDecimal)remarkMapLine4.get("CAPITAL_AMOUNT")).subtract((BigDecimal)remarkMapLine5.get("CAPITAL_AMOUNT"))));
+		
+		map.put("A30",String.valueOf(remarkMapLine1.get("issue_serial")));
+		map.put("B30",String.valueOf(remarkMapLine2.get("issue_serial")));
+		map.put("C30",String.valueOf(remarkMapLine3.get("issue_serial")));
+		
+		return map;
+	}
+
+	private Map<String,Object> putSheet1Cell(Map<String,Object> map,Map dataMap,int rownum)
+	{
+		String[] cell = {"C","D","E","F","G","H","I","J","K","L","N","O","P","Q"};
+		String[] columnName = {"year1","year2","year3","year4","year5","year6","year7","year8","year9","year10","year_5_1","year_5_2","year_5_3","year_5_4"};
+		for(int i=0;i<cell.length;i++)
+		{
+			map.put( cell[i]+String.valueOf( rownum ), new BigDecimal(dataMap.get( columnName[i] ).toString()).divide(new BigDecimal(1),2,4).toString() );
+		}
+		return map;
+	}
+
+	private Map<String,Object> putSheet3Cell(Map<String,Object> map,Map dataMap)
+	{
+		Integer month = (Integer) dataMap.get("mon");
+		String[] cell = {"C","D","E","F","G","H","I","J","K","L"};
+		String[] columnName = {"year1","year2","year3","year4","year5","year6","year7","year8","year9","year10"};
+		for(int i=0;i<cell.length;i++)
+		{
+			map.put( cell[i]+String.valueOf( month.intValue()+10 ),  new BigDecimal(dataMap.get( columnName[i] ).toString()).divide(new BigDecimal(1),2,4).toString()  );
+		}
+		return map;
+	}
+
+	private Map<String,Object> putYearCell(Map<String,Object> map,String year)
+	{
+		String[] cell = {"C","D","E","F","G","H","I","J","K","L"};
+		int lastYear = 0;
+		for(int i=0;i<cell.length;i++)
+		{
+			lastYear = Integer.parseInt(year)+i;
+			map.put( cell[i]+"5", String.valueOf( lastYear ) );
+		}
+		map.put( "O5", String.valueOf( lastYear+1 ) +"~"+String.valueOf( lastYear+5 ) );
+		map.put( "P5", String.valueOf( lastYear+6 ) +"~"+String.valueOf( lastYear+10 ) );
+		map.put( "Q5", String.valueOf( lastYear+11 ) +"~"+String.valueOf( lastYear+15 ) );
+		map.put( "R5", String.valueOf( lastYear+16 ) +"~"+String.valueOf( lastYear+20 ) );
+		return map;
+	}
+}

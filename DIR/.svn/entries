@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/DIR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="DIRA1001QForm.jsp"
+   text-time="2007-01-12T09:59:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7a0f060e7c36237affa4e4a6a6aaea26"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1001QBar.jsp"
+   text-time="2006-06-08T07:28:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d63258db6acafd7a830f3dfc3b4cff87"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1201QForm.jsp"
+   text-time="2006-07-02T13:22:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ba65b76061b4e14d8d81fa0daba84dbf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1201QBar.jsp"
+   text-time="2006-04-25T03:40:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b18df90d5e535a05899df60eced3626b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1201QScript.jsp"
+   text-time="2006-06-14T03:33:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="265686a1b74a91420daa57d0debdc887"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0401QForm.jsp"
+   text-time="2008-04-30T09:58:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f64ab4fd91569ed1e43d72b29a7dfae7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1301QBar.jsp"
+   text-time="2009-04-30T02:31:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dfec8f89bcdd42236f65f9f819557e23"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1401QForm.jsp"
+   text-time="2009-04-30T02:31:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="82c24e59f9bc0f6bcaff5582dd749507"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0401QScript.jsp"
+   text-time="2006-06-14T03:33:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="81efec679990c55f4ed243321bc8edcc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0601QForm.jsp"
+   text-time="2006-07-05T06:15:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6fd20e78b3694e0c097627dae9816c88"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1401QBar.jsp"
+   text-time="2009-04-30T02:31:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f1ea54019404d4ebd234ee46a201480e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1401QScript.jsp"
+   text-time="2009-04-30T02:31:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2422414f02ba39e1e1aef5df5a02e05b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0601QScript.jsp"
+   text-time="2006-07-05T06:15:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f435152ddb29a33ab5f529936becad20"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0801QForm.jsp"
+   text-time="2007-01-04T09:52:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ca5638f316921f71ef889d7e85135e7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0801QScript.jsp"
+   text-time="2006-06-29T14:24:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7f18574cd241499382079e9ab7ae00de"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1101Q.jsp"
+   text-time="2006-04-25T03:40:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="242efd399001887fafcc94977db2f22b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="reports"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="DIRA1301Q.jsp"
+   text-time="2009-04-30T02:31:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7bbbb7355104bd0becb5d75d03bb7c70"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0501Q.jsp"
+   text-time="2007-06-28T11:17:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a42af5cc62ecc5f3761dc6628f19de1b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0701Q.jsp"
+   text-time="2006-06-08T06:15:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="75b57791d289a8d4853492e347122c53"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0901Q.jsp"
+   text-time="2006-04-25T03:40:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5f1520b9b65d73b8b9b3ef4aa5016841"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1101QForm.jsp"
+   text-time="2006-07-10T02:27:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="46d78335055b8d645c183899a9a0fba7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1101QScript.jsp"
+   text-time="2006-06-14T03:33:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="00b1b0f0755e5e26e7fd1ede91e3ea94"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1301QForm.jsp"
+   text-time="2009-04-30T02:31:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="506e8b5bd22b60fc98dec2f4ce6f2179"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1301QScript.jsp"
+   text-time="2009-04-30T02:31:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b2a5660f4aa24afcdb956b0ea5fe4c7a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0401QBar.jsp"
+   text-time="2006-04-25T03:40:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="440ebf6f921c4a8b5d9bac651f2dfb12"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0501QForm.jsp"
+   text-time="2007-01-12T09:59:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2860a353492d0bcd1f39591504d2e796"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0701QForm.jsp"
+   text-time="2007-01-12T09:59:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3d0a94753d34994059dfab529e63ecca"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0701QScript.jsp"
+   text-time="2006-07-05T06:15:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="916da879c3d5fe2e48ecd93b0aac7e84"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0701QBar.jsp"
+   text-time="2006-04-25T03:40:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b18df90d5e535a05899df60eced3626b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0901QForm.jsp"
+   text-time="2006-07-05T06:15:13.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7f45040ea7bb2b339808de403e76eb50"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0901QScript.jsp"
+   text-time="2006-06-19T10:58:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="18c3ba82c464d781c86c72df3051ad75"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1001Q.jsp"
+   text-time="2006-06-08T07:28:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e328ca384085c4644b6ca9cf1ac3e9e0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1201Q.jsp"
+   text-time="2006-04-25T03:40:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c6c920adbf858ebda722d9f5b8063972"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0401Q.jsp"
+   text-time="2006-04-25T03:40:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="482c1a999fcb972dfba8ac1538e23422"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1401Q.jsp"
+   text-time="2009-04-30T02:31:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dfe4be8f712f9921836d58dfeac43520"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0601Q.jsp"
+   text-time="2006-04-25T03:40:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7b5dc1fcb8ed06127f6fe86cb157019a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0801Q.jsp"
+   text-time="2006-06-19T10:58:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="32b13b6d07424c22dc07356df8daaf38"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

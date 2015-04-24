@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/shortterm/action"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="DIMA0201.java"
+   text-time="2006-07-06T14:41:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ef61168bcd89982f78dfcd9823c7ed99"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0211.java"
+   text-time="2006-07-10T02:29:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4bc17b34c5bfbc50674b5e4f9ac1ed17"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0203.java"
+   text-time="2006-07-03T10:23:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dbc7185a26e6fe5ab0757ec83a91fe29"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0302.java"
+   text-time="2009-06-18T09:52:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0986bb2136817790e66dbf8dbeddd971"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0213.java"
+   text-time="2006-05-19T08:46:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="263c197a49808253f58a51e54fa882bf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0205.java"
+   text-time="2006-04-25T03:45:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8aafc52237145c895667c93b100ae2af"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1001.java"
+   text-time="2007-10-19T07:35:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="79071b71558a605c012f40e0163d8f2e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0106.java"
+   text-time="2006-04-25T03:45:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e8d38449e446de3e10fa47932fa7ba76"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0215.java"
+   text-time="2006-08-08T07:12:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b39c9862cc2ab1bc1757403ad0d717f3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1102.java"
+   text-time="2006-06-08T10:58:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a5ede5734647132216a39e0e9478b4a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0207.java"
+   text-time="2006-06-07T08:22:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="710c466fd39ed9e17d3be2cdc4ad5c2c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="166"
+   name="DPMA0101.java"
+   text-time="2013-11-01T09:15:05.663196Z"
+   committed-date="2013-11-04T06:49:02.103918Z"
+   checksum="5ab4f98f838ecbe4de95ebe450993f3b"
+   last-author="abner.chiu"
+   kind="file"
+   revision="166"/>
+<entry
+   committed-rev="16"
+   name="DIRA1201.java"
+   text-time="2010-11-13T01:54:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e338cb672cfd880fb9d118a31d88313a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0401.java"
+   text-time="2007-08-06T11:11:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a92f5b7af58dd18e2a5b3de4eb19f20e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1302.java"
+   text-time="2011-11-22T02:41:33.887572Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="12897e27f6f220c68bffec297597f650"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0502.java"
+   text-time="2007-06-28T11:17:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="283b4a7b0ba79912294954cbef15f3da"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0601.java"
+   text-time="2009-08-28T04:02:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="449963f66fdb51ce42b0bf853fc321e2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1403.java"
+   text-time="2009-04-30T02:30:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="68b25394c15e0902bcf0e19e00cd0703"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0105.java"
+   text-time="2006-05-19T08:46:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="66b99a947aa7442fa904c9b9f9d02945"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0801.java"
+   text-time="2007-05-01T13:14:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0ae03006f23b9095e803f88c0d91a6ae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0702.java"
+   text-time="2006-05-22T02:12:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2accf2a0b5a8cb04a1a865882cae5e4c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0107.java"
+   text-time="2007-06-28T09:01:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4c5b79d007de7c629dc059b071631d3f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0202.java"
+   text-time="2009-06-08T09:58:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0a8067cbe2f5ed2c829e843194b3308f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0902.java"
+   text-time="2006-07-14T07:43:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e9ef2998ebdd394d14151d9a413ed9fa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0501.java"
+   text-time="2009-08-13T07:08:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2718789922531fafa89e918a7d13caa3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0101Calculate.java"
+   text-time="2010-11-13T01:54:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f12918d9e4f05544574ea4c9c75677e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101.java"
+   text-time="2007-06-07T12:04:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="742682bc7f801ce5f1c5ca042f3a0a81"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0210.java"
+   text-time="2007-06-28T09:01:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="73709914ed08bb0a7ae5be9726df5a76"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0301.java"
+   text-time="2006-06-20T04:07:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e49a2df5ef08ff25f69ba0c06338466f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0103.java"
+   text-time="2007-06-07T12:04:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="92c07ee300b5eb99d186718999b61aa8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0303.java"
+   text-time="2006-06-27T08:02:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d55044389ad845614f9a67dbe360ab52"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0204.java"
+   text-time="2006-04-25T03:45:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5cadebf0ae406c70bf8da752c65fe78e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0105.java"
+   text-time="2006-06-08T07:55:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ae4f7801eef488643b70275ffbfd8319"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0214.java"
+   text-time="2006-06-28T10:38:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d20628cbd8bde9919bd8bf96a1c319f9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1002.java"
+   text-time="2009-07-28T03:31:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3fc058809ba891e7d2923c7645e4cfae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0206.java"
+   text-time="2006-04-25T03:45:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="98ee69eb621f04b076638102633f16fe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1101.java"
+   text-time="2009-07-08T10:19:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fdb583fb97b013fd11f3ce24bbca1aaa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0100.java"
+   text-time="2006-06-27T09:19:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4ebddb1d2bf934e4630f7776e3b2f10e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1202.java"
+   text-time="2007-06-28T06:26:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f1b04e949eeda4cbfa98a21835d7500"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0208.java"
+   text-time="2007-06-28T06:26:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cba0c91564fd46d1a36e62a884f138d8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0402.java"
+   text-time="2007-07-09T07:38:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dd04bde03383ae4a9d763814008dffc9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0501.java"
+   text-time="2009-07-28T03:32:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d6b42a9bee321d39fd24819d593e0647"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1303.java"
+   text-time="2009-03-05T01:31:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="15fa141a83c27b2348db2634b16309a3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA1402.java"
+   text-time="2009-10-23T06:15:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f5e52235a97b70731e52318c6e1a4140"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0104.java"
+   text-time="2010-11-13T01:54:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eabd01d84d8aec1eaadae3294323bc40"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0602.java"
+   text-time="2007-05-08T16:16:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="af0e4afdd8ae32eb99885a552df2d09d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0701.java"
+   text-time="2007-01-17T10:58:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d68ff11d9d6c50c34f784e0a34d09660"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPMA0106.java"
+   text-time="2006-04-25T03:45:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9c1a439efedab1bacbee8edede58462e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0802.java"
+   text-time="2006-07-05T05:53:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed7e95593bdda4b84a8a64b330b78224"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIRA0901.java"
+   text-time="2007-08-13T08:57:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fc6585edc44be0c9e25f775f97b4e87f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DIMA0101MLOAD.java"
+   text-time="2007-06-07T12:04:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3bca169b0e6c4ed56edd608348c68bea"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0201.java"
+   text-time="2010-11-13T01:54:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e6c2e7fe8f4c99aa8c7f1ab25b3aeb50"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="165"
+   name="DPMA0108.java"
+   text-time="2013-11-01T08:06:54.445110Z"
+   committed-date="2013-11-01T08:10:36.323234Z"
+   checksum="c0aefc939454c8e2751dd1e4c5bbf240"
+   last-author="abner.chiu"
+   kind="file"
+   revision="165"/>
+<entry
+   committed-rev="16"
+   name="DPRA0502.java"
+   text-time="2009-08-06T01:37:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b3098f3a49699470ab0b15068ba682c5"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

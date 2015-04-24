@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/taglibs"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="struts-logic-el.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a3c1670b8b678db7cd8848cdd2192ebe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-logic.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e967d70cc02f5d44a6af5ec7bbb70add"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="sql.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="08f05345769e90d6eb896ecfcf8a7757"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-html-el.tld"
+   text-time="2006-04-25T03:45:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a887c1e055f8505bdf7a566c4d1a656c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="c-rt.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="de78b899ec120725689deb6f1355b809"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-bean-el.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="61bbafcf9c57546586bc323171c4c502"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-html.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d1c54db9dfd899d3175b1147ecb1597a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="25c51a75f70849a3c8e1af45ae8399a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-bean.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7cfda13026592a8aa3348a7c54112da1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="fmt-rt.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8311a7bcfcc4e037e2110495f6aa3ac3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-template.tld"
+   text-time="2006-04-25T03:45:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ed0a144b2ce0c1b1eb6acfa7b5724f1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="displaytag-el-12.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="310b4e3cb1b5c175912951f1ab492322"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="displaytag-12.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2c171a8286aeb85180e5fce2c3c89b6e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="sql-rt.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="08be3ef238d738c4f36a5a51a8c9fcbd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-tiles.tld"
+   text-time="2006-04-25T03:45:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6563e9fd00f621453680cfcc1762e79b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="c.tld"
+   text-time="2006-06-06T05:39:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f9a0fb18f46b8047a510326f810ce873"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="struts-nested.tld"
+   text-time="2006-04-25T03:45:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e8e43e5b60ea8aeff730e0b5f22005c7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x-rt.tld"
+   text-time="2006-04-25T03:45:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="57c042faa944b86c8f8bb01d7c2d4709"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/scripts/x"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="x_drag.js"
+   text-time="2006-06-12T09:55:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="47727874850a4c05fc6970a3a09cf001"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_load.js"
+   text-time="2006-06-12T09:55:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b21a9bc353cde9bf5db33f5a6212d9a7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_dom.js"
+   text-time="2006-06-12T09:55:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ab4a0a504daacd89e8c32410a9a70056"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_alt.js"
+   text-time="2006-06-12T09:55:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4d0f4976a43cb08079018ed04825b1a8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_timer.js"
+   text-time="2006-06-12T09:55:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cc9bc6f3136c654a5fa5854f7f2c71b4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_event.js"
+   text-time="2006-06-12T09:55:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="799dd7265ecee9567e14c066f0d5dd04"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_debug.js"
+   text-time="2006-06-12T09:55:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cf63f4ce2e4d9a0c6340d1648296d101"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_core.js"
+   text-time="2006-06-12T09:55:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7c24ed5648076e97eedd869c1601d5b1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_misc.js"
+   text-time="2006-06-12T09:55:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a8013ad1d3b88fedc6e70891f89c6070"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_cook.js"
+   text-time="2006-06-12T09:55:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="31b1da7792bb8877ac6acbe01d096e4a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_tip.js"
+   text-time="2006-06-12T09:55:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="35c4b1d4c1addb4a2859c39d47f3c787"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_win.js"
+   text-time="2006-06-12T09:55:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="26958dc7a38f4292a9e844b8e12ba270"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_slide.js"
+   text-time="2006-06-12T09:55:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="695735450051839e4a63d9c0f47d8a2b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_event_nn4.js"
+   text-time="2006-06-12T09:55:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6b425d4bdf7cc1108e01b8dff396c483"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="s6.js"
+   text-time="2006-06-12T09:55:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eebea2bd355271e074ccfaec7363a6d9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_popup.js"
+   text-time="2006-06-12T09:55:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f7e1a73b83cb63585cb9eb89c86bd2e2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_bar.js"
+   text-time="2006-06-12T09:55:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c1fe8c3d3fe650ae4136757ad185c458"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_core_nn4.js"
+   text-time="2006-06-12T09:55:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c324e00b5728d0baf5ac5230f8e74363"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="x_img.js"
+   text-time="2006-06-12T09:55:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fa5c4fec46f958c63bf544b2ba2e5f9d"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+.bestview
+{
+	Font-size: 9px;
+	Color: #666666;
+	Font-family: "verdana"
+}
+
+.form
+{
+	BORDER-RIGHT: #993300 1px solid;
+	BORDER-TOP: #993300 1px solid;
+	FONT-SIZE: 12px;
+	BORDER-LEFT: #993300 1px solid;
+	COLOR: #993300;
+	BORDER-BOTTOM: #993300 1px solid;
+	FONT-FAMILY: "Verdana";
+	BACKGROUND-COLOR: #ffffcc;
+}
+
+.text
+{
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "Verdana";
+}
+
+.text_red
+{
+	FONT-SIZE: 12px;
+	COLOR: #cc0000;
+	FONT-FAMILY: "Verdana";
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="InterestAdjustMain"
+		table="interest_adjust_main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="changeDate"
+			column="CHANGE_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="changeInterestAmount"
+			column="CHANGE_INTEREST_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="groupId"
+			column="GROUP_ID"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="userid"
+			column="USERID"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<many-to-one
+			name="plan"
+			column="plan_id"
+			class="DebtPlanDet"
+			not-null="true"
+		>
+		</many-to-one>
+
+		<property
+			name="debtId"
+			column="debt_id"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		
+		<property
+			name="adjustType"
+			column="adjust_type"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+
+	</class>	
+</hibernate-mapping>

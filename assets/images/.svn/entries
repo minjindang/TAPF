@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/images"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="thousandth.gif"
+   text-time="2006-06-01T04:05:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="01334354b46a8681d6ea76a28eb39ad0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:22.706240Z"/>
+<entry
+   committed-rev="16"
+   name="index.jpg"
+   text-time="2006-04-25T03:36:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cba5f307475c67a02e369490fb3f45cb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:43.321954Z"/>
+<entry
+   name="xtree"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="bg.gif"
+   text-time="2006-04-25T03:36:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4e4b907e263a0152a3216072d0e34f09"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:33.764486Z"/>
+<entry
+   committed-rev="16"
+   name="bga.gif"
+   text-time="2006-04-25T03:36:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="990e4baa4fc9dfb1998c6530c39ec42d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:41.004898Z"/>
+<entry
+   name="displaytag"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="loading-image.gif"
+   text-time="2006-04-25T03:36:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e41b2867558df65d6a42a0b53a7c2faf"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:27.186406Z"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="broken-image.gif"
+   text-time="2006-04-25T03:36:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f689efbc0c154a9f812f033d6cfb327"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:54.618197Z"/>
+<entry
+   committed-rev="16"
+   name="checked.jpg"
+   text-time="2006-04-25T03:36:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="581545c8d4b78d1af53d28d61b5a460a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:19.745707Z"/>
+<entry
+   name="login"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="unchecked.jpg"
+   text-time="2006-04-25T03:36:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="22400c536fc61391e3a41d9db9efc988"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:43.362011Z"/>
+<entry
+   name="calendar"
+   kind="dir"/>
+<entry
+   name="header2"
+   kind="dir"/>
+<entry
+   name="button"
+   kind="dir"/>
+</wc-entries>

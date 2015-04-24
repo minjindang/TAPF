@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/images/xtree"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="openfolder.png"
+   text-time="2006-04-25T03:37:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d352b0a4e0d0fe4d4c1ed663bde7fbc2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:12.148507Z"/>
+<entry
+   committed-rev="16"
+   name="Lplus.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="498f5c3f351867da496ace814682cbfd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:33.228819Z"/>
+<entry
+   committed-rev="16"
+   name="Tminus.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="83ced60c3a5307605dc25ef7df3800bc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:11.473813Z"/>
+<entry
+   committed-rev="16"
+   name="file.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fa696cb137adfb72f41582ec14cf5a68"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:23.079328Z"/>
+<entry
+   committed-rev="16"
+   name="T.png"
+   text-time="2006-04-25T03:37:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6346415134bebdc6fcba24a14e6a2f69"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:39.670634Z"/>
+<entry
+   committed-rev="16"
+   name="foldericon.png"
+   text-time="2006-04-25T03:37:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="610c5e80451d2ffabc7babf0e352111e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:04.986830Z"/>
+<entry
+   committed-rev="16"
+   name="openfoldericon.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ff1cb9ec62def194cf467514a7e5287e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:02.477152Z"/>
+<entry
+   committed-rev="16"
+   name="Tplus.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f0b02c1ecc496aafce1ca1f78bc53ddc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:40.788310Z"/>
+<entry
+   committed-rev="16"
+   name="Lminus.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10d4789e288c445ab5e6c4b93d01c884"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:30.959280Z"/>
+<entry
+   committed-rev="16"
+   name="I.png"
+   text-time="2006-04-25T03:37:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8cdb41d4407690691fb1ab5265ee0b7c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:13.405211Z"/>
+<entry
+   committed-rev="16"
+   name="new.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fa696cb137adfb72f41582ec14cf5a68"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:44.447296Z"/>
+<entry
+   committed-rev="16"
+   name="L.png"
+   text-time="2006-04-25T03:37:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9c75e77d6c1dc1697f225c0f8a90ba85"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:35.191642Z"/>
+<entry
+   committed-rev="16"
+   name="folder.png"
+   text-time="2006-04-25T03:37:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="50fd9383bbec6890073d2c894db75e83"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:08.095230Z"/>
+</wc-entries>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="GARA12_RPT" printOrder="Horizontal" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="0" rightMargin="60" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="tapf"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<parameter name="year" class="java.lang.String"/>
+	<parameter name="amountUnit" class="java.lang.String"/>
+	<parameter name="createDate" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select * from GARA12_RPT]]>
+	</queryString>
+	<field name="item" class="java.lang.String"/>
+	<field name="short_pre_amount" class="java.math.BigDecimal"/>
+	<field name="treasury_issue_amount" class="java.math.BigDecimal"/>
+	<field name="treasury_payment_amount" class="java.math.BigDecimal"/>
+	<field name="treasury_pre_amount" class="java.math.BigDecimal"/>
+	<variable name="gLongAmount" class="java.math.BigDecimal" resetType="Group" resetGroup="gByYearMonth" calculation="Sum">
+		<variableExpression><![CDATA[$F{treasury_pre_amount}]]></variableExpression>
+	</variable>
+	<variable name="gShortAmount" class="java.math.BigDecimal" resetType="Group" resetGroup="gByYearMonth" calculation="Sum">
+		<variableExpression><![CDATA[$F{short_pre_amount}]]></variableExpression>
+	</variable>
+	<variable name="sum" class="java.math.BigDecimal" resetType="None">
+		<variableExpression><![CDATA[$V{gLongAmount}.add($V{gShortAmount})]]></variableExpression>
+	</variable>
+	<variable name="divide" class="java.math.BigDecimal" resetType="None"/>
+	<variable name="issueAmount" class="java.math.BigDecimal" resetType="Group" resetGroup="gByYearMonth" calculation="Sum"/>
+	<group name="gByYearMonth">
+		<groupExpression><![CDATA[$F{item}]]></groupExpression>
+	</group>
+	<pageHeader>
+		<band height="73">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="535" height="29"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="20"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["表17      "+$P{year} + "年度各月份短期債務餘額統計表"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="334" y="55" width="201" height="18"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["單位:新台幣" + $P{amountUnit}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="55" width="257" height="18"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["製表日期:" + $P{createDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="35">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="85" height="35"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[項目]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="85" y="0" width="172" height="19"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[一年之下之短期債務餘額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="85" y="19" width="89" height="16"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[國庫券]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="174" y="19" width="83" height="16"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[短息借款]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="257" y="0" width="133" height="35"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[合計]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="390" y="0" width="145" height="35"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[占歲出%]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="28">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="85" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{item}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="85" y="0" width="89" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{gLongAmount}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="174" y="0" width="83" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{gShortAmount}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="257" y="0" width="133" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{sum}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.00#" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="390" y="0" width="145" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[($V{sum}).divide($V{issueAmount},4,5)]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="535" height="60"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[備註:一、表列短期借款餘額不包括「行政院公營事業民營化基金」借款272億元。
+ 		 二、 九十四年度總預算及特別預算歲出總額為16,276.54億元。]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

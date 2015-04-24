@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/images/header2"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="pic1.gif"
+   text-time="2006-04-25T03:37:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="847d53b9745a96e87533e9a20b33d2b2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:47.619512Z"/>
+<entry
+   committed-rev="16"
+   name="pic2.gif"
+   text-time="2006-04-25T03:37:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="349f5aafd7753e6abbfeaf4c3b569421"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:52.452738Z"/>
+<entry
+   committed-rev="16"
+   name="pic3.gif"
+   text-time="2006-04-25T03:37:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a689e7238a67534dd81c138c42290e6d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:52.655374Z"/>
+<entry
+   committed-rev="16"
+   name="pic4.gif"
+   text-time="2006-04-25T03:37:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="14a064977de67b29941377d55d9b6ed4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:09.833800Z"/>
+<entry
+   committed-rev="16"
+   name="back.gif"
+   text-time="2006-04-25T03:37:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5406ebdf05e1ee5287e7cab5614d1441"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:55.294272Z"/>
+</wc-entries>

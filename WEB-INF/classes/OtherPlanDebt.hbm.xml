@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="OtherPlanDebt"
+		table="Other_plan_debt"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="id1"
+			column="id1"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="repayDate"
+			column="repay_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="debtCode"
+			column="debt_code"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="capitalAmount"
+			column="capital_amount"
+			type="big_decimal"
+			not-null="false"
+			length="16"
+		/>
+		<property
+			name="issueSerial"
+			column="issue_serial"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="years"
+			column="years"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="issueDate"
+			column="issue_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="debtName"
+			column="debt_name"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="payDate"
+			column="pay_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="payAmount"
+			column="pay_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

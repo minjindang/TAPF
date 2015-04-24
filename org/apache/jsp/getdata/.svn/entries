@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/getdata"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BankRefId_jsp.java"
+   text-time="2007-09-06T02:23:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ebabddc2209cbade147edf1ba620b41"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebtCode_jsp.java"
+   text-time="2007-03-21T04:09:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2645c309bbee46af0a7ef189ec69f49c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BankRefId_jsp.class"
+   text-time="2007-09-06T02:23:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ec4aafe07aeae2a142a1abb6e7cca18"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:11.376224Z"/>
+<entry
+   committed-rev="16"
+   name="IssueSerialB_jsp.java"
+   text-time="2007-03-29T02:43:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f21caba22b9ef4e392b39086c56765ca"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="IssueSerialC_jsp.java"
+   text-time="2007-10-31T02:14:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="83da5318bcf06e5cea43177b1fa25a74"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="IssueSerialE_jsp.java"
+   text-time="2008-05-26T07:15:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1aac55c6d5ae368cadbceeeb401fc4b5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebtCode_jsp.class"
+   text-time="2007-03-21T04:09:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="98a69bb844dcf1c0e8785d39137915f2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:29.877725Z"/>
+<entry
+   committed-rev="16"
+   name="IssueSerialB_jsp.class"
+   text-time="2007-03-29T02:43:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9667ceff8f75268f73ad6f123256f6f2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:54.327779Z"/>
+<entry
+   committed-rev="16"
+   name="IssueSerialC_jsp.class"
+   text-time="2007-10-31T02:14:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="48f2a7c0b5fefb3be4b450f985451865"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:45.799240Z"/>
+<entry
+   committed-rev="16"
+   name="IssueSerialE_jsp.class"
+   text-time="2008-05-26T07:15:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea18a59a2c052f65564105d3fa891bb3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:47.415494Z"/>
+<entry
+   committed-rev="16"
+   name="IssueData_jsp.java"
+   text-time="2008-08-28T05:50:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fcd648575571ee6ecaf7e96efcd065fb"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

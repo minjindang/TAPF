@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="Gara04Temp"
+		table="GARA04_TEMP"
+	>
+		<id name="id" type="integer" column="ID">
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="accountYear"
+			column="account_year"
+			type="string"
+			not-null="true"
+			length="3"
+		/>
+		<property
+			name="budgetCapital"
+			column="budget_capital"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="fundationCapital"
+			column="fundation_capital"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="interestPayed"
+			column="interest_payed"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="yearAmount"
+			column="year_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

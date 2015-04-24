@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="ExtendDueDateMain"
+		table="extend_due_date_main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<many-to-one
+			name="debt"
+			column="DEBT_ID"
+			class="DebtMain"
+			not-null="true"
+			fetch="select"
+		>
+		</many-to-one>
+		
+		<property
+			name="oldDueDate"
+			column="old_due_date"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="newDueDate"
+			column="new_due_date"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="addInterestAmount"
+			column="add_interest_amount"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="insUsr"
+			column="ins_usr"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="insTime"
+			column="ins_time"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

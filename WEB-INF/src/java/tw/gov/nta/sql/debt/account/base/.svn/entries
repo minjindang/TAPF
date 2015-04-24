@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/debt/account/base"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BaseEaqc01RptDAO.java"
+   text-time="2006-07-28T05:15:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8b54ebc8150ca66ff3b7c6a235b0441"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherNoRef.java"
+   text-time="2006-07-14T17:13:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e3faca9ad91a894c98138bff88d33930"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="_BaseRootDAO.java"
+   text-time="2006-07-28T05:15:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="37bc57d11da41cb4f2d3cc7968444026"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountPhaseMainDAO.java"
+   text-time="2006-04-25T03:45:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9190df44a230a9560d1422c55f26a12b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherNoRefDAO.java"
+   text-time="2006-04-25T03:45:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84c1a5391962cacfa806c0c766f00998"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountPhaseDet.java"
+   text-time="2006-05-16T07:59:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="563e9c7f4d16f8fedda42179437054e3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountPhaseDetDAO.java"
+   text-time="2006-04-25T03:45:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="af26e03f8c3b0d5a15910bc7b94bfa00"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseEaqc01Rpt.java"
+   text-time="2006-07-28T05:15:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="81dd21b4f183b9607e9c8341f3e28d09"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountPhaseMain.java"
+   text-time="2006-07-31T07:00:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="be93ae831ddbfbed7813a499b4c09793"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

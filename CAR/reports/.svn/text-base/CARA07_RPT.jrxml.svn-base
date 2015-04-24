@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="Unnamed" language="java" pageWidth="1191" pageHeight="842" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="1131" leftMargin="10" rightMargin="50" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.HGuides" value="624"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.VGuides.Title" value="32,64,83,107,132"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<parameter name="startYear" class="java.lang.String">
+	</parameter>
+	<parameter name="endYear" class="java.lang.String">
+	</parameter>
+	<parameter name="usrId" class="java.lang.String">
+	</parameter>
+	<parameter name="createDate" class="java.lang.String">
+	</parameter>
+	<variable name="Sum1" class="java.lang.Integer" calculation="Sum">
+	</variable>
+	<variable name="Sum2" class="java.lang.Integer">
+	</variable>
+	<title>
+		<band height="158">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="1132" height="33"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="20"/>
+				</textElement>
+				<text><![CDATA[財    政    部    國    庫    署]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="32" width="1132" height="33"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="16"/>
+				</textElement>
+				<text><![CDATA[歷年中長借款未償餘額資料彙總表]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="0" y="64" width="1132" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["自 "+$P{startYear}+" 年度至 "+$P{endYear}+" 年度"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="107" width="286" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["製表日期："+$P{createDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="624" y="107" width="507" height="26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["頁次：第 "+$V{PAGE_NUMBER}+" 頁"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="132" width="286" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["製表單位：財政部國庫署(三)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="624" y="132" width="508" height="26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["金額單位：新台幣元"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="32">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="117" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[年度]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="117" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[年度未償餘額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="286" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[當年度借款餘額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="455" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[當年度償還本金]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="624" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[年底未償餘額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="793" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[當年度舉借平均利率(%)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="962" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[未償餘額平均利率(%)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="32">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="117" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="117" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="286" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="455" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="624" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="793" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="962" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="286" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["合     計"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="286" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$V{Sum1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="455" y="0" width="169" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$V{Sum2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="624" y="0" width="507" height="32"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+			</textField>
+		</band>
+	</columnFooter>
+</jasperReport>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/styles"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="login.css"
+   text-time="2006-04-25T03:37:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e85834bdeff267dc9af1c114f72d2dbe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="stod.css"
+   text-time="2006-07-10T05:51:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c47c2eaa43f9c8e5a00a7628c7dcfea9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="link.css"
+   text-time="2006-04-25T03:37:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dcdbb397d0bcb6aa1f540222b7d4d7b0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="screen.css"
+   text-time="2006-04-25T03:37:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eeeb27d41142c68ff13de96db27ea424"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="top.css"
+   text-time="2006-04-25T03:37:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="323ee9d5e4dab3305ff20e872250792c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="cns.css"
+   text-time="2006-04-25T03:37:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c0a63b1c866eb0f9555078a806346309"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="dynCalendar.css"
+   text-time="2006-04-25T10:56:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b14b2c95c21e2e468a57f90b08a2d0c7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="menu.css"
+   text-time="2006-04-25T03:37:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30d77aaa90d960ec01a41a38e451bd2a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="display.css"
+   text-time="2006-04-25T03:37:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="71f6668d8abb4b8cd2e9c863423d8446"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="xtree.css"
+   text-time="2006-04-25T03:37:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="93993fceb4b76525ba58249f899fa2a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="default_styles.css"
+   text-time="2006-04-25T03:37:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2fd6e7afad299de7126da270b1ca00d0"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

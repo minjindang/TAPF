@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="APRA18_RPT" language="java" pageWidth="700" pageHeight="595" orientation="Landscape" columnWidth="700" leftMargin="0" rightMargin="0" topMargin="30" bottomMargin="30" whenResourceMissingType="Empty">
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="tapf"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<property name="com.jasperassistant.designer.VGuides.Page Header" value="84,110"/>
+	<parameter name="usrId" class="java.lang.String">
+		<defaultValueExpression><![CDATA["TAPF"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="createDate" class="java.lang.String">
+		<defaultValueExpression><![CDATA["95 年 3 月 14 日"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="issueId" class="java.lang.Integer">
+	</parameter>
+	<parameter name="closeDate" class="java.lang.String">
+	</parameter>
+	<parameter name="debtName" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[SELECT APRA18_RPT.TICKET_COUNT, APRA18_RPT.TOTAL_AMOUNT
+FROM APRA18_RPT WHERE APRA18_RPT.USRID = '$P!{usrId}']]></queryString>
+	<field name="TICKET_COUNT" class="java.math.BigDecimal">
+	</field>
+	<field name="TOTAL_AMOUNT" class="java.math.BigDecimal">
+	</field>
+	<pageHeader>
+		<band height="226">
+			<staticText>
+				<reportElement positionType="Float" x="-1" y="0" width="684" height="33"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="18"/>
+				</textElement>
+				<text><![CDATA[中 央 政 府 實 體 公 債 累 計 表 總 計]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="110" width="93" height="26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[經付期間：]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="93" y="110" width="388" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{closeDate}+" 止"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="481" y="84" width="74" height="26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[製表日期：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="481" y="110" width="74" height="26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[金額單位：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="481" y="136" width="74" height="26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[製表單位：]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="555" y="58" width="128" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["第"+$V{PAGE_NUMBER}.toString()+"頁"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="93" y="136" width="388" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{debtName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="136" width="93" height="26" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[公債名稱：]]></text>
+			</staticText>
+			<textField pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="93" y="162" width="388" height="32"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{TICKET_COUNT}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="162" width="93" height="32"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[總 張 數：]]></text>
+			</staticText>
+			<textField pattern="#,##0.00#" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="93" y="194" width="388" height="32"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{TOTAL_AMOUNT}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="194" width="93" height="32"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[總 金 額：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="481" y="58" width="74" height="26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[頁　　次：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="555" y="110" width="128" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[新台幣元]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="555" y="136" width="128" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[財政部國庫署(3)]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="555" y="84" width="128" height="26"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{createDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+</jasperReport>

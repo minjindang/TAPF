@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="TaxactionDet101"
+		table="Taxaction_det_101"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="taxYear"
+			column="TAX_YEAR"
+			type="string"
+			not-null="true"
+			length="3"
+		/>
+		
+		<property
+			name="taxMonth"
+			column="TAX_MONTH"
+			type="string"
+			not-null="true"
+			length="5"
+		/>
+		
+		<property
+			name="nationTax"
+			column="NATION_TAX"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		
+		<property
+			name="financialCheck"
+			column="FINANCIAL_CHECK"
+			type="string"
+			not-null="true"
+			length="1"
+		/>
+		
+		<property
+			name="financial"
+			column="FINANCIAL"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		
+		<property
+			name="intTax"
+			column="INT_TAX"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+	
+		
+		<property
+			name="fillAmount"
+			column="Fill_Amount"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="nationRate"
+			column="NATION_RATE"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="localRate"
+			column="LOCAL_RATE"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="intRate"
+			column="INT_RATE"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		
+		<property
+			name="totMon"
+			column="TOTMON"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

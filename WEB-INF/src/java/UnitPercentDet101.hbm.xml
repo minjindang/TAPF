@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="UnitPercentDet101"
+		table="Unit_percent_det_101"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="usrid"
+			column="USRID"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="REMARK"
+			type="string"
+			not-null="false"
+			length="255"
+		/>
+	
+		<property
+			name="tpercent"
+			column="TPERCENT"
+			type="big_decimal"
+			not-null="true"
+			length="13"
+		/>
+		
+		<property
+			name="financial"
+			column="FINANCIAL"
+			type="big_decimal"
+			not-null="true"
+			length="13"
+		/>
+		<property
+			name="tyear"
+			column="TYEAR"
+			type="string"
+			not-null="true"
+			length="3"
+		/>
+		<many-to-one
+			name="unitInfo"
+			column="UNIT_INFO_ID"
+			class="UnitInfoMain"
+			not-null="true"
+			fetch="select"
+		>
+		</many-to-one>
+
+
+	</class>	
+</hibernate-mapping>

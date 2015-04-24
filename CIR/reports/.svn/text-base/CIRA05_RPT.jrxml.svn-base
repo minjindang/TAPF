@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="CIRA05" language="java" pageWidth="750" pageHeight="1191" whenNoDataType="AllSectionsNoDetail" columnWidth="750" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isTitleNewPage="true">
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.Rulers" value="true"/>
+	<property name="com.jasperassistant.designer.DataSource" value="tapf"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Margins" value="true"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<property name="com.jasperassistant.designer.SnapToGuides" value="true"/>
+	<parameter name="usrId" class="java.lang.String">
+		<defaultValueExpression><![CDATA["1"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="year" class="java.lang.String">
+	</parameter>
+	<parameter name="baseUnit" class="java.lang.String">
+	</parameter>
+	<parameter name="endDate" class="java.lang.String">
+		<defaultValueExpression><![CDATA[""]]></defaultValueExpression>
+	</parameter>
+	<parameter name="status" class="java.lang.String">
+	</parameter>
+	<parameter name="budgetCode" class="java.lang.String">
+	</parameter>
+	<parameter name="debtCode" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[Select * from CIRA05_RPT order by bank_name , change_rate desc]]></queryString>
+	<field name="Bank_name" class="java.lang.String">
+	</field>
+	<field name="Change_rate" class="java.math.BigDecimal">
+	</field>
+	<field name="Compare_rate" class="java.math.BigDecimal">
+	</field>
+	<field name="Days" class="java.lang.String">
+	</field>
+	<field name="Issue_amount" class="java.math.BigDecimal">
+	</field>
+	<field name="Issue_date" class="java.sql.Timestamp">
+	</field>
+	<field name="Issue_serial" class="java.lang.String">
+	</field>
+	<field name="id" class="java.lang.Integer">
+	</field>
+	<field name="mod_date" class="java.sql.Timestamp">
+	</field>
+	<field name="remark" class="java.lang.String">
+	</field>
+	<field name="usrid" class="java.lang.String">
+	</field>
+	<variable name="gIssueAmount" class="java.math.BigDecimal" resetType="Group" resetGroup="bankGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{Issue_amount}]]></variableExpression>
+	</variable>
+	<variable name="gCompareRate" class="java.math.BigDecimal" resetType="Group" resetGroup="bankGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{Compare_rate}]]></variableExpression>
+	</variable>
+	<variable name="gChangeRate" class="java.math.BigDecimal" resetType="Group" resetGroup="bankGroup" calculation="Sum">
+		<variableExpression><![CDATA[$F{Change_rate}]]></variableExpression>
+	</variable>
+	<variable name="sIssueAmount" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{Issue_amount}]]></variableExpression>
+	</variable>
+	<variable name="sCompareRate" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{Compare_rate}]]></variableExpression>
+	</variable>
+	<variable name="sChangeRate" class="java.math.BigDecimal" calculation="Sum">
+		<variableExpression><![CDATA[$F{Change_rate}]]></variableExpression>
+	</variable>
+	<group name="bankGroup">
+		<groupExpression><![CDATA[$F{Bank_name}]]></groupExpression>
+		<groupFooter>
+		<band height="24">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="103" height="24"/>
+				<box topBorder="Thin" leftBorder="1Point" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[小計]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" pattern="#,##0.000%" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="427" y="0" width="97" height="24"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.000%" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="524" y="0" width="97" height="24"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="103" y="0" width="65" height="24"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement/>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="168" y="0" width="53" height="24"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement/>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="221" y="0" width="63" height="24"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="621" y="0" width="129" height="24"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="1Point" rightBorder="1Point"/>
+				<textElement/>
+			</staticText>
+			<textField isStretchWithOverflow="true" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="284" y="0" width="143" height="24"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{gIssueAmount}]]></textFieldExpression>
+			</textField>
+		</band>
+		</groupFooter>
+	</group>
+	<title>
+		<band height="151">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="750" height="32"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="20"/>
+				</textElement>
+				<text><![CDATA[中長期借款未償餘額統計表-按銀行別]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="0" y="32" width="750" height="34"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["(截至" + $P{endDate}  + "止)("+ $P{status} +"金額)"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="66" width="750" height="19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{budgetCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="104" width="750" height="20"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["單位:" + $P{baseUnit}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="85" width="750" height="19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{debtCode}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="124" width="103" height="27"/>
+				<box topBorder="1Point" leftBorder="1Point" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[銀行]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="103" y="124" width="65" height="27"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[期別]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="168" y="124" width="53" height="27"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<text><![CDATA[借款日期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="221" y="124" width="63" height="27"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[年期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="284" y="124" width="143" height="27"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[借款金額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="427" y="124" width="97" height="27"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<text><![CDATA[原始
+借款利率]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="524" y="124" width="97" height="27"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="1Point" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<text><![CDATA[調整後
+借款利率]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="621" y="124" width="129" height="27"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="1Point" rightBorder="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[備註]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="24">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="103" height="24"/>
+				<box topBorder="Thin" leftBorder="1Point" bottomBorder="Thin" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Bank_name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="103" y="0" width="65" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Issue_serial}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="168" y="0" width="53" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[($F{Issue_date}.getYear()-11) + "/" + ( $F{Issue_date}.getMonth()+1) + "/"   + ( $F{Issue_date}.getDate())]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="221" y="0" width="63" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{Days}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="284" y="0" width="143" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{Issue_amount}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.000%" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="427" y="0" width="97" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{Compare_rate}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.000%" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="524" y="0" width="97" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$F{Change_rate}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="621" y="0" width="129" height="24" backcolor="#ff0080"/>
+				<box topBorder="Thin" leftBorder="Thin" bottomBorder="Thin" rightBorder="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{remark}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="24">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="103" height="24"/>
+				<box topBorder="Thin" leftBorder="1Point" bottomBorder="Thin" rightBorder="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[總計]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="103" y="0" width="65" height="24"/>
+				<box border="Thin"/>
+				<textElement/>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="168" y="0" width="53" height="24"/>
+				<box border="Thin"/>
+				<textElement/>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="221" y="0" width="63" height="24"/>
+				<box border="Thin"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+			</staticText>
+			<textField isStretchWithOverflow="true" pattern="#,##0.###" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="284" y="0" width="143" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[$V{sIssueAmount}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.000%" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="427" y="0" width="97" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,##0.000%" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="524" y="0" width="97" height="24"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="621" y="0" width="129" height="24"/>
+				<box topBorder="1Point" leftBorder="Thin" bottomBorder="Thin" rightBorder="1Point"/>
+				<textElement/>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

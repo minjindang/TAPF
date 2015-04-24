@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/images/menu"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="b01.gif"
+   text-time="2006-04-25T03:37:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2407e15f1180c2734ce7b6a8c18ccabb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:49.095358Z"/>
+<entry
+   committed-rev="16"
+   name="b011.gif"
+   text-time="2006-04-25T03:37:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="022de810e4034b81ec5e511028a7c03f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:23.126845Z"/>
+</wc-entries>

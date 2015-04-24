@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/CPR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="CPRA0201QForm.jsp"
+   text-time="2006-07-14T06:14:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30a643ff722a75c910586c1ba77ce6ee"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0201QBar.jsp"
+   text-time="2006-04-25T03:39:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4b3fb29e4d610acf26d21fe52d0fcfbc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0301QForm.jsp"
+   text-time="2008-12-08T03:02:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f1cf21b709430482cd12b3d8e1156d6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0201QScript.jsp"
+   text-time="2006-07-14T06:14:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="234289ebae0f94ccfd7e487e368754fa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0201QForm.jsp"
+   text-time="2006-04-25T03:39:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f9e692e992640e1ecf52782e7dc05edb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0301QScript.jsp"
+   text-time="2006-06-14T03:33:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ca9da69fecba63c937440b975ae7671d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0301QForm.jsp"
+   text-time="2006-04-25T03:39:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="efda78f952784849a7a06ebf8b6e4829"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0201QScript.jsp"
+   text-time="2006-06-14T03:33:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3fdbd4d6e5b242248df1e44eb2a030eb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0401QForm.jsp"
+   text-time="2006-09-05T08:04:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="40fa84186203f4ea4255744acfcb36cb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0201QBar.jsp"
+   text-time="2006-04-25T03:39:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4ad3b6ca6922165c38e65f447a8a933f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0301QBar.jsp"
+   text-time="2006-04-25T03:39:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="00f542da4ec3eb2919a14aca895212bf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0501QForm.jsp"
+   text-time="2006-09-06T10:35:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f1ed8eea7d0014645638c2ed04cfaeb8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0401QForm.jsp"
+   text-time="2006-04-25T03:39:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8944795fd4d5d27e488af60f82b4621c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0401QBar.jsp"
+   text-time="2006-04-25T03:39:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="78167012bec90e7235dc90818bee5d9c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0301QScript.jsp"
+   text-time="2006-06-14T03:33:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30c29742a4056c06ca2c5ebd0fa59003"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0301QBar.jsp"
+   text-time="2006-04-25T03:39:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="532722e0ab889cb44aa40a241bb4b2bb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0401QScript.jsp"
+   text-time="2006-06-14T03:33:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1431907ff56ca5b50a93fe98c5c50322"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0401QScript.jsp"
+   text-time="2006-06-14T03:33:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="55289f6c9b00761cef3bb03328e7e4fc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0401QBar.jsp"
+   text-time="2006-04-25T03:39:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="af3180c6043fbf185daa58e92b1a9e22"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="reports"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="CPRA0201Q.jsp"
+   text-time="2006-04-25T03:39:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e3776700c2c8f673d97a11fdbe1ac6d7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0301Q.jsp"
+   text-time="2006-04-25T03:39:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2cd707b79be694ed3129c457753b825d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0201Q.jsp"
+   text-time="2006-04-25T03:39:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7ec1ddcc83d80ada878ce90c8e411dfa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0401Q.jsp"
+   text-time="2006-04-25T03:39:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="052c15b900f87ae1226240235b2db7e1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0301Q.jsp"
+   text-time="2006-04-25T03:39:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="39b54109be152030860e45d96176020b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA0501Q.jsp"
+   text-time="2006-09-06T10:35:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b0fea3e0f09e97ec8f83369ab6702714"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRB0401Q.jsp"
+   text-time="2006-04-25T03:39:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9ab6a23f5dbefd252e8b4e2376a32ab1"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

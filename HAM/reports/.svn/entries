@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/HAM/reports"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="HAMA01_RPT1.jrxml"
+   text-time="2006-06-22T13:23:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1094a0cc3e3e8705ec5885fe001d5e0a"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

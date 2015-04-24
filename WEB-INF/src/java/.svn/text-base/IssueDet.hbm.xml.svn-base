@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="IssueDet"
+		table="issue_det"
+	>
+
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+		<property
+			name="issueId"
+			column="issue_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="debtCode"
+			column="Debt_code"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="budgetCode"
+			column="Budget_code"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="budgetYear"
+			column="budget_year"
+			type="string"
+			not-null="false"
+			length="3"
+		/>
+		<property
+			name="planAmount"
+			column="plan_amount"
+			type="big_decimal"
+			not-null="false"
+			length="13"
+		/>
+		<property
+			name="realAmount"
+			column="real_amount"
+			type="big_decimal"
+			not-null="false"
+			length="13"
+		/>
+		<property
+			name="deleteRemark"
+			column="delete_remark"
+			type="string"
+			not-null="false"
+			length="1"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

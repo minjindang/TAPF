@@ -1,0 +1,136 @@
+package org.apache.jsp.APR;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class APRA0801QBar_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static java.util.Vector _jspx_dependants;
+
+  static {
+    _jspx_dependants = new java.util.Vector(1);
+    _jspx_dependants.add("/WEB-INF/taglibs/struts-html.tld");
+  }
+
+  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_html_submit_value_styleClass_property_onclick_nobody;
+  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_html_button_value_styleClass_property_onclick_nobody;
+
+  public java.util.List getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspInit() {
+    _jspx_tagPool_html_submit_value_styleClass_property_onclick_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _jspx_tagPool_html_button_value_styleClass_property_onclick_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+  }
+
+  public void _jspDestroy() {
+    _jspx_tagPool_html_submit_value_styleClass_property_onclick_nobody.release();
+    _jspx_tagPool_html_button_value_styleClass_property_onclick_nobody.release();
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    JspFactory _jspxFactory = null;
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+
+    try {
+      _jspxFactory = JspFactory.getDefaultFactory();
+      response.setContentType("text/html;charset=Big5");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+
+      out.write("<!--\tAPRA0801QBar.jsp\r\n");
+      out.write("程式目的：APRA08中央政府登錄公債還本付息核結數額表\r\n");
+      out.write("程式代號：APRA08\r\n");
+      out.write("程式日期：0950316\r\n");
+      out.write("程式作者：ERIC CHEN\r\n");
+      out.write("--------------------------------------------------------\r\n");
+      out.write("修改作者　　修改日期　　　修改目的\r\n");
+      out.write("--------------------------------------------------------\r\n");
+      out.write("-->\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<table class='table_1' width='100%'>\r\n");
+      out.write("\t<tr>\r\n");
+      out.write("\t\t<td class='table_function' align='right'>\r\n");
+      out.write("\t\t\t");
+      if (_jspx_meth_html_submit_0(_jspx_page_context))
+        return;
+      out.write("\r\n");
+      out.write("\t\t\t");
+      if (_jspx_meth_html_button_0(_jspx_page_context))
+        return;
+      out.write("\r\n");
+      out.write("\t\t</td>\r\n");
+      out.write("\t</tr>\r\n");
+      out.write("</table>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+      }
+    } finally {
+      if (_jspxFactory != null) _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+
+  private boolean _jspx_meth_html_submit_0(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:submit
+    org.apache.struts.taglib.html.SubmitTag _jspx_th_html_submit_0 = (org.apache.struts.taglib.html.SubmitTag) _jspx_tagPool_html_submit_value_styleClass_property_onclick_nobody.get(org.apache.struts.taglib.html.SubmitTag.class);
+    _jspx_th_html_submit_0.setPageContext(_jspx_page_context);
+    _jspx_th_html_submit_0.setParent(null);
+    _jspx_th_html_submit_0.setStyleClass("formcss_rbutton");
+    _jspx_th_html_submit_0.setProperty("doPrt");
+    _jspx_th_html_submit_0.setValue("開啟Excel");
+    _jspx_th_html_submit_0.setOnclick("javascript:return(checkValue(this.form));");
+    int _jspx_eval_html_submit_0 = _jspx_th_html_submit_0.doStartTag();
+    if (_jspx_th_html_submit_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+      return true;
+    _jspx_tagPool_html_submit_value_styleClass_property_onclick_nobody.reuse(_jspx_th_html_submit_0);
+    return false;
+  }
+
+  private boolean _jspx_meth_html_button_0(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  html:button
+    org.apache.struts.taglib.html.ButtonTag _jspx_th_html_button_0 = (org.apache.struts.taglib.html.ButtonTag) _jspx_tagPool_html_button_value_styleClass_property_onclick_nobody.get(org.apache.struts.taglib.html.ButtonTag.class);
+    _jspx_th_html_button_0.setPageContext(_jspx_page_context);
+    _jspx_th_html_button_0.setParent(null);
+    _jspx_th_html_button_0.setStyleClass("formcss_rbutton");
+    _jspx_th_html_button_0.setProperty("reset");
+    _jspx_th_html_button_0.setValue("清畫面");
+    _jspx_th_html_button_0.setOnclick("clearForm(this.form)");
+    int _jspx_eval_html_button_0 = _jspx_th_html_button_0.doStartTag();
+    if (_jspx_th_html_button_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+      return true;
+    _jspx_tagPool_html_button_value_styleClass_property_onclick_nobody.reuse(_jspx_th_html_button_0);
+    return false;
+  }
+}

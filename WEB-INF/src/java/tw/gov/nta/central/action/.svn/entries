@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/central/action"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="HAMB0200.java"
+   text-time="2006-08-29T07:56:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="403295ece6fecf8c69ba95181bcc99b1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0201.java"
+   text-time="2010-11-13T01:44:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c2e3155f5609bdd5ac91e5bbcaddf161"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1200.java"
+   text-time="2011-11-10T02:14:40.857072Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="346e9b19d5777c0c7fd02edd92b67bf4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0500.java"
+   text-time="2011-11-18T06:23:31.665899Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b6b1f3cfc2998839c34c80cc2ff1863f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0301.java"
+   text-time="2010-11-13T01:45:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2b3355c2398c40ffaba6537298b7097c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0102.java"
+   text-time="2006-08-11T09:18:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="07b55c9a1d3179474d8dde48e922d8a6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0302.java"
+   text-time="2007-12-31T07:22:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="75b62a9a949e25f1a35266a98ede54ac"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0300.java"
+   text-time="2006-08-11T09:18:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="06479f71171bd2885ffc60401976a6c0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0104.java"
+   text-time="2006-04-25T03:45:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bec882b1ea929aef92cebe224e62b30a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1103.java"
+   text-time="2011-11-10T02:44:43.719460Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ec862a85c74444f81dcd034f1467e74"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0410.java"
+   text-time="2011-11-22T03:52:39.491000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10e2c7b0c0f1ef76bc0132eaa9c7ec28"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0600.java"
+   text-time="2006-08-11T09:18:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1ae3205c9a7035728a1c0a3cdf8174f0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB1000.java"
+   text-time="2006-08-28T08:23:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="67f957ea824323c69656d159d961539b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0403.java"
+   text-time="2011-09-20T07:58:04.794787Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a3859e6be242691fa1f6c3ae8b72d826"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0601.java"
+   text-time="2011-11-10T09:02:25.258873Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fbfafddfa3741819fd5c6f2518c7a36e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0401.java"
+   text-time="2006-09-07T06:59:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8cbc560c045cb27efb55f51752fde9b7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0701.java"
+   text-time="2006-06-08T07:55:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e6e28b79e7b2c985426927e48aac7681"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0700.java"
+   text-time="2006-08-11T09:18:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6bea08e17b3c32120a109d73b8ddfce4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0502.java"
+   text-time="2006-08-11T09:18:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bf0496636dd9779c0ecbdd06a3309872"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARA0401.java"
+   text-time="2006-04-25T03:45:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="690b20807bf2f3d47c251500c456709b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="RAMA0100.java"
+   text-time="2011-11-22T02:51:58.585844Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d59d35c541bb32a327744d39591c9d44"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0405.java"
+   text-time="2006-08-11T09:18:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d4dc3df5abd6d12189fe206d41aee9d8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0407.java"
+   text-time="2011-09-20T03:48:07.938790Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ed57b77d461b056d7c22d7351413452"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0406.java"
+   text-time="2006-04-25T03:45:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f57b2ae8ab72a25bdc18e3135c700cd2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1208.java"
+   text-time="2011-09-29T02:06:04.076016Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0fa5717c97532f1261096daf2dd52bfe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0704.java"
+   text-time="2006-08-11T09:18:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f076819f153f1ae20e456ab0a0c7f2a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0705.java"
+   text-time="2006-08-03T10:23:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="46795613168e0401d71c58c01fecc3d1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0800.java"
+   text-time="2006-08-28T08:23:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4a72964848937ace256e31357d01ad2c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="RAMA0104.java"
+   text-time="2011-11-18T02:36:30.353473Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d3d3eff983df73e0d36ba3ff6182e67"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0900.java"
+   text-time="2006-08-28T08:23:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="03b08655a8110d5f3570b4e5edad8749"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0901.java"
+   text-time="2012-02-20T10:23:12.206784Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c3de93d68407102b733d4e9ea8227d63"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0100.java"
+   text-time="2006-08-11T09:18:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc86840ab8ccdbcee37cc8917ad8eeb9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0101.java"
+   text-time="2006-06-08T07:55:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0df759c90a4b339e85bf7976e56924b0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1100.java"
+   text-time="2011-11-10T02:33:16.250929Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="237d0ec1afbced5dee7b3128b2b63dd5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0201.java"
+   text-time="2006-08-29T07:56:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2978b959e5368d6f5c9eaa3ef835cdd9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0200.java"
+   text-time="2006-08-29T07:56:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f64e599cf45ae9591edfd36ffd6c1aa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1201.java"
+   text-time="2011-09-29T01:59:21.897712Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="96f54cc3ce7381e4ef98135e28f39616"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0105.java"
+   text-time="2006-07-19T03:32:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ae0f517f737009c3ff384110f9d95b9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0301.java"
+   text-time="2010-11-13T01:45:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="252c65fed71eda794b6cace133b43225"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0501.java"
+   text-time="2011-11-18T06:19:23.779455Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="07d44c5ca089f45990613348a8ad5e31"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0303.java"
+   text-time="2006-06-07T11:08:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d5c5b072b69e76a3fbf5407f3ab2cdcc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0302.java"
+   text-time="2010-11-13T01:45:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5477053a994e25d6513ee73ddfb1709b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0410.java"
+   text-time="2010-11-22T01:11:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2e2dc35bb5adc6cd440a85f3651d7520"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0601.java"
+   text-time="2007-04-11T07:46:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3400e7127be0cf785c09598b6014623b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB1001.java"
+   text-time="2011-01-10T02:07:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f90b7735244ccfb452fae4aa6710d8ec"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1000.java"
+   text-time="2006-08-28T08:23:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6cd504a5645743205ba7b88ec84fc57c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0602.java"
+   text-time="2011-11-18T06:49:38.048501Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ee667c93cb54fdb03a9a2a7bd62ade4d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0404.java"
+   text-time="2011-09-20T03:47:12.949719Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9074104bcdd6cb8d61b42530fe797972"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0600.java"
+   text-time="2006-08-11T09:18:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="54050385be4faa5f88a6bfe0c1ddc846"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1205.java"
+   text-time="2011-09-30T06:39:47.950022Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5fea9f9211ec05bb93d112cfddca940e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0701.java"
+   text-time="2006-08-11T09:18:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fc65135482dfcf362fb7e71b1f6068d5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARA0402.java"
+   text-time="2006-04-25T03:45:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b2ff438ce6d9fd29bfbaa4ab0739817e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0407.java"
+   text-time="2006-09-07T06:59:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="badb4b264ecbaa525e5fd5069654c67a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0406.java"
+   text-time="2006-08-11T09:18:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2f618f8960cc629d4086c78340bcf79f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="RAMA0101.java"
+   text-time="2011-11-17T07:14:26.250036Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="657b0f99cfb99868e71b17642c40b4bc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0705.java"
+   text-time="2006-08-11T09:18:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dae0f9449bf4a73cd9e0d10cf033e36a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0801.java"
+   text-time="2006-08-30T07:26:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9c8ea715a9097542f1b7aeb991bf391b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0800.java"
+   text-time="2006-08-28T08:23:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="43a6ef92be9bbc9ce6b041495bb8ff33"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0902.java"
+   text-time="2010-11-13T01:44:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bcb36df591722f7341912387515a3fa3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0901.java"
+   text-time="2011-01-10T02:07:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6b7f660ba326326a3a30c6f7e0315578"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0101.java"
+   text-time="2006-07-21T05:56:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="288e1382a9e58aac6d20fc8f3767011f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0100.java"
+   text-time="2006-08-11T09:18:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9b48f83bfba5d5d4ad7de3673f7f1d41"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0300.java"
+   text-time="2013-07-10T09:50:44.358031Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bcdb7c3cbfbd6440c446c21989805bc6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1101.java"
+   text-time="2011-09-27T03:38:17.108009Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="49fbcf1a57361dab433ba6e26325f919"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0400.java"
+   text-time="2006-08-11T09:18:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b88b1f0d20d67e0c6a9bd4f6f9752cb7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1210.java"
+   text-time="2011-09-29T02:12:03.943480Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7055132ffadaa179be197bed04be9da2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0401.java"
+   text-time="2011-09-20T03:24:43.869838Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ae60814eb9b121064260bab3fea754fa"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0201.java"
+   text-time="2006-08-29T07:56:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="12f17c8774cbdbb2b033726b043278cd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0202.java"
+   text-time="2006-06-22T13:25:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="46db419b7600bb358b53e364012004da"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0501.java"
+   text-time="2006-08-11T09:18:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fb88b0ca984d32d37478b8241154fc8a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0302.java"
+   text-time="2010-11-13T01:44:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11e189093ffba3574f207cfc9b0e667e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0303.java"
+   text-time="2006-06-22T13:25:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="406d1bfd9cc61e908da18819771df0fb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0601.java"
+   text-time="2007-04-11T07:46:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e47832afb923ef9b373b7bd3907524bd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB1002.java"
+   text-time="2006-06-12T10:05:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8443b047abc2e6aea3d00684a5c0e814"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0405.java"
+   text-time="2011-11-18T07:38:25.352130Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eb2f7ec0063e8a1e90c908bc663a79fc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0603.java"
+   text-time="2011-11-18T06:54:11.271376Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9a64ac20e62ebae60877a92a3f9aae9e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1001.java"
+   text-time="2011-01-10T02:07:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="97199f7ba68413d14eae317a7d467117"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1206.java"
+   text-time="2011-09-29T02:03:35.802809Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="78c71f0988f4f7e397b6a0421f465d6f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0703.java"
+   text-time="2006-04-25T03:45:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1deefa33067c93eb576111cc92b755d1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARA0403.java"
+   text-time="2006-04-25T03:45:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4f4a9e2738475e750739af110acfd85e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0408.java"
+   text-time="2006-06-05T01:35:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9f986dbfb6caaf715f6a953642722e7c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="RAMA0102.java"
+   text-time="2011-11-18T02:13:30.058707Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="18fb204bad07fb18992455c85f3f9625"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0407.java"
+   text-time="2006-09-07T06:59:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="291db6dfc2797c78eb41d9a03552db00"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0801.java"
+   text-time="2006-08-30T07:26:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ad646d2e5e03deb442038c318bc6bf6e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0802.java"
+   text-time="2006-07-10T02:44:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eb01db882ce006824dd683e1aed9967b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0902.java"
+   text-time="2010-11-13T01:44:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="88405318fe41e8a5fe26fa4e546e0bc2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0200.java"
+   text-time="2006-04-25T03:45:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eea8c6929dd513bb87adc343606799f8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0300.java"
+   text-time="2010-11-23T01:00:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7401ccfc3e47623cd3d45877f64fb85b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0301.java"
+   text-time="2011-11-22T03:52:39.441000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3e57bed2374407e8bd87905b3ec8f1c6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0102.java"
+   text-time="2006-04-25T03:45:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aed0e07b41e8d3412ce522204d12f222"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0103.java"
+   text-time="2006-07-13T09:51:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f4e3cff24e2c0deab50bbd43e7ec9c2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0101.java"
+   text-time="2006-08-11T09:18:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f1cef4e3ea3b51060a5d5069bb61d3d2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1102.java"
+   text-time="2011-09-29T02:38:53.267574Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="733714f3cb6158a81ceb4a1d3c6030a7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0401.java"
+   text-time="2006-09-07T06:59:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dac423a1ae5f3066270304a8b5f8f035"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0600.java"
+   text-time="2011-11-18T06:48:54.907986Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="82148003486b4fec012edbffa99d5e8c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0400.java"
+   text-time="2006-08-11T09:18:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84dda201b0080045e92e3bf9b9f36312"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0202.java"
+   text-time="2006-08-11T09:18:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d01fc8f8676a31e18a61dd0f070088ed"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0303.java"
+   text-time="2006-08-11T09:18:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7e7134e17981ecbe4ed81259662d242"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0502.java"
+   text-time="2006-08-11T09:18:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3a6e7def0d90f42de7af6a3afe188971"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0700.java"
+   text-time="2006-08-11T09:18:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e77e03c2ffe59338f6d00a038d288fdc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0501.java"
+   text-time="2006-08-11T09:18:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5d141ec58dbf1db09741f4fbdda456ad"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMA0107.java"
+   text-time="2006-06-07T11:08:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2a0f1048f94356a64777d19fadf1c49b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0412.java"
+   text-time="2013-07-05T09:28:05.154812Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="32e9f2a2d648f8413a99f7ec91b00dd5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0405.java"
+   text-time="2006-07-10T02:29:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5e7db9d9c0091e9f71278758cf03f905"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC1002.java"
+   text-time="2006-08-11T09:18:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="76a1a2f80872752fb3d9907296114323"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB1207.java"
+   text-time="2011-09-29T02:05:03.639112Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ba94bd05758fc0809897804686cc77c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0703.java"
+   text-time="2006-08-11T09:18:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="00464de58e0c26572307a73582707e92"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMB0704.java"
+   text-time="2006-04-25T03:45:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ab4c0cd92caed5a82be31d65d543a31"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HAMC0408.java"
+   text-time="2006-08-11T09:18:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3817748244535e2fe7d029cd63f3cbfd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="RAMA0103.java"
+   text-time="2011-11-18T02:34:21.748548Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1cec6edc078923337e099ceebd7ba75f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARB0900.java"
+   text-time="2006-08-28T08:23:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8009eb71dba373621dbbb03273975872"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="HARC0802.java"
+   text-time="2006-08-11T09:18:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c4cbc32a22136080c89c4c728374c889"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

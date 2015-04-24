@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/APR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="APRA0101QScript.jsp"
+   text-time="2006-08-02T06:48:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1f38f62f693103ac1b3554a8a42c58ef"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0201QBar.jsp"
+   text-time="2006-04-25T03:36:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b487ae2d18dc8feefbd9de4b767dc711"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0301QForm.jsp"
+   text-time="2006-06-14T10:52:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7b166f37fb5b3dbc7cd285744bef9cf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2101QScript.jsp"
+   text-time="2006-07-06T12:02:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="613d99f1b5f2b801087f03932e166282"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1301QForm.jsp"
+   text-time="2006-07-02T15:24:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2a9e8edefb949821454c32ef251e6da7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2101QBar.jsp"
+   text-time="2006-04-25T03:36:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1301QScript.jsp"
+   text-time="2006-06-14T03:32:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f58c1f2cbc2f0a13a1e7b455105cd29d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2301QForm.jsp"
+   text-time="2006-09-21T12:58:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="54a6e9ac89b9d81bdb14715ad2dae4e6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0401QBar.jsp"
+   text-time="2006-04-25T03:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ab72d6c7f943e5f8a1a1dd59dda5154e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0501QScript.jsp"
+   text-time="2006-06-14T03:32:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="42b3ff2cee5cf30d0c39b5c9b2748ff8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2301QBar.jsp"
+   text-time="2006-04-25T03:36:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0701QForm.jsp"
+   text-time="2006-07-02T15:24:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="644a4dc97e5a4fa3e02c8eadbf183366"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0601QBar.jsp"
+   text-time="2006-04-25T03:36:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="505aca8bcd10578ff5d021c4c8282418"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2501QBar.jsp"
+   text-time="2006-04-25T03:36:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2501QScript.jsp"
+   text-time="2006-06-21T13:44:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="26b160bb1f4eabfa995e8482bb4bfee9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1701QForm.jsp"
+   text-time="2006-07-02T15:24:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a45bf0ee15e8e69179edc6a7c8093fd1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2701QForm.jsp"
+   text-time="2006-07-02T15:24:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8c08e7deeec67d588f49c02ebc86ae3a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1701QScript.jsp"
+   text-time="2006-06-14T03:32:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dd21533837d7abc379561cf998d3cc60"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0801QBar.jsp"
+   text-time="2006-04-25T03:36:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="14665499b937701e7095836ec044b2f3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2701QBar.jsp"
+   text-time="2006-04-25T03:36:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0901QScript.jsp"
+   text-time="2006-07-12T02:19:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="26aad42af4a2276d8a8c343b262915c8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2901QScript.jsp"
+   text-time="2006-06-14T03:32:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="85cb9140cb4dd9e7a1fce33ae5c7c62e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2901QBar.jsp"
+   text-time="2006-06-02T08:32:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ee5a3c5da21be4619570e4fcff2cf5f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1001Q.jsp"
+   text-time="2006-04-25T03:36:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="060ac0d873ed2dcd2551c87523c2907e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2001Q.jsp"
+   text-time="2006-04-25T03:36:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3a11594cdbdd5d79fefd6d4da3de04df"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA3001Q.jsp"
+   text-time="2006-06-02T09:23:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b908520a1c03ba65c7d37296d47425de"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0401Q.jsp"
+   text-time="2006-04-25T03:36:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e851c9eba3cb8ce9fe8915312207b2ae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1401Q.jsp"
+   text-time="2006-04-25T03:36:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a2f0219e394ee04a54e690d7ab62bc70"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2401Q.jsp"
+   text-time="2006-04-25T03:36:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="166aca2864b10d5b6da0fc45cb4029a5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0801Q.jsp"
+   text-time="2006-04-25T03:36:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8966ebc701f4bbcafab449f50308be25"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1801Q.jsp"
+   text-time="2006-04-25T03:36:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4e27f53c0fcdac639a43db498e179c91"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2801Q.jsp"
+   text-time="2006-06-02T07:33:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="389ad8e27c67779352578401e9497ec8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0201QForm.jsp"
+   text-time="2006-06-14T10:52:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d71d9998a0c6545e2e170e6b53e7b3c6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1001QScript.jsp"
+   text-time="2006-08-07T11:21:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="64dd544ba0b0920f3f48488a900293d5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1101QBar.jsp"
+   text-time="2006-04-25T03:36:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="34eb0133c60266d58029425d5211eaa4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0201QScript.jsp"
+   text-time="2006-06-14T03:32:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed5bab098f739cfa79f4350a13dd3597"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1201QForm.jsp"
+   text-time="2006-08-08T08:19:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5f7c6fd6a132a9f96aee44eab4150c11"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA3001QScript.jsp"
+   text-time="2006-06-14T03:32:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="80d12bfa57d1fe580be01f7637118eed"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA3001QBar.jsp"
+   text-time="2006-06-02T09:23:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ee5a3c5da21be4619570e4fcff2cf5f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2201QForm.jsp"
+   text-time="2006-04-25T03:36:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="45d29d1ed7084c4500b5eadd5c951688"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1301QBar.jsp"
+   text-time="2006-04-25T03:36:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d56c29e29bd467e4461692f0c97b3b2c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2201QScript.jsp"
+   text-time="2006-06-14T03:32:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="46afcd6ebb41fe91659136bd665a59eb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1401QScript.jsp"
+   text-time="2006-07-02T15:24:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b8cdd307ff97839c8da780dbc133b3f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0601QForm.jsp"
+   text-time="2006-09-14T06:44:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9eeeaf1f4b623895abae51994d65cd12"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1501QBar.jsp"
+   text-time="2006-04-25T03:36:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1601QForm.jsp"
+   text-time="2006-07-02T15:24:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="05bdb0bfcd9dc72f4fe498bf40feef0a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0601QScript.jsp"
+   text-time="2006-06-14T03:32:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b63db29c245a8b34bcb3d4ea836ed77a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2601QForm.jsp"
+   text-time="2006-07-02T15:24:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2614782b0b5b892307018436b869c3a9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1701QBar.jsp"
+   text-time="2006-04-25T03:36:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2601QScript.jsp"
+   text-time="2006-06-14T03:32:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="910aad28c5c5a57c955ac7ba46f111c8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1801QScript.jsp"
+   text-time="2006-06-21T11:58:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ff062fdeb2653840be976e77ef1ff79f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1901QBar.jsp"
+   text-time="2006-04-25T03:36:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0301Q.jsp"
+   text-time="2006-04-25T03:36:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f77b2b6f137f8d587d4d0b4a72eaf2d2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1301Q.jsp"
+   text-time="2006-04-25T03:36:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="52ad0f967fd0623570e4aac73c1ea0c7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2301Q.jsp"
+   text-time="2006-04-25T03:36:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="19ca9b301e9357e66c015289665e7966"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0701Q.jsp"
+   text-time="2006-04-25T03:36:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8d0d5d39e7dbe34def16a95e77348039"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1701Q.jsp"
+   text-time="2006-04-25T03:36:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d2ea24a4c0859221d60a6e013d640e88"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2701Q.jsp"
+   text-time="2006-04-25T03:36:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="95daddb24a5a8f4dac99755a7d5b2aaf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0101QForm.jsp"
+   text-time="2010-11-23T00:59:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e65538e842a4fab7a9370409e84f620e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1101QForm.jsp"
+   text-time="2006-08-08T08:19:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="14117911cfd97f70e510547d75318e65"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0101QBar.jsp"
+   text-time="2006-04-25T03:36:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4c438b88856b32056c43aa2d2b3349a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2101QForm.jsp"
+   text-time="2006-09-21T13:01:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="990d0dba9c2593dd9cf6fe00cbfb4fab"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2001QBar.jsp"
+   text-time="2006-09-21T13:25:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c81f2c5817ef37a5cf3d8bbababcb4cc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1101QScript.jsp"
+   text-time="2006-08-08T08:19:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a44cddd02d932ea98b62dbba9d2f8550"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0301QBar.jsp"
+   text-time="2006-04-25T03:36:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c71557a066081d05baab37b60474720"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0301QScript.jsp"
+   text-time="2006-06-14T03:32:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3c676e04098e81a1519767b244e8918d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2201QBar.jsp"
+   text-time="2006-04-25T03:36:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0501QForm.jsp"
+   text-time="2006-06-03T12:26:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4495384a97a362b9ab80e385399aa232"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2301QScript.jsp"
+   text-time="2006-07-06T13:15:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c889f54015b4c6ec76d3d3ba64ec09a1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1501QForm.jsp"
+   text-time="2006-07-07T06:15:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dfc552b87b88158154eaa303a7f8057b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0501QBar.jsp"
+   text-time="2006-04-25T03:36:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f29896cd2a0cbf2e410b7a196cdaa65"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1501QScript.jsp"
+   text-time="2006-07-07T06:15:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b6891bfd46b606818389039d0716b372"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2501QForm.jsp"
+   text-time="2006-07-02T15:24:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e5b777470b7a3fe26703fa6add8e987b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2401QBar.jsp"
+   text-time="2006-04-25T03:36:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0701QScript.jsp"
+   text-time="2006-06-14T03:32:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6881dfd9007d37a9f57dd6971aa2570f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0701QBar.jsp"
+   text-time="2006-04-25T03:36:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="95c9ea79e3e0866d235d527823922907"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0901QForm.jsp"
+   text-time="2006-08-03T08:24:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9eb2b926c961debf17381f8b6f568a45"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2601QBar.jsp"
+   text-time="2006-06-02T06:53:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ee5a3c5da21be4619570e4fcff2cf5f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="reports"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="APRA1901QForm.jsp"
+   text-time="2006-07-02T15:24:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1cbda495d4e5d668a86022e48f3589a8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2701QScript.jsp"
+   text-time="2006-06-14T03:32:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="910aad28c5c5a57c955ac7ba46f111c8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0901QBar.jsp"
+   text-time="2006-04-25T03:36:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="765b2fbaf3285df164a4b0d0ac765a61"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2801QBar.jsp"
+   text-time="2006-06-02T07:33:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3ee5a3c5da21be4619570e4fcff2cf5f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1901QScript.jsp"
+   text-time="2006-06-21T12:38:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e2d35f3a4b2a0eea1142b022e7b6877b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2901QForm.jsp"
+   text-time="2009-07-30T01:43:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2a422d45e9860a4f532d90921816835d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0201Q.jsp"
+   text-time="2006-04-25T03:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f81f9a17f83a55b05725c2540060993c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1201Q.jsp"
+   text-time="2006-04-25T03:36:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="41316010b4599f84808a4caa7bee5593"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2201Q.jsp"
+   text-time="2006-04-25T03:36:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="52e0012c0b86dfce036a3545dbdd1212"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0601Q.jsp"
+   text-time="2006-04-25T03:36:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c66a0ea80618de5ebdd5153d100cc3a6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1601Q.jsp"
+   text-time="2006-04-25T03:36:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cabea5894e174cb0f4320acc7ae6d791"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2601Q.jsp"
+   text-time="2006-04-25T03:36:45.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8bdfdffbe10651375a2d300414cee17d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1001QForm.jsp"
+   text-time="2006-08-07T11:21:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0892a025fa6de7050a54046a665617f5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1001QBar.jsp"
+   text-time="2006-04-25T03:36:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d313e0025f9c8ea407ee30ddcf15da25"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2001QForm.jsp"
+   text-time="2006-09-19T10:24:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fa8f84983cde8b502d8ab54ff08969cf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA3001QForm.jsp"
+   text-time="2009-11-16T03:46:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="45a836218b42a589fb65727241a99df6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2001QScript.jsp"
+   text-time="2006-09-21T13:25:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="522029794c6c37c0f9f527d568ea210f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0401QForm.jsp"
+   text-time="2006-06-14T10:52:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d138619904be7f56d673730b2fb6aeb3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1201QScript.jsp"
+   text-time="2006-08-08T08:19:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="050f82571741562ff3c64df7d560d4f5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1201QBar.jsp"
+   text-time="2006-04-25T03:36:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3487034f8dae51b3b7b7519b8530f46b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1401QForm.jsp"
+   text-time="2006-07-02T15:24:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aad53ed5ea2290e66996f86783b8f66c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0401QScript.jsp"
+   text-time="2006-06-14T03:32:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e7fc0585a03683c5501fb73d4a72c954"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2401QForm.jsp"
+   text-time="2006-07-12T04:04:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="29d7870b2b44279893be89c33f053158"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1401QBar.jsp"
+   text-time="2006-04-25T03:36:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c36882ab89708883f87599dd34d0a17"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2401QScript.jsp"
+   text-time="2006-07-04T03:40:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9464ff87dd9bd1424b1b8119f5837269"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1601QBar.jsp"
+   text-time="2006-04-25T03:36:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0801QForm.jsp"
+   text-time="2006-07-12T02:51:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="896348fc2e96051ed001696c06cfea14"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1601QScript.jsp"
+   text-time="2006-06-14T03:32:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="afc9ffcb6f2b9d9b398a0dd46bb480dc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0801QScript.jsp"
+   text-time="2006-07-05T14:31:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a2b153daad081237940d996be869f8c1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1801QForm.jsp"
+   text-time="2006-07-02T15:24:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dc8bff63a53709880fb72ad3123d902c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1801QBar.jsp"
+   text-time="2006-04-25T03:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3428443ef9ce9aebfa727e1871e91512"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2801QForm.jsp"
+   text-time="2009-07-30T01:43:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="59f89645b823cccfd069223eefc8f773"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2801QScript.jsp"
+   text-time="2006-07-13T11:14:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c051212e8945de6429ff5aa7eb3e70b8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0101Q.jsp"
+   text-time="2006-04-25T03:36:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="569925162e617daebc4903def9d7b79f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1101Q.jsp"
+   text-time="2006-04-25T03:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="37d856944e67fab8d4a5d645475dc288"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2101Q.jsp"
+   text-time="2006-04-25T03:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d170495e34484bbf934ef45adec1a88d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0501Q.jsp"
+   text-time="2006-04-25T03:36:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="18305ae87d2fba9717300c2d8532265f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1501Q.jsp"
+   text-time="2006-04-25T03:36:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c5bdcb474d7b65e21a1cb4c95c5e3a95"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2501Q.jsp"
+   text-time="2006-04-25T03:36:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0dd812ec9785790f0c824b7fa5183370"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA0901Q.jsp"
+   text-time="2006-04-25T03:36:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ec05adaf3d5f2a16b8e946e565063c99"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA1901Q.jsp"
+   text-time="2006-04-25T03:36:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f8db3b096652205a4f7d90d42e64305"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA2901Q.jsp"
+   text-time="2006-06-02T08:32:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="03abf4b1929306469de093f2f8697593"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

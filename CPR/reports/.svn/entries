@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/CPR/reports"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="CPRB04_RPT.jrxml"
+   text-time="2006-06-26T13:06:21.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="942a02d1fe68e84c55cb95f675cdea54"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CPRA07_RPT.jrxml"
+   text-time="2006-06-26T13:06:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="58efb4521aa7a02bef1357a4d9924cc5"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

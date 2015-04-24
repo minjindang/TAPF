@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/APR/reports"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="APRA29_RPT1.jrxml"
+   text-time="2006-09-08T08:09:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="038464f5ebe9226684ab5e75fb0a0df7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA01_RPT1.jrxml"
+   text-time="2006-07-13T10:43:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6fc16bdd1a24b719cccc17473386c887"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA20_RPT1.jrxml"
+   text-time="2006-09-12T07:04:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cd5c2f8370cca57e255abb0fb02837f5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA02_RPT1.jrxml"
+   text-time="2006-06-26T13:04:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f751b8f63f214a11d8b4190aa42d18c4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA30_RPT1.jrxml"
+   text-time="2006-09-08T08:09:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="71ca3f956f75fdbf30d9e239789f2fb4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA03_RPT1.jrxml"
+   text-time="2006-06-26T13:04:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8f768d009311c1490b14b06ec3466ed9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA21_RPT1.jrxml"
+   text-time="2006-07-13T05:08:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a152d4077866f207578d49c30f327c56"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA04_RPT1.jrxml"
+   text-time="2006-06-26T13:04:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="51bf6549f864d572d3814ee6ecab5e34"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA23_RPT1.jrxml"
+   text-time="2006-07-13T02:33:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f1863e42ba6ceb1cfd4ccd444445fb5f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA25_RPT1.jrxml"
+   text-time="2006-07-12T07:11:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c001cc5b20140bce5c7ab9913ed25ce"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA18_RPT1.jrxml"
+   text-time="2006-09-20T07:40:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84df6b4d5490784ea31073eee600fd95"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="APRA19_RPT1.jrxml"
+   text-time="2006-07-04T03:31:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="79c5ae896567a09eb916249ea1f99fbd"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

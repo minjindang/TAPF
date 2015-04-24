@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="NationalDebtDueDateMain"
+		table="National_debt_DueDate_Main"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="isseId"
+			column="Issue_ID"
+			type="integer"
+		/>
+		<property
+			name="planId"
+			column="Plan_ID"
+			type="integer"
+		/>
+		<property
+			name="repayDate"
+			column="Repay_Date"
+			type="timestamp"
+		/>
+		<property
+			name="debtName"
+			column="Debt_Name"
+			type="string"
+		/>
+		<property
+			name="capitalSerial"
+			column="Capital_Serial"
+			type="integer"
+		/>
+		<property
+			name="interestSerial"
+			column="Interest_Serial"
+			type="integer"
+		/>
+		<property
+			name="capitalAmount"
+			column="Capital_Amount"
+			type="big_decimal"
+			length="20"
+		/>
+		<property
+			name="interestAmount"
+			column="Interest_Amount"
+			type="big_decimal"
+			length="20"
+		/>
+		<property
+			name="repayHandle"
+			column="Repay_Handle"
+			type="timestamp"
+			length="8"
+		/>
+		<property
+			name="repayNumber"
+			column="Repay_Number"
+			type="string"
+			length="255"
+		/>
+		<property
+			name="accountDate"
+			column="Account_Date"
+			type="timestamp"
+			length="8"
+		/>
+		<property
+			name="accountNumber"
+			column="Account_Number"
+			type="string"
+			length="255"
+		/>
+		<property
+			name="fundNumber"
+			column="Fund_Number"
+			type="string"
+			length="255"
+		/>
+		<property
+			name="secretaryDate"
+			column="Secretary_Date"
+			type="timestamp"
+			length="8"
+		/>	
+
+
+	</class>	
+</hibernate-mapping>

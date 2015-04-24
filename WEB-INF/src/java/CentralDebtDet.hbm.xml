@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="CentralDebtDet"
+		table="central_Debt_det"
+	>
+
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+		<property
+			name="IssueId"
+			column="issue_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="PaymentId"
+			column="payment_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="FileNo"
+			column="file_no"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="IssueSerial"
+			column="issue_serial"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="UnitCode"
+			column="unit_code"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="IssuePrice"
+			column="issue_price"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="SellRate"
+			column="sell_rate"
+			type="big_decimal"
+			not-null="false"
+			length="13"
+		/>
+		<property
+			name="SellAmount"
+			column="sell_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="FreeAmount"
+			column="free_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="CreateDate"
+			column="create_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="ModDate"
+			column="mod_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="UserId"
+			column="userId"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

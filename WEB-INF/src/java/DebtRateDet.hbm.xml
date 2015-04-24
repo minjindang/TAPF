@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="DebtRateDet"
+		table="debt_rate_det"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="debtRate"
+			column="DEBT_RATE"
+			type="big_decimal"
+			not-null="true"
+			length="13"
+		/>
+		<property
+			name="effectiveDate"
+			column="EFFECTIVE_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="suspendDate"
+			column="SUSPEND_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="deleteMark"
+			column="DELETE_MARK"
+			type="string"
+			not-null="true"
+			length="1"
+		/>
+		<property
+			name="groupId"
+			column="GROUP_ID"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="userid"
+			column="USERID"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="seqNo"
+			column="SEQ_NO"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<many-to-one
+			name="debt"
+			column="DEBT_ID"
+			class="DebtMain"
+			not-null="true"
+			lazy="false"
+		>
+		</many-to-one>
+
+
+	</class>	
+</hibernate-mapping>

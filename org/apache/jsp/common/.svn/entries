@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/common"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="mdlform_jsp.class"
+   text-time="2007-03-21T08:38:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e1e7640824877c502c9c1edee27ff4cd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:33.243738Z"/>
+<entry
+   committed-rev="16"
+   name="mdform_jsp.java"
+   text-time="2007-03-21T03:07:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e4a7ea10be88bf499c601b7f7bb1a1ca"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="form_jsp.class"
+   text-time="2007-03-21T03:12:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a7dc23f2dbaf537b19a43c5c9e4d8bea"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:14.680976Z"/>
+<entry
+   committed-rev="16"
+   name="mdform2_jsp.class"
+   text-time="2007-03-29T02:52:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6dc1b098d8eb3d59298bbf087a4cbcb4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:20.737133Z"/>
+<entry
+   committed-rev="16"
+   name="md3form_jsp.class"
+   text-time="2007-03-21T08:39:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e1524a2f08d4d86ff86e437acce8f225"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:03.846570Z"/>
+<entry
+   committed-rev="16"
+   name="mlform_jsp.java"
+   text-time="2007-03-21T04:10:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2030061a9f676e79ffddffe37a5fe258"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="uploadForm_jsp.class"
+   text-time="2007-03-27T09:09:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a64bf7ac26a4bf37151ea0acf928ed57"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:00.961042Z"/>
+<entry
+   committed-rev="16"
+   name="body_jsp.java"
+   text-time="2007-03-21T12:52:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="21bff1d3b796391be7c6968d297c40a7"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="mdlform_jsp.java"
+   text-time="2007-03-21T08:38:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="77c57fc265aa1d81a7486d70e810d461"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="blankBar_jsp.class"
+   text-time="2007-03-21T04:13:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3029428cfd5a6a0673ec54cb019ce1b0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:49.502219Z"/>
+<entry
+   committed-rev="16"
+   name="selectFrame2_jsp.class"
+   text-time="2007-05-21T02:50:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="68afd863d5e41deee7951efff504199d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:17.815277Z"/>
+<entry
+   committed-rev="16"
+   name="blankScript_jsp.class"
+   text-time="2007-03-20T07:57:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d47e0382a7a2cf0143336bd0ee9589b7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:45.094709Z"/>
+<entry
+   committed-rev="16"
+   name="form_jsp.java"
+   text-time="2007-03-21T03:12:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="09e00ffced539850236ea5c9d1499b6c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="unauthorized_jsp.class"
+   text-time="2007-03-20T07:56:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3734916132834402e7b500fcd3063554"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:31.140920Z"/>
+<entry
+   committed-rev="16"
+   name="mdform2_jsp.java"
+   text-time="2007-03-29T02:52:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cd34734b1cf9f4656ae91afffd637148"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="md3form_jsp.java"
+   text-time="2007-03-21T08:39:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c91cc99ca2d0fbea6ecf1b11a419d21"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="uploadForm_jsp.java"
+   text-time="2007-03-27T09:09:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea17f01acd06f4c146c9f7dc76576b71"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="mdform_jsp.class"
+   text-time="2007-03-21T03:07:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99453e31ab2db2f0cde68bb22d08e56e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:57.001624Z"/>
+<entry
+   committed-rev="16"
+   name="blankBar_jsp.java"
+   text-time="2007-03-21T04:13:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="64fea2a6ded0c3deb67f09a225c775f0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="blankScript_jsp.java"
+   text-time="2007-03-20T07:57:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="73be077fcbc1ddc985565b870e27a741"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="selectFrame2_jsp.java"
+   text-time="2007-05-21T02:50:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1776beedd5a308eaa5d3931bd1862aeb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="mlform_jsp.class"
+   text-time="2007-03-21T04:10:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4d7b6a9f8c7124692d93d08e20d1f731"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:56.931730Z"/>
+<entry
+   committed-rev="16"
+   name="unauthorized_jsp.java"
+   text-time="2007-03-20T07:56:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d51a21e79ae9b906bd639235d40eaefe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="body_jsp.class"
+   text-time="2007-03-21T12:52:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f47aacf85344c6d5ab6a559c1c90d824"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:47.635811Z"/>
+</wc-entries>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/EBR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301QForm_jsp.java"
+   text-time="2008-08-26T03:54:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9edd1d1baa24d5aab7f9e1aa0cbca174"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0101QForm_jsp.java"
+   text-time="2007-04-03T06:00:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="35b06128765320d8e085c4d3a81e686a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401QForm_jsp.java"
+   text-time="2007-10-29T04:49:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c66fd991b18d13725cc38715196fe0b0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401Q_jsp.class"
+   text-time="2007-10-29T04:49:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="77bc2872e8da76c438c731083bdaed9c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:44.644061Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401QBar_jsp.java"
+   text-time="2007-10-29T04:49:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e61bdec620ab57aa92a91b5f314b6f53"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0301QForm_jsp.java"
+   text-time="2007-04-03T06:00:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="53b97f7a5853a2837ae85aef7ba9dbf9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0401Q_jsp.class"
+   text-time="2007-04-03T06:00:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8126029affb960b69222d9f2c3909ffe"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:37.769072Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601QForm_jsp.java"
+   text-time="2007-12-04T07:20:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1805cbc6b51f8ac97b013d89201ce656"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601Q_jsp.class"
+   text-time="2007-12-04T07:20:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0aeb5eb70d9a98289e36a1a48b0aa42"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:27.629389Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601QBar_jsp.java"
+   text-time="2007-12-04T07:20:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="677663621d112625e3b1e95feef53ed9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0701QForm_jsp.java"
+   text-time="2007-07-06T08:05:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="69d599304c4d4263592e0e6e3af85a2e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0801QForm_jsp.java"
+   text-time="2008-01-09T03:07:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="81a5a800d937ca8f3f08395f22d549b2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0801Q_jsp.class"
+   text-time="2008-01-09T03:07:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f83ff12a9fd06a64fe0c9fc35855cec4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:52.625331Z"/>
+<entry
+   committed-rev="16"
+   name="EBQC0201Q_jsp.java"
+   text-time="2007-05-11T11:57:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ff3c15323c564f048443d9889ae76de3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401QForm_jsp.class"
+   text-time="2007-10-29T04:49:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a22f1bf99a57b3469e345d13764f0fc9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:56.989261Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401QScript_jsp.class"
+   text-time="2007-10-29T04:49:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b543a6220a38db4a201adcce7458a95d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:57.039333Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601QForm_jsp.class"
+   text-time="2007-12-04T07:20:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d442ee825be88bc5a4e509f36ab910ac"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:00.488016Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601QScript_jsp.class"
+   text-time="2007-12-04T07:20:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cef1566e12bbf658385f2e8f821aea62"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:31.250872Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0801QForm_jsp.class"
+   text-time="2008-01-09T03:07:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="faf8533a01deb0cb2ac98b0ea272cce9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:58.657730Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301Q_jsp.class"
+   text-time="2008-08-26T03:54:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9ad216b7ba8908a7ea3e436d6f65153a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:31.220829Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301QScript_jsp.java"
+   text-time="2008-08-26T03:54:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0921349f32c50a5e65f29d434b8f2281"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0101QBar_jsp.java"
+   text-time="2007-04-03T06:00:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="13fdf1210265fdfa41c76a69a5856cae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301QBar_jsp.java"
+   text-time="2008-08-26T03:54:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="63bb1e86bec5a707fd356100bc451f88"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0101QScript_jsp.java"
+   text-time="2007-04-03T06:00:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="de7518b2bd0d0bffe69fbc401633f93f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0301Q_jsp.class"
+   text-time="2007-04-03T06:00:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9b75b936c5be922340066bbdcaf5924e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:52.166050Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401QScript_jsp.java"
+   text-time="2007-10-29T04:49:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9dd4f78872e583a1ab3169688a5e6d45"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601QScript_jsp.java"
+   text-time="2007-12-04T07:20:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d287d90064ac7b2cc602841d4a3c6c75"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0701Q_jsp.class"
+   text-time="2007-07-06T08:05:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ace933c8a08b42ac755b8021f167d8e1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:40.118726Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0701QScript_jsp.java"
+   text-time="2007-07-06T08:05:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="02a3766738324518a61bc53a3a61731d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301Q_jsp.java"
+   text-time="2008-08-26T03:54:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2d897a428278463e14cbc6f53e19424c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401Q_jsp.java"
+   text-time="2007-10-29T04:49:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d6fe75b632ce46d5977b8edad540b4ec"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0301Q_jsp.java"
+   text-time="2007-04-03T06:00:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="06bf98898ec56fe9ba722d5a16901410"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0401Q_jsp.java"
+   text-time="2007-04-03T06:00:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="caba825af0c6fd97bd1d2ed24ace2485"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601Q_jsp.java"
+   text-time="2007-12-04T07:20:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ac841303921b6b50b71145faa6040b52"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0701Q_jsp.java"
+   text-time="2007-07-06T08:05:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4b678475b5a858e9bdd788d9824eac89"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRE0801Q_jsp.java"
+   text-time="2008-01-09T03:07:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7a7711b3d69fc1c511b17e552f1ac4a4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301QForm_jsp.class"
+   text-time="2008-08-26T03:54:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b6f497da22149bdec42d3ebe0f585a6d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:35.956466Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0101QForm_jsp.class"
+   text-time="2007-04-03T06:00:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0837eee58e32553550c251be3cbea0f9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:44.080699Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301QScript_jsp.class"
+   text-time="2008-08-26T03:54:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e44ef7c58e3e598a3616fd0d23058623"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:06.549077Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0301QBar_jsp.class"
+   text-time="2008-08-26T03:54:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="152c4f74d40be90c98d0fae7ea4a3847"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:21.380403Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0101QScript_jsp.class"
+   text-time="2007-04-03T06:00:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4c674cc6d4408c5299b06b513d2e52ae"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:39.286150Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0101QBar_jsp.class"
+   text-time="2007-04-03T06:00:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="20c68682f2f1fdbede3acdeb4be2346b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:57.530038Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0301QForm_jsp.class"
+   text-time="2007-04-03T06:00:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4c4a710d0ae9a65322d35e8d03d41337"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:01.002480Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC0401QBar_jsp.class"
+   text-time="2007-10-29T04:49:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="faf177f90e46e9dc120debd38daf0e37"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:37.694067Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0701QForm_jsp.class"
+   text-time="2007-07-06T08:05:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2b7fd649b64e838c0d05b83c596b3b11"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:02.052611Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0601QBar_jsp.class"
+   text-time="2007-12-04T07:20:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="96d0ddacf0f3236ed7c184923b419ff2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:42.017733Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0701QScript_jsp.class"
+   text-time="2007-07-06T08:05:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a13d7ce89e64eeb977f90225fda6c8b0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:19.333736Z"/>
+<entry
+   committed-rev="16"
+   name="EBQC0201Q_jsp.class"
+   text-time="2007-05-11T11:57:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="de68a70cda5c713dc7f9c2f6d2767e93"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:06.979696Z"/>
+</wc-entries>

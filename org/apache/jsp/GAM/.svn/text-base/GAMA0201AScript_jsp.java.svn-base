@@ -1,0 +1,162 @@
+package org.apache.jsp.GAM;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class GAMA0201AScript_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static java.util.Vector _jspx_dependants;
+
+  static {
+    _jspx_dependants = new java.util.Vector(7);
+    _jspx_dependants.add("/common/taglibs.jsp");
+    _jspx_dependants.add("/WEB-INF/taglibs/struts-tiles.tld");
+    _jspx_dependants.add("/WEB-INF/taglibs/struts-html.tld");
+    _jspx_dependants.add("/WEB-INF/taglibs/struts-bean.tld");
+    _jspx_dependants.add("/WEB-INF/taglibs/struts-logic.tld");
+    _jspx_dependants.add("/WEB-INF/taglibs/displaytag-12.tld");
+    _jspx_dependants.add("/WEB-INF/taglibs/c.tld");
+  }
+
+  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_logic_present_name;
+
+  public java.util.List getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspInit() {
+    _jspx_tagPool_logic_present_name = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+  }
+
+  public void _jspDestroy() {
+    _jspx_tagPool_logic_present_name.release();
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    JspFactory _jspxFactory = null;
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+
+    try {
+      _jspxFactory = JspFactory.getDefaultFactory();
+      response.setContentType("text/html;charset=Big5");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+
+      out.write('\r');
+      out.write('\n');
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<script language=\"javascript\">\r\n");
+      out.write("function doBodyOnLoad(document)\r\n");
+      out.write("{\r\n");
+      out.write("\t");
+      if (_jspx_meth_logic_present_0(_jspx_page_context))
+        return;
+      out.write("\r\n");
+      out.write("\t/*var toDay = new Date();\r\n");
+      out.write("\tvar Day=(toDay.getYear()-1911);\r\n");
+      out.write("\tif (Day<100)\r\n");
+      out.write("\t{\r\n");
+      out.write("\t\tDay=\"0\"+(toDay.getYear()-1911);\r\n");
+      out.write("\t\tdocument.MainForm.accountYear.value = Day;\r\n");
+      out.write("\t}\r\n");
+      out.write("\telse\r\n");
+      out.write("\t{\r\n");
+      out.write("\t\tDay =(toDay.getYear()-1911);\r\n");
+      out.write("\t\tdocument.MainForm.accountYear.value = Day;\r\n");
+      out.write("\t}\r\n");
+      out.write("\tdocument.MainForm.elements['bigDecimal(gdpAmount)'].value = 0;\r\n");
+      out.write("\tdocument.MainForm.elements['bigDecimal(gnpAmount)'].value = 0;\r\n");
+      out.write("\tdocument.MainForm.elements['bigDecimal(pergnpAmount)'].value = 0;\r\n");
+      out.write("\tdocument.MainForm.elements['bigDecimal(budgetAmount)'].value = 0;\r\n");
+      out.write("\tdocument.MainForm.elements['bigDecimal(remainRate)'].value = 0;\r\n");
+      out.write("\tdocument.MainForm.elements['bigDecimal(borrowAmount)'].value = 0;*/\r\n");
+      out.write("}\r\n");
+      out.write("\r\n");
+      out.write("function checkForm(form)\r\n");
+      out.write("{\r\n");
+      out.write("\tvar cols = new Array(\r\n");
+      out.write("\t\t\"accountYear\",\"nationRefId\",\"bigDecimal(gdpAmount)\",\"bigDecimal(gnpAmount)\",\"bigDecimal(pergnpAmount)\",\r\n");
+      out.write("\t\t\"bigDecimal(remainRate)\",\"bigDecimal(borrowAmount)\",\"bigDecimal(budgetAmount)\",\r\n");
+      out.write("\t\t\"bigDecimal(nopayAmount)\");\r\n");
+      out.write("\tvar colNames = new Array(\r\n");
+      out.write("\t\t\"年度\",\"國別\",\"GDP\",\"GNP\",\"前三年平均GNP\",\r\n");
+      out.write("\t\t\"債務餘額/GDP比例\",\"公債賒借發行總額\",\"歲出總額(預算數)\",\r\n");
+      out.write("\t\t\"未償餘額\");\r\n");
+      out.write("\tvar result = checkFormEmpty(form, cols);\r\n");
+      out.write("\tif(result >= 0){\r\n");
+      out.write("\t\talert(\"【\" + colNames[result] + \"】，未輸入!!\");\r\n");
+      out.write("\t}\r\n");
+      out.write("\treturn result < 0;\r\n");
+      out.write("}\r\n");
+      out.write("function checkDate(form)\r\n");
+      out.write("{\r\n");
+      out.write("\tif(form.nationRefId.value !=\"\" && form.accountYear.value !=\"\")\r\n");
+      out.write("\t{\r\n");
+      out.write("\t\tdoAction(\"GAMA0201A\");\r\n");
+      out.write("\t}\r\n");
+      out.write("}\r\n");
+      out.write("</script>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+      }
+    } finally {
+      if (_jspxFactory != null) _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+
+  private boolean _jspx_meth_logic_present_0(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  logic:present
+    org.apache.struts.taglib.logic.PresentTag _jspx_th_logic_present_0 = (org.apache.struts.taglib.logic.PresentTag) _jspx_tagPool_logic_present_name.get(org.apache.struts.taglib.logic.PresentTag.class);
+    _jspx_th_logic_present_0.setPageContext(_jspx_page_context);
+    _jspx_th_logic_present_0.setParent(null);
+    _jspx_th_logic_present_0.setName("historyBack");
+    int _jspx_eval_logic_present_0 = _jspx_th_logic_present_0.doStartTag();
+    if (_jspx_eval_logic_present_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      do {
+        out.write("\r\n");
+        out.write("\t\twindow.history.back();\r\n");
+        out.write("\t");
+        int evalDoAfterBody = _jspx_th_logic_present_0.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+    }
+    if (_jspx_th_logic_present_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+      return true;
+    _jspx_tagPool_logic_present_name.reuse(_jspx_th_logic_present_0);
+    return false;
+  }
+}

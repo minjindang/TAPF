@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/ECR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="ECRD0101QForm.jsp"
+   text-time="2006-05-29T11:06:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="83bd0f6d756eff23b9d02f586e1ef490"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRD0101QBar.jsp"
+   text-time="2006-05-29T11:06:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c97e88c62976c9a730a73c0ff9864eb6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRD0101QScript.jsp"
+   text-time="2006-06-14T03:31:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7be11d516afe51d85f825ed69b413b60"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE1001QForm.jsp"
+   text-time="2006-06-08T08:09:27.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="055984571f5e4fcd1f7fc451d709ed9c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0101QForm.jsp"
+   text-time="2006-07-15T08:26:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aff25dec116443f79ba7f976769389f1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE1001QScript.jsp"
+   text-time="2006-06-14T03:31:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c7992812e8e33fb79415638b43bd073"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0201QForm.jsp"
+   text-time="2006-07-05T08:12:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0bf1bbd5fde8ceaa0ce8f5f5544c3acf"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0201QBar.jsp"
+   text-time="2006-05-29T11:06:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e14d9dab10b5eb3493a8e7328b219dd0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0101QScript.jsp"
+   text-time="2006-07-15T08:26:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6bfb72075fd017bc074b713dd98d1d58"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0201QScript.jsp"
+   text-time="2006-06-14T03:31:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7c292e50b610b699ca985a320a99edc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0101QBar.jsp"
+   text-time="2006-06-06T12:39:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2cd4f7c0e29df339826063a96731547c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0301QBar.jsp"
+   text-time="2008-05-07T09:57:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d1975a6f74c4e5fda12de8cfe86be839"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0201QBar.jsp"
+   text-time="2006-06-06T12:39:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2cd4f7c0e29df339826063a96731547c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0301QForm.jsp"
+   text-time="2006-07-10T16:44:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4747e18388919b78e72241eca69a041f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0401QForm.jsp"
+   text-time="2006-07-14T17:13:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c9ac05bbad8d696e07dca0fb4a16ae92"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0401QBar.jsp"
+   text-time="2006-06-06T05:39:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2cd4f7c0e29df339826063a96731547c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0401QScript.jsp"
+   text-time="2006-06-14T03:31:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="466e24f2972a82f76fede8a794a2a23f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0301QBar.jsp"
+   text-time="2006-06-06T12:39:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2cd4f7c0e29df339826063a96731547c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0301QScript.jsp"
+   text-time="2006-07-15T07:57:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ab3cbe9c422ffdb93ac9127fb290971a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0501QBar.jsp"
+   text-time="2006-06-04T11:45:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="25e0763e40897c7c4e8d8d9824c3687b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0401QBar.jsp"
+   text-time="2006-06-04T13:26:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="25e0763e40897c7c4e8d8d9824c3687b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0801QForm.jsp"
+   text-time="2006-07-06T14:24:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5306a8388da3f0df289ed6c3cd4248bb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0701QBar.jsp"
+   text-time="2006-06-06T13:14:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2c8b02aae34d7ffceae288577ff40617"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0801QScript.jsp"
+   text-time="2006-06-14T03:31:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e2c96cf11a8f9eb1a0d315533103824d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0801QBar.jsp"
+   text-time="2006-06-07T05:48:15.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4d68891471a8e8244fa07ed7db84251a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0901QBar.jsp"
+   text-time="2006-06-04T10:02:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d1975a6f74c4e5fda12de8cfe86be839"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRD0201Q.jsp"
+   text-time="2006-05-29T11:06:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="06a66033f8d812af0f6e0606dd2c7f60"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE1101Q.jsp"
+   text-time="2009-04-30T02:33:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e847e7af69beea4dc119522e8ed0c2ec"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0201Q.jsp"
+   text-time="2006-07-02T07:27:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="54265d4f4c01db02438464f90b5eaa61"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="reports"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="ECRE0301Q.jsp"
+   text-time="2008-05-07T09:57:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5d5b81cc256e0f28a290564e81bb51ca"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0501Q.jsp"
+   text-time="2006-06-06T07:30:01.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="409eeffe5528e7b9efa09bd5317d5157"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0401Q.jsp"
+   text-time="2006-06-07T10:43:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c561d56bdf254c6ed064ced0bb6c0b81"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0701Q.jsp"
+   text-time="2006-06-06T13:14:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="121ac538a8b9e779c61366017cfa197b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0901Q.jsp"
+   text-time="2006-07-06T14:24:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f40d839f6ba89af7f345b4ee4cb6d144"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRD0201QForm.jsp"
+   text-time="2006-07-03T01:07:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6795c0ded7911b1f8aa93016a3769df1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE1101QForm.jsp"
+   text-time="2009-05-08T09:35:23.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="605f47f01d54da7812a21a8ce5e50024"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE1101QScript.jsp"
+   text-time="2009-04-30T08:31:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6637bf6bc7613debebb4ad668e90cac5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE1101QBar.jsp"
+   text-time="2009-04-30T02:33:11.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="44ef613d29101bc5020b15bd7aaaa1e8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0301QForm.jsp"
+   text-time="2008-05-07T09:56:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b2aae7a8a6f8b473ba922e685c16fddd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0201QForm.jsp"
+   text-time="2006-06-07T06:56:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="89836fa160f4da1b9dd4fefa141e383d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0201QScript.jsp"
+   text-time="2006-06-14T03:31:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="466e24f2972a82f76fede8a794a2a23f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0301QScript.jsp"
+   text-time="2008-05-07T09:56:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11c50d4ba1a322beaae0399fc360266b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0501QForm.jsp"
+   text-time="2006-07-12T12:51:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dde71954601297fff3a5c4510ab7253f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0401QForm.jsp"
+   text-time="2006-06-07T10:43:55.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="992509614868292bae935dea5bd7db45"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0401QScript.jsp"
+   text-time="2006-06-14T03:31:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="45bb76636ced825acb005007630e62a0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0501QScript.jsp"
+   text-time="2006-06-14T03:31:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="82fc5220bd65786b02714dba321e99ba"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0701QForm.jsp"
+   text-time="2006-07-06T14:24:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="08a81e7c47c01f120c40f3357b9dc28d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0701QScript.jsp"
+   text-time="2006-06-14T03:31:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="019f44767671e26172f61f3f17406d00"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0901QForm.jsp"
+   text-time="2006-07-06T14:24:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="62ebc64fc6371d21475d614a719917e4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0901QScript.jsp"
+   text-time="2006-06-14T03:31:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="535d201353916ca5c01594a6b754ffbe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECQC0201Q.jsp"
+   text-time="2006-06-04T13:25:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d2378444224fe195070bf69195816ae0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRD0101Q.jsp"
+   text-time="2006-05-29T11:06:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="835b9622365487c7697ac356ae2d3c57"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE1001Q.jsp"
+   text-time="2006-06-06T06:41:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7c6893a38c426c32135a50789af2c97a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0201Q.jsp"
+   text-time="2006-06-05T13:35:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="97f81ca6ed4bd47fbf04cc57b501754b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0101Q.jsp"
+   text-time="2006-07-15T03:16:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="47948cea692840e6ed979aacb404f22f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0401Q.jsp"
+   text-time="2006-06-06T05:39:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3dfdff86131d096f9f2be942061a4363"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRF0301Q.jsp"
+   text-time="2006-07-12T11:59:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="77c08fbce23916303aea7747c750e9c2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0601Q.jsp"
+   text-time="2008-05-13T11:01:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d0acdb7d3fc5423b422e090624a695bb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ECRE0801Q.jsp"
+   text-time="2006-06-07T05:48:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="344967720b0406d3d885fd8bacd23318"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

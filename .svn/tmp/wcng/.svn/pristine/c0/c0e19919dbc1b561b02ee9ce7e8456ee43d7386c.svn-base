@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="Unnamed" language="java" pageWidth="1191" pageHeight="842" orientation="Landscape" columnWidth="1151" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<group name="Group_1">
+		<groupFooter>
+		<band height="22">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="60" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="60" y="0" width="60" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="120" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="181" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="242" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="303" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="364" y="0" width="79" height="22"/>
+				<box border="Thin"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="443" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="521" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="599" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="677" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="755" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="833" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="911" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="989" y="0" width="76" height="22"/>
+				<box border="Thin"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="1065" y="0" width="86" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+		</band>
+		</groupFooter>
+	</group>
+	<pageHeader>
+		<band height="115">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="1151" height="38"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="28"/>
+				</textElement>
+				<text><![CDATA[中長期借款舉借與還本付息情形]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="63" width="61" height="52"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[期別]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="60" y="63" width="61" height="52"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[年期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="120" y="63" width="61" height="52"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[訂借日期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="181" y="63" width="61" height="52"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[償還日期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="242" y="63" width="61" height="52"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[承借銀行]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="303" y="63" width="61" height="52"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[舉借金額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="364" y="85" width="79" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[到期付息數(第1次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="443" y="85" width="78" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[到期付息數(第2次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="521" y="85" width="78" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[到期付息數(第3次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="599" y="85" width="78" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[到期付息數(第4次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="677" y="85" width="78" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[到期付息數(第5次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="755" y="85" width="78" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[提前付息數(第1次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="833" y="85" width="78" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[提前付息數(第2次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="911" y="85" width="78" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[提前付息數(第3次)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="989" y="85" width="76" height="30"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="8"/>
+				</textElement>
+				<text><![CDATA[累計付息數]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="1065" y="63" width="86" height="52"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[備註]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="364" y="63" width="701" height="22"/>
+				<box border="Thin"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[付息情形]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="22">
+			<textField>
+				<reportElement positionType="Float" x="0" y="0" width="60" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="60" y="0" width="60" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="120" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="181" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="242" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="303" y="0" width="61" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="364" y="0" width="79" height="22"/>
+				<box border="Thin"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="443" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="521" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="599" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="677" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="755" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="833" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="911" y="0" width="78" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="989" y="0" width="76" height="22"/>
+				<box border="Thin"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="1065" y="0" width="86" height="22"/>
+				<box border="Thin"/>
+				<textElement/>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

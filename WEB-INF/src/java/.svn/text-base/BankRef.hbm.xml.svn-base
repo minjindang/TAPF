@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class name="BankRef" table="bank_ref">
+		<id name="id" type="integer" column="ID">
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="bankCode"
+			column="BANK_CODE"
+			type="string"
+			not-null="true"
+			length="5"
+		/>
+		<property
+			name="bankName"
+			column="BANK_NAME"
+			type="string"
+			not-null="true"
+			length="50"
+		/>
+		<property
+			name="shortBankName"
+			column="SHORT_BANK_NAME"
+			type="string"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="belongToBankId"
+			column="BELONG_TO_BANK_ID"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="combinationBankId"
+			column="COMBINATION_BANK_ID"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="combinationDate"
+			column="COMBINATION_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="tpsbankCode"
+			column="TPSBANK_CODE"
+			type="string"
+			not-null="false"
+			length="7"
+		/>
+		<property
+			name="usrid"
+			column="USRID"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="REMARK"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="createDate"
+			column="CREATE_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="beginDate"
+			column="BEGIN_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="endDate"
+			column="END_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="businessKind"
+			column="business_kind"
+			type="string"
+			not-null="false"
+			length="4"
+		/>
+		<property
+			name="freeAmount"
+			column="Free_amount"
+			type="string"
+			not-null="false"
+			length="4"
+		/>
+	
+
+		<set name="debtMains" inverse="true" lazy="true">
+			<key column="ID"/>
+			<one-to-many class="DebtMain"/>
+		</set>
+
+		<set name="contractBankMains" inverse="true" lazy="true">
+			<key column="ID"/>
+			<one-to-many class="ContractBankMain"/>
+		</set>
+
+
+	</class>	
+</hibernate-mapping>

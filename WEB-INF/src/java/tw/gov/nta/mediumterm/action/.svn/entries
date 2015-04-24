@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/mediumterm/action"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="CIRA0201.java"
+   text-time="2006-06-26T01:40:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="81518ab448b644dacc9c67ffc9937360"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CIRA0202.java"
+   text-time="2006-05-22T09:38:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f4f2dd206b228dc15daa1e5b2d1a087"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

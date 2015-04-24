@@ -1,0 +1,50 @@
+<!-- HARB0801PScript.jsp
+程式目的：HARB08檢查是否有輸入值
+程式代號：HARB08
+程式日期：0950221
+程式作者：Eric.Chen
+--------------------------------------------------------
+修改作者　　修改日期　　　修改目的
+--------------------------------------------------------
+-->
+<%@ page language="java" contentType="text/html;charset=Big5" %>
+<script language="Javascript">
+<!--
+function doBodyOnLoad(document)
+{
+  //nothing
+}
+
+function checkValue(form)
+{
+ 	var isValid = true;
+    var sError = "";
+    var year
+    var month = form.supMonth.value ;
+    /*if (month > 13 || month = 0)
+    {
+    	isValid = false;
+		sError += "\n";
+        sError += "【撥款月份】錯誤!!";
+    }*/
+	if ("" == form.supYear.value)
+    {
+    	isValid = false;
+		sError += "\n";
+        sError += "【記帳年度】不可空白!!";
+    }
+    if ("" == form.supMonth.value)
+    {
+    	isValid = false;
+		sError += "\n";
+        sError += "【撥款月份】不可空白!!";
+    }
+    if (false == isValid)
+    {
+    	alert(sError);
+    }
+		return isValid;
+}
+
+//-->
+</script>

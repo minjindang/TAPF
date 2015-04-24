@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="15"
+   name=""
+   committed-date="2013-07-31T08:47:22.062283Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf"
+   last-author="abner.chiu"
+   kind="dir"
+   uuid="ce93ae5a-ae97-dd45-ab6d-248782daf93a"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="15"/>
+<entry
+   committed-rev="16"
+   name="tapf.war"
+   text-time="2009-12-03T02:54:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6031021a3c900aa8e94aa1b69d3f0bb7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:56.871437Z"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name=".tomcatplugin"
+   text-time="2008-12-11T10:11:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1e3fc6ae81991fb8328d93b128682fe2"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name=".project"
+   text-time="2006-04-25T03:47:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="63f999fafc7e13e68a8b220086da0860"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   name="org"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="jboss-aop.xml"
+   text-time="2006-04-25T03:47:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fd95f76c6605006f9671e57c569ff581"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="tldCache.ser"
+   text-time="2010-04-26T08:43:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bf24979d00f3c4c4c6e842de9817754d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:17.679011Z"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name=".classpath"
+   text-time="2009-09-04T10:37:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="24997862ee585907df09c0f645b5a27b"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="index.jsp"
+   text-time="2006-06-28T10:43:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cac916d0083b31069635aaa87822bc60"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="EBR"
+   kind="dir"/>
+<entry
+   name="EDQ"
+   kind="dir"/>
+<entry
+   name="EDR"
+   kind="dir"/>
+<entry
+   name="PM"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name=".cvsignore"
+   text-time="2006-04-25T03:47:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="70c28eb77dec44e1e147b9ff07b00bdf"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   name="CPM"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="packaging-build.xml"
+   text-time="2008-12-11T09:54:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="091ed35f98b9961fb6aa44e1983f5446"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   name=".hibernateSynchronizer3"
+   kind="dir"/>
+<entry
+   name="DPM"
+   kind="dir"/>
+<entry
+   name="work"
+   kind="dir"/>
+<entry
+   name="APR"
+   kind="dir"/>
+<entry
+   name="BPR"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="error.jsp"
+   text-time="2006-04-25T03:47:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d42b8706bbfbd11ce9f5a80eb536b2e5"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   name="CPR"
+   kind="dir"/>
+<entry
+   name="DPR"
+   kind="dir"/>
+<entry
+   name="WEB-INF"
+   kind="dir"/>
+<entry
+   name="common"
+   kind="dir"/>
+<entry
+   name="excel"
+   kind="dir"/>
+<entry
+   name="META-INF"
+   kind="dir"/>
+<entry
+   name="EAM"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name=".packaging"
+   text-time="2006-04-25T03:47:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="16b0ff9f2085f0e7eea5a5431119ab97"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+<entry
+   name="FAM"
+   kind="dir"/>
+<entry
+   name="GAM"
+   kind="dir"/>
+<entry
+   name="CAR"
+   kind="dir"/>
+<entry
+   name="HAM"
+   kind="dir"/>
+<entry
+   name="EAQ"
+   kind="dir"/>
+<entry
+   name="AIM"
+   kind="dir"/>
+<entry
+   name="EAR"
+   kind="dir"/>
+<entry
+   name="BIM"
+   kind="dir"/>
+<entry
+   name="CIM"
+   kind="dir"/>
+<entry
+   name="ECR"
+   kind="dir"/>
+<entry
+   name="GAR"
+   kind="dir"/>
+<entry
+   name="DIM"
+   kind="dir"/>
+<entry
+   name="getdata"
+   kind="dir"/>
+<entry
+   name="HAR"
+   kind="dir"/>
+<entry
+   name="AIR"
+   kind="dir"/>
+<entry
+   name="BIR"
+   kind="dir"/>
+<entry
+   name="CIR"
+   kind="dir"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+<entry
+   name="DIR"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="session.jsp"
+   text-time="2006-04-25T03:47:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7e9311d39be98e09957b4d9f38e8f524"
+   last-author="abner.chiu"
+   kind="file"
+   revision="16"/>
+</wc-entries>

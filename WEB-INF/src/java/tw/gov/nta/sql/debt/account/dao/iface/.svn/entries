@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/debt/account/dao/iface"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="Eaqc01RptDAO.java"
+   text-time="2006-07-28T05:15:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="042a8a5272c15f2ca45a0e5174b53f3e"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

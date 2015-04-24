@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.account">
+	<class
+		name="AccountRef"
+		table="account_ref"
+		lazy="false"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="accountCode"
+			column="account_code"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="accountName"
+			column="account_name"
+			type="string"
+			not-null="true"
+			length="50"
+		/>
+		<property
+			name="accountType"
+			column="account_type"
+			type="string"
+			not-null="true"
+			length="1"
+		/>
+
+		<property
+			name="remark"
+			column="remark"
+			type="string"
+			not-null="false"
+			length="200"
+		/>
+	
+		<many-to-one 
+			name="debtType" 
+			column="debt_type" 
+			class="tw.gov.nta.sql.debt.DebtTypeRef"
+			outer-join="auto" />
+	
+
+	</class>	
+</hibernate-mapping>

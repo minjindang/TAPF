@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt.account">
+	<class
+		name="Eaqc01Rpt"
+		table="EAQC01_RPT"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="voucherNo"
+			column="Voucher_No"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="voucherDate"
+			column="Voucher_Date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="accountName"
+			column="Account_Name"
+			type="string"
+			not-null="false"
+			length="50"
+		/>
+		<property
+			name="accountAmountD"
+			column="Account_Amount_D"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="accountAmountC"
+			column="Account_Amount_C"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

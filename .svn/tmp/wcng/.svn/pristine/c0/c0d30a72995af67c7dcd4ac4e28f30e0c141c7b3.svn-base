@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created using an evaluation version of JasperAssistant (http://www.jasperassistant.com) -->
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN" "http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport name="GARA13_RPT" language="java" printOrder="Horizontal" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="535" leftMargin="0" rightMargin="60" topMargin="30" bottomMargin="30">
+	<property name="com.jasperassistant.designer.GridWidth" value="12"/>
+	<property name="com.jasperassistant.designer.GridHeight" value="12"/>
+	<property name="com.jasperassistant.designer.DataSource" value="tapf"/>
+	<property name="com.jasperassistant.designer.SnapToGrid" value="false"/>
+	<property name="com.jasperassistant.designer.Grid" value="false"/>
+	<parameter name="year" class="java.lang.String">
+	</parameter>
+	<parameter name="amountUnit" class="java.lang.String">
+	</parameter>
+	<parameter name="createDate" class="java.lang.String">
+	</parameter>
+	<queryString><![CDATA[select * from GARA13_RPT]]></queryString>
+	<field name="debt_type" class="java.lang.String">
+	</field>
+	<field name="issue_amount" class="java.math.BigDecimal">
+	</field>
+	<field name="months" class="java.lang.Integer">
+	</field>
+	<field name="years" class="java.lang.String">
+	</field>
+	<pageHeader>
+		<band height="73">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="535" height="29"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="20"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["中央政府未來三年短期債務還本落點分析-總表"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="334" y="55" width="201" height="18"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["(" + $P{amountUnit} + ")"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="55" width="257" height="18"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="標楷體" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["製表日期:" + $P{createDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="0" y="28" width="535" height="27"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{year}+"(起年)"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="35">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="85" height="35"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[債務種類]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="85" y="0" width="450" height="19"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[年度]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="85" y="18" width="141" height="17"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="226" y="18" width="163" height="17"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="389" y="18" width="146" height="17"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="341">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="0" width="85" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="85" y="0" width="141" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="226" y="0" width="163" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="389" y="0" width="146" height="28"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression class="java.math.BigDecimal"><![CDATA[]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="28" width="85" height="23"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[合計]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="84" y="28" width="142" height="23"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="226" y="27" width="163" height="24"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="389" y="27" width="146" height="24"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="1" y="66" width="84" height="275"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="標楷體" size="14"/>
+				</textElement>
+				<text><![CDATA[各月份
+還本錢]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" x="148" y="66" width="121" height="41"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="66" width="141" height="41"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="66" width="125" height="41"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="85" y="66" width="64" height="41"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Justified">
+					<font fontName="標楷體"/>
+				</textElement>
+				<text><![CDATA[        年度
+
+月份]]></text>
+			</staticText>
+			<line>
+				<reportElement positionType="Float" x="84" y="66" width="64" height="41"/>
+				<graphicElement/>
+			</line>
+			<textField>
+				<reportElement positionType="Float" x="85" y="107" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["一  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="125" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["二  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="161" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["四  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="143" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["三  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="179" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["五  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="197" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["六  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="215" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["七  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="233" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["八  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="251" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["九  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="269" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["十  月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="287" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["十一月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="305" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["十二月"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="85" y="323" width="64" height="18"/>
+				<box border="1Point"/>
+				<textElement textAlignment="Center">
+					<font fontName="標楷體"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["合  計"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="107" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="107" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="107" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="125" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="125" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="125" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="143" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="161" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="161" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="143" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="143" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="161" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="179" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="197" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="197" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="179" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="179" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="197" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="215" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="233" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="233" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="215" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="215" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="233" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="305" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="287" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="269" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="251" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="251" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="269" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="287" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="305" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="251" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="269" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="287" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="305" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="149" y="323" width="120" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="269" y="323" width="141" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="410" y="323" width="125" height="18"/>
+				<box border="1Point"/>
+				<textElement/>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="535" height="60"/>
+				<textElement>
+					<font fontName="標楷體" size="12"/>
+				</textElement>
+				<text><![CDATA[備註: * 表列國庫券資料包括「財 93-1 期」至「財 93-6 期」，及「財 94-1 期」。
+ 		 * 表列短期借款資包括「財 93-4 期」至「財 93-67 期」。]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

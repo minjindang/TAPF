@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/base"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BaseNationDebitMain.java"
+   text-time="2006-09-12T03:15:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11a8f088f1aca39951a141bca0eec491"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseNationalDebtDueDateMain.java"
+   text-time="2011-10-24T06:28:39.431355Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ef3a848618e91aff9a11724e43994c26"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="_BaseRootDAO.java"
+   text-time="2006-07-07T11:30:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5c5941396588abab3248c16af4772243"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseBudgetRef.java"
+   text-time="2006-04-25T03:44:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ae7830bdcb88e2e2a8d299ce5b7c647a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseDebitRefDAO.java"
+   text-time="2006-04-25T03:44:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0d2beda1fd052b9a74002e4afce219d1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseCentralStatisticsMain.java"
+   text-time="2006-07-31T01:56:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="688fa40a9415443945515ac51651ae28"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseYearPlanRef.java"
+   text-time="2006-04-25T03:44:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9e39c409d57eb0cb05a9bf3969526f40"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseMailContentRef.java"
+   text-time="2006-04-25T03:44:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fc5df18db5d3f2188747fd57ca49add4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUserStatisticsDetDAO.java"
+   text-time="2006-07-13T03:03:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6c78678e6b830134292cf67a07d4cdd9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseTaxactionDetDAO.java"
+   text-time="2006-04-25T03:44:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9b20bc230bfa6dbc1803adb04ac1429a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitPercentDet101.java"
+   text-time="2011-11-22T02:59:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1c2e595cd0668ebb7054d4c9f5e10383"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseYearAmountRef.java"
+   text-time="2006-06-20T13:16:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9a7116f55391ad8931eb833759dc9c13"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseLawPercentRef101.java"
+   text-time="2011-11-18T06:33:08.751785Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a5e2afe61eef6eceb3d1fae4ac06e9fc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseDebitRef.java"
+   text-time="2006-04-25T03:44:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="536e992fa421d14efe57205788159b32"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseNationRef.java"
+   text-time="2006-04-25T03:44:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5b7ffb6a0640c4191ed9c66a5a77a576"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUserStatisticsDet.java"
+   text-time="2006-09-19T06:51:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="198c463b56d89a1fb913221d61a8cf42"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseNationDebitMainDAO.java"
+   text-time="2006-04-25T03:44:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="13a4d47aaf35515d06e23f5cefa145f4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseNationalDebtDueDateMainDAO.java"
+   text-time="2011-10-05T02:32:12.435753Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ec41a573f93b9b82b815b6791c17f867"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitAllocateMain.java"
+   text-time="2010-11-13T01:54:59.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3c9b8cfb3879711786a8d4f6c425b36b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseBudgetRefDAO.java"
+   text-time="2006-04-25T03:44:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3aebdb874f8e1f8edfb8b52dff0c0103"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitPercentDet.java"
+   text-time="2006-04-25T03:44:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1bd3fa9ca6eec54d36ce845c136110cd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseLawPercentRef.java"
+   text-time="2006-04-25T03:44:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="765267a846efd1185d8607d527f30ce9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitPercentDet101DAO.java"
+   text-time="2011-09-21T03:02:10.298217Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="83b1b4ce156cd749cb0663493c88438e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseYearAmountRefDAO.java"
+   text-time="2006-06-08T07:31:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2a2b4a986d03b4bffa8f8cd21018cbf4"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseLawPercentRef101DAO.java"
+   text-time="2011-11-18T06:31:16.710678Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="18996783fb1cbfdd6bc1315bd986fc03"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseCodeDet.java"
+   text-time="2006-04-25T03:44:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dcd368dede91b3306ef544196457056c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseNationRefDAO.java"
+   text-time="2006-04-25T03:44:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3fcda3af2d57d34eb7bc5c2a0a678931"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseTaxactionDet101.java"
+   text-time="2011-09-27T07:04:05.251334Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dab7ac6a2b53f0278eb8767c35fd9f30"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseExstockRef.java"
+   text-time="2006-04-25T03:44:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1fe6e4437c4e64dc19d776323db3feeb"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitAllocateMainDAO.java"
+   text-time="2006-04-25T03:44:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4f3efeece4af282c5f0c4229f7032c19"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseCodeMain.java"
+   text-time="2006-04-25T03:44:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="88fad8bbd1f42759ca7d8c861ed22825"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitPercentDetDAO.java"
+   text-time="2006-04-25T03:44:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3321da2f18293d03c5ac88efb036984f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUserStatisticsMainDAO.java"
+   text-time="2006-06-08T07:31:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="31d7f9c42f45d93b6641eafda7129e8d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitInfoMainDAO.java"
+   text-time="2006-04-25T03:44:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="704b81feb35bb2be5cfb6edb7a19d846"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseLawPercentRefDAO.java"
+   text-time="2006-04-25T03:44:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7565cb72c7981f6ea90a2ace4945527b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseTaxactionDet.java"
+   text-time="2010-02-12T08:04:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed646218f19fdc0fffbe5b23eb117716"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseCodeDetDAO.java"
+   text-time="2006-04-25T03:44:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9710f43b1cf388c789e03677aaf8a650"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseYearPlanRefDAO.java"
+   text-time="2006-04-25T03:44:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a3a774bc39b930cd76e1d62b5562a85c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseCentralStatisticsMainDAO.java"
+   text-time="2006-04-25T03:44:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="19d81a9238f32d3e416ac471f833b6df"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseTaxactionDet101DAO.java"
+   text-time="2011-09-21T03:28:34.726513Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f1e557594f8c2b214dc454404ee4b957"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseMailContentRefDAO.java"
+   text-time="2006-04-25T03:44:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="18e1ab2b7cd95a67e70c9b9aee8cce2b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUserStatisticsMain.java"
+   text-time="2006-09-29T02:39:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5fda1d0ec2b28d4e5e87886cf53acb29"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseUnitInfoMain.java"
+   text-time="2011-11-22T03:18:59.626787Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1efb3ee249d557740ff2e593048348b0"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseExstockRefDAO.java"
+   text-time="2006-04-25T03:44:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d94685d24a343de63d83a56376c23bc3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseCodeMainDAO.java"
+   text-time="2006-04-25T03:44:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="859021802ebd309670129abcf36c3b45"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="PaymentTicketDet"
+		table="payment_ticket_det"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="ticketName"
+			column="TICKET_NAME"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="ticketAmount"
+			column="TICKET_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="interestAmount"
+			column="INTEREST_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="capitalAmount"
+			column="CAPITAL_AMOUNT"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="ticketCount"
+			column="TICKET_COUNT"
+			type="java.lang.Long"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="accumCount"
+			column="ACCUM_COUNT"
+			type="java.lang.Long"
+			not-null="false"
+			length="19"
+		/>
+		<property
+			name="userid"
+			column="USERID"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+	
+		<many-to-one
+			name="payment"
+			column="PAYMENT_ID"
+			class="PaymentMain"
+			not-null="true"
+			fetch="select"
+			lazy="false"
+		>
+		</many-to-one>
+
+
+	</class>	
+</hibernate-mapping>

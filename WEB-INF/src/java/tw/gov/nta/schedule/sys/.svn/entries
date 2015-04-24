@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/schedule/sys"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BatchPayment.java"
+   text-time="2007-03-22T07:27:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cb479bb1ca01c53fd9d337ca63671790"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="79"
+   name="AutoConvert.java"
+   text-time="2013-09-05T02:38:20.016575Z"
+   committed-date="2013-09-05T02:38:19.230306Z"
+   checksum="359eb7a0835baca8d357ffca1b6c3e0d"
+   last-author="abner.chiu"
+   kind="file"
+   revision="79"/>
+<entry
+   committed-rev="77"
+   name="QuartzServlet.java"
+   text-time="2013-09-05T02:41:14.916401Z"
+   committed-date="2013-09-05T02:15:29.462867Z"
+   checksum="e095787c2f1b761193b1b69e72179c6e"
+   last-author="abner.chiu"
+   kind="file"
+   revision="77"/>
+</wc-entries>

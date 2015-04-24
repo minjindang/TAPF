@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/account/base"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherMainDAO.java"
+   text-time="2006-04-25T03:45:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ad1806ab9b8fda37cab067e18947574"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="_BaseRootDAO.java"
+   text-time="2006-07-05T06:15:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="642af9abc8d5786cdfd39cb2c1e94589"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherDet.java"
+   text-time="2006-05-31T06:41:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c548541c425f704607a8917551e323f8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountReportBuild.java"
+   text-time="2006-04-25T10:50:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4f2881d9fb527f174dd95cda40209a5c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherSourceDet.java"
+   text-time="2006-06-13T09:01:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c7d22c70829f539224fb4d97d68d5174"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountRef.java"
+   text-time="2006-04-25T03:45:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc37bed58cf447147c947b628d538264"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherDetDAO.java"
+   text-time="2006-04-25T03:45:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d5fca2a3542a533f41a6498651f06b73"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountReportBuildDAO.java"
+   text-time="2006-04-25T10:50:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b416f3dccbe825c81e6c91867c3fd6e8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherSourceDetDAO.java"
+   text-time="2006-06-13T09:01:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b3e10043bb2421f9e4710cfab4563fd8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseAccountRefDAO.java"
+   text-time="2006-04-25T03:45:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d36728f6fa8782035e7d05f330f4b625"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BaseVoucherMain.java"
+   text-time="2006-07-06T14:41:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="86436479a756766c961d447b9fe4c98c"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

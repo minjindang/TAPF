@@ -1,0 +1,253 @@
+body
+
+{
+    margin:0px;
+    padding:0px;
+
+    width:100%;
+    background-image:url(images/main/home/bga.gif);
+	background-color:"#FFFFFF";
+}
+
+
+img  { border-width:0px; }
+
+a:link
+{
+	color:#0000ff;
+	background:#ffffff
+}
+
+table
+{
+    border-width:0px;
+    width:100%;
+    border:0;
+}
+
+div.linkbar
+{
+    border-right:0px;
+    border-top:0px;
+    font-size:2px;
+    border-left:0px;
+    width:100%;
+    border-bottom:0px;
+}
+
+div.linkbar span.bar, div.linkbar span.bar a.link
+{
+    font-size:13px;
+    color:#cc3300;
+    line-height:180%;
+    font-family:"verdana";
+    text-decoration:none;
+}
+
+/*table*/
+div.statusbar table, div.commandForm table,
+div.button table, div.list table
+{
+    font-family:"Verdana";
+    font-size:13px;
+    color:#000080;
+    width:100%;
+    border-style:none;
+    border-color:#ECF6FD;
+	border:10pt;
+}
+
+/*lable*/
+div.statusbar table td.lable, div.title table td,
+div.commandForm table td.lable, div.list table thead tr
+{
+    font-family:"Verdana";
+    font-size:13px;
+    font-weight:bold;
+    color:#366195;
+    background-color:#ECF6FD;
+}
+
+/*title table td text-align*/
+div.title table td
+{
+	text-align:"center";
+}
+
+/*buttoonbar table td text-align*/
+div.buttonBar table td
+{
+    background-color:#ECF6FD;
+	text-align:"right";
+}
+
+/*buttoonbar table td text-align*/
+div.statusbuttonBar table td
+{
+    text-align:"light";
+}
+
+/*input*/
+div.statusbar table td.input, div.commandForm table td.input,
+div.list table tbody tr td
+{
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+    border-color:#ECF6FD;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+div.statusbar table tbody a,
+div.buttonBar table td a.button
+{
+	text-decoration:none;
+}
+
+div.buttonBar table td input.button, .button,
+{
+    font-family:·s²Ó©úÅé;
+    font-size:13px;
+    color:#FFFFFF;
+    background-color:#3F7DCA;
+    border:1px #003399 solid;
+    border-color:#003399 solid;
+}
+
+div.commandForm table td.width150px
+{
+	width: 150px;
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+    border-color:#ECF6FD;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+div.commandForm table td.width250px
+{
+	width: 250px;
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+    border-color:#ECF6FD;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+div.commandForm table td.width100px
+{
+	width: 100px;
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+    border-color:#ECF6FD;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+div.commandForm table td.width50px
+{
+	width: 50px;
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+    border-color:#ECF6FD;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+div.commandForm table td.lableWidth25px
+{
+    width: 25px;
+    font-family:"Verdana";
+    font-size:13px;
+    font-weight:bold;
+    color:#366195;
+    background-color:#ECF6FD;
+}
+
+div.commandForm table td.lableWidth50px
+{
+	width: 50px;
+    font-family:"Verdana";
+    font-size:13px;
+    font-weight:bold;
+    color:#366195;
+    background-color:#ECF6FD;
+}
+
+div.commandForm table td.lableWidth100px
+{
+	width: 100px;
+    font-family:"Verdana";
+    font-size:13px;
+    font-weight:bold;
+    color:#366195;
+    background-color:#ECF6FD;
+}
+
+div.statusbar table td.lableWidth150px
+{
+	width: 150px;
+    font-family:"Verdana";
+    font-size:13px;
+    font-weight:bold;
+    color:#366195;
+    background-color:#ECF6FD;
+}
+
+div.statusbar table td.inputWidth100px
+{
+	width: 50px;
+    font-family:"Verdana";
+    font-size: 13px;
+    color:#333333;
+    border-color:#ECF6FD;
+    clip: rect();
+    border-style:solid;
+	text-align:left;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-left-width:1px;
+	border-width:1px;
+}
+
+div.statusbar table td.button
+{
+    background-color:#ECF6FD;
+	text-align:"right";
+}
+
+div.commandForm table tbody tr.test
+{
+    background-color:#ECF6FD;
+	text-align:"right";
+}

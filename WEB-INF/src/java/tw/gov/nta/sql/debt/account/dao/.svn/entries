@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/debt/account/dao"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="Eaqc01RptDAO.java"
+   text-time="2006-07-28T05:15:25.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c6be9f9036e374fc09701f7c828fc381"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountPhaseMainDAO.java"
+   text-time="2006-04-25T03:45:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="559731efca028101f72f15f3124b15a5"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="_RootDAO.java"
+   text-time="2006-04-25T03:45:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c7ca0321f3ed68e37b44f783fac541ca"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   name="iface"
+   kind="dir"/>
+<entry
+   committed-rev="16"
+   name="VoucherNoRefDAO.java"
+   text-time="2006-04-25T03:45:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d4900a95cbb079e9cb777993a9e5af55"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AccountPhaseDetDAO.java"
+   text-time="2006-04-25T03:45:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="26f32f1f94ce39de7bd36c5c62f42e6c"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

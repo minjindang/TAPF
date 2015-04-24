@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>true</redirectLogger>
+    <updateXml>false</updateXml>
+    <warLocation>C:\tapf.war</warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/tapf</webPath>
+</tomcatProjectProperties>

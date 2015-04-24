@@ -1,0 +1,147 @@
+package gov.dnt.tame.pm;
+
+import gov.dnt.tame.common.DefaultAction;
+import gov.dnt.tame.sys.ConvertPassword;
+import gov.dnt.tame.util.Messages;
+
+import java.math.BigDecimal;
+import java.sql.Connection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.dbutils.handlers.MapHandler;
+import org.apache.commons.dbutils.handlers.MapListHandler;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+
+import com.kangdainfo.ast.sql.ConnectionSQLRunner;
+import com.kangdainfo.ast.sql.SQLJob;
+import com.kangdainfo.ast.sql.SQLRunner;
+
+public class PM1001_01U extends DefaultAction {
+	
+	ConvertPassword convertPassword = new ConvertPassword();
+	
+    protected SQLJob updSQLJob(HttpServletRequest request){
+        SQLJob sqljob = new SQLJob();
+        sqljob.appendSQL(" UPDATE PM0005_DB SET ");
+        sqljob.appendSQL(" OLDPASSWD=PASSWORD, ");
+        sqljob.appendSQL(" PASSWORD=? ");
+        sqljob.appendSQL(" WHERE ACCOUNT=? ");
+      	sqljob.addParameter(convertPassword.convertPasswordtoMd5(request.getParameter("PASSWORD")));
+        sqljob.addParameter(this.getUserId(request));
+        return sqljob;        
+        
+    }
+    
+//    protected SQLJob allUsers(){
+//    	SQLJob sqljob = new SQLJob();
+//    	sqljob.appendSQL(" select * from PM0005_DB ");
+//    	return sqljob;
+//    }
+    
+//    protected SQLJob updMD5(BigDecimal id, String oldPassWord){
+//        SQLJob sqljob = new SQLJob();
+//        sqljob.appendSQL(" UPDATE PM0005_DB SET ");
+//        sqljob.appendSQL(" MD5PASSWORD=? ");
+//        sqljob.appendSQL(" WHERE id=? ");
+//      	sqljob.addParameter(convertPassword.convertPasswordtoMd5(oldPassWord));
+//        sqljob.addParameter(id);
+//        return sqljob;
+//    }
+
+	public void executeQuery(ActionForm form, HttpServletRequest request,
+			Connection connection) throws Exception {
+		SQLRunner run = new ConnectionSQLRunner(connection);
+		
+		String passwd = (String) request.getParameter("PASSWORD");
+		String cpasswd = (String) request.getParameter("CPASSWORD");
+		
+//		List tList = (List) run.query(allUsers(), new MapListHandler());
+//		Map tMap = new HashMap();
+//		//資料Map
+//		for(Iterator tIterator = tList.iterator(); tIterator.hasNext(); )
+//		{
+//			tMap = (Map) tIterator.next();
+//			BigDecimal id = (BigDecimal) tMap.get("id");
+//			String oldPasswd = (String) tMap.get("password");
+//			
+//			run.update(connection,updMD5(id,oldPasswd));
+//		}
+		System.out.println(passwd.length());
+		if(passwd.length() < 8)
+		{
+	        setAlertMessage(request,"【密碼】長度不可低於7碼，請重新執行!");
+	        throw new Exception("passwd error");
+		}
+				
+		
+		String[] correctPassword = { "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "<", ">", "/" };
+
+		System.out.println("明碼:"+passwd);
+		if (passwd.matches("^.*\\p{Alpha}.*$")
+			    && passwd.matches("^.*\\p{Digit}.*$")
+			    && passwd.matches("^[\\p{Alnum}!@#$%^&]{7,20}$")) {
+			  // legal
+			}
+		
+//		if(passwd.matches("[X{1,}]*")){
+//	        setAlertMessage(request,"【密碼】必須包含數字，請重新執行!");
+//	        throw new Exception("passwd error");
+//		}
+//		if(!passwd.matches("/.[!,@,#,$,%,^,&,*,?,_,~]/")){
+//		if(!passwd.matches("[!,@,#,$,%,^,&,*,?,_,~]*")){
+//	        setAlertMessage(request,"【密碼】必須包含特殊符號，請重新執行!");
+//	        throw new Exception("passwd error");
+//		}
+		
+//		for(int i=0;i<passwd.length();i++){
+//			String word = passwd.matches()
+//		}
+
+		if( "".equals(passwd) )
+		{
+	        setAlertMessage(request,"【密碼】不可空白，請重新執行!");
+	        throw new Exception("passwd error");
+		}
+		if( "".equals(cpasswd) )
+		{
+	        setAlertMessage(request,"【確認密碼】不可空白，請重新執行!");
+	        throw new Exception("passwd error");
+		}
+		
+		if( cpasswd.equals(passwd) )
+		{
+			if ("Y".equals(request.getParameter("FIRST")))
+			{
+			  request.setAttribute("nextForward","FIRST");
+//			  run.update(connection,updSQLJob(request));
+		      setAlertMessage(request,Messages.SUCCESS_FIRSTPASS_CHANGE);
+			}
+			else
+			{	
+			  request.setAttribute("nextForward","success");	
+//	          run.update(connection,updSQLJob(request));
+	          setAlertMessage(request,Messages.SUCCESS_MODIFY);
+			}
+		}
+		else
+		{   
+			request.setAttribute("nextForward","failure");
+	        setAlertMessage(request,"【密碼】與【確認密碼】不符，請重新執行!");
+	        throw new Exception("passwd error");
+		}	
+	}
+	public ActionForward getSuccessForward(ActionMapping mapping,
+			ActionForm form, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		return mapping.findForward((String)request.getAttribute("nextForward"));
+	}
+	
+}

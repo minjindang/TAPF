@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/surplusage/common"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="YearAmountManager.java"
+   text-time="2006-12-05T14:18:19.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="68f3e656d1e8b2f69eae6eb25b2ebd52"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara04TempManager.java"
+   text-time="2006-07-27T08:51:47.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="391afa4dcc6689bef36fa69ad7e0ace9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UserStatisticsDetManager.java"
+   text-time="2006-09-29T03:52:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5bdb2bf28e00e76067331b9a79ae9d76"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara39Report.java"
+   text-time="2007-03-12T10:12:43.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f7ffc32c425f7232ac3e2b64c0ec0ff"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CommonReportSQL.java"
+   text-time="2006-09-21T14:06:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ef7aeb4781f3f7823c3d246b05e4aba6"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="UserStatisticsManager.java"
+   text-time="2006-09-28T10:33:37.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="aaed6511bdef2905d800e042d9d6acf2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara30ReMainList.java"
+   text-time="2006-09-15T08:38:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b2a9cda09fa89ada14ae1fb64fadf1fe"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="OtherPlanDebtManager.java"
+   text-time="2006-10-18T09:59:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="04361fdab5e8dffb7c6b225ef5c2e161"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ReMainList.java"
+   text-time="2006-11-01T09:58:31.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3187e52af6f0dac77e6645262398fa9a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="Gara33ReMainList.java"
+   text-time="2006-09-15T08:38:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bcc9fc46c25f350d061ff97c0c61406a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="164"
+   name="Gara39Report_1021021.java"
+   text-time="2013-10-31T05:42:13.647386Z"
+   committed-date="2013-11-01T02:43:39.731928Z"
+   checksum="26844709fca37ab25be453ca4bb7d29e"
+   last-author="abner.chiu"
+   kind="file"
+   revision="164"/>
+<entry
+   committed-rev="16"
+   name="Gara34ReMainList.java"
+   text-time="2006-10-16T09:30:33.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="09fd0a2ec57ca95d8fafe5e7af2b8343"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="GaraNoteManager.java"
+   text-time="2007-02-08T02:27:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="beadb951c2bece1497ab81bea28b83cb"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

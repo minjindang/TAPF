@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/assets/images/login"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="login_buttonback.jpg"
+   text-time="2006-04-25T03:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="647f29026224438d66e26cfa717b0b47"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:46.560334Z"/>
+<entry
+   committed-rev="16"
+   name="login_01.jpg"
+   text-time="2006-04-25T03:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7c2806e86cae731511e0f115e6e59bc1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:42.534752Z"/>
+<entry
+   committed-rev="16"
+   name="login_back.jpg"
+   text-time="2006-04-25T03:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="301eb7d8f75877a19128a2f948d868d5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:42.554781Z"/>
+<entry
+   committed-rev="16"
+   name="login_02.jpg"
+   text-time="2006-04-25T03:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bc3a08c9ebb3e54e05172d55babb9b25"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:57.622723Z"/>
+<entry
+   committed-rev="16"
+   name="login_03.jpg"
+   text-time="2006-04-25T03:37:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0d69f22636b79d6c3c1ced6433dd28d3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:17.030424Z"/>
+</wc-entries>

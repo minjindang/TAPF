@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/DPR"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="DPRA0201Q.jsp"
+   text-time="2006-04-25T03:40:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4646a95cd5a4831f743478265f877101"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0301Q.jsp"
+   text-time="2006-04-25T03:40:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d62b2bbef8d409286eb25f0880bb001f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0401Q.jsp"
+   text-time="2009-06-08T09:58:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="096e3fb8df7259cbcdd2294a4de5824c"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0501Q.jsp"
+   text-time="2009-08-06T01:38:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fac99ffaefeccb029a335576209871ae"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0201QForm.jsp"
+   text-time="2010-11-22T01:06:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="646d47b747612136bcd7ed1ae72dd4f9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0301QForm.jsp"
+   text-time="2006-06-22T09:30:35.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="86cbaee91f3d075cfb5f8609b4833f30"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0201QScript.jsp"
+   text-time="2009-06-08T09:58:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="69f3433be23a24dffe51178563c0e43d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0201QBar.jsp"
+   text-time="2006-04-25T03:40:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bde8be772a623f1d03bab90ba52b036f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0401QForm.jsp"
+   text-time="2009-06-08T09:58:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="42451e310b96db99f0a23f3fd0ac7a5a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0501QForm.jsp"
+   text-time="2009-08-13T06:04:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0a7541b888e5a85e49e4adba31dd5a84"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DPRA0501QScript.jsp"
+   text-time="2010-11-22T01:06:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b8c7a5415144f709746f1bcb003673c8"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/debt/common"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="InterestAdjustManager.java"
+   text-time="2008-03-20T11:11:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2cc7d4a5c74ca1e75fa3e22ed9917575"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="InterestAdjustManagerTest.java"
+   text-time="2006-07-26T14:26:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="02bacae5a260993c1636ca0ff7d93763"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ContractBankManager.java"
+   text-time="2007-06-28T11:17:17.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ebd20823318b3b3cef61da5ea68815d1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="AheadpayManager.java"
+   text-time="2006-12-05T13:06:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e9abe1ae6edf7cb89313624f49b8bcac"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebtManager.java"
+   text-time="2010-11-13T01:52:05.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5a72b33617ea5dcca82c105d2722830e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PlanExecutive.java"
+   text-time="2011-09-22T02:59:41.696768Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7f1bcf55815bc14a77e3c25adbfa5a33"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PlanExecutiveTest.java"
+   text-time="2006-07-13T01:37:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a694327bc2d73dd5e1499acf8f37df1f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ExtendDueDateManager.java"
+   text-time="2006-10-13T07:34:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2e18264baba9078e72460b199cdc4d50"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="CentralDebtDetManager.java"
+   text-time="2007-05-14T13:02:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="63933c1b559975449d4019d6067f2146"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TreasuryIssueManager.java"
+   text-time="2008-03-03T06:23:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="52ca4f901b4ff104623b8324c059cd1b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="17"
+   name="IssueManager.java"
+   text-time="2013-07-31T10:01:53.820619Z"
+   committed-date="2013-07-31T10:01:44.597453Z"
+   checksum="a67e7cf77697baf1a99aaf610dff9d22"
+   last-author="abner.chiu"
+   kind="file"
+   revision="17"/>
+<entry
+   committed-rev="16"
+   name="IManager.java"
+   text-time="2006-06-30T15:08:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="70c37490e62d77427f310478294ecef2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TreasuryPayManager.java"
+   text-time="2006-07-13T03:03:49.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2a5615b02f0390ce894fe246635a557b"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PayManager.java"
+   text-time="2012-03-09T03:22:37.257985Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d223b6fc20a28604df3c467a7ace729f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TransBondManager.java"
+   text-time="2006-06-30T15:04:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2a75c289a9d2f30a82b0562d4b6e0f14"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="RateManager.java"
+   text-time="2006-10-13T08:09:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1170f7da9b423b185fc290ea05614cc9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="106"
+   name="DayCount.java"
+   text-time="2013-09-18T07:24:43.505364Z"
+   committed-date="2013-09-18T07:25:41.230781Z"
+   checksum="d4c92258c3a5755cdc5b6c6b356de566"
+   last-author="abner.chiu"
+   kind="file"
+   revision="106"/>
+<entry
+   committed-rev="16"
+   name="PayMentMainVectors.java"
+   text-time="2006-04-25T03:45:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="683188118412381f4a8f238066408ed8"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="ShortDebtManager.java"
+   text-time="2007-06-28T09:01:29.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="de3dc67e0476b9a12c735e2e46194528"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebtMainVectors.java"
+   text-time="2006-06-13T10:44:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2879614d288f1b4f860be113a0872612"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="167"
+   name="APRA29Report.java"
+   text-time="2013-11-04T02:08:09.484395Z"
+   committed-date="2013-11-04T06:50:31.292787Z"
+   checksum="09826b342384533376f9f3d8168d7954"
+   last-author="abner.chiu"
+   kind="file"
+   revision="167"/>
+<entry
+   committed-rev="16"
+   name="PayInterestManager.java"
+   text-time="2010-11-13T01:52:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0436bbf5074b56d2ac6a79302f371c6f"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PayInterestManagerTest.java"
+   text-time="2006-07-02T03:33:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="13b8c4dc368ead363e1fbcd8224f8064"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="TicketManager.java"
+   text-time="2006-07-07T05:29:53.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="69498fb4ae827916d2e3a5e0dc5c57b9"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="BatchPlanExecutive.java"
+   text-time="2008-05-01T02:48:07.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0244254a31e30059b4ce79db897e49dd"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="IssueDetManager.java"
+   text-time="2006-06-30T15:08:03.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="97e6a883bf31cba67636e92fa7e47b77"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PayCapitalManager.java"
+   text-time="2010-11-13T01:52:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9446d011354d0b23051a2b2b8fb2b267"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PlanManagerTest.java"
+   text-time="2006-07-27T03:12:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3680d224ddbae87f13140e0a334cb049"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="InterestAdjustManagerTest2.java"
+   text-time="2006-09-19T06:51:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30436be1e2535dac623233cce4fe515a"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PlanManager.java"
+   text-time="2012-07-30T06:52:53.959107Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3dd5a89c8920eeeea652bb3036b748a2"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="MiddleDebtManager.java"
+   text-time="2012-02-10T02:35:40.586316Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="44adac3a7eeac0ace287f80dfb50dc05"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="RecountInterestManager.java"
+   text-time="2010-11-13T01:52:09.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d0d8ce9e6dac43affde3b6be9af86081"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="DebtPlanDetVectors.java"
+   text-time="2006-05-19T08:45:39.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ba6a694d568b0a2f85262d166e4da2bc"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="PaidaManagerDAO.java"
+   text-time="2006-08-03T08:24:41.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1245195e949e81032c2ccfc5a5e40b86"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="InterestCounter.java"
+   text-time="2012-02-09T10:20:42.675219Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b14decc8cd4388b39334bd2c32141ac1"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="InterestCounterTest.java"
+   text-time="2006-11-03T09:24:57.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5d33d64fa82bc8760e6e824c2391cd83"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/org/apache/jsp/menu"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="menu_jsp.java"
+   text-time="2007-03-20T07:57:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c0c811661f3715ed2f2a5c678c2fbd47"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="index_jsp.java"
+   text-time="2007-03-20T07:56:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="daaa9b39f66d252c2add492e726f0d9e"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="menu_jsp.class"
+   text-time="2007-03-20T07:57:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="be4f3a2356c40b895ac9e6d385022ebc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:15.528264Z"/>
+<entry
+   committed-rev="16"
+   name="menuForm_jsp.java"
+   text-time="2007-03-20T07:57:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="456cd3c5e6d8bbb39425f8803978cc2d"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="header_jsp.java"
+   text-time="2007-03-20T07:57:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c63f6fec780f78f4ab4b9e96dc89fa79"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="frame_jsp.java"
+   text-time="2007-03-20T07:57:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="806bdfbc517663187e97771e327f45e3"
+   last-author="abner.chiu"
+   kind="file"/>
+<entry
+   committed-rev="16"
+   name="index_jsp.class"
+   text-time="2007-03-20T07:56:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="11413b093a08ee82298c72d1e24cbcf4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:47.631875Z"/>
+<entry
+   committed-rev="16"
+   name="menuForm_jsp.class"
+   text-time="2007-03-20T07:57:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="20d6d75eefedeaf0f4d639305f0d45a9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:30.783925Z"/>
+<entry
+   committed-rev="16"
+   name="header_jsp.class"
+   text-time="2007-03-20T07:57:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2b0533d79ea5461d1f933439f17236d7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:57.497440Z"/>
+<entry
+   committed-rev="16"
+   name="frame_jsp.class"
+   text-time="2007-03-20T07:57:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6556f455414f0a2d84197aae0e4dc642"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:48.899974Z"/>
+</wc-entries>

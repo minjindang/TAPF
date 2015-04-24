@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="CentralExchangeLessDet"
+		table="central_exchange_less_det"
+	>
+
+		<property
+			name="id"
+			column="id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="usrid"
+			column="usrid"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="mod_date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="remark"
+			type="string"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="createDate"
+			column="create_Date"
+			type="timestamp"
+			not-null="false"
+			length="23"
+		/>
+		<property
+			name="issueId"
+			column="issue_id"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="termYm"
+			column="TERM_YM"
+			type="string"
+			not-null="false"
+			length="5"
+		/>
+		<property
+			name="bankId"
+			column="BANK_ID"
+			type="integer"
+			not-null="false"
+			length="10"
+		/>
+		<property
+			name="payFund"
+			column="pay_fund"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="payMonthAmount"
+			column="pay_month_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+		<property
+			name="lessFundAmount"
+			column="less_fund_amount"
+			type="big_decimal"
+			not-null="false"
+			length="20"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

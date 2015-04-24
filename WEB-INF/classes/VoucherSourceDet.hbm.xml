@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.account">
+	<class
+		name="VoucherSourceDet"
+		table="voucher_source_Det"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="id"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="sourceId"
+			column="SOURCE_ID"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		
+		<many-to-one
+			name="voucher"
+			column="voucher_id"
+			class="tw.gov.nta.sql.account.VoucherMain"
+			not-null="false" 
+		>
+		
+		</many-to-one>		
+
+	</class>	
+</hibernate-mapping>

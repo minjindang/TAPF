@@ -1,0 +1,129 @@
+TD {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-FAMILY: Arial, Trebuchet MS, Verdana, Helvetica, sans serif; TEXT-DECORATION: none
+}
+.menudefaulttext {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #808080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif; TEXT-DECORATION: none
+}
+.menubelongstext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #800000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif; TEXT-DECORATION: none
+}
+.menulanguagetext {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif; TEXT-DECORATION: none
+}
+.menuredtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff0000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif; TEXT-DECORATION: none
+}
+.menubluetext {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #0080c0; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif; TEXT-DECORATION: none
+}
+.paranormaltext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paracolourtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #008080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paraboldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paralargetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.maintitletext {
+	FONT-WEIGHT: bold; FONT-SIZE: 18pt; COLOR: #008080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.subtitlecolourtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #008080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parasmalltext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.dropdownboxtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; WIDTH: 325px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paragreytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #808080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paraorangetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ff8040; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parasmallgreytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #808080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.highlighttext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif; BACKGROUND-COLOR: #ffffff
+}
+.paraboldcolourtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #008080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parasmallredtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff0000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parawhitetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paralargeboldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paralargecolourtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #008080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parasmallboldcolourtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #008080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paraboldgreytext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #808080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parasmalldarkredtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #800000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.pararedtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ff0000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paradarkredtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #800000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paraboldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.kickertext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.pagetitletext {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 18pt; COLOR: #800000; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.news1bodytext {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10pt; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.news1headlinetext {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; COLOR: #800000; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.docsonline {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #800000; PADDING-TOP: 2px; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif; BACKGROUND-COLOR: #fdf7e3
+}
+.paradarkbluetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parasmalldarkbluetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000080; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.strippednormaltext {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.strippedindent1text {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 25px; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paralargedarkredtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #800000; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.greaterlistitem {
+	MARGIN-TOP: 0px; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 10px; TEXT-INDENT: -10px; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.strippedgreytext {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; COLOR: #808080; PADDING-TOP: 0px; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.paralargeorangetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #ff8040; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}
+.parasmallthewtobluetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #0080c0; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica, sans serif
+}

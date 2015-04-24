@@ -1,0 +1,2958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/excel"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="EAQC01.xls"
+   text-time="2014-01-03T06:35:27.145459Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8542a40b064afa6f187ee72d0cfcdd9e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:22.061589Z"/>
+<entry
+   committed-rev="16"
+   name="GARA32.xls"
+   text-time="2014-01-03T06:36:39.141856Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9b55f641719eddca87e31dd548b45293"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:08.458098Z"/>
+<entry
+   committed-rev="16"
+   name="EDQC03.xls"
+   text-time="2014-01-03T06:36:16.137861Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3fe4f44613c357b0d1e31ad49487f6b0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:46.279931Z"/>
+<entry
+   committed-rev="16"
+   name="EARE13.xls"
+   text-time="2014-01-03T06:35:49.137960Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cf4c286dc0668a7626722e9619ec7b24"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:16.743736Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA05.xls"
+   text-time="2014-01-03T06:34:49.129300Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="240ccd12cd6c3f4eaf8e3919c5477031"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:04.059427Z"/>
+<entry
+   committed-rev="16"
+   name="EARE06A.xls"
+   text-time="2014-01-03T06:35:42.147629Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="41ed71e4e43cc97ba0c2e9ec95236a9c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:30.527486Z"/>
+<entry
+   committed-rev="16"
+   name="EARE0241.xls"
+   text-time="2011-04-28T05:24:36.678979Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9f1d262272690570c59c3f6d9f042a0f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:18.476227Z"/>
+<entry
+   committed-rev="16"
+   name="GARA36.xls"
+   text-time="2006-12-13T05:35:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="261091799f35d8b833defe1de8a2e9f1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:56.140386Z"/>
+<entry
+   committed-rev="16"
+   name="APRA10.xls"
+   text-time="2014-01-03T06:34:30.141429Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c1f64b2850834c23f6479e0b2d0a81fb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:00.722077Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA09.xls"
+   text-time="2014-01-03T06:34:53.165243Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0a2b0bb573463985eaa7de5fc9dc8199"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:36.874061Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA03.xls"
+   text-time="2014-01-03T06:35:04.141463Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6092752aad28406d381f3057fdfeb676"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:53.684509Z"/>
+<entry
+   committed-rev="16"
+   name="APRA14.xls"
+   text-time="2014-01-03T06:34:34.137294Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b1402de3e632554b13f24184b4f17096"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:05.565317Z"/>
+<entry
+   committed-rev="16"
+   name="GARA4266.xls"
+   text-time="2009-05-05T08:25:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e398bcd14e5fdaa09db4dde372fc43f6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:04.071997Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA0216.xls"
+   text-time="2007-10-24T09:05:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f2b34f70285f2681c5592e2f0c313dfb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:24.925501Z"/>
+<entry
+   committed-rev="16"
+   name="APRA2448.xls"
+   text-time="2010-12-08T09:46:05.793884Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7f670394b4569ca8c2edfaf0e0caee6a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:54.588360Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA091.xls"
+   text-time="2007-07-05T03:34:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="32c83e0c38cea12b27a8eb04714ff2dc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:03.892912Z"/>
+<entry
+   committed-rev="16"
+   name="EARD02.xls"
+   text-time="2014-01-03T06:35:35.147284Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2e33a65a19f1535a89e5398379c9c7b9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:02.633653Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA10.xls"
+   text-time="2014-01-03T06:34:54.146693Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b079f775059db6edc806c5c9567e9fe9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:37.975645Z"/>
+<entry
+   committed-rev="16"
+   name="GARA41.xls"
+   text-time="2006-08-02T08:13:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ad2d989081a20707be23598b81e6520"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:44.311030Z"/>
+<entry
+   committed-rev="16"
+   name="GARA06.xls"
+   text-time="2010-09-30T03:25:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8711da8049f9599c73b6a543c4e1f91d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:15.041288Z"/>
+<entry
+   committed-rev="16"
+   name="CIRA03.xls"
+   text-time="2014-01-03T06:35:07.135889Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dfd09de6ea441ff2db64cc32a5433636"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:54.709707Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA14.xls"
+   text-time="2014-01-03T06:34:58.142598Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1d7301195a2c4f9a47074d6be9c4db39"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:46.471586Z"/>
+<entry
+   committed-rev="16"
+   name="GARA45.xls"
+   text-time="2014-01-03T06:36:48.145161Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c3f75a619f1e1069b52bf84729e986d3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:16.089070Z"/>
+<entry
+   committed-rev="16"
+   name="CIRA07.xls"
+   text-time="2014-01-03T06:35:09.138849Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e0e517af8db81201a850a2f2a106b5fe"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:23.737723Z"/>
+<entry
+   committed-rev="16"
+   name="APRA23.xls"
+   text-time="2014-01-03T06:34:42.139040Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cebd04ca913559ca08902a8194abf8ab"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:20.126254Z"/>
+<entry
+   committed-rev="16"
+   name="CPRA05.xls"
+   text-time="2014-01-03T06:35:12.143289Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="617aa0cb5b65d057a88f34bc42e256e4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:15.840091Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF0174.xls"
+   text-time="2007-12-19T04:00:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="302a7d1dd41e9de2e80341b85fa21745"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:11.492461Z"/>
+<entry
+   committed-rev="16"
+   name="APRA27.xls"
+   text-time="2014-01-03T06:34:45.143450Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="28bf82ff7a81eb79d0ca2660a9ed8c54"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:57.363523Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA1255.xls"
+   text-time="2007-07-04T03:25:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="78ea1233d78c4aa035d6fa218492fcfa"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:42.394550Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0439.xls"
+   text-time="2007-07-06T07:40:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7a29637cecd4694abffe9c02af6218bd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:47.868491Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1591.xls"
+   text-time="2007-08-08T03:09:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ec62183b6ecac3c6665d37f95fb81b66"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:49.965230Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA1097.xls"
+   text-time="2007-07-25T03:45:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cec4c3b51a9b219ac6dbc9593b0dcc71"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:25.834462Z"/>
+<entry
+   committed-rev="16"
+   name="HARB090195.xls"
+   text-time="2010-09-16T07:54:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="22c4bae9ab3a4d05a82a4edc502b0732"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:08.423150Z"/>
+<entry
+   committed-rev="16"
+   name="GARA39_2.xls"
+   text-time="2014-01-03T06:36:44.149256Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3a804009de0c8bfb47749373f1f12905"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:09.974208Z"/>
+<entry
+   committed-rev="16"
+   name="EAMB0114.xls"
+   text-time="2010-12-03T06:32:07.969051Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7c87205a8c8aaccd264ae6a1e5d1c3b1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:41.208915Z"/>
+<entry
+   committed-rev="16"
+   name="GARA11.xls"
+   text-time="2007-07-18T05:41:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="55248bb02edfd86eeaae567fe7a5430c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:52.629267Z"/>
+<entry
+   committed-rev="16"
+   name="GARA15.xls"
+   text-time="2007-05-08T09:07:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cf6b71de8512b10bf0a4f3e68dd01175"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:36.177957Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1023.xls"
+   text-time="2008-01-17T02:16:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b5df13b13e609cbc07b1c0a1acd831bc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:02.363058Z"/>
+<entry
+   committed-rev="16"
+   name="GARA19.xls"
+   text-time="2014-01-03T06:36:30.138551Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="395560a63a8f8d62747662dfaea7be36"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:05.387406Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA05.xls"
+   text-time="2014-01-03T06:35:13.144769Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="77811ea7a3ce500fcf21a1fad4604298"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:04.405995Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE07B.xls"
+   text-time="2006-06-13T06:16:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="636879e7cbcc549be19e387afe5d6ba6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:16.026635Z"/>
+<entry
+   committed-rev="16"
+   name="EAQC0158.xls"
+   text-time="2007-07-26T03:07:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e1b7849e41596f526003aa868a080caa"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:31.159568Z"/>
+<entry
+   committed-rev="16"
+   name="APRA01C.xls"
+   text-time="2011-08-09T07:46:24.245000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c89b126f86d973587addaa2201fe0c62"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:10.470992Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA09.xls"
+   text-time="2014-01-03T06:35:16.129179Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a002cae90f795067196772d390b4446f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:53.410390Z"/>
+<entry
+   committed-rev="16"
+   name="EARE0228.xls"
+   text-time="2011-03-17T06:36:00.744582Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="920a7a51a87c22b97fbe74b576d8970f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:58.677965Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA03.xls"
+   text-time="2014-01-03T06:35:23.139539Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="01eb09455e52196cf8e8cbd1b457bb23"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:00.371573Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0428.xls"
+   text-time="2009-06-03T01:27:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="826932a41e73342cb1eda5742730a13f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:44.689022Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF0148.xls"
+   text-time="2007-11-09T08:50:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10639076303dd3ff1b1c23cf7d9020cd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:30.994227Z"/>
+<entry
+   committed-rev="16"
+   name="HAMA01.xls"
+   text-time="2014-01-03T06:36:49.136627Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="14f59d74bc68074c545944acdd388f4c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:46.730579Z"/>
+<entry
+   committed-rev="16"
+   name="GARA20.xls"
+   text-time="2014-01-03T06:36:31.140031Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="676e396a603d8813f1bc8db45386fe8a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:04.767894Z"/>
+<entry
+   committed-rev="16"
+   name="EARE01.xls"
+   text-time="2014-01-03T06:35:37.140229Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="080f6558cfd19aa0988f662eb5e80448"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:01.241651Z"/>
+<entry
+   committed-rev="16"
+   name="EARC04.xls"
+   text-time="2014-01-03T06:35:30.139884Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c8157ebcacf3320c0cd987db860538f3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:20.338906Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE03.xls"
+   text-time="2014-01-03T06:35:57.139785Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ae6735cf5a84a216cfca7bfaa2c7bb71"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:03.805131Z"/>
+<entry
+   committed-rev="16"
+   name="GARA24.xls"
+   text-time="2014-01-03T06:36:35.145951Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ba3a7edec3e0d2f13331ec1f73757e82"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:52.709176Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA10.xls"
+   text-time="2014-01-03T06:35:17.150689Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1cbce2d1f2f3a21fcd9989616276044a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:29.672533Z"/>
+<entry
+   committed-rev="16"
+   name="EARE05.xls"
+   text-time="2014-01-03T06:35:41.136135Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d718fd7ad3ff9b4982a97ebd6049d6c1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:51.938067Z"/>
+<entry
+   committed-rev="16"
+   name="EARD04B.xls"
+   text-time="2006-07-20T09:23:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="50b73bd87ce5cc6e370f40f66b4d423e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:15.773720Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA048.xls"
+   text-time="2009-08-04T09:35:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="84c1e5e3cfd1db4c29cf5ba17a5ff7d0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:25.960920Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE03.xls"
+   text-time="2014-01-03T06:36:17.149355Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2bc4c2481ba030d8b8f4b3778804c10a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:26.974930Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE05.xls"
+   text-time="2014-01-03T06:36:06.143090Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ca73b859eb7d751567326eeb0d9a851d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:59.465166Z"/>
+<entry
+   committed-rev="16"
+   name="GARA28.xls"
+   text-time="2010-09-30T03:46:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="743359aa8720a8d8666a9734d46ebecb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:32.173578Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA14.xls"
+   text-time="2014-01-03T06:35:21.146594Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a91fab40496c218f34711f00925d4afb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:48.188952Z"/>
+<entry
+   committed-rev="16"
+   name="EARE09.xls"
+   text-time="2014-01-03T06:35:45.142055Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="afef892b55253a43b4b33ee4b49e1541"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:31.886890Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE07.xls"
+   text-time="2014-01-03T06:36:20.143781Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="db800aae5d0388fae63c7dc2dc2199bf"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:22.830142Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE09.xls"
+   text-time="2014-01-03T06:36:10.138995Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1e27b2b2818e2f3acceb89984334fa0d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:20.395262Z"/>
+<entry
+   committed-rev="16"
+   name="AIRC09.xls"
+   text-time="2006-12-05T07:31:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d287e07963fa8aec60eec64a181f7c79"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:55.975251Z"/>
+<entry
+   committed-rev="16"
+   name="APRA06.xls"
+   text-time="2011-03-17T06:31:09.441243Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8d51b68167a111dd284549c94bd53b9a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:47.772077Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1616.xls"
+   text-time="2007-08-07T06:57:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2c08c26109134fe632919216bdbf77c8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:54.599549Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0861.xls"
+   text-time="2007-08-07T06:30:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7891aab34a62e256c1ccf2bc6b324423"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:19.187250Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1694.xls"
+   text-time="2007-08-08T03:12:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ae73d01c587a6c2d51bfcf1747957dff"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:27.016162Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0587.xls"
+   text-time="2007-08-09T02:28:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6bf4e733484756d7d8ce2e273254ac74"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:34.819728Z"/>
+<entry
+   committed-rev="16"
+   name="APRA0739.xls"
+   text-time="2008-09-23T07:11:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0f1d57b544f6a8c9616ed00c0e245b23"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:38.349907Z"/>
+<entry
+   committed-rev="16"
+   name="EARE10.xls"
+   text-time="2014-01-03T06:35:46.143535Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4ddc1f6ddabd600734b7f417dc88cda2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:05.227382Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE10.xls"
+   text-time="2014-01-03T06:36:11.140475Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ca3584a3697e5c6b15b49ced76056b14"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:13.462949Z"/>
+<entry
+   committed-rev="162"
+   name="AIRC10.xls"
+   text-time="2014-01-03T06:34:25.144094Z"
+   committed-date="2013-10-31T03:27:51.035568Z"
+   checksum="9aa43f7195a570f2320b270d2e5eef65"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:23.389568Z"
+   revision="162"/>
+<entry
+   committed-rev="16"
+   name="GARA33.xls"
+   text-time="2014-01-03T06:36:40.143336Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="710734317306de5d05afa9dadb775f77"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:00.800811Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA06.xls"
+   text-time="2014-01-03T06:34:50.140785Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c2fe1aef28f41456df3eb0d2a022b482"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:43.946576Z"/>
+<entry
+   committed-rev="16"
+   name="GARA37.xls"
+   text-time="2014-01-03T06:36:42.136281Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="28df237a703e857fea72736538c2a75c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:31.454890Z"/>
+<entry
+   committed-rev="16"
+   name="EARE06B.xls"
+   text-time="2007-08-27T05:22:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4ec9d1b185a909c57d434eafe008c131"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:24.590122Z"/>
+<entry
+   committed-rev="16"
+   name="APRA11.xls"
+   text-time="2014-01-03T06:34:31.152914Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="31dc8cd00f85b6434fddf1550f38daa5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:13.943640Z"/>
+<entry
+   committed-rev="16"
+   name="EARE08A592.xls"
+   text-time="2012-04-02T06:42:37.817614Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b6583945b93e6dabd13a51ed4f8bd524"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:36.842637Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA1042.xls"
+   text-time="2007-08-02T07:36:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d617f01efd94fb5aa53ee38bc4499e15"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:13.038408Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0442.xls"
+   text-time="2010-11-05T02:28:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3d9277ef74ff1c2f95c87e03f2b6ee7a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:09.046598Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA04.xls"
+   text-time="2014-01-03T06:35:05.152958Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="309edce52e68a66989bc21493d5076a9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:30.299504Z"/>
+<entry
+   committed-rev="16"
+   name="APRA15.xls"
+   text-time="2014-01-03T06:34:35.148779Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="511a2cb72e7227d6193020ea2b2f625c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:52.696813Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0950.xls"
+   text-time="2010-02-09T05:47:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c6cf2df13c25a46d7f3aab44035e91b4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:53.560400Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0634.xls"
+   text-time="2007-08-08T03:33:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="20ac947d9838b9a9d131561a9557bd09"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:56.394475Z"/>
+<entry
+   committed-rev="16"
+   name="EARE0926.xls"
+   text-time="2008-07-31T08:15:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5f875498f71e1adad647140015049a36"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:10.308413Z"/>
+<entry
+   committed-rev="16"
+   name="APRA19.xls"
+   text-time="2014-01-03T06:34:38.163204Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3981b8ada8f31efc936b39e5f2638d92"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:44.754013Z"/>
+<entry
+   committed-rev="16"
+   name="EBRD01.xls"
+   text-time="2006-06-13T06:16:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="06d6e0441b1a06ead56ada1475527f8a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:41.919938Z"/>
+<entry
+   committed-rev="16"
+   name="APRA164.xls"
+   text-time="2007-08-09T09:22:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1fb4d7f07ead419c972385246667173c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:52.462752Z"/>
+<entry
+   committed-rev="16"
+   name="EARD03.xls"
+   text-time="2006-06-08T10:08:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3f9262d513fce4128f86cac0d0abfe4b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:22.547184Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA11.xls"
+   text-time="2014-01-03T06:34:55.138158Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="026224aa29902558b530c559ee80fa26"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:05.709248Z"/>
+<entry
+   committed-rev="16"
+   name="GARA42.xls"
+   text-time="2014-01-03T06:36:45.140721Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f65e16e67515da773fb971fbe60d5370"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:26.959805Z"/>
+<entry
+   committed-rev="16"
+   name="APRA01C108.xls"
+   text-time="2011-08-09T07:38:39.807000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="573cf4fd1a6cff842eed49d9722b98d1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:35.585933Z"/>
+<entry
+   committed-rev="16"
+   name="GARA07.xls"
+   text-time="2014-01-03T06:36:26.152661Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="93af1f2f81ea6316fe6616bbf5b7a99a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:00.857374Z"/>
+<entry
+   committed-rev="16"
+   name="CIRA04.xls"
+   text-time="2014-01-03T06:35:08.157398Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="660dd375b36cc0caa4b034564525b5af"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:37.123040Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA15.xls"
+   text-time="2014-01-03T06:34:59.134063Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="564dfb4818838164747dc471aa464937"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:04.892971Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA1012.xls"
+   text-time="2007-07-26T05:56:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99caf704bedbeb036aa986217b9889b6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:59.538997Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF04.xls"
+   text-time="2014-01-03T06:36:14.144915Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="53425e4b660d036fce7e14fdb04c2499"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:10.535014Z"/>
+<entry
+   committed-rev="16"
+   name="EARE07A.xls"
+   text-time="2009-09-28T08:47:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c7253c506a08383ffc195f0264417624"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:39.894680Z"/>
+<entry
+   committed-rev="16"
+   name="APRA20.xls"
+   text-time="2014-01-03T06:34:39.134630Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9a84f986a50df2d6d328fbdfdbd15aee"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:09.755066Z"/>
+<entry
+   committed-rev="16"
+   name="AIRB0171.xls"
+   text-time="2008-10-28T08:10:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8e0f6cae3ac5384f686697197d53cce0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:08.998875Z"/>
+<entry
+   committed-rev="16"
+   name="CPRA02.xls"
+   text-time="2014-01-03T06:35:10.140329Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99abca0080337326bdc42f5501086c50"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:58.747859Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF0530.xls"
+   text-time="2009-06-09T03:10:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="64047ab974eb309429c6d04329213b69"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:23.224434Z"/>
+<entry
+   committed-rev="16"
+   name="APRA24.xls"
+   text-time="2014-01-03T06:34:43.140510Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="50e665a73e32743c5ccce62a92e1ffa1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:31.491424Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0481.xls"
+   text-time="2007-08-08T03:16:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="894e4d8fa390e83d0f8ce7617db7d8ae"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:27.028731Z"/>
+<entry
+   committed-rev="16"
+   name="APRA28.xls"
+   text-time="2014-01-03T06:34:46.134905Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bce05823516c534a1f36e763d76fb432"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:52.526568Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0566.xls"
+   text-time="2007-08-14T01:26:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="47f63641cfedb2266c796d785d1f5517"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:18.332296Z"/>
+<entry
+   committed-rev="16"
+   name="GARA14_2.xls"
+   text-time="2007-08-01T06:26:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="150f627f4255f0e7cc10a5fd70ca3125"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:19.167427Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE108.xls"
+   text-time="2011-01-28T03:25:50.973000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e7377d39d8cc81a6ae1cef72a8c1852b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:19.383808Z"/>
+<entry
+   committed-rev="16"
+   name="EARE07024.xls"
+   text-time="2007-08-03T08:15:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c254945f319bef9eb17ed3ef6e3cfbdc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:36.533571Z"/>
+<entry
+   committed-rev="16"
+   name="GARA14_276.xls"
+   text-time="2007-08-01T06:31:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5817a1c246a50ebef2cbd03f62b0d3c9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:21.090192Z"/>
+<entry
+   committed-rev="16"
+   name="GARA12.xls"
+   text-time="2007-09-07T08:24:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cbe9c6dac927a443b132912be9062be2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:24.901949Z"/>
+<entry
+   committed-rev="16"
+   name="GARA16.xls"
+   text-time="2006-06-19T12:25:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a58c6a6d03ea32182fa52d4ee98f7365"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:45.652960Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0301.xls"
+   text-time="2008-05-07T09:58:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="59e6d57ef4b322f353d5201c4eb0fb43"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:11.913066Z"/>
+<entry
+   committed-rev="16"
+   name="GARA1136.xls"
+   text-time="2009-07-24T03:52:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="19ed5233d716d3f04572baf5c4648df4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:39.300101Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA06.xls"
+   text-time="2007-10-26T05:11:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4b128913cd2060b844836651506e34bc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:47.888726Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA04.xls"
+   text-time="2014-01-03T06:35:24.141019Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="89863c912ea59f880f23e0e7a7069cdd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:46.536782Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA0953.xls"
+   text-time="2007-09-07T08:06:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="10690a57b9554611ef49bcaacc192d26"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:21.762331Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0772.xls"
+   text-time="2007-07-04T03:33:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5a174462e0c35010dbb5450283f6e61e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:29.349517Z"/>
+<entry
+   committed-rev="16"
+   name="EARC0786.xls"
+   text-time="2011-02-23T03:51:40.935000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1a88514d7c4b7216055e10240377193e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:55.362992Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA153.xls"
+   text-time="2007-08-08T03:08:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2fcbdf0cd2771eae6d29443842869f5d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:23.748912Z"/>
+<entry
+   committed-rev="16"
+   name="HAMA06.xls"
+   text-time="2011-09-16T09:19:49.308706Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8aea3e0dc8a16b5ea748e20fceaa05b8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:48.997770Z"/>
+<entry
+   committed-rev="16"
+   name="EARC07372.xls"
+   text-time="2011-08-09T09:35:13.614000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f3b2ad36f5842e9a4a4a6d67ff4c3cb6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:16.805203Z"/>
+<entry
+   committed-rev="16"
+   name="GARA21.xls"
+   text-time="2014-01-03T06:36:32.151526Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="601ac1463938204e4b4c3e9137c1e833"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:19.467859Z"/>
+<entry
+   committed-rev="16"
+   name="EARE02.xls"
+   text-time="2014-01-03T06:35:38.141709Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c16a30a80f41e1cbbc5464a1ccc08c25"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:26.704334Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC03.xls"
+   text-time="2014-01-03T06:35:53.153895Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0bfde3e2b051df075de118f274f576b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:32.943306Z"/>
+<entry
+   committed-rev="16"
+   name="EARC05.xls"
+   text-time="2014-01-03T06:35:31.141364Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d2fa93007d63fa58bdedddbb8e85533a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:50.161995Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE02.xls"
+   text-time="2014-01-03T06:36:03.138650Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="29d1b6a1b6ea95d4a0e43929feb212ed"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:20.272741Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE04.xls"
+   text-time="2014-01-03T06:35:58.141265Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9ae56a4ba81a9d6319dbc0081c9b8d2e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:55.920069Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA11.xls"
+   text-time="2014-01-03T06:35:18.142154Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d7e2393b6fa80c31f29b7d0d26d4cf5c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:51.488800Z"/>
+<entry
+   committed-rev="16"
+   name="GARA25.xls"
+   text-time="2014-01-03T06:36:36.147431Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0ce4e661526cd3ac031d29f65d7014f1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:54.141442Z"/>
+<entry
+   committed-rev="16"
+   name="EARE06.xls"
+   text-time="2006-07-10T09:02:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="61004ea8335f308baa923d2da9132ca8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:32.876934Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE04.xls"
+   text-time="2014-01-03T06:36:18.140821Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c911a5ec6c3772ca65489bdab0e9c90d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:56.234245Z"/>
+<entry
+   committed-rev="16"
+   name="GARA64.xls"
+   text-time="2006-06-09T03:52:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d8c16ff3cf9d47303cf3572f095800c5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:21.490562Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE06.xls"
+   text-time="2014-01-03T06:36:07.134555Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cc638af01d92a05bb6b67f9a99439ec3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:23.394678Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE08149.xls"
+   text-time="2012-10-09T02:43:03.421873Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8a926381e000111b73e9b2b7fa517a1a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:45.138290Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE08.xls"
+   text-time="2014-01-03T06:36:02.147185Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7590d9e8d869c1ee6c5b37c29247ba60"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:48.714811Z"/>
+<entry
+   committed-rev="16"
+   name="GARA29.xls"
+   text-time="2010-09-30T03:50:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a0988611f664a39f4916806ccb4ded4b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:20.208718Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0901.xls"
+   text-time="2010-09-29T03:26:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6e542f97247acb4974790694dbe2f96c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:02.389371Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE08.xls"
+   text-time="2014-01-03T06:36:21.145261Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="969c799f67bd167c14917cbc603c2b6d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:58.207288Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0541.xls"
+   text-time="2007-08-09T02:28:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6bf4e733484756d7d8ce2e273254ac74"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:56.370717Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0622.xls"
+   text-time="2007-08-08T03:30:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f1f0afb052fcae65cb6a630ef4885f15"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:57.906650Z"/>
+<entry
+   committed-rev="16"
+   name="EARE1562.xls"
+   text-time="2009-03-04T08:27:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="86c0e45c16488446df2ec4bc15f3017b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:27.310309Z"/>
+<entry
+   committed-rev="16"
+   name="APRA07.xls"
+   text-time="2014-01-03T06:34:27.147034Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="213f75c9e87d2f14d6bd432d14f436e8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:39.626640Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1733.xls"
+   text-time="2007-08-08T03:01:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0867613530fc18d6d6bf00d60a31b11b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:45.336229Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0943.xls"
+   text-time="2007-08-16T07:59:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cda4f221f04cd726b66009b51428b65b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:10.375958Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF0197.xls"
+   text-time="2008-04-15T05:52:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="29abdca824464d6fad57550d03ef874e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:37.433693Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF013.xls"
+   text-time="2008-06-11T01:54:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="41639d0942bc807fa96076257f8b6f6c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:23.980418Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0879.xls"
+   text-time="2007-08-21T08:04:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a4914c590cf77af814783ed55b12e900"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:56.434533Z"/>
+<entry
+   committed-rev="16"
+   name="EARF01171.xls"
+   text-time="2011-06-27T03:10:45.169000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1576309ece6851d7b7854af05b57d77d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:40.799706Z"/>
+<entry
+   committed-rev="16"
+   name="EARF01217.xls"
+   text-time="2011-08-09T05:56:53.647000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="94bdc015e59905f471bd958cb3337158"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:14.624619Z"/>
+<entry
+   committed-rev="16"
+   name="GARA30.xls"
+   text-time="2014-01-03T06:36:37.138896Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d93e35420a218fa529653c9bb4cc24ed"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:43.866461Z"/>
+<entry
+   committed-rev="16"
+   name="EARE11.xls"
+   text-time="2014-01-03T06:35:47.165044Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5337f24d7c95c8c90423bdd3543a4eb7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:16.557398Z"/>
+<entry
+   committed-rev="16"
+   name="AIRC11.xls"
+   text-time="2006-12-05T07:31:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f356b4600bec125be5aa360a0fb2c071"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:42.562240Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE11.xls"
+   text-time="2014-01-03T06:36:12.141955Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="59b8151c657ec750b16a7169534a40fe"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:20.509150Z"/>
+<entry
+   committed-rev="16"
+   name="GARA14_20.xls"
+   text-time="2007-08-01T06:30:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9e0721626d7710ec77070477a49ca8d9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:54.528067Z"/>
+<entry
+   committed-rev="16"
+   name="GARA34.xls"
+   text-time="2014-01-03T06:36:41.144816Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="37bf96b56f6ebca9c4e313490b9cafc2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:14.800942Z"/>
+<entry
+   committed-rev="16"
+   name="EARE15.xls"
+   text-time="2014-01-03T06:35:50.149455Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="dc99079045e4d24100f7142049d0874c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:06.977347Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA07.xls"
+   text-time="2014-01-03T06:34:51.142255Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="408a8c10671b5550657a0a9dfde18fd4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:45.506474Z"/>
+<entry
+   committed-rev="16"
+   name="HARB08.xls"
+   text-time="2014-01-03T06:36:51.149601Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2948e03a6beac923113894678ca6b493"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:47.148835Z"/>
+<entry
+   committed-rev="16"
+   name="GARA38.xls"
+   text-time="2007-04-18T09:17:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="be93a1d93e48c8fa4418157151693899"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:14.430616Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA01.xls"
+   text-time="2014-01-03T06:35:02.138503Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c9883f4dd43a584506f700f117774f7d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:50.976685Z"/>
+<entry
+   committed-rev="16"
+   name="APRA12.xls"
+   text-time="2014-01-03T06:34:32.134354Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7d2c194e80bd20dd5198035e44589d42"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:29.638554Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1541.xls"
+   text-time="2007-08-08T03:05:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e3526efad1f2cbae07c48e6d14be2dee"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:59.320061Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF0128.xls"
+   text-time="2008-04-15T05:52:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="21c54fd57a8b43ae9324825a34304463"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:19.996067Z"/>
+<entry
+   committed-rev="16"
+   name="APRA16.xls"
+   text-time="2014-01-03T06:34:36.140234Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a9e8104ff0945966586274bc84369871"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:24.655112Z"/>
+<entry
+   committed-rev="16"
+   name="EARE1571.xls"
+   text-time="2009-03-04T08:36:26.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="86350f9af998487802eb6e3e6c894280"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:04.285822Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA1086.xls"
+   text-time="2007-08-02T07:22:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7e2b32a00cb774997fc488c633e164b0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:27.328957Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0272.xls"
+   text-time="2010-02-11T02:44:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="93461f9e235202f7cf27e0d0e35d04d6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:44.054386Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0567.xls"
+   text-time="2008-07-02T10:05:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4da3aafa0b8e8acc4a57be79da28c07d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:22.463339Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0639.xls"
+   text-time="2007-08-13T07:30:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="513fa233e9765ff92c5c1715da298de2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:40.117552Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA0257.xls"
+   text-time="2008-01-04T07:38:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f364ce6744215b94d106db7b95e43d4b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:18.466419Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA0898.xls"
+   text-time="2008-10-31T08:08:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d2272916b640e0c945f6085776e48eed"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:14.491877Z"/>
+<entry
+   committed-rev="16"
+   name="EARF01.xls"
+   text-time="2014-01-03T06:35:52.142400Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1bcd3473a9b139216ef4541e9eb14268"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:53.059680Z"/>
+<entry
+   committed-rev="16"
+   name="GARA04.xls"
+   text-time="2014-01-03T06:36:24.149701Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="24e2fde74fedbc220662b6a62f7d2c1b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:46.177438Z"/>
+<entry
+   committed-rev="16"
+   name="EBRD02.xls"
+   text-time="2006-06-13T06:15:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1408b43bdf47e7fa0beb799a713005eb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:48.643330Z"/>
+<entry
+   committed-rev="16"
+   name="EARD04.xls"
+   text-time="2006-06-08T10:08:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5c784fe989b1ce9dcb40d28fda4bf311"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:21.003792Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF01.xls"
+   text-time="2014-01-03T06:36:13.143435Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="973ebb3802e21774a95d902afd33a818"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:10.765346Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA12.xls"
+   text-time="2014-01-03T06:34:56.149653Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="fa379803521992d8246f17f758a505f5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:50.106813Z"/>
+<entry
+   committed-rev="16"
+   name="GARA43.xls"
+   text-time="2014-01-03T06:36:46.132187Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="31d5090f0ca161c3297fe0b22e3494ca"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:25.686595Z"/>
+<entry
+   committed-rev="16"
+   name="GARA08.xls"
+   text-time="2014-01-03T06:36:27.144126Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8763a1ef2041756732353183d9cb721c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:35.567078Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA16.xls"
+   text-time="2014-01-03T06:35:00.145558Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9916abd452588a2c5302faacc6a5cf5c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:31.505168Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE06A.xls"
+   text-time="2014-01-03T06:36:00.144225Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cfb43f999a2a8a3f03735a667de4f5e4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:52.889435Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF05.xls"
+   text-time="2014-01-03T06:36:15.146395Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0722912a97116f1327fc7b1094d417bd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:05.868098Z"/>
+<entry
+   committed-rev="16"
+   name="EARE07B.xls"
+   text-time="2006-07-10T09:02:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c3d9f8ff2482869bf33aad811668b54a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:44.343629Z"/>
+<entry
+   committed-rev="16"
+   name="APRA21.xls"
+   text-time="2014-01-03T06:34:40.146114Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="30256e10f41eb6519119ba95f83ea7e3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:54.541811Z"/>
+<entry
+   committed-rev="16"
+   name="APRA29261.xls"
+   text-time="2012-02-23T03:46:19.030636Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="76e3dc7d1007ab372445e23cba461554"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:54.788648Z"/>
+<entry
+   committed-rev="16"
+   name="CPRA03.xls"
+   text-time="2009-05-12T03:22:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="98ef47c603a97956e7748ce888b23508"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:31.967005Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0533.xls"
+   text-time="2008-04-28T11:00:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="baa4050aaef60463da4d9551dc737590"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:53.116037Z"/>
+<entry
+   committed-rev="16"
+   name="APRA29.xls"
+   text-time="2014-01-03T06:34:47.146390Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3babd292edab285e351a9487c3d590b4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:40.215141Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1558.xls"
+   text-time="2007-08-08T03:03:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea4358c1a13c14c16c98cffa7853c95e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:38.695301Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1798.xls"
+   text-time="2007-08-08T03:01:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bf99ffb4598fa25d8c58caa7a350cdb9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:24.941800Z"/>
+<entry
+   committed-rev="16"
+   name="GARA13.xls"
+   text-time="2007-05-08T09:05:18.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9895d5664e646a0ebe81f7de97518161"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:21.544570Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1021.xls"
+   text-time="2008-01-18T02:04:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ac6d2325e6b6c0508e5dcdb10170719b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:17.050659Z"/>
+<entry
+   committed-rev="16"
+   name="AIRB13.xls"
+   text-time="2014-01-03T06:34:24.232756Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="04603a4cd44e96547acfcb1ef099ced2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:50.874192Z"/>
+<entry
+   committed-rev="16"
+   name="GARA17.xls"
+   text-time="2014-01-03T06:36:29.147086Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="45d27ddc5ff0dc8a9d152b9addaa82bf"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:24.510006Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0302.xls"
+   text-time="2014-01-03T06:36:04.140130Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c35ee20d91b126ffe4bc5dfed8aefe17"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:06.035994Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA1022.xls"
+   text-time="2007-07-26T05:56:16.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99caf704bedbeb036aa986217b9889b6"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:14.646997Z"/>
+<entry
+   committed-rev="16"
+   name="EARE0701.xls"
+   text-time="2014-01-03T06:35:43.179154Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4308964806e72a76716ac746229a50ad"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:43.126776Z"/>
+<entry
+   committed-rev="16"
+   name="EARE08A.xls"
+   text-time="2014-01-03T06:35:44.150589Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="72222ba208a75605bb4a3a7cf72298ee"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:48.643536Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA07.xls"
+   text-time="2014-01-03T06:35:14.136234Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f6846d3195de1ba9530f9f611199d718"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:02.900312Z"/>
+<entry
+   committed-rev="16"
+   name="APRA30.xls"
+   text-time="2014-01-03T06:34:48.147860Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="baed03ee934d3ca02a69ad2badc4e3e2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:18.132214Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0326.xls"
+   text-time="2008-05-12T02:09:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a36135dcd879d235c0d6ef579f559761"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:20.180056Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA05.xls"
+   text-time="2014-01-03T06:35:25.132484Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e2c3e174efc019c42097f52848d8be68"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:18.125930Z"/>
+<entry
+   committed-rev="16"
+   name="EARE070135.xls"
+   text-time="2007-07-25T04:01:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ca7e858e0756fc861f1cbd93122bcfac"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:05.017080Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0491.xls"
+   text-time="2007-08-02T07:21:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d52d6c535534c20d72b5b6b8e8172388"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:33.462880Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0696.xls"
+   text-time="2007-08-08T03:33:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea87b97aab2f3c5821347d4d9443aae9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:47.759714Z"/>
+<entry
+   committed-rev="16"
+   name="APRA2827.xls"
+   text-time="2008-01-16T06:40:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4f166898b108bf9823f63cb33b3a827d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:43.906725Z"/>
+<entry
+   committed-rev="16"
+   name="HAMA03.xls"
+   text-time="2014-01-03T06:36:50.148121Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="70a2f89158fc56bcba88ed1f841c47a8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:41.549611Z"/>
+<entry
+   committed-rev="16"
+   name="voucher.xls"
+   text-time="2006-06-08T07:21:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="719e88fe6d215e45d7ae4fa9431d78c8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:34.886099Z"/>
+<entry
+   committed-rev="16"
+   name="EARC02.xls"
+   text-time="2014-01-03T06:35:28.146939Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8edc90563f45f3f4e6753ebd9b26956c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:01.893762Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE01.xls"
+   text-time="2014-01-03T06:35:55.146840Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="765d45d9aff7976cb5199e6a2d07cd20"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:18.153418Z"/>
+<entry
+   committed-rev="16"
+   name="GARA22.xls"
+   text-time="2014-01-03T06:36:33.142991Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a28229a9771aedcba1dca0634bb6ad91"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:31.172138Z"/>
+<entry
+   committed-rev="16"
+   name="EBRC04.xls"
+   text-time="2014-01-03T06:35:54.145360Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3bda09b703413ae752340ba4dccfdbe5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:46.301341Z"/>
+<entry
+   committed-rev="16"
+   name="EARE03.xls"
+   text-time="2014-01-03T06:35:39.143189Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="63602658a7273f327ad61c6f9f4585c1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:24.249632Z"/>
+<entry
+   committed-rev="16"
+   name="EARC06.xls"
+   text-time="2014-01-03T06:35:32.152859Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="bf9fee082b4d140cfb83796b73f38f18"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:20.048488Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE03a.xls"
+   text-time="2006-07-11T09:07:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ca751588db7efdde7d1fb5dae88981d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:38.525056Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE0211.xls"
+   text-time="2007-11-02T01:51:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="01f47fbbd0e27d1c416dc44c5f5a6301"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:00.651976Z"/>
+<entry
+   committed-rev="16"
+   name="GARA26.xls"
+   text-time="2010-09-30T03:40:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b922426be9575dad5712c81dabb33f46"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:35.452016Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE05.xls"
+   text-time="2014-01-03T06:35:59.152760Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2bd54095d23de78491e1c997922a02e4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:58.914374Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA12.xls"
+   text-time="2014-01-03T06:35:19.143634Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eed6689b08e3e0831d28bdd7c6d837e2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:37.513602Z"/>
+<entry
+   committed-rev="16"
+   name="EARE07.xls"
+   text-time="2009-09-28T08:47:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="882d057664b5733be006724d972ba97e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:17.294734Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE07.xls"
+   text-time="2014-01-03T06:36:08.146050Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="cd5a570accea961be819dc93e4a8488f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:37.434867Z"/>
+<entry
+   committed-rev="16"
+   name="GARA65.xls"
+   text-time="2006-06-09T03:52:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ec552b873aff54a61310b588525f819f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:36.643730Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA01684.xls"
+   text-time="2011-07-05T02:38:32.623000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="22c5bc021c431349b531facfb4a80215"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:41.415488Z"/>
+<entry
+   committed-rev="16"
+   name="CPRB02.xls"
+   text-time="2006-05-03T10:34:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b2487989ffaca40233668f8025e8b2d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:09.052677Z"/>
+<entry
+   committed-rev="16"
+   name="HARC0902.xls"
+   text-time="2010-09-27T08:59:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d1efeb42e5134f611bd671374f8d1c1d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:14.560597Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE09.xls"
+   text-time="2014-01-03T06:36:22.136726Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="23c8cd2cc67a40b4a3ac484f34be3e7c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:24.150662Z"/>
+<entry
+   committed-rev="16"
+   name="APRA08.xls"
+   text-time="2014-01-03T06:34:28.138489Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ddbd15fc0f6a84d8d88f9b7e77b3b426"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:46.964846Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0940.xls"
+   text-time="2007-08-07T06:38:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4e82cfed4b227e879ee178bd005e9da3"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:49.604918Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0225.xls"
+   text-time="2010-02-11T03:22:12.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="34098fc2e62132bc7a1bb51121ddf332"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:23.499726Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0465.xls"
+   text-time="2007-08-07T06:01:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="20cd60484228d6108004de3cf20b7cf5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:41.034941Z"/>
+<entry
+   committed-rev="16"
+   name="AIRB0198.xls"
+   text-time="2007-10-12T02:54:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1bd5575b7097a44413a06691a0547569"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:27.258856Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE0837.xls"
+   text-time="2010-11-05T01:47:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f39e9b244e7b82ca1c1dcd2623c2c775"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:18.406126Z"/>
+<entry
+   committed-rev="16"
+   name="GARA15_2.xls"
+   text-time="2007-05-08T09:07:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="759570422e74c73697cce0bab98dcc26"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:29.159243Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0786.xls"
+   text-time="2007-08-10T07:52:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e21967ad804847257f81d4f8c13f165a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:34.941282Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA085.xls"
+   text-time="2007-07-27T06:57:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9098d57a3e622dad2dd0dd7c245172be"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:53.690587Z"/>
+<entry
+   committed-rev="16"
+   name="CPRA036.xls"
+   text-time="2008-04-21T02:35:30.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="74a143ef5c455ad9b65060570416fa28"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:38.249763Z"/>
+<entry
+   committed-rev="16"
+   name="GARA31.xls"
+   text-time="2014-01-03T06:36:38.140376Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="73e9fc0239dfa744ba6ad528da8e99ab"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:45.555165Z"/>
+<entry
+   committed-rev="16"
+   name="EARE12.xls"
+   text-time="2014-01-03T06:35:48.146495Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="af46dc64710d316c5e8b404ccdb74b66"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:26.062238Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE10.xls"
+   text-time="2014-01-03T06:36:23.148221Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="227bf04ed2053532669d5039e963d0cd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:43.962875Z"/>
+<entry
+   committed-rev="16"
+   name="GARA35.xls"
+   text-time="2007-05-01T13:44:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="05a46fec90282e0c093e8fc9763ed331"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:36.245709Z"/>
+<entry
+   committed-rev="16"
+   name="EARE16.xls"
+   text-time="2014-01-03T06:35:51.130905Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7fbeb3b0517b62edf18699b940bef2c7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:01.152696Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA08.xls"
+   text-time="2014-01-03T06:34:52.143733Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="94d5cb132dfa6659f33eb813836886bc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:35.164154Z"/>
+<entry
+   committed-rev="16"
+   name="HARB09.xls"
+   text-time="2014-01-03T06:36:52.141074Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="74a0f6d5af042dea5f9b69fd285e2bdb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:10.611400Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA02.xls"
+   text-time="2014-01-03T06:35:03.160013Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b0e359bad4ef420252520e2154aaa1dd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:14.762266Z"/>
+<entry
+   committed-rev="16"
+   name="APRA13.xls"
+   text-time="2014-01-03T06:34:33.145839Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1ca6a8d5066115959cddab8a0113c2f8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:58.263645Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1047.xls"
+   text-time="2007-10-23T07:12:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1a995e8d9916209d943bb3af016574fd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:39.283802Z"/>
+<entry
+   committed-rev="16"
+   name="APRA17.xls"
+   text-time="2014-01-03T06:34:37.141704Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="44d5070faa0e486a48aaf1c44ffaabaf"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:06.840875Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1581.xls"
+   text-time="2007-08-08T03:05:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e3526efad1f2cbae07c48e6d14be2dee"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:31.776731Z"/>
+<entry
+   committed-rev="16"
+   name="EARE02407.xls"
+   text-time="2011-09-19T08:58:00.713968Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9c19ef84d8684eefce787022cf181ae4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:56.541168Z"/>
+<entry
+   committed-rev="16"
+   name="EARD01.xls"
+   text-time="2014-01-03T06:35:34.135789Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9790c0df8e231ae49c9414e01bc22542"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:55.623573Z"/>
+<entry
+   committed-rev="16"
+   name="HARB10.xls"
+   text-time="2014-01-03T06:36:54.144054Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="274878d0482fb3b1abe1bf50bab26a35"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:13.335110Z"/>
+<entry
+   committed-rev="16"
+   name="GARA40.xls"
+   text-time="2006-08-02T08:13:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b538cef9f36214edd2357d268d8f32a8"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:15.706174Z"/>
+<entry
+   committed-rev="16"
+   name="AIRB01.xls"
+   text-time="2014-01-03T06:34:23.812139Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9bd1781108ccc93a019e59296505c1c5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:08.722202Z"/>
+<entry
+   committed-rev="16"
+   name="GARA05.xls"
+   text-time="2014-01-03T06:36:25.141166Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="99b7af8906798f74468aaf9648057567"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:05.433749Z"/>
+<entry
+   committed-rev="16"
+   name="CIRA02.xls"
+   text-time="2014-01-03T06:35:06.144423Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3722ebada7f23e61970f2cb6ac22b1ee"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:01.878843Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA13.xls"
+   text-time="2014-01-03T06:34:57.151133Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eba20a573f1bb1b5121ca4fe38ec842d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:09.609754Z"/>
+<entry
+   committed-rev="16"
+   name="RAMA01.xls"
+   text-time="2014-01-03T06:36:55.155559Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="698679a1ab63cdc323969d8e8f9af57a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:36.111792Z"/>
+<entry
+   committed-rev="16"
+   name="GARA44.xls"
+   text-time="2014-01-03T06:36:47.153696Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="8086b43ed53e9112abec9e5fdcf3b51a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:40.544235Z"/>
+<entry
+   committed-rev="16"
+   name="AIRB05.xls"
+   text-time="2006-06-29T08:34:40.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="41a2622442aae4a49ac773d05c831683"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:23.869085Z"/>
+<entry
+   committed-rev="16"
+   name="GARA09.xls"
+   text-time="2014-01-03T06:36:28.145606Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ca3a406b550d30f1d4befaea574e4d5c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:08.686080Z"/>
+<entry
+   committed-rev="16"
+   name="CIRA06.xls"
+   text-time="2008-06-12T05:38:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6a3bccbf06bb54db0b304fb2f2a72560"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:42.718741Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE06B.xls"
+   text-time="2006-06-13T06:16:02.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0d9f1d182d6b7c94c41b721c2b1fced7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:12.187184Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA17.xls"
+   text-time="2014-01-03T06:35:01.137023Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="53d3aa265a50e5cc777156e1a1e8d5a9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:03.304411Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1512.xls"
+   text-time="2007-08-08T03:08:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2fcbdf0cd2771eae6d29443842869f5d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:22.051368Z"/>
+<entry
+   committed-rev="16"
+   name="APRA22.xls"
+   text-time="2014-01-03T06:34:41.147584Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3b2dedca5bffcfac55241847ccb112a2"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:17.959414Z"/>
+<entry
+   committed-rev="16"
+   name="CPRA04.xls"
+   text-time="2014-01-03T06:35:11.151823Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="323cbba2a8cb46a7d8d036d0f617c104"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:13.529114Z"/>
+<entry
+   committed-rev="16"
+   name="EARE0535.xls"
+   text-time="2010-09-29T03:45:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7ff71d02c3aad420066b36d1dcc9c687"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:16.633578Z"/>
+<entry
+   committed-rev="16"
+   name="APRA26.xls"
+   text-time="2014-01-03T06:34:44.151994Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="da2a4d36aae989e33af180926b064afc"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:48.903910Z"/>
+<entry
+   committed-rev="16"
+   name="ECRF0138.xls"
+   text-time="2007-12-25T06:10:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6ca89162f45ed42e661e5152893ebf5e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:51.521398Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1555.xls"
+   text-time="2007-08-08T03:03:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ea4358c1a13c14c16c98cffa7853c95e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:41.195171Z"/>
+<entry
+   committed-rev="16"
+   name="EARC0775.xls"
+   text-time="2011-02-23T03:47:23.687000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5ab10f3758ea69044c0ea41a21b83636"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:57.826741Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0243.xls"
+   text-time="2010-02-11T02:30:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b9f7d0b487aa5c738c8acf7646017d50"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:30.653944Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA0981.xls"
+   text-time="2008-12-31T06:24:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="625db4d1c940bf26dc70172f1de1de71"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:44.327330Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA1258.xls"
+   text-time="2009-07-06T07:47:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d3d1b875b512ad59bbc0771fc0f96658"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:33.499208Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0529.xls"
+   text-time="2007-08-10T06:25:44.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="064a36ce0acf4a85fb1b658e6814dc1d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:56.304552Z"/>
+<entry
+   committed-rev="16"
+   name="APRA3065.xls"
+   text-time="2008-01-16T02:13:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f8ebec6cc77f1793b201eb9d108acc00"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:32.182211Z"/>
+<entry
+   committed-rev="16"
+   name="EAMB01.xls"
+   text-time="2014-01-03T06:35:26.133964Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="73c030d3dda110472128a15638d3910b"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:00.169904Z"/>
+<entry
+   committed-rev="158"
+   name="GARA39_1.xls"
+   text-time="2014-01-03T06:36:43.137761Z"
+   committed-date="2013-10-23T09:42:36.564294Z"
+   checksum="237e2f0ad70596edbbdf55cdb12424f5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:08.748515Z"
+   revision="158"/>
+<entry
+   committed-rev="16"
+   name="GARA10.xls"
+   text-time="2006-06-08T03:26:58.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d3115831c41ac98f90342290de84d239"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:34.529517Z"/>
+<entry
+   committed-rev="16"
+   name="GARA14.xls"
+   text-time="2007-08-01T06:29:04.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="907818ebd3e3ad0701d49f518846d2f5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:25.031930Z"/>
+<entry
+   committed-rev="16"
+   name="GARA3310.xls"
+   text-time="2010-03-17T07:47:24.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="623a28e08b7ac1e6da2e03f54dfbc9fa"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:21.220379Z"/>
+<entry
+   committed-rev="16"
+   name="GARA18.xls"
+   text-time="2008-06-02T02:40:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="814e02eb4c62b87e8a3ece7786072d55"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:06.643142Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA04.xls"
+   text-time="2007-08-10T07:37:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="055aea18e14f08deac1c8e4ab07c3335"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:02.164150Z"/>
+<entry
+   committed-rev="16"
+   name="HARB1061.xls"
+   text-time="2010-11-20T07:22:36.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6555d088308da295628238690afe7f2c"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:54.292832Z"/>
+<entry
+   committed-rev="16"
+   name="EARE0702.xls"
+   text-time="2007-07-23T11:29:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0e99f6e2981057d2c844ae50216c9a2e"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:52.809526Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE07A.xls"
+   text-time="2014-01-03T06:36:01.135690Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="5055d9e03971454d45e8f0171f582d89"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:37.894355Z"/>
+<entry
+   committed-rev="16"
+   name="APRA01B.xls"
+   text-time="2011-08-09T07:46:36.112833Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="834a68789ce5d0b16abc90859c01be01"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:58.919485Z"/>
+<entry
+   committed-rev="16"
+   name="EARE08B.xls"
+   text-time="2006-07-10T09:02:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="387f519dd93ae7ca2967d1c97303e600"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:42.230384Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA08.xls"
+   text-time="2014-01-03T06:35:15.137714Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="4e094310ca9489e610019c084687efcd"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:34.714680Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA02.xls"
+   text-time="2014-01-03T06:35:22.148074Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2a6a509f05b5164ba082c4b38aaf67d5"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:50:04.402266Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0932.xls"
+   text-time="2007-08-07T06:38:52.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0d8b50c3fb76f41480ad0d10d5fd179a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:29.803894Z"/>
+<entry
+   committed-rev="16"
+   name="BPRA0252.xls"
+   text-time="2010-02-11T03:03:42.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9a8ba37f0d20d780975f344eb2ec8bb4"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:56.586130Z"/>
+<entry
+   committed-rev="16"
+   name="EARE1559.xls"
+   text-time="2009-03-04T08:34:34.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1581328347da3a09678f8f3ecfe88342"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:07.931270Z"/>
+<entry
+   committed-rev="16"
+   name="APRA3039.xls"
+   text-time="2008-01-16T02:13:10.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2704cf4429cb8015686a95c10eb6db56"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:35.320448Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE06_2.xls"
+   text-time="2006-06-13T06:15:56.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="52a4ce75fc9965b3181af2a656bbfdc7"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:54.261408Z"/>
+<entry
+   committed-rev="16"
+   name="APRA01B77.xls"
+   text-time="2010-11-29T14:09:20.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="63081305af45c020adf64d0a755d9d55"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:33.678293Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0859.xls"
+   text-time="2007-07-27T06:57:22.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9098d57a3e622dad2dd0dd7c245172be"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:29.718875Z"/>
+<entry
+   committed-rev="16"
+   name="GARA14_283.xls"
+   text-time="2007-08-08T03:39:46.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="1b830c18ea781801dd83d5c058b8b62d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:53.708267Z"/>
+<entry
+   committed-rev="16"
+   name="EARC03.xls"
+   text-time="2014-01-03T06:35:29.148419Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="7baa2150319255b810113073ec145ec1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:30.934347Z"/>
+<entry
+   committed-rev="16"
+   name="GARA23.xls"
+   text-time="2014-01-03T06:36:34.154486Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6f2845cfef2a69a16ef94e638cfc3a44"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:16.574872Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE02.xls"
+   text-time="2014-01-03T06:35:56.148320Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="76fe4ce8f4b962ce67b6bd32fc3fa21a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:18.015771Z"/>
+<entry
+   committed-rev="16"
+   name="EARD04A.xls"
+   text-time="2014-01-03T06:35:36.148764Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed05dfe7c62748107d2644a264089325"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:28.414448Z"/>
+<entry
+   committed-rev="16"
+   name="EARE04.xls"
+   text-time="2014-01-03T06:35:40.144669Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="b7c150cff6db23d205365867c44e6bcf"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:39.153614Z"/>
+<entry
+   committed-rev="16"
+   name="EARC07.xls"
+   text-time="2014-01-03T06:35:33.144324Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ab7f2743b339df4d3182868886661b98"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:57.862862Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE04.xls"
+   text-time="2014-01-03T06:36:05.151625Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="da352a941798c012919f316b99af1c04"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:15.974008Z"/>
+<entry
+   committed-rev="16"
+   name="GARA27.xls"
+   text-time="2010-09-30T03:43:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ed398ae517b949ed16ef8d944adf8569"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:55.721162Z"/>
+<entry
+   committed-rev="16"
+   name="EBRE06.xls"
+   text-time="2006-06-13T06:15:54.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="60a7d2ab0bfddb83f77afc2d8fe58237"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:48:49.174093Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA13.xls"
+   text-time="2014-01-03T06:35:20.155129Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="9737de2eb8b54fe8787a721443096091"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:58.074546Z"/>
+<entry
+   committed-rev="16"
+   name="EARE08.xls"
+   text-time="2006-07-10T09:02:50.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="a45a02897f2b1b5852b4930b055d81d0"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:53:43.837798Z"/>
+<entry
+   committed-rev="16"
+   name="APRA01.xls"
+   text-time="2014-01-03T06:34:26.145564Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ee8e33dabf98dedb111cde90034bef04"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:14.310443Z"/>
+<entry
+   committed-rev="16"
+   name="EDRE06.xls"
+   text-time="2014-01-03T06:36:19.142301Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="c9d147176f3597c7caff90b5ceb1cd81"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:19.285045Z"/>
+<entry
+   committed-rev="16"
+   name="ECRE08.xls"
+   text-time="2014-01-03T06:36:09.147530Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="ba9be210b34744c83e04fd238bb05ecb"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:43.542270Z"/>
+<entry
+   committed-rev="16"
+   name="GARA66.xls"
+   text-time="2007-01-04T09:56:32.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="569fc0ade31edb291ff4c6446aecd9f1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:40.311555Z"/>
+<entry
+   committed-rev="16"
+   name="HARB0901.xls"
+   text-time="2014-01-03T06:36:53.142564Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="777a4e838363e8a111b24a4bbd7fb084"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:38.475190Z"/>
+<entry
+   committed-rev="16"
+   name="EARC0275.xls"
+   text-time="2007-11-16T04:06:00.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="94f9ad4d7d02c9621a87972fc89c493a"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:01.632006Z"/>
+<entry
+   committed-rev="16"
+   name="APRA05.xls"
+   text-time="2006-05-22T03:23:14.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="3e22c72433313146c52d7a174cfd1a8d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:41.199107Z"/>
+<entry
+   committed-rev="16"
+   name="CPRB03.xls"
+   text-time="2006-05-03T10:34:48.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="f2aef56db6d2b27064a0b0567365a830"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:57:08.842581Z"/>
+<entry
+   committed-rev="16"
+   name="APRA09.xls"
+   text-time="2014-01-03T06:34:29.129944Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="eb9502eff2fb02cf947398b611483cc9"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:54:09.584821Z"/>
+<entry
+   committed-rev="16"
+   name="DPRA0323.xls"
+   text-time="2007-07-03T06:47:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="e5a15d091c50bafa2d8fb093e23fc120"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:19.457638Z"/>
+<entry
+   committed-rev="16"
+   name="BIRA1538.xls"
+   text-time="2007-08-08T03:08:06.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="2fcbdf0cd2771eae6d29443842869f5d"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:55:40.595688Z"/>
+<entry
+   committed-rev="16"
+   name="GARA13_2.xls"
+   text-time="2007-05-08T09:05:28.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="0c554be84b5f311dcae835e18e08541f"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:56:16.106750Z"/>
+<entry
+   committed-rev="16"
+   name="DIRA0949.xls"
+   text-time="2007-07-05T03:34:08.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="65879a483a8f215bdea3ab0fc80429d1"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:49:30.383349Z"/>
+<entry
+   committed-rev="16"
+   name="HARC090196.xls"
+   text-time="2010-09-27T08:12:38.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="6cf541affeab88b77a7f10a2ac6700db"
+   last-author="abner.chiu"
+   kind="file"
+   prop-time="2013-07-31T08:58:06.946130Z"/>
+</wc-entries>

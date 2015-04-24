@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2013-07-31T09:57:45.754124Z"
+   url="https://211.72.223.242/svn/TBZP/SCODE/tapf/WEB-INF/src/java/tw/gov/nta/sql/debt/converter"
+   last-author="abner.chiu"
+   kind="dir"
+   repos="https://211.72.223.242/svn/TBZP"
+   revision="16"/>
+<entry
+   committed-rev="16"
+   name="IssueTicketDetConverter.java"
+   text-time="2006-04-25T03:45:51.000000Z"
+   committed-date="2013-07-31T09:57:45.754124Z"
+   checksum="d0d8f3c73ec22b3518b57d720fab4c78"
+   last-author="abner.chiu"
+   kind="file"/>
+</wc-entries>

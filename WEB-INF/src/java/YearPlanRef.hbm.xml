@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql">
+	<class
+		name="YearPlanRef"
+		table="Year_plan_ref"
+	>
+		<id
+			name="id"
+			type="integer"
+			column="ID"
+		>
+			<generator class="org.hibernate.id.IdentityGenerator"/>
+		</id>
+
+		<property
+			name="planYear"
+			column="PLAN_YEAR"
+			type="string"
+			not-null="true"
+			length="3"
+		/>
+		<property
+			name="budgetCode"
+			column="BUDGET_CODE"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="yearAmount"
+			column="YEAR_AMOUNT"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="borrowAmount"
+			column="BORROW_AMOUNT"
+			type="big_decimal"
+			not-null="true"
+			length="20"
+		/>
+		<property
+			name="debitType"
+			column="DEBIT_TYPE"
+			type="integer"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="usrid"
+			column="USRID"
+			type="string"
+			not-null="true"
+			length="10"
+		/>
+		<property
+			name="modDate"
+			column="MOD_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+		<property
+			name="remark"
+			column="REMARK"
+			type="string"
+			not-null="false"
+			length="100"
+		/>
+		<property
+			name="createDate"
+			column="CREATE_DATE"
+			type="timestamp"
+			not-null="true"
+			length="23"
+		/>
+
+
+	</class>	
+</hibernate-mapping>

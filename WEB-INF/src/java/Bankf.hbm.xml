@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="tw.gov.nta.sql.debt">
+	<class
+		name="Bankf"
+		table="BANKF"
+	>
+		<id name="BankCode" type="integer" column="BANK_CODE">
+
+		</id>
+
+		<property
+			name="Tpsbank"
+			column="TPSBANK"
+			type="string"
+			not-null="true"
+			length="7"
+		/>
+		<property
+			name="BankAname"
+			column="BANK_ANAME"
+			type="string"
+			not-null="true"
+			length="8"
+		/>
+		<property
+			name="BankFname"
+			column="BANK_FNAME"
+			type="string"
+			not-null="true"
+			length="22"
+		/>
+		<property
+			name="AccountNo"
+			column="ACCOUNT_NO"
+			type="string"
+			not-null="false"
+			length="6"
+		/>
+		<property
+			name="AccountNo2"
+			column="ACCOUNT_NO2"
+			type="string"
+			not-null="false"
+			length="6"
+		/>
+
+
+	</class>	
+</hibernate-mapping>
